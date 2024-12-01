@@ -1,0 +1,222 @@
+.main{
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 6rem;
+}
+
+.tableContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0rem 2rem;
+}
+
+.table{
+    width: 80vw;
+    border-collapse:collapse;
+    background-color: #282837;
+    padding: 2rem;
+}
+
+.tableRow{
+    height: 3rem;
+    border-top: grey solid 0.1rem;
+}
+
+.tableRow:hover{
+    background-color: #323246;
+}
+
+.tableHead{
+    height: 4rem;
+}
+
+.rank{
+    width: 4rem;
+    padding: 0.1rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.rankContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.detailed{
+    text-align: left;
+    width: fit-content;
+}
+
+.detailContainer{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 80vw;
+    position: absolute;
+}
+
+.detailedContainer{
+    /* display: flex; */
+    padding-left: 2rem;
+    width: fit-content;
+    height: fit-content;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.detailedRank{
+    width: fit-content;
+    color: grey;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.detailedRankPosition{
+    color: grey;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.detailedRankValue{
+    font-weight: bold;
+    text-align: left;
+}
+
+.detail{
+    transition: all 0.3s ease-in-out;
+}
+
+.value{
+    font-weight: normal;
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.valueNumber{
+    color: white;
+    font-weight: bold;
+}
+
+.break{
+    border-color: grey;
+    margin: 0.5rem 0rem;
+}
+
+.playerNameContainer{
+    margin-right: 1rem;
+}
+
+.playerName{
+    white-space: nowrap;
+    max-height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+/*graph */
+.key_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40rem;
+    position: relative;
+    font-size: 0.7rem;
+    color: gray;
+
+}
+
+.key{
+    width: 100%;
+    height: 100%;
+}
+
+.key_item{
+    display: flex;
+    justify-content: space-aroud;
+    align-items: center;
+}
+
+.legend{
+    padding: 0.5rem;
+}
+
+.kp, .kpg, .ksg, .ksf, .kpf, .kc
+{
+    width: 2rem;
+    height: 1rem;
+}
+
+.graph{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    margin: 10rem;
+    
+    align-items: end;
+    align-items: center;
+}
+.bars{
+    display: flex;
+    align-items: end;
+}
+
+.pg, .sg, .sf, .pf, .c, .p{
+    width: 6rem;
+}
+
+.p, .kp{
+    background-color: #FFC300;
+}
+
+.pg, .kpg{
+    background-color: #FF8C00;
+}
+
+.sg, .ksg{
+    background-color: #FF5733;
+}
+
+.sf, .ksf{
+    background-color: #C70039;
+}
+
+.pf, .kpf{
+    background-color: #900C3F;
+}
+
+.c, .kc{
+    background-color: #581845;
+}
+
+.p:hover, .pg:hover, .sg:hover, .sf:hover, .pf:hover, .c:hover{
+    opacity: 0.5;
+    transition: all 0.2s ease-in-out;
+}
+
+.p, .pg, .sg, .sf, .pf, .c{
+    transition: all 0.2s ease-in-out;
+}
+
+
+.name{
+    margin: 1rem;
+    color: grey;
+    font-weight: bold;
+    width: 100%;
+}
+
+.chart_item{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.playerNameContainer{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}

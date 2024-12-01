@@ -1,0 +1,15 @@
+.header{
+    z-index: 5;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    padding: 16px;
+    background-color: #C33163;
+    height: 4rem;
+    align-items: center;
+}
+
+.home{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
