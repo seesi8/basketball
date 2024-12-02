@@ -1,62 +1,68 @@
-.main{
+.main {
     text-align: center;
     margin-top: 5rem;
     margin-left: 6rem;
+    overflow-x: scroll;
 }
 
-.tableContainer{
+.tableContainer {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     width: 100%;
     padding: 0rem 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
-.table{
-    width: 80vw;
-    border-collapse:collapse;
+.table {
+    min-width: 1100px;
+    width: 100%;
+    border-collapse: collapse;
     background-color: #282837;
     padding: 2rem;
 }
 
-.tableRow{
+.tableRow {
     height: 3rem;
     border-top: grey solid 0.1rem;
 }
 
-.tableRow:hover{
+.tableRow:hover {
     background-color: #323246;
 }
 
-.tableHead{
+.tableHead {
     height: 4rem;
 }
 
-.rank{
+.rank {
     width: 4rem;
     padding: 0.1rem 1rem;
     border-radius: 0.5rem;
     font-weight: bold;
 }
 
-.rankContainer{
+.rankContainer {
     display: flex;
     justify-content: center;
 }
 
-.detailed{
+.detailed {
     text-align: left;
     width: fit-content;
+    white-space: nowrap;
+    padding-right: 1rem;
 }
 
-.detailContainer{
+.detailContainer {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     width: 80vw;
     position: absolute;
 }
 
-.detailedContainer{
+.detailedContainer {
     /* display: flex; */
     padding-left: 2rem;
     width: fit-content;
@@ -66,49 +72,50 @@
     flex-wrap: wrap;
 }
 
-.detailedRank{
+.detailedRank {
     width: fit-content;
     color: grey;
     font-size: 0.8rem;
     text-align: left;
 }
 
-.detailedRankPosition{
+.detailedRankPosition {
     color: grey;
     font-size: 0.8rem;
     text-align: left;
 }
 
-.detailedRankValue{
+.detailedRankValue {
     font-weight: bold;
     text-align: left;
 }
 
-.detail{
+.detail {
+    position: relative;
     transition: all 0.3s ease-in-out;
 }
 
-.value{
+.value {
     font-weight: normal;
     color: grey;
     font-size: 0.8rem;
 }
 
-.valueNumber{
+.valueNumber {
     color: white;
     font-weight: bold;
 }
 
-.break{
+.break {
     border-color: grey;
     margin: 0.5rem 0rem;
 }
 
-.playerNameContainer{
+.playerNameContainer {
     margin-right: 1rem;
 }
 
-.playerName{
+.playerName {
     white-space: nowrap;
     max-height: 100%;
     width: 100%;
@@ -116,7 +123,7 @@
 }
 
 /*graph */
-.key_container{
+.key_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,97 +132,120 @@
     position: relative;
     font-size: 0.7rem;
     color: gray;
-
 }
 
-.key{
+.key {
     width: 100%;
     height: 100%;
 }
 
-.key_item{
+.key_item {
     display: flex;
     justify-content: space-aroud;
     align-items: center;
 }
 
-.legend{
+.legend {
     padding: 0.5rem;
 }
 
-.kp, .kpg, .ksg, .ksf, .kpf, .kc
-{
+.kp,
+.kpg,
+.ksg,
+.ksf,
+.kpf,
+.kc {
     width: 2rem;
     height: 1rem;
 }
 
-.graph{
+.graph {
     display: flex;
     justify-content: space-around;
     font-size: 0.7rem;
     margin: 10rem;
-    
+
     align-items: end;
     align-items: center;
 }
-.bars{
+.bars {
     display: flex;
     align-items: end;
 }
 
-.pg, .sg, .sf, .pf, .c, .p{
+.pg,
+.sg,
+.sf,
+.pf,
+.c,
+.p {
     width: 6rem;
 }
 
-.p, .kp{
-    background-color: #FFC300;
+.p,
+.kp {
+    background-color: #ffc300;
 }
 
-.pg, .kpg{
-    background-color: #FF8C00;
+.pg,
+.kpg {
+    background-color: #ff8c00;
 }
 
-.sg, .ksg{
-    background-color: #FF5733;
+.sg,
+.ksg {
+    background-color: #ff5733;
 }
 
-.sf, .ksf{
-    background-color: #C70039;
+.sf,
+.ksf {
+    background-color: #c70039;
 }
 
-.pf, .kpf{
-    background-color: #900C3F;
+.pf,
+.kpf {
+    background-color: #900c3f;
 }
 
-.c, .kc{
+.c,
+.kc {
     background-color: #581845;
 }
 
-.p:hover, .pg:hover, .sg:hover, .sf:hover, .pf:hover, .c:hover{
+.p:hover,
+.pg:hover,
+.sg:hover,
+.sf:hover,
+.pf:hover,
+.c:hover {
     opacity: 0.5;
     transition: all 0.2s ease-in-out;
 }
 
-.p, .pg, .sg, .sf, .pf, .c{
+.p,
+.pg,
+.sg,
+.sf,
+.pf,
+.c {
     transition: all 0.2s ease-in-out;
 }
 
-
-.name{
-    margin: 1rem;
+.name {
     color: grey;
     font-weight: bold;
     width: 100%;
 }
 
-.chart_item{
+.chart_item {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0.5rem;
 }
 
-.playerNameContainer{
+.playerNameContainer {
     font-size: 0.8rem;
     display: flex;
     justify-content: space-between;
