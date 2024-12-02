@@ -18,6 +18,24 @@
     min-width: 30rem;
 }
 
+@media (orientation: portrait) {
+    .team1 {
+        width: 80vw !important;
+        min-width: 0rem !important;
+        padding-left: 3rem;
+    }
+
+    .team2 {
+        width: 80vw !important;
+        min-width: 0rem !important;
+        padding-left: 3rem;
+    }
+
+    .tiles {
+        padding-left: 3rem;
+    }
+}
+
 .dropdown {
     width: 90%;
     min-width: fit-content;
