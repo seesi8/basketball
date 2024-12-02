@@ -20,6 +20,24 @@ async function get_name(userID) {
     });
 }
 
+function loosing_roster(roster, roster2, roster3, roster4) {
+  if (
+    sumArray(roster.map((player) => parseInt(player.value))) <
+    sumArray(roster2.map((player) => parseInt(player.value)))
+  ) {
+    return roster3;
+  } else {
+    return roster4;
+  }
+}
+
+function roster_difforence(roster, roster2) {
+  return Math.abs(
+    sumArray(roster.map((player) => parseInt(player.value))) -
+      sumArray(roster2.map((player) => parseInt(player.value)))
+  );
+}
+
 function areWithinTenPercent(num1, num2) {
   // Calculate the difference
   const difference = Math.abs(num1 - num2);
@@ -78,7 +96,7 @@ async function get_picks(userID) {
 
 export default function Calculator() {
   const [rosters, setRosters] = useState([]);
-  const [picks, setPicks] = useState([]);
+  const [theLoosingRoster, setTheLoosingRoster] = useState([]);
   const [team1Name, setTeam1Name] = useState("");
   const [team2Name, setTeam2Name] = useState("");
   const [team1, setTeam1] = useState("");
@@ -91,6 +109,27 @@ export default function Calculator() {
   const [team2Active, setTeam2Active] = useState(false);
   const [team1Selected, setTeam1Selected] = useState([]);
   const [team2Selected, setTeam2Selected] = useState([]);
+
+  useEffect(() => {
+    setTheLoosingRoster(
+      loosing_roster(
+        team1Selected,
+        team2Selected,
+        team1Players,
+        team2Players
+      ).filter((player) => {
+        return (
+          player["value"] <
+          roster_difforence(team1Selected, team2Selected) * 1.1 && !(loosing_roster(
+            team1Selected,
+            team2Selected,
+            team1Selected,
+            team2Selected
+          ).includes(player))
+        );
+      })
+    );
+  }, [team1Selected, team2Selected]);
 
   useEffect(() => {
     fetch(
@@ -252,7 +291,6 @@ export default function Calculator() {
             {team1Active ? (
               <div className={styles.options}>
                 {team1Players.map((player) => {
-                  console.log(typeof player["id"]);
                   if (
                     player["name"]
                       .toLowerCase()
@@ -265,12 +303,16 @@ export default function Calculator() {
                       <div
                         className={styles.playerContainer}
                         onMouseDown={(e) => {
-                          console.log(player);
                           setTeam1Selected([...team1Selected, player]);
                         }}
                       >
                         <p className={styles.playerName}>{player["name"]}</p>
-                        <p className={styles.position}>{player["positions"]} {team2Name}</p>
+                        <p className={styles.right}>
+                          {parseInt(player["value"])}
+                        </p>
+                        <p className={styles.position}>
+                          {player["positions"]} {team2Name}
+                        </p>
                       </div>
                     );
                   }
@@ -348,14 +390,13 @@ export default function Calculator() {
                 setCurrentTeam2Input(e.target.value);
               }}
               onFocus={(e) => setTeam2Active(true)}
-              //   onBlur={(e) => {
-              //     setTeam2Active(false);
-              //   }}
+              onBlur={(e) => {
+                setTeam2Active(false);
+              }}
             />
             {team2Active ? (
               <div className={styles.options}>
                 {team2Players.map((player) => {
-                  console.log(typeof player["id"]);
                   if (
                     player["name"]
                       .toLowerCase()
@@ -368,13 +409,16 @@ export default function Calculator() {
                       <div
                         className={styles.playerContainer}
                         onMouseDown={(e) => {
-                          console.log(player);
                           setTeam2Selected([...team2Selected, player]);
                         }}
                       >
                         <p className={styles.playerName}>{player["name"]}</p>
-                        <p className={styles.right}>{parseInt(player["value"])}</p>
-                        <p className={styles.position}>{player["positions"]} {team2Name}</p>
+                        <p className={styles.right}>
+                          {parseInt(player["value"])}
+                        </p>
+                        <p className={styles.position}>
+                          {player["positions"]} {team2Name}
+                        </p>
                       </div>
                     );
                   }
@@ -475,6 +519,42 @@ export default function Calculator() {
             value to even trade
           </p>
         )}
+      </div>
+      <div className={styles.tiles}>
+        <div className={styles.playersAdd}>
+          <h3 className={styles.toAddTitle}>
+            Players to even the trade from{" "}
+            {sumArray(team1Selected.map((player) => parseInt(player.value))) >
+            sumArray(team2Selected.map((player) => parseInt(player.value)))
+              ? team2Name
+              : team1Name}
+          </h3>
+          {theLoosingRoster.slice(0, 5).map((player, index) => {
+            return (
+              <div
+                className={styles.playerToEven}
+                key={player["name"]}
+                onMouseDown={(e) => {
+                  if (
+                    sumArray(
+                      team1Selected.map((player) => parseInt(player.value))
+                    ) >
+                    sumArray(
+                      team2Selected.map((player) => parseInt(player.value))
+                    )
+                  ) {
+                    setTeam2Selected([...team2Selected, player]);
+                } else {
+                    setTeam1Selected([...team1Selected, player]);
+                  }
+                }}
+              >
+                <p>{player["name"]}</p>
+                <p>{parseInt(player["value"])}</p>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

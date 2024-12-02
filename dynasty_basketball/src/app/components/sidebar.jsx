@@ -14,20 +14,20 @@ return (
             <div className={styles.container}>
                 <a className={styles.item} onMouseEnter={(e) => {setLeauges(true); setPlayers(false)}} >Leauges</a>
                 <a className={styles.item} onMouseEnter={(e) => {setPlayers(true); setLeauges(false)}}>Players</a>
-                <a className={styles.item}>Teams</a>
+                {/* <a className={styles.item}>Teams</a> */}
             </div>
         </div>
         <div className={styles.leauges} style={{visibility: leauges ? 'visible' : 'hidden', width: leauges ? "12rem" : "0rem"}} onMouseLeave={(e) => setLeauges(false)}>
             <div className={styles.container} >
                 <a className={styles.item} href="/power">Power Rankings</a>
-                <a className={styles.item}>Standings</a>
-                <a className={styles.item}>Playoff Calculator</a>
+                {/* <a className={styles.item}>Standings</a> */}
+                {/* <a className={styles.item}>Playoff Calculator</a> */}
                 
             </div>
         </div>
         <div className={styles.players} style={{visibility: players ? 'visible' : 'hidden', width: players ? "12rem" : "0rem"}} onMouseLeave={(e) => setPlayers(false)}>
             <div className={styles.container} >
-                <a className={styles.item}>Player Rankings</a>
+                {/* <a className={styles.item}>Player Rankings</a> */}
                 <a className={styles.item} href='/calculator'>Trade Calculator</a>                
             </div>
         </div>

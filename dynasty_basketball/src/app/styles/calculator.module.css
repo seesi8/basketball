@@ -143,3 +143,33 @@
     text-align: right;
     margin-right: 1rem;
 }
+
+.tiles{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.playersAdd{
+    background-color: #282837;
+    width: 40%;
+    border: 0.1rem solid grey;
+    border-radius: 0.5rem;
+}
+
+.toAddTitle{
+    padding: 1rem;
+}
+
+.playerToEven{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 0.1rem solid grey;
+    margin: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.playerToEven:hover{
+    background-color: #323246;
+}
