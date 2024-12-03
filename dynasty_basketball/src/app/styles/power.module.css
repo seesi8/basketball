@@ -78,6 +78,8 @@
     grid-template-columns: repeat(7, 1fr);
     width: 80vw;
     position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .detailedContainer {
