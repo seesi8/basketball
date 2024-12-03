@@ -3,8 +3,8 @@
   --foreground: #1D1D28;
 }
 
-* {
-  overflow: hidden;
+main {
+  /* overflow: hidden; */
   color: white;
 }
 
