@@ -25,14 +25,14 @@ export default function Home() {
           leaguges, aiding users in making quick well-informed fantasy
           basketball decisions.
         </p>
-        <div className={styles.sleeper_logo}>
+        {/* <div className={styles.sleeper_logo}>
           <div className={styles.sleeper_container}>
             <div className={styles.white}></div>
             <div className={styles.circle}></div>
             <div className={styles.face}></div>
             <data className={styles.eyes}></data>
           </div>
-        </div>
+        </div> */}
         <p className={styles.sleeper}>Sleeper</p>
         <input
           type="text"
