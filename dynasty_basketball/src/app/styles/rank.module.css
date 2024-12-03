@@ -3,7 +3,17 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    overflow: scroll;
+    width: 100vw;
 }
+
+@media (orientation: portrait) {
+    .page {
+        justify-content: start !important;
+    }
+
+}
+
 
 .title{
     width: 100%;
