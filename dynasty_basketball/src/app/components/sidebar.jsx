@@ -65,7 +65,7 @@ export default function Sidebar() {
               onMouseLeave={(e) => setPlayers(false)}
             >
               <div className={styles.container}>
-                {/* <a className={styles.item}>Player Rankings</a> */}
+                <a className={styles.item} href="/rank">Player Rankings</a>
                 <a className={styles.item} href="/calculator">
                   Trade Calculator
                 </a>
