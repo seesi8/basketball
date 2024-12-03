@@ -360,7 +360,7 @@ export default function Calculator() {
               {sumArray(team1Selected.map((player) => parseInt(player.value)))}
             </p>
           </div>
-          <h2>
+          <h2 className={styles.summary}>
             {team1Name}:{" "}
             {sumArray(team1Selected.map((player) => parseInt(player.value)))}
           </h2>
@@ -466,7 +466,7 @@ export default function Calculator() {
               {sumArray(team2Selected.map((player) => parseInt(player.value)))}
             </p>
           </div>
-          <h2>
+          <h2 className={styles.summary}>
             {team2Name}:{" "}
             {sumArray(team2Selected.map((player) => parseInt(player.value)))}
           </h2>
@@ -521,7 +521,7 @@ export default function Calculator() {
         )}
       </div>
       <div className={styles.tiles}>
-        <div className={styles.playersAdd}>
+        {theLoosingRoster.length > 0 && <div className={styles.playersAdd}>
           <h3 className={styles.toAddTitle}>
             Players to even the trade from{" "}
             {sumArray(team1Selected.map((player) => parseInt(player.value))) >
@@ -554,7 +554,7 @@ export default function Calculator() {
               </div>
             );
           })}
-        </div>
+        </div>}
       </div>
     </div>
   );

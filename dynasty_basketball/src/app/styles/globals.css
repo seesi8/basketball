@@ -3,6 +3,10 @@
   --foreground: #1D1D28;
 }
 
+* {
+  overflow: hidden;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #1D1D28;

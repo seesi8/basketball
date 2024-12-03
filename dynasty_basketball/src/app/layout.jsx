@@ -2,7 +2,6 @@
 
 import localFont from "next/font/local";
 import "./styles/globals.css";
-import Header from "./components/header";
 import { Roboto_Flex } from "next/font/google";
 import Sidebar from "./components/sidebar";
 
@@ -17,7 +16,6 @@ export default function RootLayout({ children }) {
             />
             <body className={`${roboto.className}`}>
                 <div style={{ positon: "absolute" }}>
-                    <Header />
                     <Sidebar />
                 </div>
                 {children}

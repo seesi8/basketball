@@ -1,4 +1,5 @@
 .sidebar{
+    z-index: 2;
     width: 4rem;
     background-color: #282837;
     height: 100%;
@@ -7,7 +8,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: start;
-    padding: 2rem;
+    padding: 0.5rem;
     font-size: .8rem;
     font-weight: 400;
     transition: all 0.2s ease-in-out;
@@ -64,4 +65,41 @@
     font-weight: 400;
     transition: all 0.2s ease-in-out;
     padding-top: 6rem;
+}
+
+.header{
+    z-index: 5;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    padding: 16px;
+    background-color: #C33163;
+    height: 4rem;
+    align-items: center;
+}
+
+.home{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.toggleButton{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.toggleButton:hover{
+    cursor: pointer;
+}
+
+.item{
+    z-index: 3;
+
 }

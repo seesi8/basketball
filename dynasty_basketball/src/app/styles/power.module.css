@@ -1,8 +1,17 @@
 .main {
     text-align: center;
     margin-top: 5rem;
+    padding-bottom: 5rem;
     margin-left: 6rem;
     overflow-x: scroll;
+    overflow-y: scroll;
+    height: calc(100vh - 5rem);
+}
+
+@media (orientation: portrait) {
+    .main {
+        margin-left: 0rem !important;
+    }
 }
 
 .tableContainer {
@@ -11,8 +20,8 @@
     align-items: center;
     width: 100%;
     padding: 0rem 2rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .table {
@@ -163,8 +172,7 @@
     display: flex;
     justify-content: space-around;
     font-size: 0.7rem;
-    margin: 10rem;
-
+    margin: 1rem;
     align-items: end;
     align-items: center;
 }

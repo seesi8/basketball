@@ -1,9 +1,11 @@
 .page {
-    margin: 4rem;
+    padding: 4rem;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 100vh;
 }
 .title {
     padding: 2rem 0rem;
@@ -20,19 +22,34 @@
 
 @media (orientation: portrait) {
     .team1 {
-        width: 80vw !important;
+        width: 90vw !important;
         min-width: 0rem !important;
-        padding-left: 3rem;
     }
 
     .team2 {
-        width: 80vw !important;
+        width: 90vw !important;
         min-width: 0rem !important;
-        padding-left: 3rem;
     }
 
     .tiles {
-        padding-left: 3rem;
+        /* padding-left: 3rem; */
+    }
+
+    .summary{
+        display: none;
+    }
+
+    .totalContainer{
+        padding-bottom: 2rem;
+    }
+
+    .favors{
+        width: 90vw !important;
+        margin: 0rem !important;
+    }
+    
+    .playersAdd{
+        margin-top: 2rem !important;
     }
 }
 
@@ -182,6 +199,10 @@
     width: 90%;
     border: 0.1rem solid grey;
     border-radius: 0.5rem;
+}
+
+.summary{
+    padding-bottom: 1rem;
 }
 
 .toAddTitle {
