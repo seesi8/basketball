@@ -12,6 +12,11 @@
     .main {
         margin-left: 0rem !important;
     }
+
+    .graph{
+        width: 100vw;
+        overflow: scroll;
+    }
 }
 
 .tableContainer {
