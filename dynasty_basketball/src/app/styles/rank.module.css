@@ -1,0 +1,70 @@
+.page {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.player {
+    padding: 1rem;
+    background-color: #282837;
+    width: 90%;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0 1rem; /* Space between rows */
+    width: 80%;
+}
+
+.name, .position, .age, .value, .rank, .team {
+    padding: 1rem;
+}
+
+.rankHead, .rankName, .rankTeam, .rankPos, .rankAge, .rankValue{
+    padding: 0.5rem;
+    font-weight: normal;
+    color: #767282;
+}
+
+.rank{
+    border-top-left-radius: 0.5rem; /* Optional for rounded corners */
+    border-bottom-left-radius: 0.5rem; /* Optional for rounded corners */
+}
+
+.value{
+    border-top-right-radius: 0.5rem; /* Optional for rounded corners */
+    border-bottom-right-radius: 0.5rem; /* Optional for rounded corners */
+}
+
+.head{
+    text-align: left;
+    background-color: #323246;
+    padding: 0.5rem;
+}
+
+.rank{
+    background-color: #3F7BFB;
+    width: 3rem;
+    font-weight: bold;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.value{
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+    padding: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: #323246;
+    width: 3rem;
+}
