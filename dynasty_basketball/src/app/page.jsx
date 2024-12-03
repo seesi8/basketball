@@ -47,7 +47,7 @@ export default function Home() {
           </button>
         </div>
         <div className={styles.container}>
-          <button className={styles.link}>Trade Calculator</button>
+          <button className={styles.link}><a href="/calculator">Trade Calculator </a></button>
           <button className={styles.link}>
             <a href="./power">Power Ranking</a>
           </button>

@@ -5,6 +5,7 @@
 
 * {
   overflow: hidden;
+  color: white;
 }
 
 @media (prefers-color-scheme: dark) {
