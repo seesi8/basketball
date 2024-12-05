@@ -1,0 +1,20 @@
+.page{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.power:hover{
+    color: #76769B;
+}
+
+.topRow{
+    padding-top: 5rem;
+    width:60%;
+}
+
+.back{
+    text-align: left;
+    width: 100%;
+}

@@ -8,7 +8,7 @@ export default function Home() {
   const [rankings, setRankings] = useState([]);
 
   useEffect(() => {
-    return fetch("./api/all_players")
+    return fetch("/api/all_players")
       .then((res) => {
         return res.json();
       })

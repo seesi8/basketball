@@ -35,13 +35,16 @@
     font-weight: 400;
     transition: all 0.2s ease-in-out;
     padding-top: 6rem;
+    z-index: 2;
 }
 
 .item{
     padding-bottom: 0.25rem;
-    border-bottom: 0.25rem solid white;
+    border-bottom: 0.1rem solid #76769B;
     cursor: pointer;
     margin-bottom: 2rem;
+    z-index: 3;
+    width: 100%;
 }
 
 .container{
@@ -65,6 +68,8 @@
     font-weight: 400;
     transition: all 0.2s ease-in-out;
     padding-top: 6rem;
+    z-index: 2;
+
 }
 
 .header{
@@ -97,9 +102,4 @@
 
 .toggleButton:hover{
     cursor: pointer;
-}
-
-.item{
-    z-index: 3;
-
 }

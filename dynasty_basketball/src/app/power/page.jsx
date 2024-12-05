@@ -12,7 +12,7 @@ function uuid() {
   }
 async function get_name(userID) {
   return fetch(
-    "./api/user?" +
+    "/api/user?" +
       new URLSearchParams({
         userID: userID,
       }).toString()
@@ -27,7 +27,7 @@ async function get_name(userID) {
 
 async function getRecord(leaugeID, userID) {
   return fetch(
-    "./api/record?" +
+    "/api/record?" +
       new URLSearchParams({
         leaugeID: leaugeID,
       }).toString()
@@ -111,7 +111,7 @@ function addRankings(data) {
 
 async function get_value(playerID) {
   return fetch(
-    "./api/value?" +
+    "/api/value?" +
       new URLSearchParams({
         player: playerID,
       }).toString()
@@ -126,7 +126,7 @@ async function get_value(playerID) {
 
 async function get_age(playerID) {
   return fetch(
-    "./api/value?" +
+    "/api/value?" +
       new URLSearchParams({
         player: playerID,
       }).toString()
@@ -141,7 +141,7 @@ async function get_age(playerID) {
 
 async function get_player(playerID) {
   return fetch(
-    "./api/value?" +
+    "/api/value?" +
       new URLSearchParams({
         player: playerID,
       }).toString()
@@ -156,7 +156,7 @@ async function get_player(playerID) {
 
 async function get_picks(leaugeID) {
   return fetch(
-    "./api/picks?" +
+    "/api/picks?" +
       new URLSearchParams({
         leaugeID: leaugeID,
       }).toString()
@@ -177,7 +177,7 @@ export default function Home() {
   // Set Name
   useEffect(() => {
     fetch(
-      "./api/sleeper?" +
+      "/api/sleeper?" +
         new URLSearchParams({
           leaugeID: getCookie("leaugeID"),
         }).toString()
@@ -193,7 +193,7 @@ export default function Home() {
   // Set Rosters
   useEffect(() => {
     fetch(
-      "./api/rosters?" +
+      "/api/rosters?" +
         new URLSearchParams({
           leaugeID: getCookie("leaugeID"),
         }).toString()
@@ -452,8 +452,9 @@ export default function Home() {
 
   return (
     <div className={styles.main}>
-      <h1>{name} Power Rankings</h1>
-      <p>
+      <h1 className={styles.dynasty}>Dynasty-Basketball.com</h1>
+      <h1 className={styles.title}>{name} Power Rankings</h1>
+      <p className={styles.des}>
         Our fantasy team ranker uses fantasy trade values and ADP to give you a
         complete fantasy football power rankings view.
       </p>

@@ -3,8 +3,28 @@ import fs from 'fs';
 import path from 'path';
 import { parse } from 'csv-parse/sync';
 
+async function find_matching_row(player){
+  const csvFilePath = path.join(process.cwd(), 'public', 'players.csv');
+
+  // Read the CSV file
+  const csvData = fs.readFileSync(csvFilePath, 'utf-8');
+
+  // Parse the CSV data
+  const records = parse(csvData, {
+    columns: true, // Automatically generate headers
+    skip_empty_lines: true, // Skip empty rows
+    trim: true, // Trim whitespace from values
+  });
+
+  // Find the matching row by `original_key`
+  const matchingRow = records.find(row => row.original_key === player);
+
+  return matchingRow
+}
+
 export async function GET(request) {
   try {
+    
     const searchParams = request.nextUrl.searchParams;
     const player = searchParams.get('player');
 
@@ -15,21 +35,18 @@ export async function GET(request) {
       });
     }
 
-    // Path to the CSV file (adjust the path if necessary)
-    const csvFilePath = path.join(process.cwd(), 'public', 'players.csv');
+    let matchingRow
 
-    // Read the CSV file
-    const csvData = fs.readFileSync(csvFilePath, 'utf-8');
+    if(player.includes("|")){
+      //pick
+      const realPick = player.split("|")[0]
+      matchingRow = await find_matching_row(realPick)
+      matchingRow["Name"] = player
+    }
+    else{
+      matchingRow = await find_matching_row(player)
+    }
 
-    // Parse the CSV data
-    const records = parse(csvData, {
-      columns: true, // Automatically generate headers
-      skip_empty_lines: true, // Skip empty rows
-      trim: true, // Trim whitespace from values
-    });
-
-    // Find the matching row by `original_key`
-    const matchingRow = records.find(row => row.original_key === player);
 
     if (!matchingRow) {
       return new Response(JSON.stringify({ error: 'Player not found' }), {

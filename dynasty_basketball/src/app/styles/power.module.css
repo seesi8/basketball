@@ -132,14 +132,20 @@
 }
 
 .playerNameContainer {
-    margin-right: 1rem;
+    margin: 0rem 0.2rem;
 }
 
 .playerName {
     white-space: nowrap;
     max-height: 100%;
     width: 100%;
+    padding-right: 0.5rem;
     /* overflow: hidden; */
+}
+
+.playerValue{
+    font-weight: bold;
+    color: grey;
 }
 
 /*graph */
@@ -268,4 +274,16 @@
     font-size: 0.8rem;
     display: flex;
     justify-content: space-between;
+}
+
+.dynasty{
+    margin-bottom: 2rem;
+}
+
+.title{
+    color: #76769B;
+}
+
+.des{
+    color: grey;
 }
