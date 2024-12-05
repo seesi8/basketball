@@ -12,9 +12,30 @@
 .topRow{
     padding-top: 5rem;
     width:60%;
+    display: flex;
+    justify-content:  space-between;
 }
 
 .back{
     text-align: left;
     width: 100%;
+}
+
+.secondRow{
+    width: 60%;
+    margin-top: 2rem;
+    display: flex;
+}
+
+.itemTitle{
+    color: #76769B;
+}
+
+.itemRank{
+    font-weight: bold;
+}
+
+.item{
+    padding: 0rem 1rem;
+    border-left: 1px white solid;
 }
