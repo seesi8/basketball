@@ -1,0 +1,1860 @@
+Name,player_id,sport,number,active,depth_chart_position,age,birth_day,status,birth_city,years_exp,depth_chart_order,height,weight,college,team,position,cleaned_name
+Tyler Lydon,1875,nba,,True,,28.0,1996-04-09,FA,,2.0,,82.0,225.0,Syracuse,,PF,Tyler Lydon
+Dionte Christmas,1408,nba,,True,,38.0,1986-09-15,FA,,1.0,,77.0,205.0,Temple,,SG,Dionte Christmas
+Cameron Johnson,2091,nba,2.0,True,SF,28.0,1996-03-03,ACT,,5.0,1.0,80.0,210.0,North Carolina,BKN,PF,Cameron Johnson
+Gabe Brown,2508,nba,,True,,24.0,2000-03-05,FA,,1.0,,80.0,215.0,Michigan State,,PF,Gabe Brown
+Greg Whittington,2199,nba,,True,,31.0,1993-02-07,FA,,1.0,,80.0,210.0,Georgetown,,PF,Greg Whittington
+Carsen Edwards,2064,nba,,True,,26.0,1998-03-12,FA,,3.0,,71.0,200.0,Purdue,,SG,Carsen Edwards
+Avery Bradley,1284,nba,,True,,34.0,1990-11-26,FA,,12.0,,75.0,180.0,Texas,,SG,Avery Bradley
+Sean East,2801,nba,,True,,,,FA,,0.0,,75.0,180.0,Missouri,,PG,Sean East
+C.J. Watson,1073,nba,,True,,40.0,1984-04-17,FA,,10.0,,74.0,175.0,Tennessee,,PG,C.J. Watson
+Gary Trent,1982,nba,5.0,True,SF,25.0,1999-01-18,ACT,,6.0,2.0,77.0,204.0,Duke,MIL,SG,Gary Trent
+Moussa Diabate,2474,nba,14.0,True,C,22.0,2002-01-21,TWO-WAY,,2.0,3.0,81.0,210.0,Michigan,CHA,PF,Moussa Diabate
+Svi Mykhailiuk,1907,nba,19.0,True,SG,27.0,1997-06-10,ACT,,6.0,4.0,79.0,205.0,Kansas,UTA,SF,Svi Mykhailiuk
+Michael Gbinije,1684,nba,,True,,32.0,1992-06-05,FA,,1.0,,79.0,200.0,Syracuse,,SG,Michael Gbinije
+Nikola Pekovic,1195,nba,,False,,38.0,1986-01-03,RET,,6.0,,83.0,307.0,,,C,Nikola Pekovic
+Admiral Schofield,2023,nba,,True,,27.0,1997-03-30,FA,,3.0,,77.0,241.0,Tennessee,,PF,Admiral Schofield
+Willie Reed,1461,nba,,True,,34.0,1990-05-16,FA,,3.0,,83.0,245.0,Saint Louis,,C,Willie Reed
+MarJon Beauchamp,2481,nba,3.0,True,PG,24.0,2000-10-12,ACT,,2.0,6.0,79.0,199.0,Yakima Valley (WA),MIL,PF,MarJon Beauchamp
+Isaiah Joe,2125,nba,11.0,True,SF,25.0,1999-07-02,ACT,,4.0,2.0,75.0,165.0,Arkansas,OKC,SG,Isaiah Joe
+Kristaps Porzingis,1590,nba,8.0,True,C,29.0,1995-08-02,ACT,,8.0,1.0,87.0,240.0,,BOS,C,Kristaps Porzingis
+Tim Frazier,1510,nba,,True,,34.0,1990-11-01,FA,,8.0,,73.0,170.0,Penn State,,PG,Tim Frazier
+Isaiah Briscoe,1995,nba,,True,,28.0,1996-04-13,FA,,1.0,,75.0,215.0,Kentucky,,PG,Isaiah Briscoe
+Mitch Creek,1914,nba,,True,,32.0,1992-04-27,FA,,1.0,,78.0,225.0,,,SF,Mitch Creek
+Jaylen Brown,1711,nba,7.0,True,SF,28.0,1996-10-24,ACT,,8.0,1.0,78.0,237.0,California,BOS,SF,Jaylen Brown
+Gerald Henderson,1148,nba,,False,,36.0,1987-12-09,RET,,8.0,,77.0,215.0,Duke,,SG,Gerald Henderson
+Alan Williams,1649,nba,,True,,31.0,1993-01-28,FA,,4.0,,80.0,265.0,UC Santa Barbara,,PF,Alan Williams
+Josh McRoberts,1150,nba,,False,,37.0,1987-02-28,RET,,11.0,,82.0,240.0,Duke,,PF,Josh McRoberts
+Tyler Cavanaugh,1813,nba,,True,,30.0,1994-02-09,FA,,1.0,,81.0,238.0,George Washington,,PF,Tyler Cavanaugh
+Aaron Henry,2330,nba,,True,,25.0,1999-08-30,FA,,1.0,,77.0,210.0,Michigan State,,SF,Aaron Henry
+Frank Kaminsky,1609,nba,,True,,31.0,1993-04-04,FA,,7.0,,84.0,240.0,Wisconsin,,C,Frank Kaminsky
+Emanuel Miller,2854,nba,,True,,24.0,2000-06-19,FA,,0.0,,79.0,215.0,,,PF,Emanuel Miller
+Eric Mika,2109,nba,,True,,29.0,1995-01-05,FA,,1.0,,82.0,240.0,BYU,,PF,Eric Mika
+Malik Beasley,1749,nba,5.0,True,SG,28.0,1996-11-26,ACT,,8.0,2.0,76.0,187.0,Florida State,DET,SG,Malik Beasley
+Duane Washington,2320,nba,,True,,24.0,2000-03-24,FA,,2.0,,74.0,197.0,Ohio State,,SG,Duane Washington
+James Anderson,1100,nba,,True,,35.0,1989-03-25,FA,,5.0,,78.0,210.0,Oklahoma State,,SG,James Anderson
+Aaron Holiday,1895,nba,0.0,True,PG,28.0,1996-09-30,ACT,,6.0,3.0,72.0,185.0,UCLA,HOU,PG,Aaron Holiday
+Javon Freeman-Liberty,2496,nba,,True,,25.0,1999-10-20,FA,,1.0,,75.0,190.0,DePaul,,PG,Javon Freeman-Liberty
+Mario Hezonja,1660,nba,,True,,29.0,1995-02-25,FA,,5.0,,80.0,220.0,,,PF,Mario Hezonja
+Kris Humphries,1279,nba,,False,,39.0,1985-02-06,RET,,13.0,,81.0,235.0,Minnesota,,PF,Kris Humphries
+Brandon Goodwin,1991,nba,,True,,29.0,1995-10-02,FA,,4.0,,72.0,180.0,Florida Gulf Coast,,PG,Brandon Goodwin
+Alex Len,1412,nba,25.0,True,C,31.0,1993-06-16,ACT,,11.0,3.0,84.0,250.0,Maryland,SAC,C,Alex Len
+Ekpe Udoh,1387,nba,,False,,37.0,1987-05-20,RET,,7.0,,82.0,245.0,Baylor,,PF,Ekpe Udoh
+Kevin Garnett,1172,nba,,False,,48.0,1976-05-19,RET,,21.0,,83.0,253.0,,,PF,Kevin Garnett
+Jordan Bone,2025,nba,,True,,27.0,1997-11-05,FA,,1.0,,74.0,180.0,Tennessee,,PG,Jordan Bone
+Adreian Payne,1523,nba,,False,,33.0,1991-02-19,RET,,4.0,,82.0,237.0,Michigan State,,PF,Adreian Payne
+Alex Ducas,2782,nba,88.0,True,SF,23.0,2000-12-11,TWO-WAY,,0.0,9.0,79.0,220.0,Saint Mary's,OKC,PG,Alex Ducas
+CJ Elleby,2160,nba,,True,,24.0,2000-06-16,FA,,2.0,,78.0,200.0,Washington State,,SF,CJ Elleby
+Greg Smith,1009,nba,,True,,33.0,1991-01-08,FA,,5.0,,82.0,250.0,Fresno State,,PF,Greg Smith
+Taevion Kinsey,2678,nba,,True,,24.0,2000-03-10,FA,,1.0,,77.0,190.0,Marshall,,PG,Taevion Kinsey
+Sean Kilpatrick,1524,nba,,True,,34.0,1990-01-06,FA,,4.0,,76.0,212.0,Cincinnati,,SG,Sean Kilpatrick
+Paul Millsap,1250,nba,,True,,39.0,1985-02-10,FA,,16.0,,79.0,257.0,Louisiana Tech,,PF,Paul Millsap
+Izaiah Brockington,2519,nba,,True,,25.0,1999-07-12,FA,,2.0,,76.0,196.0,Iowa State,,PG,Izaiah Brockington
+Baylor Scheierman,2721,nba,55.0,True,SF,24.0,2000-09-26,ACT,,0.0,6.0,78.0,213.0,Creighton,BOS,PG,Baylor Scheierman
+Ron Holland DUPLICATE,2739,nba,,False,,,,,,,,,,,,,Ron Holland DUPLICATE
+Jazian Gortman,2676,nba,0.0,True,PG,21.0,2003-03-14,TWO-WAY,,1.0,5.0,74.0,184.0,,DAL,PG,Jazian Gortman
+CJ McCollum,1450,nba,3.0,True,SG,33.0,1991-09-19,ACT,,11.0,1.0,75.0,190.0,Lehigh,NOP,SG,CJ McCollum
+Ray Spalding,1966,nba,,True,,27.0,1997-03-11,FA,,1.0,,82.0,215.0,Louisville,,PF,Ray Spalding
+Bruno Caboclo,1550,nba,,True,,29.0,1995-09-21,FA,,7.0,,81.0,218.0,,,SF,Bruno Caboclo
+Marcus Derrickson,1897,nba,,True,,28.0,1996-02-01,FA,,1.0,,79.0,249.0,Georgetown,,PF,Marcus Derrickson
+Kelly Olynyk,1282,nba,41.0,True,C,33.0,1991-04-19,ACT,,11.0,6.0,83.0,240.0,Gonzaga,TOR,C,Kelly Olynyk
+Nigel Hayes,1800,nba,,True,,29.0,1994-12-16,FA,,1.0,,79.0,254.0,Wisconsin,,SF,Nigel Hayes
+Isaac Jones,2780,nba,17.0,True,C,25.0,1999-07-11,TWO-WAY,,0.0,2.0,81.0,245.0,Washington State,SAC,PF,Isaac Jones
+Jamal Cain,2537,nba,8.0,True,SF,25.0,1999-03-20,TWO-WAY,,2.0,6.0,78.0,191.0,Marquette,NOP,SF,Jamal Cain
+Antonio Reeves,2758,nba,12.0,True,SF,24.0,2000-11-20,ACT,,0.0,4.0,77.0,187.0,Kentucky,NOP,PG,Antonio Reeves
+De'Aaron Fox,1872,nba,5.0,True,PG,26.0,1997-12-20,ACT,,7.0,1.0,75.0,190.0,Kentucky,SAC,PG,De'Aaron Fox
+Sam Dekker,1623,nba,,True,,30.0,1994-05-06,FA,,5.0,,81.0,230.0,Wisconsin,,PF,Sam Dekker
+Tristen Newton,2745,nba,4.0,True,PG,23.0,2001-04-26,TWO-WAY,,0.0,4.0,77.0,190.0,UConn,IND,PG,Tristen Newton
+Jae'Sean Tate,2193,nba,8.0,True,SF,29.0,1995-10-28,ACT,,4.0,5.0,77.0,226.0,Ohio State,HOU,SF,Jae'Sean Tate
+P.J. Hairston,1517,nba,,False,,31.0,1992-12-24,RET,,2.0,,78.0,230.0,North Carolina,,SG,P.J. Hairston
+Bernard James,1396,nba,,False,,39.0,1985-02-07,RET,,3.0,,82.0,240.0,Florida State,,C,Bernard James
+Georgios Kalaitzakis,2311,nba,,True,,25.0,1999-01-02,FA,,2.0,,80.0,192.0,,,SF,Georgios Kalaitzakis
+Mike Dunleavy,1007,nba,,False,,44.0,1980-09-15,RET,,15.0,,81.0,230.0,Duke,,SG,Mike Dunleavy
+Michael Kidd-Gilchrist,1163,nba,,True,,31.0,1993-09-26,FA,,8.0,,78.0,230.0,Kentucky,,SF,Michael Kidd-Gilchrist
+Tre Mann,2297,nba,23.0,True,PG,23.0,2001-02-03,ACT,,3.0,2.0,75.0,178.0,Florida,CHA,PG,Tre Mann
+Michael Beasley,1370,nba,,True,,35.0,1989-01-09,FA,,11.0,,81.0,235.0,Kansas State,,SF,Michael Beasley
+Anthony Duruji,2518,nba,,True,,26.0,1998-07-22,FA,,1.0,,79.0,209.0,Florida,,PF,Anthony Duruji
+Nate Robinson,1469,nba,,False,,40.0,1984-05-31,RET,,11.0,,69.0,180.0,Washington,,PG,Nate Robinson
+GG Jackson,2603,nba,45.0,True,PF,19.0,2004-12-17,ACT,,1.0,5.0,81.0,210.0,South Carolina,MEM,PF,GG Jackson
+Terry Rozier,1632,nba,2.0,True,SG,30.0,1994-03-17,ACT,,9.0,1.0,73.0,190.0,Louisville,MIA,PG,Terry Rozier
+Toney Douglas,1084,nba,,True,,38.0,1986-03-16,FA,,8.0,,74.0,185.0,Florida State,,PG,Toney Douglas
+Charlie Brown,2052,nba,,True,,27.0,1997-02-02,FA,,3.0,,78.0,199.0,Saint Joseph's,,SF,Charlie Brown
+Javonte Smart,2359,nba,,True,,25.0,1999-06-03,FA,,1.0,,76.0,205.0,LSU,,PG,Javonte Smart
+Jake Layman,1743,nba,,True,,30.0,1994-03-07,FA,,6.0,,80.0,209.0,Maryland,,SF,Jake Layman
+Coty Clarke,1630,nba,,True,,32.0,1992-07-04,FA,,1.0,,79.0,232.0,Arkansas,,PF,Coty Clarke
+Jerryd Bayless,1209,nba,,True,,36.0,1988-08-20,FA,,11.0,,75.0,200.0,Arizona,,PG,Jerryd Bayless
+Cade Cunningham,2267,nba,2.0,True,PG,23.0,2001-09-25,ACT,,3.0,1.0,78.0,220.0,Oklahoma State,DET,SF,Cade Cunningham
+Cristiano Felicio,1588,nba,,True,,32.0,1992-07-07,FA,,5.0,,83.0,270.0,,,C,Cristiano Felicio
+Devonte Patterson,2225,nba,,True,,28.0,1996-11-01,FA,,1.0,,79.0,205.0,Prairie View A&M,,SF,Devonte Patterson
+Devonte' Graham,1910,nba,,True,,29.0,1995-02-22,FA,,6.0,,73.0,195.0,Kansas,,PG,Devonte' Graham
+Tyler Bey,2127,nba,,True,,26.0,1998-02-10,FA,,1.0,,79.0,215.0,Colorado,,SF,Tyler Bey
+Max Abmas,2851,nba,,True,,23.0,2001-04-02,FA,,0.0,,71.0,162.0,Texas,,PG,Max Abmas
+Kellan Grady,2498,nba,,True,,27.0,1997-09-11,FA,,1.0,,77.0,205.0,Kentucky,,PG,Kellan Grady
+Andrew Funk,2661,nba,,True,,25.0,1999-09-21,FA,,1.0,,77.0,200.0,Penn State,,SG,Andrew Funk
+Phil Pressey,1293,nba,,True,,33.0,1991-02-17,FA,,3.0,,71.0,175.0,Missouri,,PG,Phil Pressey
+Boban Marjanovic,1634,nba,,True,,36.0,1988-08-15,FA,,9.0,,88.0,290.0,,,C,Boban Marjanovic
+Alex O'Connell,2550,nba,,True,,25.0,1999-06-02,FA,,1.0,,78.0,185.0,Creighton,,PG,Alex O'Connell
+Chris Bosh,1375,nba,,False,,40.0,1984-03-24,RET,,13.0,,83.0,235.0,Georgia Tech,,PF,Chris Bosh
+Jacob Wiley,1784,nba,,True,,30.0,1994-09-04,FA,,1.0,,80.0,223.0,Eastern Washington,,PF,Jacob Wiley
+Trey Jemison,2681,nba,55.0,True,C,25.0,1999-11-28,TWO-WAY,,1.0,4.0,82.0,260.0,UAB,NOP,C,Trey Jemison
+Jonathan Gibson,1732,nba,,True,,37.0,1987-11-08,FA,,2.0,,74.0,185.0,New Mexico State,,PG,Jonathan Gibson
+Norman Powell,1637,nba,24.0,True,SF,31.0,1993-05-25,ACT,,9.0,1.0,76.0,215.0,UCLA,LAC,SG,Norman Powell
+Ulrich Chomche,2762,nba,22.0,True,C,18.0,2005-12-30,TWO-WAY,,0.0,5.0,82.0,232.0,,TOR,PF,Ulrich Chomche
+Anthony Tarke,2370,nba,,True,,26.0,1998-05-27,FA,,1.0,,78.0,220.0,Coppin State,,SG,Anthony Tarke
+DeMarcus Cousins,1464,nba,,True,,34.0,1990-08-13,FA,,11.0,,82.0,270.0,Kentucky,,C,DeMarcus Cousins
+Will Barton,1447,nba,,True,,33.0,1991-01-06,FA,,10.0,,77.0,181.0,Memphis,,SG,Will Barton
+DeMarre Carroll,1251,nba,,False,,38.0,1986-07-27,RET,,11.0,,78.0,215.0,Missouri,,SF,DeMarre Carroll
+Dennis Smith,1856,nba,,True,,27.0,1997-11-25,FA,,6.0,,75.0,205.0,North Carolina State,,PG,Dennis Smith
+Jermaine Samuels,2553,nba,,True,,26.0,1998-11-13,FA,,1.0,,78.0,230.0,Villanova,,PF,Jermaine Samuels
+Lamar Stevens,2167,nba,,True,,27.0,1997-07-09,FA,,3.0,,79.0,230.0,Penn State,,SF,Lamar Stevens
+Isaiah Livers,2270,nba,,True,,26.0,1998-07-28,FA,,2.0,,78.0,232.0,Michigan,,SF,Isaiah Livers
+Melvin Ajinca,2770,nba,,True,,20.0,2004-06-26,NWT,,0.0,,80.0,218.0,,,PF,Melvin Ajinca
+Jordan Walsh,2608,nba,27.0,True,PF,20.0,2004-03-03,ACT,,1.0,4.0,79.0,208.0,Arkansas,BOS,PG,Jordan Walsh
+Khem Birch,1876,nba,,True,,32.0,1992-09-28,FA,,6.0,,80.0,233.0,UNLV,,C,Khem Birch
+Tariq Owens,2092,nba,,True,,29.0,1995-06-30,FA,,1.0,,82.0,205.0,Texas Tech,,PF,Tariq Owens
+Ronnie Brewer,1013,nba,,False,,39.0,1985-03-20,RET,,8.0,,79.0,235.0,Arkansas,,SF,Ronnie Brewer
+Ethan Thompson,2352,nba,,True,,25.0,1999-05-04,FA,,1.0,,77.0,195.0,Oregon State,,SG,Ethan Thompson
+Braxton Key,2406,nba,,True,,27.0,1997-02-14,FA,,2.0,,80.0,225.0,Virginia,,SF,Braxton Key
+D.J. Stewart,2365,nba,,True,,25.0,1999-07-28,FA,,1.0,,78.0,205.0,Mississippi State,,PG,D.J. Stewart
+Jerome Robinson,1955,nba,,True,,27.0,1997-02-22,FA,,4.0,,77.0,190.0,Boston College,,SG,Jerome Robinson
+Vit Krejci,2185,nba,27.0,True,SG,24.0,2000-06-19,ACT,,3.0,3.0,80.0,195.0,,ATL,SF,Vit Krejci
+RayJ Dennis,2860,nba,,True,,23.0,2001-03-30,FA,,0.0,,74.0,185.0,Baylor,,PG,RayJ Dennis
+Dion Waiters,1042,nba,,True,,32.0,1991-12-10,FA,,8.0,,75.0,215.0,Syracuse,,SG,Dion Waiters
+Kenrich Williams,1946,nba,34.0,True,C,29.0,1994-12-02,ACT,,6.0,2.0,78.0,210.0,TCU,OKC,PF,Kenrich Williams
+Jett Howard,2591,nba,13.0,True,SF,21.0,2003-09-14,ACT,,1.0,2.0,78.0,215.0,Michigan,ORL,PG,Jett Howard
+Cormac Ryan,2856,nba,,True,,26.0,1998-10-26,FA,,0.0,,77.0,195.0,North Carolina,,PG,Cormac Ryan
+Jordan Mickey,1631,nba,,True,,30.0,1994-07-09,FA,,3.0,,80.0,235.0,LSU,,C,Jordan Mickey
+Juhann Begarin,2310,nba,,True,,22.0,2002-08-07,FA,,1.0,,77.0,185.0,,,SG,Juhann Begarin
+Keljin Blevins,2204,nba,,True,,29.0,1995-11-24,FA,,1.0,,76.0,200.0,Montana State,,SG,Keljin Blevins
+Marreese Speights,1093,nba,,True,,37.0,1987-08-04,FA,,10.0,,82.0,255.0,Florida,,PF,Marreese Speights
+Carmelo Anthony,1027,nba,,False,,40.0,1984-05-29,RET,,19.0,,79.0,238.0,Syracuse,,SF,Carmelo Anthony
+Franz Wagner,2304,nba,22.0,True,SF,23.0,2001-08-27,ACT,,3.0,1.0,82.0,220.0,Michigan,ORL,SF,Franz Wagner
+Othyus Jeffers,1196,nba,,False,,39.0,1985-08-05,RET,,3.0,,77.0,200.0,Robert Morris (IL),,SG,Othyus Jeffers
+Filip Petrusev,2263,nba,,True,,24.0,2000-04-15,FA,,1.0,,83.0,225.0,Gonzaga,,C,Filip Petrusev
+Reggie Evans,1176,nba,,False,,44.0,1980-05-18,RET,,13.0,,80.0,245.0,Iowa,,PF,Reggie Evans
+Bilal Coulibaly,2565,nba,0.0,True,SF,20.0,2004-07-26,ACT,,1.0,1.0,80.0,195.0,,WAS,PF,Bilal Coulibaly
+Enes Freedom,1353,nba,,True,,32.0,1992-05-20,FA,,11.0,,82.0,250.0,,,C,Enes Freedom
+Shake Milton,1900,nba,7.0,True,PG,28.0,1996-09-26,ACT,,6.0,3.0,77.0,205.0,SMU,BKN,SG,Shake Milton
+Jorge Gutierrez,1169,nba,,True,,35.0,1988-12-27,FA,,3.0,,75.0,195.0,California,,PG,Jorge Gutierrez
+Tevin Brown,2552,nba,,True,,26.0,1998-09-23,FA,,1.0,,77.0,175.0,Murray State,,PG,Tevin Brown
+Armel Traore,2754,nba,94.0,True,PF,21.0,2003-01-23,TWO-WAY,,0.0,6.0,81.0,246.0,,LAL,PF,Armel Traore
+Chris Smith,2326,nba,,True,,24.0,1999-12-24,FA,,1.0,,81.0,215.0,UCLA,,SF,Chris Smith
+Stephen Zimmerman,1751,nba,,True,,28.0,1996-09-09,FA,,1.0,,84.0,240.0,UNLV,,C,Stephen Zimmerman
+Au'Diese Toney,2684,nba,,True,,25.0,1999-11-12,FA,,1.0,,78.0,205.0,Arkansas,,PG,Au'Diese Toney
+Jeff Withey,1266,nba,,True,,34.0,1990-03-07,FA,,5.0,,84.0,230.0,Kansas,,C,Jeff Withey
+Lonnie Walker,1953,nba,,True,,25.0,1998-12-14,FA,,5.0,,76.0,204.0,Miami (FL),,SG,Lonnie Walker
+Paul Eboua,2202,nba,,True,,24.0,2000-02-15,FA,,1.0,,80.0,214.0,,,PF,Paul Eboua
+Brice Sensabaugh,2581,nba,28.0,True,SF,21.0,2003-10-30,ACT,,1.0,2.0,77.0,235.0,Ohio State,UTA,PF,Brice Sensabaugh
+Justin Bibbs,1958,nba,,True,,28.0,1996-01-14,FA,,1.0,,77.0,220.0,Virginia Tech,,SG,Justin Bibbs
+Stephen Jackson,1335,nba,,False,,46.0,1978-04-05,RET,,14.0,,80.0,220.0,Butler Community College,,SF,Stephen Jackson
+Shavlik Randolph,1414,nba,,False,,41.0,1983-11-24,RET,,8.0,,82.0,236.0,Duke,,PF,Shavlik Randolph
+Brook Lopez,1178,nba,11.0,True,C,36.0,1988-04-01,ACT,,16.0,1.0,85.0,282.0,Stanford,MIL,C,Brook Lopez
+Bobby Portis,1589,nba,9.0,True,PF,29.0,1995-02-10,ACT,,9.0,2.0,82.0,250.0,Arkansas,MIL,PF,Bobby Portis
+Anthony WBlack,2561,nba,,False,,,,Active,,0.0,,79.0,198.0,Razorbacks,,SG,Anthony WBlack
+Mangok Mathiang,1781,nba,,True,,32.0,1992-10-08,FA,,1.0,,82.0,230.0,Louisville,,PF,Mangok Mathiang
+B.J. Johnson,1944,nba,,True,,28.0,1995-12-21,FA,,2.0,,79.0,200.0,La Salle,,SF,B.J. Johnson
+Brandon Rush,1351,nba,,True,,39.0,1985-07-07,FA,,9.0,,78.0,220.0,Kansas,,SG,Brandon Rush
+Rob Dillingham,2717,nba,4.0,True,PG,19.0,2005-01-04,ACT,,0.0,2.0,74.0,163.0,Kentucky,MIN,PG,Rob Dillingham
+Matt Morgan,2789,nba,,True,,27.0,1997-11-07,FA,,0.0,,74.0,174.0,Cornell,,PG,Matt Morgan
+Joe Chealey,1911,nba,,True,,29.0,1995-11-01,FA,,2.0,,76.0,190.0,Charleston,,PG,Joe Chealey
+Pablo Prigioni,1034,nba,,False,,47.0,1977-05-17,RET,,4.0,,75.0,185.0,,,PG,Pablo Prigioni
+Javante McCoy,2503,nba,,True,,26.0,1998-01-24,FA,,1.0,,77.0,180.0,Boston University,,PG,Javante McCoy
+Zach Edey,2718,nba,14.0,True,C,22.0,2002-03-14,ACT,,0.0,2.0,88.0,299.0,Purdue,MEM,C,Zach Edey
+Matteo Spagnolo,2484,nba,,True,,21.0,2003-01-10,FA,,1.0,,78.0,194.0,,,PG,Matteo Spagnolo
+Luol Deng,1008,nba,,False,,39.0,1985-04-16,RET,,15.0,,81.0,237.0,Duke,,SF,Luol Deng
+Willy Hernangomez,1664,nba,,True,,30.0,1994-05-27,FA,,6.0,,83.0,250.0,,,C,Willy Hernangomez
+Dalen Terry,2433,nba,25.0,True,SF,22.0,2002-07-12,ACT,,2.0,2.0,79.0,195.0,Arizona,CHI,PG,Dalen Terry
+Josh Christopher,2282,nba,8.0,True,PG,22.0,2001-12-08,TWO-WAY,,2.0,6.0,76.0,215.0,Arizona State,MIA,SG,Josh Christopher
+Landry Shamet,1899,nba,,True,,27.0,1997-03-13,FA,,5.0,,76.0,190.0,Wichita State,,SG,Landry Shamet
+Allen Crabbe,1445,nba,,True,,32.0,1992-04-09,FA,,7.0,,77.0,212.0,California,,SG,Allen Crabbe
+Craig Sword,2400,nba,,True,,30.0,1994-01-16,FA,,1.0,,75.0,196.0,Mississippi State,,SG,Craig Sword
+Armando Bacot,2858,nba,,True,,24.0,2000-03-06,FA,,0.0,,83.0,240.0,North Carolina,,C,Armando Bacot
+Rudy Gay,1317,nba,,False,,38.0,1986-08-17,RET,,17.0,,80.0,250.0,UConn,,PF,Rudy Gay
+Marc Gasol,1206,nba,,False,,39.0,1985-01-29,RET,,13.0,,83.0,255.0,,,C,Marc Gasol
+Reggie Williams,1435,nba,,True,,38.0,1986-09-14,FA,,7.0,,78.0,205.0,VMI,,SF,Reggie Williams
+Donte DiVincenzo,1964,nba,0.0,True,SG,27.0,1997-01-31,ACT,,6.0,2.0,76.0,200.0,Villanova,MIN,SG,Donte DiVincenzo
+Alex Morales,2658,nba,,True,,27.0,1997-11-21,FA,,1.0,,78.0,195.0,Wagner,,PG,Alex Morales
+Devyn Marble,1587,nba,,True,,32.0,1992-09-21,FA,,2.0,,78.0,200.0,Iowa,,SG,Devyn Marble
+Joey Hauser,2628,nba,,True,,25.0,1999-07-17,FA,,1.0,,81.0,230.0,Michigan State,,SF,Joey Hauser
+E.J. Liddell,2471,nba,32.0,True,C,23.0,2000-12-18,TWO-WAY,,1.0,4.0,78.0,240.0,Ohio State,CHI,PF,E.J. Liddell
+Ike Anigbogu,1767,nba,,True,,26.0,1998-10-16,FA,,2.0,,81.0,252.0,UCLA,,C,Ike Anigbogu
+J.J. Barea,1193,nba,,False,,40.0,1984-06-26,RET,,14.0,,70.0,180.0,Northeastern,,PG,J.J. Barea
+Marvin Williams,1359,nba,,False,,38.0,1986-06-19,RET,,15.0,,80.0,237.0,North Carolina,,PF,Marvin Williams
+Vitor Faverani,1286,nba,,True,,36.0,1988-05-05,FA,,1.0,,83.0,260.0,,,C,Vitor Faverani
+Wes Iwundu,1877,nba,,True,,29.0,1994-12-20,FA,,5.0,,78.0,195.0,Kansas State,,SF,Wes Iwundu
+Kyle Alexander,2083,nba,,True,,28.0,1996-10-21,FA,,1.0,,83.0,220.0,Tennessee,,PF,Kyle Alexander
+Luigi Datome,1137,nba,,True,,37.0,1987-11-27,FA,,2.0,,80.0,215.0,,,SF,Luigi Datome
+Tristan Thompson,1045,nba,13.0,True,C,33.0,1991-03-13,ACT,,13.0,3.0,81.0,254.0,Texas,CLE,PF,Tristan Thompson
+Robert Woodard,2134,nba,,True,,25.0,1999-09-22,FA,,3.0,,78.0,235.0,Mississippi State,,SF,Robert Woodard
+Buddy Hield,1707,nba,7.0,True,SG,31.0,1992-12-17,ACT,,8.0,2.0,76.0,215.0,Oklahoma,GSW,SG,Buddy Hield
+Josh Hall,2235,nba,,True,,24.0,2000-10-08,FA,,1.0,,81.0,190.0,,,SF,Josh Hall
+Josh Smith,1136,nba,,False,,38.0,1985-12-05,RET,,13.0,,81.0,225.0,,,PF,Josh Smith
+Neal Sako,2824,nba,,True,,26.0,1998-08-13,FA,,0.0,,83.0,225.0,,,C,Neal Sako
+Aaron Brooks,1242,nba,,True,,39.0,1985-01-14,FA,,10.0,,72.0,161.0,Oregon,,PG,Aaron Brooks
+Eric Griffin,1844,nba,,True,,34.0,1990-05-26,FA,,1.0,,80.0,205.0,Campbell,,SF,Eric Griffin
+Frank Jackson,1815,nba,,True,,26.0,1998-05-04,FA,,4.0,,75.0,205.0,Duke,,PG,Frank Jackson
+Colin Castleton,2642,nba,8.0,True,C,24.0,2000-05-25,TWO-WAY,,1.0,4.0,82.0,250.0,Florida,MEM,PF,Colin Castleton
+Paul Pierce,1168,nba,,False,,47.0,1977-10-13,RET,,19.0,,79.0,235.0,Kansas,,SF,Paul Pierce
+Moses Brown,2100,nba,3.0,True,C,25.0,1999-10-13,ACT,,4.0,3.0,86.0,258.0,UCLA,IND,C,Moses Brown
+Mamadi Diakite,2197,nba,,True,,27.0,1997-01-21,FA,,4.0,,81.0,228.0,Virginia,,C,Mamadi Diakite
+Ben Simmons,1676,nba,10.0,True,PG,28.0,1996-07-20,ACT,,6.0,2.0,82.0,240.0,LSU,BKN,PG,Ben Simmons
+Jakob Poeltl,1718,nba,19.0,True,C,29.0,1995-10-15,ACT,,8.0,1.0,84.0,260.0,Utah,TOR,C,Jakob Poeltl
+Kevin Huerter,1941,nba,9.0,True,SF,26.0,1998-08-27,ACT,,6.0,2.0,79.0,190.0,Maryland,SAC,SG,Kevin Huerter
+Wayne Ellington,1394,nba,,True,,37.0,1987-11-29,FA,,13.0,,76.0,207.0,North Carolina,,SG,Wayne Ellington
+Ryan Rollins,2463,nba,13.0,True,PG,22.0,2002-07-03,TWO-WAY,,2.0,3.0,75.0,180.0,Toledo,MIL,PG,Ryan Rollins
+Sam Merrill,2139,nba,5.0,True,SG,28.0,1996-05-15,ACT,,4.0,3.0,76.0,205.0,Utah State,CLE,SG,Sam Merrill
+L.J. Figueroa,2391,nba,,True,,26.0,1998-03-28,FA,,1.0,,78.0,200.0,Oregon,,SF,L.J. Figueroa
+Josh Harrellson,1143,nba,,False,,35.0,1989-02-12,RET,,3.0,,82.0,275.0,Kentucky,,PF,Josh Harrellson
+Sandro Mamukelashvili,2296,nba,54.0,True,PF,25.0,1999-05-23,ACT,,3.0,2.0,81.0,235.0,Seton Hall,SAS,C,Sandro Mamukelashvili
+Matas Buzelis,2835,nba,14.0,True,SF,20.0,2004-10-13,ACT,,0.0,3.0,81.0,197.0,,CHI,SF,Matas Buzelis
+Jaden McDaniels,2135,nba,3.0,True,SF,24.0,2000-09-29,ACT,,4.0,1.0,81.0,205.0,Washington,MIN,PF,Jaden McDaniels
+Isaiah Roby,2088,nba,,True,,26.0,1998-02-03,FA,,4.0,,78.0,230.0,Nebraska,,PF,Isaiah Roby
+Tomas Satoransky,1682,nba,,True,,33.0,1991-10-30,FA,,6.0,,79.0,210.0,,,SG,Tomas Satoransky
+Andris Biedrins,1355,nba,,False,,38.0,1986-04-02,RET,,10.0,,84.0,250.0,,,C,Andris Biedrins
+Brandon Bass,1288,nba,,False,,39.0,1985-04-30,RET,,12.0,,80.0,250.0,LSU,,PF,Brandon Bass
+Chris Livingston,2612,nba,7.0,True,PF,21.0,2003-10-15,ACT,,1.0,7.0,78.0,220.0,Kentucky,MIL,PF,Chris Livingston
+D.J. Augustin,1017,nba,,False,,37.0,1987-11-10,RET,,14.0,,71.0,183.0,Texas,,PG,D.J. Augustin
+Lavoy Allen,1070,nba,,False,,35.0,1989-02-04,RET,,6.0,,81.0,260.0,Temple,,PF,Lavoy Allen
+Josh Huestis,1650,nba,,True,,32.0,1991-12-19,FA,,3.0,,79.0,230.0,Stanford,,SF,Josh Huestis
+Jarrett Culver,2034,nba,,True,,25.0,1999-02-20,FA,,3.0,,78.0,195.0,Texas Tech,,SG,Jarrett Culver
+Jameer Nelson,1485,nba,,False,,42.0,1982-02-09,RET,,14.0,,72.0,190.0,Saint Joseph's,,PG,Jameer Nelson
+Gabriel Lundberg,2409,nba,,True,,29.0,1994-12-04,FA,,1.0,,76.0,203.0,,,SG,Gabriel Lundberg
+Ante Zizic,1763,nba,,True,,27.0,1997-01-04,FA,,2.0,,82.0,266.0,,,C,Ante Zizic
+Udonis Haslem,1373,nba,,False,,44.0,1980-06-09,RET,,20.0,,79.0,235.0,Florida,,PF,Udonis Haslem
+Matt Thomas,2068,nba,,True,,30.0,1994-08-04,FA,,3.0,,75.0,190.0,Iowa State,,SG,Matt Thomas
+Jaylin Williams,2845,nba,,True,,24.0,2000-07-26,FA,,0.0,,80.0,245.0,Auburn,,PF,Jaylin Williams
+Keisei Tominaga,2828,nba,,True,,23.0,2001-02-01,FA,,0.0,,74.0,178.0,Nebraska,,PG,Keisei Tominaga
+James Young,1545,nba,,True,,29.0,1995-08-16,FA,,4.0,,78.0,215.0,Kentucky,,SG,James Young
+Chris Silva,2087,nba,,True,,28.0,1996-09-19,FA,,3.0,,80.0,234.0,South Carolina,,PF,Chris Silva
+Gabriele Procida,2479,nba,,True,,22.0,2002-06-01,FA,,1.0,,79.0,194.0,,,PG,Gabriele Procida
+Blake Wesley,2450,nba,14.0,True,PG,21.0,2003-03-16,ACT,,2.0,3.0,75.0,190.0,Notre Dame,SAS,PG,Blake Wesley
+DeMar DeRozan,1321,nba,10.0,True,SF,35.0,1989-08-07,ACT,,15.0,1.0,78.0,220.0,USC,SAC,SG,DeMar DeRozan
+Greg Monroe,1135,nba,,True,,34.0,1990-06-04,FA,,10.0,,83.0,265.0,Georgetown,,C,Greg Monroe
+Brandin Podziemski,2564,nba,2.0,True,PG,21.0,2003-02-25,ACT,,1.0,2.0,76.0,205.0,Santa Clara,GSW,PG,Brandin Podziemski
+Mario Chalmers,1371,nba,,True,,38.0,1986-05-19,FA,,9.0,,74.0,190.0,Kansas,,PG,Mario Chalmers
+Glenn Robinson,1505,nba,,True,,30.0,1994-01-08,FA,,7.0,,78.0,222.0,Michigan,,SF,Glenn Robinson
+Tyler Smith,2769,nba,21.0,True,PF,20.0,2004-11-02,ACT,,0.0,5.0,83.0,224.0,,MIL,PF,Tyler Smith
+Jack Cooley,1556,nba,,True,,33.0,1991-04-12,FA,,2.0,,82.0,274.0,Notre Dame,,C,Jack Cooley
+Marshall Plumlee,1666,nba,,True,,32.0,1992-07-14,FA,,1.0,,84.0,250.0,Duke,,C,Marshall Plumlee
+Richard Jefferson,1348,nba,,False,,44.0,1980-06-21,RET,,17.0,,79.0,233.0,Arizona,,SF,Richard Jefferson
+Sergio Rodriguez,1677,nba,,True,,38.0,1986-06-12,FA,,5.0,,75.0,175.0,,,PG,Sergio Rodriguez
+Dean Wade,2008,nba,32.0,True,PF,28.0,1996-11-20,ACT,,5.0,2.0,81.0,228.0,Kansas State,CLE,PF,Dean Wade
+Chinanu Onuaku,1703,nba,,True,,28.0,1996-11-01,FA,,2.0,,82.0,245.0,Louisville,,C,Chinanu Onuaku
+Isaiah Canaan,1239,nba,,True,,33.0,1991-05-21,FA,,6.0,,72.0,200.0,Murray State,,PG,Isaiah Canaan
+Joe Wieskamp,2288,nba,,True,,25.0,1999-08-23,FA,,2.0,,78.0,205.0,Iowa,,SF,Joe Wieskamp
+Jared Terrell,1922,nba,,True,,29.0,1995-02-10,FA,,1.0,,75.0,227.0,Rhode Island,,SG,Jared Terrell
+Brandon Sampson,1881,nba,,True,,27.0,1997-05-01,FA,,1.0,,77.0,184.0,LSU,,SG,Brandon Sampson
+Miles Plumlee,1419,nba,,True,,36.0,1988-09-01,FA,,7.0,,83.0,249.0,Duke,,C,Miles Plumlee
+Reid Travis,2689,nba,,True,,29.0,1995-11-25,FA,,1.0,,80.0,238.0,Kentucky,,PF,Reid Travis
+Brandon Knight,1389,nba,,True,,32.0,1991-12-02,FA,,9.0,,74.0,182.0,Kentucky,,PG,Brandon Knight
+Tari Eason,2447,nba,17.0,True,PF,23.0,2001-05-10,ACT,,2.0,2.0,80.0,217.0,LSU,HOU,PF,Tari Eason
+Balsa Koprivica,2269,nba,,True,,24.0,2000-05-01,NWT,,1.0,,85.0,240.0,Florida State,,C,Balsa Koprivica
+Luca Vildoza,2252,nba,,True,,29.0,1995-08-11,FA,,1.0,,75.0,190.0,,,PG,Luca Vildoza
+Harry Giles,1869,nba,,True,,26.0,1998-04-22,FA,,3.0,,82.0,240.0,Duke,,C,Harry Giles
+Jeff Taylor,1149,nba,,True,,35.0,1989-05-23,FA,,3.0,,79.0,225.0,Vanderbilt,,SF,Jeff Taylor
+Dexter Dennis,2647,nba,,True,,25.0,1999-02-09,FA,,2.0,,77.0,210.0,Texas A&M,,SG,Dexter Dennis
+KZ Okpala,2085,nba,,True,,25.0,1999-04-28,FA,,3.0,,80.0,215.0,Stanford,,PF,KZ Okpala
+Alonzo Gee,1056,nba,,True,,37.0,1987-05-29,FA,,8.0,,78.0,225.0,Alabama,,SF,Alonzo Gee
+Jahmi'us Ramsey,2162,nba,,True,,23.0,2001-06-09,FA,,2.0,,75.0,190.0,Texas Tech,,SG,Jahmi'us Ramsey
+Lorenzo Brown,1109,nba,,True,,34.0,1990-08-26,FA,,5.0,,77.0,189.0,North Carolina State,,PG,Lorenzo Brown
+Jaylen Hoard,2099,nba,,True,,25.0,1999-03-30,FA,,2.0,,80.0,216.0,Wake Forest,,PF,Jaylen Hoard
+Jaime Jaquez,2583,nba,11.0,True,PF,23.0,2001-02-18,ACT,,1.0,2.0,78.0,225.0,UCLA,MIA,PG,Jaime Jaquez
+Patrick Beverley,1237,nba,,True,,36.0,1988-07-12,FA,,12.0,,74.0,180.0,Arkansas,,PG,Patrick Beverley
+Cody Williams,2725,nba,5.0,True,SF,20.0,2004-11-20,ACT,,0.0,4.0,79.0,190.0,Colorado,UTA,PF,Cody Williams
+Rasual Butler,1071,nba,,False,,45.0,1979-05-23,RET,,13.0,,80.0,215.0,La Salle,,SF,Rasual Butler
+Jemerrio Jones,1931,nba,,True,,29.0,1995-04-09,FA,,1.0,,77.0,174.0,New Mexico State,,SF,Jemerrio Jones
+Russell Westbrook,1434,nba,4.0,True,PG,36.0,1988-11-12,ACT,,16.0,2.0,76.0,200.0,UCLA,DEN,PG,Russell Westbrook
+Sean McDermott,2169,nba,,True,,28.0,1996-11-03,FA,,1.0,,78.0,195.0,Butler,,SF,Sean McDermott
+Tristan Vukcevic,2596,nba,0.0,True,C,21.0,2003-03-11,TWO-WAY,,1.0,7.0,83.0,223.0,,WAS,C,Tristan Vukcevic
+Obi Toppin,2119,nba,1.0,True,C,26.0,1998-03-04,ACT,,4.0,2.0,81.0,220.0,Dayton,IND,PF,Obi Toppin
+Jericho Sims,2257,nba,20.0,True,C,26.0,1998-10-20,ACT,,3.0,2.0,82.0,254.0,Texas,NYK,C,Jericho Sims
+Troy Caupain,1993,nba,,True,,29.0,1995-11-29,FA,,1.0,,76.0,210.0,Cincinnati,,SG,Troy Caupain
+Jae Crowder,1403,nba,99.0,True,PF,34.0,1990-07-06,ACT,,12.0,2.0,78.0,235.0,Marquette,SAC,PF,Jae Crowder
+Shawne Williams,1220,nba,,True,,38.0,1986-02-16,FA,,7.0,,82.0,230.0,Memphis,,SF,Shawne Williams
+Nick Ongenda,2677,nba,,True,,24.0,2000-09-29,FA,,0.0,,83.0,230.0,DePaul,,C,Nick Ongenda
+Hollis Thompson,1112,nba,,True,,33.0,1991-04-03,FA,,4.0,,80.0,206.0,Georgetown,,SF,Hollis Thompson
+Scotty Hopson,1058,nba,,True,,35.0,1989-08-08,FA,,3.0,,79.0,215.0,Tennessee,,SG,Scotty Hopson
+Greg Brown,2300,nba,,True,,23.0,2001-09-01,FA,,2.0,,79.0,206.0,Texas,,PF,Greg Brown
+Donovan Williams,2547,nba,,True,,23.0,2001-09-06,FA,,1.0,,78.0,190.0,UNLV,,PG,Donovan Williams
+Jarrett Jack,1052,nba,,True,,41.0,1983-10-28,FA,,13.0,,75.0,200.0,Georgia Tech,,PG,Jarrett Jack
+Nick Johnson,1538,nba,,True,,31.0,1992-12-22,FA,,1.0,,75.0,200.0,Arizona,,SG,Nick Johnson
+Quinn Cook,1709,nba,,True,,31.0,1993-03-23,FA,,5.0,,73.0,180.0,Duke,,PG,Quinn Cook
+Zeke Nnaji,2164,nba,22.0,True,C,23.0,2001-01-09,ACT,,4.0,4.0,81.0,240.0,Arizona,DEN,PF,Zeke Nnaji
+Justin Holiday,1503,nba,,True,,35.0,1989-04-05,FA,,10.0,,78.0,180.0,Washington,,SG,Justin Holiday
+Vincent Valerio-Bodon,2675,nba,,True,,23.0,2001-05-02,M-LEAGUE,,1.0,,81.0,205.0,,,PF,Vincent Valerio-Bodon
+Zavier Simpson,2170,nba,,True,,27.0,1997-02-11,TWO-WAY,,1.0,,72.0,190.0,Michigan,,PG,Zavier Simpson
+Cliff Alexander,1654,nba,,True,,29.0,1995-11-16,FA,,1.0,,80.0,245.0,Kansas,,PF,Cliff Alexander
+Jamal Murray,1747,nba,27.0,True,PG,27.0,1997-02-23,ACT,,7.0,1.0,76.0,215.0,Kentucky,DEN,PG,Jamal Murray
+Cameron Payne,1651,nba,1.0,True,PG,30.0,1994-08-08,ACT,,9.0,2.0,75.0,183.0,Murray State,NYK,PG,Cameron Payne
+Chase-DUP Audiege-DUP,2682,nba,,True,,,,DUP,,0.0,,76.0,200.0,Northwestern,,PG,Chase-DUP Audiege-DUP
+Deng Adel,1889,nba,,True,,27.0,1997-02-01,FA,,1.0,,79.0,200.0,Louisville,,SF,Deng Adel
+Devin Vassell,2146,nba,24.0,True,SG,24.0,2000-08-23,ACT,,4.0,1.0,77.0,205.0,Florida State,SAS,SG,Devin Vassell
+Dewayne Dedmon,1091,nba,14.0,True,,35.0,1989-08-12,FA,,9.0,,82.0,245.0,USC,,C,Dewayne Dedmon
+Mychal Mulder,2114,nba,,True,,30.0,1994-06-12,FA,,3.0,,75.0,195.0,Kentucky,,SF,Mychal Mulder
+Hamidou Diallo,1979,nba,,True,,26.0,1998-07-31,FA,,5.0,,77.0,202.0,Kentucky,,SG,Hamidou Diallo
+Thaddeus Young,1104,nba,,True,,36.0,1988-06-21,FA,,17.0,,80.0,225.0,Georgia Tech,,PF,Thaddeus Young
+Kalin Lucas,1529,nba,,True,,35.0,1989-05-24,FA,,2.0,,73.0,195.0,Michigan State,,PG,Kalin Lucas
+Simone Fontecchio,2497,nba,19.0,True,PF,28.0,1995-12-09,ACT,,2.0,2.0,79.0,209.0,,DET,SF,Simone Fontecchio
+Matt Coleman,2372,nba,,True,,26.0,1998-01-22,FA,,1.0,,74.0,180.0,Texas,,PG,Matt Coleman
+Cam Thomas,2278,nba,24.0,True,SG,23.0,2001-10-13,ACT,,3.0,1.0,75.0,210.0,LSU,BKN,SG,Cam Thomas
+Tristan Da Silva,2711,nba,23.0,True,PF,23.0,2001-05-15,ACT,,0.0,1.0,81.0,220.0,Colorado,ORL,PF,Tristan Da Silva
+Tayshaun Prince,1202,nba,,False,,44.0,1980-02-28,RET,,14.0,,81.0,215.0,Kentucky,,SF,Tayshaun Prince
+Landry Fields,1316,nba,,False,,36.0,1988-06-27,RET,,5.0,,79.0,215.0,Stanford,,SG,Landry Fields
+Bam Adebayo,1846,nba,13.0,True,C,27.0,1997-07-18,ACT,,7.0,1.0,81.0,255.0,Kentucky,MIA,C,Bam Adebayo
+Ayo Dosunmu,2255,nba,11.0,True,SG,24.0,2000-01-17,ACT,,3.0,2.0,77.0,200.0,Illinois,CHI,SG,Ayo Dosunmu
+Damyean Dotson,1756,nba,,True,,30.0,1994-05-06,FA,,4.0,,77.0,210.0,Houston,,SG,Damyean Dotson
+Tyler Cook,2003,nba,,True,,27.0,1997-09-23,FA,,3.0,,80.0,255.0,Iowa,,PF,Tyler Cook
+Isaiah Wong,2594,nba,,True,,23.0,2001-01-28,FA,,1.0,,75.0,185.0,Miami (FL),,PG,Isaiah Wong
+Sharife Cooper,2283,nba,,True,,23.0,2001-06-11,FA,,1.0,,73.0,176.0,Auburn,,PG,Sharife Cooper
+Tyrone Wallace,1837,nba,,True,,30.0,1994-06-10,FA,,3.0,,77.0,198.0,California,,SG,Tyrone Wallace
+Josh Childress,1270,nba,,False,,41.0,1983-06-20,RET,,8.0,,80.0,210.0,Stanford,,SF,Josh Childress
+Nate Roberts,2698,nba,,True,,24.0,2000-02-28,FA,,0.0,,83.0,235.0,Washington,,C,Nate Roberts
+Jerrelle Benimon,1560,nba,,True,,33.0,1991-08-01,FA,,1.0,,80.0,245.0,Towson,,PF,Jerrelle Benimon
+Jaylen Adams,1939,nba,,True,,28.0,1996-05-04,FA,,2.0,,72.0,225.0,St. Bonaventure,,PG,Jaylen Adams
+Greg Oden,1364,nba,,False,,36.0,1988-01-22,RET,,3.0,,84.0,273.0,Ohio State,,C,Greg Oden
+Jared McCain,2713,nba,20.0,True,SG,20.0,2004-02-20,ACT,,0.0,1.0,74.0,203.0,Duke,PHI,PG,Jared McCain
+Alan Anderson,1166,nba,,False,,42.0,1982-10-16,RET,,8.0,,78.0,220.0,Michigan State,,SF,Alan Anderson
+Keshad Johnson,2767,nba,16.0,True,PF,23.0,2001-06-23,TWO-WAY,,0.0,7.0,79.0,225.0,Arizona,MIA,PF,Keshad Johnson
+Carlton Carrington,2715,nba,8.0,True,PG,19.0,2005-07-21,ACT,,0.0,2.0,76.0,195.0,Pittsburgh,WAS,PG,Carlton Carrington
+Samson Froling,2814,nba,,True,,24.0,2000-02-09,FA,,0.0,,84.0,230.0,,,C,Samson Froling
+Patty Mills,1305,nba,8.0,True,PG,36.0,1988-08-11,ACT,,15.0,3.0,74.0,180.0,Saint Mary's (CA),UTA,PG,Patty Mills
+Keenan Evans,1908,nba,,True,,28.0,1996-08-23,FA,,1.0,,75.0,190.0,Texas Tech,,PG,Keenan Evans
+Scoot Henderson,2620,nba,0.0,True,PG,20.0,2004-02-03,ACT,,1.0,2.0,75.0,202.0,,POR,PG,Scoot Henderson
+Nemanja Dangubic,2832,nba,,True,,31.0,1993-04-13,M-LEAGUE,,1.0,,80.0,193.0,,,SG,Nemanja Dangubic
+Moritz Wagner,1932,nba,21.0,True,C,27.0,1997-04-26,ACT,,6.0,2.0,83.0,245.0,Michigan,ORL,C,Moritz Wagner
+Jarkel Joiner,2702,nba,,True,,25.0,1999-05-20,FA,,1.0,,73.0,180.0,North Carolina State,,PG,Jarkel Joiner
+Justin Edwards,2748,nba,19.0,True,SF,20.0,2003-12-16,TWO-WAY,,0.0,8.0,80.0,203.0,Kentucky,PHI,PG,Justin Edwards
+M.J. Walker,2340,nba,,True,,26.0,1998-03-28,FA,,1.0,,77.0,213.0,Florida State,,SG,M.J. Walker
+Brian Bowen,2011,nba,,True,,26.0,1998-10-02,FA,,2.0,,79.0,199.0,,,SG,Brian Bowen
+Josh Oduro,2871,nba,,True,,24.0,2000-10-14,FA,,0.0,,81.0,240.0,Providence,,PF,Josh Oduro
+Luka Doncic,1970,nba,77.0,True,PG,25.0,1999-02-28,ACT,,6.0,1.0,79.0,230.0,,DAL,PG,Luka Doncic
+Justin Champagnie,2324,nba,9.0,True,SF,23.0,2001-06-29,TWO-WAY,,3.0,5.0,78.0,206.0,Pittsburgh,WAS,SF,Justin Champagnie
+Jarnell Stokes,1533,nba,,True,,30.0,1994-01-07,FA,,3.0,,81.0,255.0,Tennessee,,PF,Jarnell Stokes
+Omari Moore,2630,nba,,True,,24.0,2000-09-18,FA,,1.0,,78.0,195.0,San Jose State,,SG,Omari Moore
+Shane Edwards,1049,nba,,True,,30.0,1994-05-31,FA,,1.0,,79.0,220.0,Little Rock,,PF,Shane Edwards
+Hedo Turkoglu,1337,nba,,False,,45.0,1979-03-19,RET,,15.0,,82.0,220.0,,,SF,Hedo Turkoglu
+Lindell Wigginton,2407,nba,,True,,26.0,1998-03-28,FA,,2.0,,73.0,189.0,Iowa State,,PG,Lindell Wigginton
+Ade Murkey,2222,nba,,True,,26.0,1998-01-29,FA,,1.0,,77.0,200.0,Denver,,SG,Ade Murkey
+Emanuel Terry,1960,nba,,True,,28.0,1996-08-21,FA,,1.0,,81.0,220.0,Lincoln Memorial (TN),,C,Emanuel Terry
+Malevy Leons,2855,nba,,True,,25.0,1999-09-23,FA,,0.0,,81.0,201.0,Bradley,,PF,Malevy Leons
+Chimezie Metu,1952,nba,,True,,27.0,1997-03-22,FA,,5.0,,82.0,225.0,USC,,PF,Chimezie Metu
+Chris Paul,1339,nba,3.0,True,PG,39.0,1985-05-06,ACT,,19.0,1.0,72.0,190.0,Wake Forest,SAS,PG,Chris Paul
+Anthony Davis,1272,nba,3.0,True,C,31.0,1993-03-11,ACT,,12.0,1.0,82.0,268.0,Kentucky,LAL,PF,Anthony Davis
+Rudy Gobert,1350,nba,27.0,True,C,32.0,1992-06-26,ACT,,11.0,1.0,85.0,250.0,,MIN,C,Rudy Gobert
+Kirk Hinrich,1004,nba,,False,,43.0,1981-01-02,RET,,13.0,,76.0,190.0,Kansas,,PG,Kirk Hinrich
+Gabriel Deck,2250,nba,,True,,29.0,1995-02-08,FA,,1.0,,78.0,231.0,,,PF,Gabriel Deck
+Andrew White,1814,nba,,True,,31.0,1993-06-16,FA,,1.0,,79.0,210.0,Syracuse,,SF,Andrew White
+Nate Wolters,1381,nba,,True,,33.0,1991-05-15,FA,,3.0,,76.0,190.0,South Dakota State,,PG,Nate Wolters
+Juancho Hernangomez,1748,nba,,True,,29.0,1995-09-28,FA,,6.0,,81.0,214.0,,,PF,Juancho Hernangomez
+Joel Ayayi,2315,nba,,True,,24.0,2000-03-05,FA,,1.0,,76.0,180.0,Gonzaga,,PG,Joel Ayayi
+Damian Jones,1673,nba,,True,,29.0,1995-06-30,FA,,7.0,,82.0,245.0,Vanderbilt,,C,Damian Jones
+Trey Murphy,2285,nba,25.0,True,PF,24.0,2000-06-18,ACT,,3.0,1.0,80.0,206.0,Virginia,NOP,SF,Trey Murphy
+Aaron Nesmith,2144,nba,23.0,True,PF,25.0,1999-10-16,ACT,,4.0,6.0,78.0,215.0,Vanderbilt,IND,SF,Aaron Nesmith
+Royce White,1456,nba,,True,,33.0,1991-04-10,FA,,1.0,,80.0,260.0,Iowa State,,PF,Royce White
+Marvin Bagley,1986,nba,35.0,True,C,25.0,1999-03-14,ACT,,6.0,3.0,82.0,235.0,Duke,WAS,PF,Marvin Bagley
+Tyrese Martin,2469,nba,13.0,True,SF,25.0,1999-03-07,TWO-WAY,,1.0,5.0,78.0,215.0,UConn,BKN,PG,Tyrese Martin
+Ray McCallum,1460,nba,,True,,33.0,1991-06-12,FA,,3.0,,75.0,190.0,Detroit Mercy,,PG,Ray McCallum
+Ty-Shon Alexander,2198,nba,,True,,26.0,1998-07-16,FA,,1.0,,75.0,195.0,Creighton,,SG,Ty-Shon Alexander
+Kelan Martin,2038,nba,,True,,29.0,1995-08-03,FA,,2.0,,77.0,230.0,Butler,,SF,Kelan Martin
+Malaki Branham,2452,nba,22.0,True,SF,21.0,2003-05-12,ACT,,2.0,3.0,77.0,205.0,Ohio State,SAS,PG,Malaki Branham
+Allonzo Trier,1888,nba,,True,,28.0,1996-01-17,FA,,1.0,,76.0,200.0,Arizona,,PG,Allonzo Trier
+Nick Calathes,1211,nba,,True,,35.0,1989-02-07,FA,,2.0,,78.0,213.0,Florida,,SG,Nick Calathes
+Ariel Hukporti,2743,nba,55.0,True,C,22.0,2002-04-12,ACT,,0.0,3.0,83.0,246.0,,NYK,C,Ariel Hukporti
+Rawle Alkins,1884,nba,,True,,27.0,1997-10-29,FA,,1.0,,77.0,225.0,Arizona,,SG,Rawle Alkins
+John Butler,2533,nba,,True,,21.0,2002-12-04,FA,,1.0,,84.0,190.0,Florida State,,PF,John Butler
+Duplicate Player,2560,nba,,False,,,,,,,,,,,,,Duplicate Player
+Kostas Antetokounmpo,1969,nba,,True,,27.0,1997-11-20,FA,,3.0,,82.0,200.0,Dayton,,PF,Kostas Antetokounmpo
+Jarrett Allen,1787,nba,31.0,True,C,26.0,1998-04-21,ACT,,7.0,1.0,81.0,243.0,Texas,CLE,C,Jarrett Allen
+Aleksej Pokusevski,2183,nba,,True,,22.0,2001-12-26,FA,,3.0,,84.0,210.0,,,PF,Aleksej Pokusevski
+Jaylen Sims,2516,nba,,True,,25.0,1998-12-11,FA,,1.0,,78.0,210.0,UNC Wilmington,,PG,Jaylen Sims
+Dante Exum,1555,nba,0.0,True,PG,29.0,1995-07-13,ACT,,8.0,7.0,77.0,214.0,,DAL,PG,Dante Exum
+Adam Mokoka,1996,nba,,True,,26.0,1998-07-18,FA,,2.0,,76.0,190.0,,,SG,Adam Mokoka
+Christian Koloko,2473,nba,10.0,True,C,24.0,2000-06-20,TWO-WAY,,1.0,3.0,84.0,230.0,Arizona,LAL,C,Christian Koloko
+Roman Sorkin,2799,nba,,True,,28.0,1996-08-11,FA,,0.0,,82.0,230.0,Oregon,,PF,Roman Sorkin
+Roger Mason,1366,nba,,False,,44.0,1980-09-10,RET,,10.0,,77.0,205.0,Virginia,,SG,Roger Mason
+Hamady Ndiaye,1465,nba,,True,,37.0,1987-01-12,FA,,2.0,,84.0,235.0,Rutgers,,C,Hamady Ndiaye
+Petr Cornelie,2367,nba,,True,,29.0,1995-07-26,FA,,1.0,,83.0,220.0,,,C,Petr Cornelie
+Charles Bediako,2668,nba,,True,,22.0,2002-03-10,FA,,1.0,,84.0,225.0,Alabama,,C,Charles Bediako
+Gabe Kalscheur,2696,nba,,True,,25.0,1999-06-10,FA,,0.0,,76.0,200.0,Iowa State,,PG,Gabe Kalscheur
+Antonio Blakeney,1755,nba,,True,,28.0,1996-10-04,FA,,2.0,,76.0,192.0,LSU,,SG,Antonio Blakeney
+Jules Bernard,2534,nba,,True,,24.0,2000-01-21,FA,,2.0,,78.0,205.0,UCLA,,PG,Jules Bernard
+Casper Ware,1094,nba,,True,,34.0,1990-01-17,FA,,1.0,,70.0,175.0,Long Beach State,,PG,Casper Ware
+Luke Avdalovic,2804,nba,,True,,26.0,1998-11-08,FA,,0.0,,77.0,190.0,Pacific,,PG,Luke Avdalovic
+Max Christie,2468,nba,12.0,True,SF,21.0,2003-02-10,ACT,,2.0,2.0,77.0,205.0,Michigan State,LAL,PG,Max Christie
+Tiago Splitter,1301,nba,,False,,39.0,1985-01-01,RET,,7.0,,83.0,245.0,,,C,Tiago Splitter
+Darius Johnson-Odom,1098,nba,,True,,35.0,1989-09-28,FA,,2.0,,74.0,204.0,Marquette,,SG,Darius Johnson-Odom
+Jaden Springer,2264,nba,44.0,True,SG,22.0,2002-09-25,ACT,,3.0,4.0,76.0,216.0,Tennessee,BOS,PG,Jaden Springer
+Tobias Harris,1487,nba,12.0,True,PF,32.0,1992-07-15,ACT,,13.0,1.0,80.0,226.0,Tennessee,DET,PF,Tobias Harris
+Joshua Primo,2287,nba,,True,,21.0,2002-12-24,FA,,2.0,,76.0,189.0,Alabama,,SF,Joshua Primo
+Andre Ingram,1802,nba,,True,,39.0,1985-11-19,FA,,1.0,,75.0,184.0,American,,SG,Andre Ingram
+Joe Johnson,1167,nba,,True,,43.0,1981-06-29,FA,,18.0,,79.0,240.0,Arkansas,,SF,Joe Johnson
+Makur Maker,2511,nba,,True,,24.0,2000-11-04,FA,,1.0,,82.0,232.0,Howard,,C,Makur Maker
+Domantas Sabonis,1739,nba,11.0,True,C,28.0,1996-05-03,ACT,,8.0,1.0,83.0,240.0,Gonzaga,SAC,PF,Domantas Sabonis
+De'Andre Hunter,2050,nba,12.0,True,PF,26.0,1997-12-02,ACT,,5.0,2.0,80.0,221.0,Virginia,ATL,SF,De'Andre Hunter
+Malcolm Delaney,1705,nba,,True,,35.0,1989-03-11,FA,,2.0,,75.0,190.0,Virginia Tech,,PG,Malcolm Delaney
+Stanley Umude,2535,nba,17.0,True,SG,25.0,1999-04-12,TWO-WAY,,2.0,8.0,78.0,210.0,Arkansas,MIL,PG,Stanley Umude
+Pedro Bradshaw,2785,nba,,True,,26.0,1998-10-19,FA,,0.0,,79.0,180.0,Bellarmine,,PF,Pedro Bradshaw
+JaKarr Sampson,1507,nba,,True,,31.0,1993-03-20,FA,,6.0,,79.0,214.0,St. John's,,SF,JaKarr Sampson
+Kenyon Martin,1037,nba,,False,,46.0,1977-12-30,RET,,15.0,,81.0,225.0,Cincinnati,,PF,Kenyon Martin
+Jabari Parker,1570,nba,,True,,29.0,1995-03-15,FA,,8.0,,79.0,245.0,Duke,,PF,Jabari Parker
+Justin Tillman,2399,nba,,True,,28.0,1996-02-02,FA,,1.0,,80.0,220.0,VCU,,SF,Justin Tillman
+Xavier Moon,2398,nba,,True,,29.0,1995-01-02,FA,,2.0,,72.0,165.0,Morehead State,,SG,Xavier Moon
+Omari Spellman,1942,nba,,True,,27.0,1997-07-21,FA,,2.0,,80.0,245.0,Villanova,,PF,Omari Spellman
+Miroslav Raduljica,1383,nba,,True,,36.0,1988-01-05,FA,,2.0,,84.0,250.0,,,C,Miroslav Raduljica
+Tyler Ulis,1737,nba,,True,,28.0,1996-01-05,FA,,3.0,,70.0,160.0,Kentucky,,PG,Tyler Ulis
+KJ McDaniels,1515,nba,,True,,31.0,1993-02-09,FA,,3.0,,78.0,205.0,Clemson,,SF,KJ McDaniels
+Tidjane Salaun,2736,nba,31.0,True,PF,19.0,2005-08-10,ACT,,0.0,2.0,81.0,207.0,,CHA,PF,Tidjane Salaun
+Jayson Tatum,1822,nba,0.0,True,PF,26.0,1998-03-03,ACT,,7.0,1.0,80.0,224.0,Duke,BOS,SF,Jayson Tatum
+Brandon Boston,2292,nba,11.0,True,SF,23.0,2001-11-28,TWO-WAY,,3.0,2.0,78.0,188.0,Kentucky,NOP,SG,Brandon Boston
+Paul Watson,2051,nba,,True,,29.0,1994-12-30,FA,,3.0,,78.0,210.0,Fresno State,,SF,Paul Watson
+Keita Bates-Diop,1921,nba,,True,,28.0,1996-01-23,FA,,6.0,,80.0,229.0,Ohio State,,PF,Keita Bates-Diop
+Kessler Edwards,2277,nba,20.0,True,SF,24.0,2000-08-09,TWO-WAY,,3.0,6.0,80.0,215.0,Pepperdine,DAL,SF,Kessler Edwards
+Bogdan Bogdanovic,1871,nba,13.0,True,SG,32.0,1992-08-18,ACT,,7.0,2.0,77.0,225.0,,ATL,SG,Bogdan Bogdanovic
+Jamaal Tinsley,1346,nba,,False,,46.0,1978-02-28,RET,,11.0,,75.0,188.0,Iowa State,,PG,Jamaal Tinsley
+Bryce Hamilton,2420,nba,,True,,24.0,2000-11-10,FA,,1.0,,76.0,205.0,UNLV,,SG,Bryce Hamilton
+DJ Burns,2774,nba,,True,,24.0,2000-10-13,NWT,,0.0,,81.0,275.0,North Carolina State,,PF,DJ Burns
+Jaron Blossomgame,1890,nba,,True,,31.0,1993-09-16,FA,,1.0,,80.0,220.0,Clemson,,SF,Jaron Blossomgame
+Darren Collison,1344,nba,,True,,37.0,1987-08-23,FA,,11.0,,72.0,175.0,UCLA,,PG,Darren Collison
+Chris Clemons,2046,nba,,True,,27.0,1997-07-23,FA,,1.0,,69.0,180.0,Campbell,,SG,Chris Clemons
+Malik Williams,2708,nba,,True,,26.0,1998-08-26,FA,,2.0,,83.0,250.0,Louisville,,C,Malik Williams
+Jahlil Tripp,2207,nba,,True,,27.0,1997-09-22,FA,,1.0,,77.0,215.0,Pacific,,PF,Jahlil Tripp
+Jordan Schakel,2371,nba,,True,,26.0,1998-06-13,FA,,1.0,,78.0,200.0,San Diego State,,SF,Jordan Schakel
+Corey Brewer,1183,nba,,False,,38.0,1986-03-05,RET,,13.0,,81.0,186.0,Florida,,SG,Corey Brewer
+George Hill,1072,nba,,True,,38.0,1986-05-04,FA,,14.0,,76.0,188.0,IUPUI,,PG,George Hill
+Jalen Johnson,2284,nba,1.0,True,PF,22.0,2001-12-18,ACT,,3.0,1.0,80.0,219.0,Duke,ATL,PF,Jalen Johnson
+Leandro Barbosa,1413,nba,,False,,42.0,1982-11-28,RET,,14.0,,75.0,194.0,,,SG,Leandro Barbosa
+Justin James,2103,nba,,True,,27.0,1997-01-24,FA,,2.0,,78.0,190.0,Wyoming,,SF,Justin James
+Jesse Edwards,2829,nba,14.0,True,C,24.0,2000-03-18,TWO-WAY,,0.0,6.0,84.0,237.0,West Virginia,MIN,C,Jesse Edwards
+Anthony Edwards,2133,nba,5.0,True,SG,23.0,2001-08-05,ACT,,4.0,1.0,76.0,230.0,Georgia,MIN,SG,Anthony Edwards
+Timofey Mozgov,1470,nba,,True,,38.0,1986-07-16,FA,,8.0,,85.0,275.0,,,C,Timofey Mozgov
+Skylar Mays,2137,nba,,True,,27.0,1997-09-05,FA,,3.0,,76.0,205.0,LSU,,SG,Skylar Mays
+Matt Mooney,2006,nba,,True,,29.0,1995-02-07,FA,,1.0,,75.0,199.0,Texas Tech,,SG,Matt Mooney
+Anthony Black,2590,nba,0.0,True,PG,20.0,2004-01-20,ACT,,1.0,2.0,79.0,200.0,Arkansas,ORL,PG,Anthony Black
+Ty Jerome,2090,nba,2.0,True,PG,27.0,1997-07-08,ACT,,5.0,2.0,77.0,195.0,Virginia,CLE,SG,Ty Jerome
+Jordan Tucker,2822,nba,,True,,26.0,1998-04-03,FA,,1.0,,79.0,210.0,Butler,,PF,Jordan Tucker
+Onyeka Okongwu,2136,nba,17.0,True,C,23.0,2000-12-11,ACT,,4.0,2.0,82.0,240.0,USC,ATL,C,Onyeka Okongwu
+Kevin Cross,2787,nba,,True,,24.0,2000-06-22,FA,,0.0,,80.0,240.0,Tulane,,PF,Kevin Cross
+James Johnson,1198,nba,16.0,True,PF,37.0,1987-02-20,ACT,,15.0,5.0,79.0,239.0,Wake Forest,IND,PF,James Johnson
+John Wall,1116,nba,,True,,34.0,1990-09-06,FA,,10.0,,75.0,210.0,Kentucky,,PG,John Wall
+Meyers Leonard,1443,nba,,True,,32.0,1992-02-27,FA,,9.0,,84.0,260.0,Illinois,,C,Meyers Leonard
+Johnathan Williams,1930,nba,,True,,29.0,1995-05-22,FA,,2.0,,81.0,228.0,Gonzaga,,PF,Johnathan Williams
+Kenneth Lofton,2415,nba,,True,,22.0,2002-08-14,FA,,2.0,,78.0,275.0,Louisiana Tech,,PF,Kenneth Lofton
+Patric Young,1543,nba,,True,,32.0,1992-02-01,FA,,0.0,,81.0,240.0,Florida,,PF,Patric Young
+Dzanan Musa,1917,nba,,True,,25.0,1999-05-08,FA,,2.0,,81.0,217.0,,,SF,Dzanan Musa
+Sacha Killeya-Jones,2506,nba,,True,,26.0,1998-08-10,FA,,1.0,,83.0,220.0,Kentucky,,PF,Sacha Killeya-Jones
+Ahmad Caver,2241,nba,,True,,28.0,1996-09-12,FA,,1.0,,74.0,174.0,Old Dominion,,PG,Ahmad Caver
+Bobi Klintman,2837,nba,34.0,True,PF,21.0,2003-03-06,ACT,,0.0,4.0,81.0,225.0,Wake Forest,DET,SF,Bobi Klintman
+Charles Cooke,1819,nba,,True,,30.0,1994-07-01,FA,,1.0,,77.0,196.0,Dayton,,SG,Charles Cooke
+C.J. Miles,1050,nba,,True,,37.0,1987-03-18,FA,,16.0,,78.0,220.0,,,SG,C.J. Miles
+Eli Brooks,2554,nba,,True,,26.0,1998-10-14,FA,,1.0,,73.0,185.0,Michigan,,PG,Eli Brooks
+Alex Poythress,1678,nba,,True,,31.0,1993-09-06,FA,,3.0,,81.0,235.0,Kentucky,,PF,Alex Poythress
+James Harden,1240,nba,1.0,True,PG,35.0,1989-08-26,ACT,,15.0,1.0,77.0,220.0,Arizona State,LAC,SG,James Harden
+Khris Middleton,1378,nba,22.0,True,SG,33.0,1991-08-12,ACT,,12.0,1.0,79.0,222.0,Texas A&M,MIL,SF,Khris Middleton
+Jaylin Galloway,2706,nba,,True,,21.0,2002-12-21,FA,,1.0,,79.0,190.0,,,SF,Jaylin Galloway
+Sergey Karasev,1046,nba,,True,,31.0,1993-10-26,FA,,3.0,,79.0,208.0,,,SG,Sergey Karasev
+Dwight Howard,1241,nba,,True,,38.0,1985-12-08,FA,,18.0,,82.0,265.0,,,C,Dwight Howard
+Aamir Simms,2338,nba,,True,,25.0,1999-02-17,FA,,1.0,,80.0,245.0,Clemson,,PF,Aamir Simms
+Jake Stephens,2701,nba,,True,,25.0,1999-11-05,M-LEAGUE,,1.0,,84.0,275.0,Chattanooga,,C,Jake Stephens
+DeJon Jarreau,2346,nba,77.0,True,,26.0,1998-01-23,FA,,1.0,,77.0,185.0,Houston,,SG,DeJon Jarreau
+Malachi Smith,2703,nba,,True,,24.0,1999-12-06,FA,,1.0,,76.0,205.0,Gonzaga,,SG,Malachi Smith
+Jaden Hardy,2485,nba,1.0,True,PG,22.0,2002-07-05,ACT,,2.0,2.0,76.0,198.0,,DAL,PG,Jaden Hardy
+D.J. White,1145,nba,,False,,38.0,1986-08-31,RET,,6.0,,81.0,250.0,Indiana,,PF,D.J. White
+Orlando Robinson,2414,nba,77.0,True,C,24.0,2000-07-10,ACT,,2.0,4.0,82.0,235.0,Fresno State,SAC,C,Orlando Robinson
+Nemanja Bjelica,1612,nba,,False,,36.0,1988-05-09,RET,,7.0,,81.0,234.0,,,C,Nemanja Bjelica
+Riley Minix,2807,nba,27.0,True,PF,24.0,2000-09-22,TWO-WAY,,0.0,8.0,79.0,230.0,Morehead State,SAS,SF,Riley Minix
+Caron Butler,1384,nba,,False,,44.0,1980-03-13,RET,,14.0,,79.0,228.0,UConn,,SF,Caron Butler
+Keyonte George,2580,nba,3.0,True,PG,21.0,2003-11-08,ACT,,1.0,1.0,76.0,185.0,Baylor,UTA,PG,Keyonte George
+Jordan McLaughlin,2037,nba,3.0,True,PG,28.0,1996-04-09,ACT,,5.0,3.0,72.0,185.0,USC,SAC,PG,Jordan McLaughlin
+Charles Pride,2790,nba,,True,,25.0,1999-09-22,FA,,0.0,,76.0,200.0,St. Bonaventure,,PG,Charles Pride
+Matt Williams,1847,nba,,True,,31.0,1993-10-14,FA,,1.0,,77.0,210.0,UCF,,SG,Matt Williams
+Kendall Brown,2462,nba,,True,,21.0,2003-05-11,FA,,2.0,,80.0,205.0,Baylor,,PG,Kendall Brown
+Matt Bonner,1302,nba,,False,,44.0,1980-04-05,RET,,12.0,,82.0,235.0,Florida,,C,Matt Bonner
+Derrick Williams,1190,nba,,True,,33.0,1991-05-25,FA,,7.0,,80.0,240.0,Arizona,,PF,Derrick Williams
+Josh Giddey,2313,nba,3.0,True,PG,22.0,2002-10-10,ACT,,3.0,1.0,80.0,216.0,,CHI,SG,Josh Giddey
+Shawn Marion,1405,nba,,False,,46.0,1978-05-07,RET,,16.0,,79.0,228.0,UNLV,,SF,Shawn Marion
+Dru Smith,2360,nba,12.0,True,PG,26.0,1997-12-30,TWO-WAY,,2.0,5.0,74.0,203.0,Missouri,MIA,SG,Dru Smith
+Ty Lawson,1474,nba,,True,,37.0,1987-11-03,FA,,9.0,,71.0,195.0,North Carolina,,PG,Ty Lawson
+Deonte Burton,1981,nba,,True,,30.0,1994-01-31,FA,,3.0,,76.0,240.0,Iowa State,,SF,Deonte Burton
+Jordan Hill,1222,nba,,False,,37.0,1987-07-27,RET,,8.0,,82.0,240.0,Arizona,,PF,Jordan Hill
+Zaccharie Risacher,2737,nba,10.0,True,SF,19.0,2005-04-08,ACT,,0.0,1.0,81.0,215.0,,ATL,PF,Zaccharie Risacher
+Saddiq Bey,2131,nba,14.0,True,SF,25.0,1999-04-09,ACT,,4.0,9.0,79.0,215.0,Villanova,WAS,SF,Saddiq Bey
+Kahlil Whitney,2211,nba,,True,,23.0,2001-01-08,FA,,1.0,,78.0,210.0,Kentucky,,SF,Kahlil Whitney
+Damjan Rudez,1502,nba,,False,,38.0,1986-06-17,RET,,3.0,,82.0,228.0,,,SF,Damjan Rudez
+Brandon Davies,1099,nba,,True,,33.0,1991-07-25,FA,,2.0,,82.0,240.0,BYU,,PF,Brandon Davies
+Xavier Silas,1820,nba,,False,,36.0,1988-01-22,RET,,2.0,,77.0,198.0,Northern Illinois,,SG,Xavier Silas
+Galen Robinson,2843,nba,,True,,27.0,1997-03-31,FA,,1.0,,73.0,190.0,Houston,,PG,Galen Robinson
+Caleb Daniels,2629,nba,,True,,25.0,1999-05-17,FA,,1.0,,76.0,210.0,Villanova,,SG,Caleb Daniels
+EJ Onu,2342,nba,,True,,25.0,1999-07-31,FA,,1.0,,83.0,230.0,Shawnee State,,PF,EJ Onu
+Julius Randle,1535,nba,30.0,True,PF,30.0,1994-11-29,ACT,,10.0,1.0,81.0,255.0,Kentucky,MIN,PF,Julius Randle
+Arinze Onuaku,1047,nba,,True,,37.0,1987-07-13,FA,,3.0,,81.0,255.0,Syracuse,,PF,Arinze Onuaku
+Chasson Randle,1668,nba,,True,,31.0,1993-02-05,FA,,4.0,,74.0,185.0,Stanford,,PG,Chasson Randle
+Javonte Green,2059,nba,4.0,True,PF,31.0,1993-07-23,ACT,,5.0,2.0,77.0,205.0,Radford,NOP,SF,Javonte Green
+Billy Preston,1891,nba,,True,,27.0,1997-10-26,FA,,1.0,,82.0,240.0,Kansas,,PF,Billy Preston
+AJ Johnson,2738,nba,77.0,True,SG,19.0,2004-12-01,ACT,,0.0,9.0,77.0,165.0,,MIL,PG,AJ Johnson
+Aaron Gray,1325,nba,,False,,39.0,1984-12-07,RET,,7.0,,84.0,270.0,Pittsburgh,,C,Aaron Gray
+James Bouknight,2273,nba,,True,,24.0,2000-09-18,FA,,2.0,,76.0,190.0,UConn,,SG,James Bouknight
+Dereck Lively,2584,nba,2.0,True,C,20.0,2004-02-12,ACT,,1.0,1.0,85.0,234.0,Duke,DAL,C,Dereck Lively
+Marco Belinelli,1295,nba,,True,,38.0,1986-03-25,FA,,13.0,,77.0,220.0,,,SG,Marco Belinelli
+Dwight Buycks,1327,nba,,True,,35.0,1989-03-06,FA,,3.0,,75.0,190.0,Marquette,,PG,Dwight Buycks
+Jamel Artis,1880,nba,,True,,31.0,1993-01-12,FA,,1.0,,79.0,213.0,Pittsburgh,,SF,Jamel Artis
+Kentavious Caldwell-Pope,1141,nba,3.0,True,SG,31.0,1993-02-18,ACT,,11.0,1.0,77.0,204.0,Georgia,ORL,SG,Kentavious Caldwell-Pope
+Anzejs Pasecniks,2022,nba,,True,,28.0,1995-12-20,FA,,2.0,,85.0,229.0,,,C,Anzejs Pasecniks
+Semi Ojeleye,1826,nba,,True,,29.0,1994-12-05,FA,,4.0,,78.0,240.0,SMU,,PF,Semi Ojeleye
+James Michael McAdoo,1504,nba,,True,,31.0,1993-01-04,FA,,4.0,,81.0,230.0,North Carolina,,PF,James Michael McAdoo
+Trayvon Palmer,2401,nba,,True,,30.0,1994-11-13,FA,,1.0,,78.0,200.0,Chicago State,,SG,Trayvon Palmer
+Marcus Paige,1782,nba,,True,,31.0,1993-09-11,FA,,1.0,,72.0,164.0,North Carolina,,PG,Marcus Paige
+Duncan Robinson,1961,nba,55.0,True,SG,30.0,1994-04-22,ACT,,6.0,2.0,79.0,215.0,Michigan,MIA,SF,Duncan Robinson
+Julyan Stone,1311,nba,,True,,35.0,1988-12-07,FA,,4.0,,78.0,200.0,UTEP,,SG,Julyan Stone
+Terquavion Smith,2635,nba,,True,,21.0,2002-12-31,FA,,2.0,,76.0,160.0,North Carolina State,,PG,Terquavion Smith
+Tarik Black,1537,nba,,True,,33.0,1991-11-22,FA,,4.0,,81.0,250.0,Kansas,,PF,Tarik Black
+Jarron Cumberland,2396,nba,,True,,27.0,1997-09-22,FA,,1.0,,77.0,205.0,Cincinnati,,SG,Jarron Cumberland
+Isaiah Taylor,1701,nba,,True,,30.0,1994-07-11,FA,,2.0,,75.0,170.0,Texas,,PG,Isaiah Taylor
+Darrun Hilliard,1606,nba,,True,,31.0,1993-04-13,FA,,3.0,,78.0,220.0,Villanova,,SF,Darrun Hilliard
+Isaiah Thomas,1463,nba,,True,,35.0,1989-02-07,FA,,12.0,,69.0,185.0,Washington,,PG,Isaiah Thomas
+Markquis Nowell,2636,nba,,True,,24.0,1999-12-25,FA,,2.0,,67.0,160.0,Kansas State,,SG,Markquis Nowell
+Yannick Nzosa,2489,nba,,True,,21.0,2003-11-15,FA,,1.0,,82.0,195.0,,,C,Yannick Nzosa
+Jordan Poole,2012,nba,13.0,True,PG,25.0,1999-06-19,ACT,,5.0,1.0,76.0,194.0,Michigan,WAS,SG,Jordan Poole
+Amen Thompson,2574,nba,1.0,True,SF,21.0,2003-01-30,ACT,,1.0,2.0,79.0,215.0,,HOU,PG,Amen Thompson
+Steve Blake,1090,nba,,False,,44.0,1980-02-26,RET,,13.0,,75.0,172.0,Maryland,,PG,Steve Blake
+T.J. McConnell,1602,nba,9.0,True,PG,32.0,1992-03-25,ACT,,9.0,2.0,74.0,190.0,Arizona,IND,PG,T.J. McConnell
+Eric Demers,2548,nba,,True,,27.0,1997-03-12,FA,,1.0,,73.0,190.0,Gordon College (MA),,PG,Eric Demers
+Tyler Hall,2379,nba,,True,,27.0,1997-03-25,FA,,1.0,,77.0,210.0,Montana State,,SG,Tyler Hall
+Cole Aldrich,1021,nba,,True,,36.0,1988-10-31,FA,,8.0,,83.0,253.0,Kansas,,C,Cole Aldrich
+Damien Inglis,1569,nba,,True,,29.0,1995-05-20,FA,,1.0,,80.0,245.0,,,PF,Damien Inglis
+Nikola Topic,2734,nba,44.0,True,PG,19.0,2005-08-10,ACT,,0.0,6.0,78.0,201.0,,OKC,PG,Nikola Topic
+Rashad Vaughn,1645,nba,,True,,28.0,1996-08-16,FA,,3.0,,78.0,210.0,UNLV,,SG,Rashad Vaughn
+Mason Jones,2203,nba,8.0,True,SG,26.0,1998-07-21,TWO-WAY,,3.0,7.0,76.0,190.0,Arkansas,SAC,SG,Mason Jones
+Jeff Adrien,1159,nba,,True,,38.0,1986-02-10,FA,,5.0,,79.0,245.0,UConn,,SF,Jeff Adrien
+David West,1059,nba,,False,,44.0,1980-08-29,RET,,15.0,,81.0,250.0,Xavier,,PF,David West
+Georgios Papagiannis,1744,nba,,True,,27.0,1997-07-03,FA,,2.0,,85.0,240.0,,,C,Georgios Papagiannis
+Pau Gasol,1217,nba,,False,,44.0,1980-07-06,RET,,18.0,,85.0,250.0,,,C,Pau Gasol
+Tyler Davis,1980,nba,,True,,27.0,1997-05-22,FA,,1.0,,82.0,266.0,Texas A&M,,C,Tyler Davis
+Toumani Camara,2613,nba,33.0,True,SF,24.0,2000-05-08,ACT,,1.0,1.0,79.0,226.0,Dayton,POR,PF,Toumani Camara
+Fred VanVleet,1717,nba,5.0,True,PG,30.0,1994-02-25,ACT,,8.0,1.0,72.0,193.0,Wichita State,HOU,PG,Fred VanVleet
+Patrick Baldwin,2436,nba,7.0,True,PF,22.0,2002-11-18,ACT,,2.0,4.0,81.0,220.0,Milwaukee,WAS,SF,Patrick Baldwin
+Nate Renfro,2377,nba,,True,,27.0,1996-12-11,FA,,1.0,,79.0,186.0,San Francisco,,SF,Nate Renfro
+Kyle Collinsworth,1855,nba,,True,,33.0,1991-10-03,FA,,1.0,,78.0,210.0,BYU,,SG,Kyle Collinsworth
+Kelly Oubre,1604,nba,9.0,True,SF,28.0,1995-12-09,ACT,,9.0,2.0,79.0,203.0,Kansas,PHI,SF,Kelly Oubre
+Jabari Brown,1536,nba,,True,,31.0,1992-12-18,FA,,1.0,,76.0,202.0,Missouri,,SG,Jabari Brown
+Josh Richardson,1644,nba,0.0,True,SG,31.0,1993-09-15,ACT,,9.0,4.0,77.0,200.0,Tennessee,MIA,SG,Josh Richardson
+Tre Scott,2243,nba,,True,,28.0,1996-11-25,FA,,1.0,,80.0,225.0,Cincinnati ,,PF,Tre Scott
+Damion James,1300,nba,,False,,37.0,1987-10-07,RET,,4.0,,79.0,225.0,Texas,,SF,Damion James
+LeBron James,1362,nba,23.0,True,PF,39.0,1984-12-30,ACT,,21.0,1.0,81.0,250.0,,LAL,PF,LeBron James
+Sheldon Mac,1683,nba,,True,,31.0,1992-12-21,FA,,1.0,,78.0,200.0,Miami (FL),,SG,Sheldon Mac
+Wendell Moore,2442,nba,14.0,True,PG,23.0,2001-09-18,ACT,,2.0,4.0,77.0,215.0,Duke,DET,PF,Wendell Moore
+Isaiah Crawford,2779,nba,24.0,True,PF,23.0,2001-11-01,TWO-WAY,,0.0,6.0,78.0,220.0,Louisiana Tech,SAC,PF,Isaiah Crawford
+Payton Pritchard,2142,nba,11.0,True,PG,26.0,1998-01-28,ACT,,4.0,2.0,74.0,211.0,Oregon,BOS,PG,Payton Pritchard
+Josiah-Jordan James,2813,nba,,True,,24.0,2000-09-05,FA,,0.0,,79.0,220.0,Tennessee,,PG,Josiah-Jordan James
+Julian Phillips,2592,nba,15.0,True,PF,21.0,2003-11-05,ACT,,1.0,2.0,80.0,198.0,Tennessee,CHI,PF,Julian Phillips
+Demetrius Jackson,1710,nba,,True,,30.0,1994-09-07,FA,,3.0,,73.0,201.0,Notre Dame,,PG,Demetrius Jackson
+Hugo Besson,2491,nba,,True,,23.0,2001-04-26,FA,,1.0,,78.0,180.0,,,PG,Hugo Besson
+Lou Williams,1246,nba,,False,,38.0,1986-10-27,RET,,17.0,,74.0,175.0,,,SG,Lou Williams
+Elfrid Payton,1586,nba,22.0,True,PG,30.0,1994-02-22,ACT,,7.0,2.0,75.0,195.0,Louisiana,NOP,PG,Elfrid Payton
+Zach Randolph,1210,nba,,False,,43.0,1981-07-16,RET,,17.0,,81.0,250.0,Michigan State,,PF,Zach Randolph
+David Roddy,2443,nba,8.0,True,PF,23.0,2001-03-27,ACT,,2.0,4.0,76.0,255.0,Colorado State,ATL,PG,David Roddy
+Henri Drell,2655,nba,,True,,24.0,2000-04-25,FA,,1.0,,80.0,185.0,,,SF,Henri Drell
+Javin DeLaurier,2210,nba,,True,,26.0,1998-04-07,FA,,1.0,,82.0,237.0,Duke,,PF,Javin DeLaurier
+Nate Sestina,2216,nba,,True,,27.0,1997-05-12,FA,,1.0,,81.0,234.0,Kentucky,,SF,Nate Sestina
+Blake Hinson,2777,nba,,True,,24.0,1999-12-26,FA,,0.0,,80.0,240.0,Pittsburgh,,PF,Blake Hinson
+Cole Swider,2429,nba,13.0,True,C,25.0,1999-05-08,TWO-WAY,,2.0,4.0,82.0,220.0,Syracuse,DET,SF,Cole Swider
+Javan Johnson,2674,nba,,True,,25.0,1999-01-05,FA,,1.0,,78.0,198.0,DePaul,,PF,Javan Johnson
+P.J. Washington,2029,nba,25.0,True,PF,26.0,1998-08-23,ACT,,5.0,1.0,79.0,230.0,Kentucky,DAL,PF,P.J. Washington
+Lester Hudson,1551,nba,,True,,40.0,1984-08-07,FA,,4.0,,75.0,190.0,Tennessee-Martin,,SG,Lester Hudson
+Ochai Agbaji,2434,nba,30.0,True,PF,24.0,2000-04-20,ACT,,2.0,1.0,77.0,215.0,Kansas,TOR,PG,Ochai Agbaji
+Bradley Beal,1128,nba,3.0,True,SF,31.0,1993-06-28,ACT,,12.0,1.0,75.0,207.0,Florida,PHX,SG,Bradley Beal
+Rodions Kurucs,1915,nba,,True,,26.0,1998-02-05,FA,,2.0,,81.0,228.0,,,SF,Rodions Kurucs
+Vince Hunter,1790,nba,,True,,30.0,1994-08-05,FA,,1.0,,80.0,216.0,UTEP,,PF,Vince Hunter
+Kennedy Chandler,2467,nba,,True,,22.0,2002-09-16,FA,,1.0,,71.0,170.0,Tennessee,,PG,Kennedy Chandler
+Darius McGhee,2650,nba,,True,,25.0,1999-06-02,FA,,1.0,,69.0,180.0,Liberty,,PG,Darius McGhee
+Ibi Watson,2387,nba,,True,,26.0,1998-01-06,FA,,1.0,,77.0,195.0,Dayton,,SG,Ibi Watson
+Reggie Bullock,1333,nba,,True,,33.0,1991-03-16,FA,,10.0,,78.0,205.0,North Carolina,,SF,Reggie Bullock
+Daniel Ochefu,1681,nba,,True,,30.0,1993-12-15,FA,,1.0,,83.0,245.0,Villanova,,PF,Daniel Ochefu
+De'Anthony Melton,1972,nba,8.0,True,PG,26.0,1998-05-28,ACT,,6.0,6.0,74.0,201.0,USC,GSW,PG,De'Anthony Melton
+Vlatko Cancar,2106,nba,31.0,True,C,27.0,1997-04-10,ACT,,4.0,6.0,80.0,236.0,,DEN,PF,Vlatko Cancar
+Tyrese Haliburton,2161,nba,0.0,True,PG,24.0,2000-02-29,ACT,,4.0,1.0,77.0,190.0,Iowa State,IND,PG,Tyrese Haliburton
+Evan Fournier,1475,nba,,True,,32.0,1992-10-29,FA,,11.0,,78.0,205.0,,,SG,Evan Fournier
+Maurice Harkless,1490,nba,,True,,31.0,1993-05-11,FA,,10.0,,79.0,220.0,St. John's,,SF,Maurice Harkless
+Dane Goodwin,2700,nba,,True,,24.0,1999-12-28,FA,,1.0,,78.0,208.0,Notre Dame,,SG,Dane Goodwin
+Max Fiedler,2820,nba,,True,,23.0,2001-02-26,FA,,0.0,,83.0,230.0,Rice,,PF,Max Fiedler
+Brandon Jennings,1139,nba,,True,,35.0,1989-09-23,FA,,9.0,,73.0,170.0,,,PG,Brandon Jennings
+Jaylen Nowell,2035,nba,,True,,25.0,1999-07-09,FA,,5.0,,76.0,201.0,Washington,,SG,Jaylen Nowell
+Grant Jerrett,1424,nba,,True,,31.0,1993-07-08,FA,,1.0,,82.0,235.0,Arizona,,PF,Grant Jerrett
+Marcus Smart,1546,nba,36.0,True,SG,30.0,1994-03-06,ACT,,10.0,2.0,75.0,220.0,Oklahoma State,MEM,PG,Marcus Smart
+Kevin McCullar,2741,nba,9.0,True,SF,23.0,2001-03-15,TWO-WAY,,0.0,7.0,78.0,210.0,Kansas,NYK,PG,Kevin McCullar
+Mike James,1818,nba,,True,,34.0,1990-08-18,FA,,2.0,,73.0,175.0,Lamar,,PG,Mike James
+Justin Anderson,1647,nba,,True,,31.0,1993-11-19,FA,,6.0,,78.0,230.0,Virginia,,SF,Justin Anderson
+Feron Hunt,2344,nba,,True,,25.0,1999-07-05,FA,,1.0,,80.0,195.0,SMU,,SF,Feron Hunt
+Bryce Dejean-Jones,1628,nba,,False,,32.0,1992-08-21,RET,,1.0,,78.0,210.0,Iowa State,,SG,Bryce Dejean-Jones
+Tim Quarterman,1742,nba,,True,,30.0,1994-10-27,FA,,1.0,,78.0,190.0,LSU,,SG,Tim Quarterman
+Ronnie Price,1480,nba,,False,,41.0,1983-06-21,RET,,12.0,,74.0,190.0,Utah Valley,,PG,Ronnie Price
+Rondae Hollis-Jefferson,1611,nba,,True,,29.0,1995-01-03,FA,,6.0,,78.0,217.0,Arizona,,SF,Rondae Hollis-Jefferson
+Spencer Hawes,1055,nba,,True,,36.0,1988-04-28,FA,,10.0,,85.0,245.0,Washington,,PF,Spencer Hawes
+Jack White,2500,nba,,True,,27.0,1997-08-05,FA,,1.0,,79.0,225.0,Duke,,SF,Jack White
+Anthony Morrow,1261,nba,,False,,39.0,1985-09-27,RET,,9.0,,77.0,210.0,Georgia Tech,,SG,Anthony Morrow
+Matt Barnes,1340,nba,,False,,44.0,1980-03-09,RET,,14.0,,79.0,226.0,UCLA,,SF,Matt Barnes
+,4732,nba,,,,,,,,,,,,,NYK,,
+Cameron Reynolds,1919,nba,,True,,29.0,1995-02-07,FA,,2.0,,79.0,225.0,Tulane,,SG,Cameron Reynolds
+Dario Saric,1674,nba,9.0,True,C,30.0,1994-04-08,ACT,,7.0,3.0,82.0,225.0,,DEN,PF,Dario Saric
+Antonius Cleveland,1808,nba,,True,,30.0,1994-02-02,FA,,1.0,,77.0,195.0,Southeast Missouri State,,SG,Antonius Cleveland
+Chandler Parsons,1233,nba,,False,,36.0,1988-10-25,RET,,9.0,,81.0,230.0,Florida,,SF,Chandler Parsons
+J.J. O'Brien,1639,nba,,True,,32.0,1992-04-08,FA,,1.0,,79.0,220.0,San Diego State,,SF,J.J. O'Brien
+Donovan Mitchell,1845,nba,45.0,True,SG,28.0,1996-09-07,ACT,,7.0,1.0,75.0,215.0,Louisville,CLE,SG,Donovan Mitchell
+Keyontae Johnson,2614,nba,,True,,24.0,2000-05-24,FA,,1.0,,76.0,230.0,Kansas State,,PF,Keyontae Johnson
+Dorell Wright,1452,nba,,False,,38.0,1985-12-02,RET,,12.0,,81.0,205.0,,,SF,Dorell Wright
+Steven Adams,1432,nba,12.0,True,C,31.0,1993-07-20,ACT,,10.0,2.0,83.0,265.0,Pittsburgh,HOU,C,Steven Adams
+Justin Robinson,2019,nba,,True,,27.0,1997-10-12,FA,,3.0,,73.0,195.0,Virginia Tech,,PG,Justin Robinson
+Jahmir Young,2846,nba,,True,,24.0,2000-10-10,FA,,0.0,,73.0,185.0,,,PG,Jahmir Young
+EJ Montgomery,2224,nba,,True,,25.0,1999-09-12,FA,,1.0,,82.0,228.0,Kentucky,,PF,EJ Montgomery
+LiAngelo Ball,2220,nba,,True,,26.0,1998-11-24,FA,,1.0,,77.0,230.0,UCLA,,SG,LiAngelo Ball
+Jarrod Uthoff,1734,nba,,True,,31.0,1993-05-19,FA,,2.0,,81.0,220.0,Iowa,,SF,Jarrod Uthoff
+Sasha Vezenkov,2410,nba,,True,,29.0,1995-08-06,FA,,2.0,,80.0,225.0,,,PF,Sasha Vezenkov
+Beno Udrih,1038,nba,,False,,42.0,1982-07-05,RET,,13.0,,75.0,205.0,,,PG,Beno Udrih
+DeAndre' Bembry,1706,nba,,True,,30.0,1994-07-04,FA,,6.0,,77.0,210.0,Saint Joseph's,,SF,DeAndre' Bembry
+Jacob Gilyard,2530,nba,,True,,26.0,1998-07-14,FA,,1.0,,68.0,160.0,Richmond,,PG,Jacob Gilyard
+Tyson Etienne,2495,nba,,True,,25.0,1999-09-17,FA,,1.0,,74.0,203.0,Wichita State,,PG,Tyson Etienne
+Nando De Colo,1309,nba,,True,,37.0,1987-06-23,FA,,2.0,,77.0,195.0,,,PG,Nando De Colo
+Erik Murphy,1012,nba,,True,,34.0,1990-10-26,FA,,1.0,,82.0,230.0,Florida,,PF,Erik Murphy
+Moses Moody,2262,nba,4.0,True,SG,22.0,2002-05-31,ACT,,3.0,3.0,77.0,215.0,Arkansas,GSW,SG,Moses Moody
+Deandre Ayton,1974,nba,2.0,True,C,26.0,1998-07-23,ACT,,6.0,1.0,84.0,247.0,Arizona,POR,C,Deandre Ayton
+Ben Bentil,1729,nba,,True,,29.0,1995-03-29,FA,,1.0,,81.0,235.0,Providence,,PF,Ben Bentil
+Trevor Booker,1118,nba,,False,,37.0,1987-11-25,RET,,8.0,,80.0,228.0,Clemson,,PF,Trevor Booker
+Tony Parker,1306,nba,,False,,42.0,1982-05-17,RET,,18.0,,74.0,185.0,,,PG,Tony Parker
+Tosan Evbuomwan,2670,nba,,True,,23.0,2001-02-16,FA,,1.0,,79.0,217.0,Princeton,,SF,Tosan Evbuomwan
+Brandon Clarke,2041,nba,15.0,True,C,28.0,1996-09-19,ACT,,5.0,1.0,80.0,215.0,Gonzaga,MEM,PF,Brandon Clarke
+Kyshawn George,2714,nba,18.0,True,PF,20.0,2003-12-12,ACT,,0.0,2.0,79.0,209.0,Miami (FL),WAS,PG,Kyshawn George
+Ryan Dunn,2710,nba,0.0,True,PF,21.0,2003-01-07,ACT,,0.0,2.0,80.0,220.0,Virginia,PHX,PG,Ryan Dunn
+Bobi Klintman DUPLICATE,2783,nba,,False,,,,,,,,,,,,,Bobi Klintman DUPLICATE
+Chase Budinger,1182,nba,,False,,36.0,1988-05-22,RET,,7.0,,79.0,215.0,Arizona,,SF,Chase Budinger
+Milos Teodosic,1839,nba,,True,,37.0,1987-03-19,FA,,1.0,,77.0,196.0,,,PG,Milos Teodosic
+Brandon Williams,2397,nba,10.0,True,PG,25.0,1999-11-22,TWO-WAY,,2.0,6.0,73.0,190.0,Arizona,DAL,PG,Brandon Williams
+Shaq Buchanan,2245,nba,,True,,27.0,1997-01-30,FA,,1.0,,75.0,190.0,Murray State,,PG,Shaq Buchanan
+Patrick Christopher,1558,nba,,False,,36.0,1988-06-03,RET,,1.0,,77.0,220.0,California,,SG,Patrick Christopher
+Cody Martin,2030,nba,11.0,True,SF,29.0,1995-09-28,ACT,,5.0,2.0,78.0,205.0,Nevada,CHA,SF,Cody Martin
+Drew Eubanks,1951,nba,15.0,True,C,27.0,1997-02-01,ACT,,6.0,2.0,82.0,245.0,Oregon State,UTA,C,Drew Eubanks
+Ismael Kamagate,2486,nba,,True,,23.0,2001-01-17,FA,,1.0,,83.0,220.0,,,C,Ismael Kamagate
+David Lee,1088,nba,,False,,41.0,1983-04-29,RET,,12.0,,81.0,245.0,Florida,,PF,David Lee
+Landers Nolley,2673,nba,,True,,24.0,2000-03-05,FA,,1.0,,79.0,220.0,Cincinnati,,SG,Landers Nolley
+Vince Williams,2466,nba,5.0,True,PF,24.0,2000-08-30,ACT,,2.0,6.0,76.0,205.0,VCU,MEM,PF,Vince Williams
+Cameron McGriff,2383,nba,,True,,27.0,1997-09-30,FA,,1.0,,79.0,230.0,Oklahoma State,,SF,Cameron McGriff
+Max Strus,1999,nba,1.0,True,PF,28.0,1996-03-28,ACT,,5.0,6.0,77.0,215.0,DePaul,CLE,SF,Max Strus
+Matthew Dellavedova,1057,nba,,True,,34.0,1990-09-08,FA,,8.0,,75.0,200.0,Saint Mary's (CA),,PG,Matthew Dellavedova
+Cleanthony Early,1495,nba,,True,,33.0,1991-04-17,FA,,2.0,,80.0,210.0,Wichita State,,SF,Cleanthony Early
+Elie Okobo,1973,nba,,True,,27.0,1997-10-23,FA,,1.0,,75.0,190.0,,,PG,Elie Okobo
+Daniss Jenkins,2776,nba,24.0,True,PG,23.0,2001-08-17,TWO-WAY,,0.0,5.0,75.0,165.0,St. John's,DET,PG,Daniss Jenkins
+Rob Edwards,2373,nba,,True,,27.0,1997-01-20,FA,,1.0,,77.0,205.0,Arizona State,,SG,Rob Edwards
+Michael Carter-Williams,1096,nba,,True,,33.0,1991-10-10,FA,,8.0,,78.0,205.0,Syracuse,,PG,Michael Carter-Williams
+Deni Avdija,2181,nba,8.0,True,SF,23.0,2001-01-03,ACT,,4.0,2.0,81.0,210.0,,POR,SF,Deni Avdija
+Sidy Cissoko,2622,nba,25.0,True,SG,20.0,2004-04-02,ACT,,1.0,6.0,78.0,220.0,,SAS,SF,Sidy Cissoko
+Jason Terry,1173,nba,,False,,47.0,1977-09-15,RET,,19.0,,74.0,185.0,Arizona,,PG,Jason Terry
+Glen Rice,1113,nba,,True,,33.0,1991-01-01,FA,,2.0,,78.0,206.0,Georgia Tech,,SG,Glen Rice
+Ziaire Williams,2280,nba,1.0,True,SG,23.0,2001-09-12,ACT,,3.0,2.0,81.0,185.0,Stanford,BKN,SG,Ziaire Williams
+Davon Reed,1858,nba,,True,,29.0,1995-06-11,FA,,3.0,,77.0,206.0,Miami (FL),,SG,Davon Reed
+Raymond Felton,1035,nba,,True,,40.0,1984-06-26,FA,,14.0,,73.0,205.0,North Carolina,,PG,Raymond Felton
+Derrick Alston,2361,nba,,True,,27.0,1997-09-17,FA,,1.0,,81.0,190.0,Boise State,,SG,Derrick Alston
+Onuralp Bitim,2645,nba,,True,,25.0,1999-03-31,FA,,2.0,,78.0,215.0,,,SG,Onuralp Bitim
+Chaundee Brown,2333,nba,,True,,25.0,1998-12-04,FA,,1.0,,77.0,215.0,Michigan,,SF,Chaundee Brown
+Ryan Kelly,1216,nba,,True,,33.0,1991-04-09,FA,,4.0,,83.0,230.0,Duke,,PF,Ryan Kelly
+Terrence Shannon,2716,nba,0.0,True,SG,24.0,2000-07-30,ACT,,0.0,5.0,78.0,217.0,Illinois,MIN,PG,Terrence Shannon
+Cory Jefferson,1521,nba,,True,,33.0,1990-12-26,FA,,2.0,,81.0,218.0,Baylor,,PF,Cory Jefferson
+Kevin Love,1187,nba,42.0,True,C,36.0,1988-09-07,ACT,,16.0,2.0,80.0,251.0,UCLA,MIA,PF,Kevin Love
+Elijah Harkless,2867,nba,,True,,24.0,2000-02-03,FA,,0.0,,75.0,195.0,UNLV,,PG,Elijah Harkless
+Diante Garrett,1360,nba,,True,,36.0,1988-11-03,FA,,2.0,,76.0,190.0,Iowa State,,PG,Diante Garrett
+Luke Travers,2487,nba,33.0,True,SF,23.0,2001-09-03,TWO-WAY,,1.0,6.0,79.0,207.0,,CLE,PG,Luke Travers
+Yves Missi,2720,nba,21.0,True,C,20.0,2004-05-14,ACT,,0.0,1.0,83.0,229.0,Baylor,NOP,C,Yves Missi
+Jeff Ayres,1310,nba,,True,,37.0,1987-04-29,FA,,6.0,,81.0,250.0,Arizona State,,PF,Jeff Ayres
+Isaiah Miller,2368,nba,,True,,26.0,1998-11-09,FA,,1.0,,72.0,180.0,UNC Greensboro,,SG,Isaiah Miller
+Tyler Dorsey,1812,nba,,True,,28.0,1996-02-18,FA,,2.0,,76.0,180.0,Oregon,,SG,Tyler Dorsey
+Noah Clowney,2571,nba,21.0,True,PF,20.0,2004-07-14,ACT,,1.0,2.0,81.0,210.0,Alabama,BKN,PF,Noah Clowney
+Jared Butler,2295,nba,4.0,True,PG,24.0,2000-08-25,TWO-WAY,,3.0,4.0,75.0,193.0,Baylor,WAS,SG,Jared Butler
+Amir Coffey,2075,nba,7.0,True,SF,27.0,1997-06-17,ACT,,5.0,2.0,79.0,210.0,Minnesota,LAC,SG,Amir Coffey
+David Johnson,2291,nba,,True,,23.0,2001-02-26,FA,,2.0,,76.0,203.0,Louisville,,PG,David Johnson
+Bryce Wills,2693,nba,,True,,24.0,2000-10-13,FA,,1.0,,78.0,200.0,Stanford,,SG,Bryce Wills
+Kyle Anderson,1548,nba,1.0,True,SF,31.0,1993-09-20,ACT,,10.0,2.0,81.0,250.0,UCLA,GSW,SF,Kyle Anderson
+Desmond Bane,2143,nba,22.0,True,SG,26.0,1998-06-25,ACT,,4.0,1.0,77.0,215.0,TCU,MEM,SG,Desmond Bane
+Nikola Jokic,1658,nba,15.0,True,C,29.0,1995-02-19,ACT,,9.0,1.0,83.0,284.0,,DEN,C,Nikola Jokic
+Trevor Ariza,1120,nba,,True,,39.0,1985-06-30,FA,,17.0,,80.0,215.0,UCLA,,SF,Trevor Ariza
+Jalen Green,2309,nba,4.0,True,SG,22.0,2002-02-09,ACT,,3.0,1.0,78.0,183.0,,HOU,SG,Jalen Green
+Axel Toupane,1659,nba,,True,,32.0,1992-07-23,FA,,3.0,,79.0,210.0,,,SF,Axel Toupane
+Denzel Mahoney,2378,nba,,True,,26.0,1998-01-18,FA,,1.0,,77.0,220.0,Creighton,,SG,Denzel Mahoney
+O.J. Mayo,1376,nba,,True,,37.0,1987-11-05,FA,,8.0,,77.0,210.0,USC,,SG,O.J. Mayo
+Joe Harris,1500,nba,,False,,33.0,1991-09-06,RET,,9.0,,78.0,220.0,Virginia,,SG,Joe Harris
+Will Magnay,2218,nba,,True,,26.0,1998-06-10,FA,,1.0,,82.0,234.0,Tulsa,,C,Will Magnay
+Santi Aldama,2281,nba,7.0,True,PF,23.0,2001-01-10,ACT,,3.0,2.0,84.0,215.0,Loyola (MD),MEM,PF,Santi Aldama
+Zylan Cheatham,2057,nba,,True,,29.0,1995-11-17,FA,,2.0,,77.0,220.0,Arizona State,,SF,Zylan Cheatham
+Jarell Eddie,1542,nba,,True,,33.0,1991-10-30,FA,,3.0,,79.0,218.0,Virginia Tech,,SG,Jarell Eddie
+Juwan Morgan,2080,nba,,True,,27.0,1997-04-17,FA,,4.0,,79.0,232.0,Indiana,,PF,Juwan Morgan
+Jordan Clarkson,1534,nba,0.0,True,SG,32.0,1992-06-07,ACT,,10.0,2.0,75.0,194.0,Missouri,UTA,SG,Jordan Clarkson
+Khalifa Diop,2483,nba,,True,,22.0,2002-01-15,FA,,1.0,,83.0,231.0,,,C,Khalifa Diop
+Patrick Gardner,2692,nba,,True,,25.0,1999-06-16,FA,,1.0,,83.0,245.0,Marist,,C,Patrick Gardner
+Branden Carlson,2781,nba,15.0,True,C,25.0,1999-06-14,ACT,,0.0,4.0,84.0,220.0,Utah,OKC,C,Branden Carlson
+Malcolm Miller,1833,nba,,True,,31.0,1993-03-06,FA,,3.0,,79.0,210.0,Holy Cross,,SG,Malcolm Miller
+Malcolm Brogdon,1727,nba,15.0,True,SG,31.0,1992-12-11,ACT,,8.0,1.0,76.0,229.0,Virginia,WAS,PG,Malcolm Brogdon
+Langston Galloway,1496,nba,,True,,32.0,1991-12-09,FA,,8.0,,73.0,200.0,Saint Joseph's,,SG,Langston Galloway
+Kai Jones,2271,nba,23.0,True,C,23.0,2001-01-19,TWO-WAY,,2.0,5.0,83.0,221.0,Texas,LAC,C,Kai Jones
+Patrick Patterson,1323,nba,,True,,35.0,1989-03-14,FA,,11.0,,80.0,235.0,Kentucky,,PF,Patrick Patterson
+Yante Maten,1962,nba,,True,,28.0,1996-08-14,FA,,1.0,,79.0,240.0,Georgia,,PF,Yante Maten
+Luke Ridnour,1146,nba,,False,,43.0,1981-02-13,RET,,12.0,,74.0,175.0,Oregon,,PG,Luke Ridnour
+Omri Casspi,1244,nba,,False,,36.0,1988-06-22,RET,,10.0,,81.0,225.0,,,SF,Omri Casspi
+Rakeem Christmas,1596,nba,,True,,32.0,1991-12-01,FA,,2.0,,81.0,250.0,Syracuse,,PF,Rakeem Christmas
+Dennis Schroder,1254,nba,17.0,True,PG,31.0,1993-09-15,ACT,,11.0,1.0,73.0,175.0,,BKN,PG,Dennis Schroder
+Damian Lillard,1444,nba,0.0,True,PG,34.0,1990-07-15,ACT,,12.0,1.0,74.0,195.0,Weber State,MIL,PG,Damian Lillard
+Luke Babbitt,1271,nba,,False,,35.0,1989-06-20,RET,,8.0,,81.0,225.0,Nevada,,SF,Luke Babbitt
+Jalen Slawson,2617,nba,,True,,25.0,1999-10-22,FA,,1.0,,79.0,215.0,Furman,,PF,Jalen Slawson
+Billy Garrett,1885,nba,,True,,30.0,1994-10-16,FA,,1.0,,78.0,215.0,DePaul,,SG,Billy Garrett
+Paolo Banchero,2458,nba,5.0,True,C,22.0,2002-11-12,ACT,,2.0,5.0,82.0,250.0,Duke,ORL,PF,Paolo Banchero
+Drew Gooden,1114,nba,,False,,43.0,1981-09-24,RET,,14.0,,82.0,250.0,Kansas,,PF,Drew Gooden
+Daniel Oturu,2132,nba,,True,,25.0,1999-09-20,FA,,1.0,,82.0,240.0,Minnesota,,C,Daniel Oturu
+Xavier Henry,1227,nba,,False,,33.0,1991-03-15,RET,,5.0,,78.0,220.0,Kansas,,SF,Xavier Henry
+Jeremy Evans,1345,nba,,True,,37.0,1987-10-24,FA,,7.0,,81.0,200.0,Western Kentucky,,SF,Jeremy Evans
+Chris Babb,1280,nba,,True,,34.0,1990-02-14,FA,,1.0,,77.0,225.0,Iowa State,,SG,Chris Babb
+Brad Wanamaker,1949,nba,,True,,35.0,1989-07-25,FA,,3.0,,75.0,210.0,Pittsburgh,,PG,Brad Wanamaker
+Tyreke Evans,1275,nba,,True,,35.0,1989-09-19,FA,,10.0,,78.0,220.0,Memphis,,SG,Tyreke Evans
+Josh Minott,2465,nba,8.0,True,SF,22.0,2002-11-25,ACT,,2.0,3.0,80.0,212.0,Memphis,MIN,PF,Josh Minott
+Nate Pierre-Louis,2544,nba,,True,,25.0,1998-12-23,FA,,1.0,,76.0,205.0,Temple,,PF,Nate Pierre-Louis
+James Ennis,1563,nba,,True,,34.0,1990-07-01,FA,,8.0,,78.0,215.0,Long Beach State,,PF,James Ennis
+Yongxi Cui,2839,nba,8.0,True,SF,21.0,2003-05-28,TWO-WAY,,0.0,7.0,77.0,190.0,,BKN,SG,Yongxi Cui
+Semaj Christon,1741,nba,,True,,32.0,1992-11-01,FA,,1.0,,75.0,190.0,Xavier,,PG,Semaj Christon
+Reggie Jackson,1427,nba,0.0,True,PG,34.0,1990-04-16,ACT,,13.0,5.0,74.0,208.0,Boston College,PHI,PG,Reggie Jackson
+Jordan Crawford,1076,nba,,False,,36.0,1988-10-23,RET,,6.0,,77.0,195.0,Xavier,,SG,Jordan Crawford
+Bruno Fernando,2048,nba,24.0,True,C,26.0,1998-08-15,ACT,,5.0,3.0,81.0,240.0,Maryland,TOR,C,Bruno Fernando
+Trey Mourning,2248,nba,,True,,29.0,1995-08-21,FA,,1.0,,81.0,220.0,Georgetown,,PF,Trey Mourning
+Norris Cole,1374,nba,,True,,36.0,1988-10-13,FA,,6.0,,74.0,175.0,Cleveland State,,PG,Norris Cole
+JT Thor,2272,nba,15.0,True,PF,22.0,2002-08-26,TWO-WAY,,3.0,5.0,81.0,203.0,Auburn,CLE,PF,JT Thor
+Tolu Smith,2863,nba,,True,,24.0,2000-01-26,FA,,0.0,,83.0,245.0,Washington State,,C,Tolu Smith
+Jimmer Fredette,1014,nba,,True,,35.0,1989-02-25,FA,,6.0,,74.0,195.0,BYU,,PG,Jimmer Fredette
+Frank Ntilikina,1757,nba,,True,,26.0,1998-07-28,FA,,6.0,,76.0,200.0,,,SF,Frank Ntilikina
+Lauri Markkanen,1752,nba,23.0,True,SF,27.0,1997-05-22,ACT,,7.0,1.0,84.0,240.0,Arizona,UTA,PF,Lauri Markkanen
+Maxi Kleber,1852,nba,42.0,True,PF,32.0,1992-01-29,ACT,,7.0,2.0,82.0,240.0,,DAL,PF,Maxi Kleber
+Miles Bridges,1913,nba,0.0,True,PF,26.0,1998-03-21,ACT,,5.0,1.0,79.0,225.0,Michigan State,CHA,SF,Miles Bridges
+Marcus Georges-Hunt,1724,nba,,True,,30.0,1994-03-28,FA,,2.0,,77.0,226.0,Georgia Tech,,SF,Marcus Georges-Hunt
+Jrue Holiday,1265,nba,4.0,True,PG,34.0,1990-06-12,ACT,,15.0,1.0,77.0,223.0,UCLA,BOS,PG,Jrue Holiday
+Derrick Jones,1736,nba,55.0,True,PF,27.0,1997-02-15,ACT,,8.0,1.0,78.0,210.0,UNLV,LAC,PF,Derrick Jones
+Skal Labissiere,1746,nba,,True,,28.0,1996-03-18,FA,,4.0,,82.0,235.0,Kentucky,,PF,Skal Labissiere
+Isaiah Jackson,2260,nba,22.0,True,C,22.0,2002-01-10,ACT,,3.0,8.0,82.0,225.0,Kentucky,IND,C,Isaiah Jackson
+Chris Boucher,1771,nba,25.0,True,PF,31.0,1993-01-11,ACT,,7.0,2.0,81.0,200.0,Oregon,TOR,PF,Chris Boucher
+Josh Green,2155,nba,10.0,True,SF,24.0,2000-11-16,ACT,,4.0,1.0,77.0,200.0,Arizona,CHA,SG,Josh Green
+Toure' Murry,1036,nba,,False,,35.0,1989-11-08,RET,,2.0,,76.0,198.0,Wichita State,,SF,Toure' Murry
+Rashard Lewis,1369,nba,,False,,45.0,1979-08-08,RET,,16.0,,82.0,235.0,,,PF,Rashard Lewis
+Kyle O'Quinn,1491,nba,,True,,34.0,1990-03-26,FA,,8.0,,81.0,250.0,Norfolk State,,C,Kyle O'Quinn
+Nick Young,1225,nba,,True,,39.0,1985-06-01,FA,,12.0,,79.0,210.0,USC,,SF,Nick Young
+Kyle Singler,1142,nba,,False,,36.0,1988-05-04,RET,,6.0,,80.0,228.0,Duke,,SF,Kyle Singler
+Mike Tobey,1687,nba,,True,,30.0,1994-10-10,FA,,1.0,,84.0,260.0,Virginia,,C,Mike Tobey
+Mason Plumlee,1175,nba,22.0,True,C,34.0,1990-03-05,ACT,,11.0,3.0,82.0,254.0,Duke,PHX,C,Mason Plumlee
+Donald Sloan,1068,nba,,True,,36.0,1988-01-15,FA,,5.0,,75.0,205.0,Texas A&M,,PG,Donald Sloan
+Donovan Clingan,2728,nba,23.0,True,C,20.0,2004-02-23,ACT,,0.0,2.0,86.0,280.0,UConn,POR,C,Donovan Clingan
+David Duke,2363,nba,7.0,True,PG,25.0,1999-10-13,TWO-WAY,,3.0,6.0,76.0,200.0,Providence,SAS,SG,David Duke
+Naz Reid,2036,nba,11.0,True,C,25.0,1999-08-26,ACT,,5.0,2.0,81.0,241.0,LSU,MIN,C,Naz Reid
+Nae'Qwan Tomlin,2841,nba,,True,,23.0,2000-12-19,NWT,,0.0,,82.0,210.0,Memphis,,PF,Nae'Qwan Tomlin
+Pacome Dadiet,2732,nba,4.0,True,SF,19.0,2005-07-27,ACT,,0.0,5.0,80.0,210.0,,NYK,PG,Pacome Dadiet
+Isaiah Hartenstein,1934,nba,55.0,True,C,26.0,1998-05-05,ACT,,6.0,1.0,84.0,250.0,,OKC,C,Isaiah Hartenstein
+Rokas Jokubaitis,2314,nba,,True,,24.0,2000-11-19,FA,,2.0,,76.0,194.0,,,PG,Rokas Jokubaitis
+Chris Andersen,1367,nba,,False,,46.0,1978-07-07,RET,,15.0,,82.0,245.0,Blinn (TX),,PF,Chris Andersen
+Matt Ryan,2375,nba,37.0,True,SF,27.0,1997-04-17,ACT,,3.0,3.0,78.0,215.0,Chattanooga,NYK,SF,Matt Ryan
+Salah Mejri,1646,nba,,True,,38.0,1986-06-15,FA,,4.0,,86.0,235.0,,,C,Salah Mejri
+Mitch Ballock,2357,nba,,True,,26.0,1998-07-02,FA,,1.0,,77.0,205.0,Creighton,,SG,Mitch Ballock
+Rodney Hood,1561,nba,,False,,32.0,1992-10-20,RET,,7.0,,80.0,208.0,Duke,,SF,Rodney Hood
+Nicolas Laprovittola,1712,nba,,True,,34.0,1990-01-31,FA,,1.0,,76.0,180.0,,,PG,Nicolas Laprovittola
+Gui Santos,2488,nba,15.0,True,SG,22.0,2002-06-22,ACT,,1.0,7.0,79.0,218.0,,GSW,PF,Gui Santos
+Amar'e Stoudemire,1032,nba,,False,,42.0,1982-11-16,RET,,14.0,,82.0,245.0,,,C,Amar'e Stoudemire
+Shannon Brown,1022,nba,,False,,39.0,1985-11-29,RET,,9.0,,76.0,210.0,Michigan State,,SG,Shannon Brown
+Raul Neto,1641,nba,,True,,32.0,1992-05-19,FA,,7.0,,74.0,180.0,,,PG,Raul Neto
+Marques Bolden,2108,nba,,True,,26.0,1998-04-17,FA,,2.0,,82.0,249.0,Duke,,C,Marques Bolden
+Luis Scola,1069,nba,,True,,44.0,1980-04-30,FA,,10.0,,81.0,240.0,,,PF,Luis Scola
+Gustavo Ayon,1255,nba,,False,,39.0,1985-04-01,RET,,3.0,,82.0,250.0,,,PF,Gustavo Ayon
+Kel'el Ware,2726,nba,7.0,True,C,20.0,2004-04-20,ACT,,0.0,3.0,84.0,230.0,Indiana,MIA,C,Kel'el Ware
+N'Faly Dante,2756,nba,3.0,True,C,23.0,2001-10-19,TWO-WAY,,0.0,6.0,83.0,265.0,Oregon,HOU,C,N'Faly Dante
+Chris Kaman,1221,nba,,False,,42.0,1982-04-28,RET,,13.0,,84.0,265.0,Central Michigan,,C,Chris Kaman
+Anthony Gill,2192,nba,16.0,True,PF,32.0,1992-10-17,ACT,,4.0,6.0,80.0,230.0,Virginia,WAS,PF,Anthony Gill
+Alex Fudge,2651,nba,,True,,21.0,2003-05-06,FA,,1.0,,80.0,200.0,Florida,,SF,Alex Fudge
+Nikola Vucevic,1486,nba,9.0,True,C,34.0,1990-10-24,ACT,,13.0,1.0,82.0,260.0,USC,CHI,C,Nikola Vucevic
+Ryan Arcidiacono,1753,nba,,True,,30.0,1994-03-26,FA,,6.0,,75.0,195.0,Villanova,,PG,Ryan Arcidiacono
+Shelvin Mack,1259,nba,,True,,34.0,1990-04-22,FA,,8.0,,75.0,203.0,Butler,,PG,Shelvin Mack
+Marko Simonovic,2187,nba,,True,,25.0,1999-10-15,FA,,1.0,,84.0,220.0,,,C,Marko Simonovic
+Anthony Brown,1622,nba,,True,,32.0,1992-10-10,FA,,3.0,,79.0,224.0,Stanford,,SF,Anthony Brown
+Monte Morris,1873,nba,23.0,True,PG,29.0,1995-06-27,ACT,,7.0,3.0,74.0,183.0,Iowa State,PHX,PG,Monte Morris
+Jamorko Pickett,2362,nba,,True,,26.0,1997-12-24,FA,,2.0,,81.0,206.0,Georgetown,,SF,Jamorko Pickett
+Trhae Mitchell,2869,nba,,True,,27.0,1997-08-19,FA,,0.0,,78.0,195.0,South Alabama,,PG,Trhae Mitchell
+Kendrick Nunn,1963,nba,,True,,29.0,1995-08-03,FA,,2.0,,75.0,190.0,Oakland,,PG,Kendrick Nunn
+Joakim Noah,1018,nba,,False,,39.0,1985-02-25,RET,,13.0,,83.0,230.0,Florida,,C,Joakim Noah
+Caris LeVert,1690,nba,3.0,True,SG,30.0,1994-08-25,ACT,,8.0,2.0,78.0,205.0,Michigan,CLE,SG,Caris LeVert
+Earl Clark,1025,nba,,True,,36.0,1988-01-17,FA,,6.0,,82.0,234.0,Louisville,,PF,Earl Clark
+Darius Morris,1102,nba,,True,,33.0,1991-01-03,FA,,4.0,,76.0,195.0,Michigan,,PG,Darius Morris
+Al Harrington,1121,nba,,False,,44.0,1980-02-17,RET,,16.0,,81.0,245.0,,,PF,Al Harrington
+Dillon Jones,2727,nba,3.0,True,PF,23.0,2001-10-29,ACT,,0.0,2.0,77.0,235.0,Weber State,OKC,PF,Dillon Jones
+Chris Douglas-Roberts,1156,nba,,False,,37.0,1987-01-08,RET,,6.0,,79.0,210.0,Memphis,,SG,Chris Douglas-Roberts
+Mike Young,1775,nba,,True,,30.0,1994-09-05,FA,,1.0,,81.0,235.0,Pittsburgh,,PF,Mike Young
+Reece Beekman,2775,nba,3.0,True,PG,23.0,2001-10-08,TWO-WAY,,0.0,4.0,73.0,198.0,Virginia,GSW,PG,Reece Beekman
+Mitch McGary,1574,nba,,True,,32.0,1992-06-06,FA,,2.0,,82.0,255.0,Michigan,,PF,Mitch McGary
+Zoran Dragic,1565,nba,,True,,35.0,1989-06-22,FA,,1.0,,77.0,200.0,,,SG,Zoran Dragic
+George King,1976,nba,,True,,30.0,1994-01-15,FA,,1.0,,78.0,220.0,Colorado,,SF,George King
+Wade Baldwin,1693,nba,,True,,28.0,1996-03-29,FA,,3.0,,76.0,200.0,Vanderbilt,,SG,Wade Baldwin
+Jason Maxiell,1481,nba,,False,,41.0,1983-02-18,RET,,10.0,,79.0,260.0,Cincinnati,,PF,Jason Maxiell
+Joel Embiid,1511,nba,21.0,True,C,30.0,1994-03-16,ACT,,8.0,1.0,84.0,280.0,Kansas,PHI,C,Joel Embiid
+Buddy Boeheim,2493,nba,,True,,25.0,1999-11-11,FA,,1.0,,78.0,205.0,Syracuse,,SG,Buddy Boeheim
+Isaac Humphries,1943,nba,,True,,26.0,1998-01-05,FA,,1.0,,84.0,255.0,Kentucky,,PF,Isaac Humphries
+Wayne Selden,1696,nba,,True,,30.0,1994-09-30,FA,,3.0,,76.0,232.0,Kansas,,SG,Wayne Selden
+Brice Johnson,1719,nba,,True,,30.0,1994-06-27,FA,,1.0,,82.0,230.0,North Carolina,,PF,Brice Johnson
+Garrison Mathews,2021,nba,24.0,True,SF,28.0,1996-10-24,ACT,,5.0,4.0,78.0,215.0,Lipscomb,ATL,SF,Garrison Mathews
+Drew Timme,2637,nba,,True,,24.0,2000-09-09,FA,,1.0,,82.0,235.0,Gonzaga,,PF,Drew Timme
+Joel Bolomboy,1721,nba,,True,,30.0,1994-01-28,FA,,1.0,,81.0,235.0,Weber State,,PF,Joel Bolomboy
+Miles McBride,2256,nba,2.0,True,SG,24.0,2000-09-08,ACT,,3.0,2.0,73.0,195.0,West Virginia,NYK,PG,Miles McBride
+Duop Reath,2654,nba,26.0,True,C,28.0,1996-06-26,ACT,,0.0,5.0,81.0,245.0,LSU,POR,C,Duop Reath
+Yogi Ferrell,1689,nba,,True,,31.0,1993-05-09,FA,,5.0,,72.0,178.0,Indiana,,PG,Yogi Ferrell
+Tyson Chandler,1030,nba,,True,,42.0,1982-10-02,FA,,19.0,,84.0,235.0,,,C,Tyson Chandler
+Matas Buzelis DUPLICATE,2731,nba,,False,,,,,,,,,,,,,Matas Buzelis DUPLICATE
+Dmytro Skapintsev,2705,nba,,True,,26.0,1998-05-12,FA,,2.0,,85.0,260.0,Cal State Northridge,,C,Dmytro Skapintsev
+Al Jefferson,1153,nba,,False,,39.0,1985-01-04,RET,,14.0,,82.0,280.0,,,C,Al Jefferson
+Devin Booker,1648,nba,1.0,True,SG,28.0,1996-10-30,ACT,,9.0,1.0,77.0,206.0,Kentucky,PHX,SG,Devin Booker
+Cassius Stanley,2121,nba,,True,,25.0,1999-08-18,FA,,1.0,,77.0,190.0,Duke,,SG,Cassius Stanley
+Seth Curry,1041,nba,30.0,True,SG,34.0,1990-08-23,ACT,,10.0,2.0,73.0,185.0,Duke,CHA,SG,Seth Curry
+Mike Conley,1200,nba,10.0,True,PG,37.0,1987-10-11,ACT,,17.0,1.0,73.0,180.0,Ohio State,MIN,PG,Mike Conley
+Haywood Highsmith,1901,nba,24.0,True,PF,27.0,1996-12-09,ACT,,4.0,1.0,77.0,220.0,Wheeling (WV),MIA,SF,Haywood Highsmith
+Andray Blatche,1170,nba,,False,,38.0,1986-08-22,RET,,9.0,,83.0,260.0,,,C,Andray Blatche
+Trevelin Queen,2174,nba,12.0,True,PG,27.0,1997-02-25,TWO-WAY,,3.0,5.0,77.0,190.0,New Mexico State,ORL,PG,Trevelin Queen
+Udoka Azubuike,2151,nba,,True,,25.0,1999-09-17,FA,,4.0,,83.0,270.0,Kansas,,C,Udoka Azubuike
+Enrique Freeman,2746,nba,8.0,True,PF,24.0,2000-07-29,TWO-WAY,,0.0,4.0,79.0,215.0,Akron,IND,PF,Enrique Freeman
+Abdul Gaddy,2541,nba,,True,,32.0,1992-01-26,FA,,1.0,,75.0,185.0,Washington,,SG,Abdul Gaddy
+Melvin Ely,1269,nba,,False,,46.0,1978-05-02,RET,,9.0,,82.0,261.0,Fresno State,,C,Melvin Ely
+Nassir Little,2101,nba,,True,,24.0,2000-02-11,FA,,5.0,,78.0,220.0,North Carolina,,PF,Nassir Little
+Omari Johnson,1794,nba,,True,,35.0,1989-05-26,FA,,0.0,,81.0,220.0,Oregon State,,SF,Omari Johnson
+Colby Jones,2616,nba,20.0,True,SF,22.0,2002-05-28,ACT,,1.0,3.0,78.0,205.0,Xavier,SAC,PG,Colby Jones
+Darius Days,2499,nba,,True,,25.0,1999-10-20,TWO-WAY,,1.0,,79.0,245.0,LSU,,PF,Darius Days
+Pascal Siakam,1716,nba,43.0,True,PF,30.0,1994-04-02,ACT,,8.0,1.0,82.0,230.0,New Mexico State,IND,PF,Pascal Siakam
+Yam Madar,2189,nba,,True,,23.0,2000-12-21,NWT,,1.0,,75.0,180.0,,,PG,Yam Madar
+Jared Cunningham,1248,nba,,True,,33.0,1991-05-22,FA,,4.0,,76.0,195.0,Oregon State,,SG,Jared Cunningham
+Martell Webster,1119,nba,,False,,37.0,1986-12-04,RET,,10.0,,79.0,230.0,,,SF,Martell Webster
+Omer Asik,1243,nba,,False,,38.0,1986-07-04,RET,,8.0,,84.0,255.0,,,C,Omer Asik
+Marcus Garrett,2348,nba,,True,,26.0,1998-11-09,FA,,1.0,,77.0,205.0,Kansas,,SG,Marcus Garrett
+Myles Powell,2175,nba,5.0,True,,27.0,1997-07-07,FA,,1.0,,74.0,195.0,Seton Hall,,PG,Myles Powell
+D.J. Carton,2364,nba,3.0,True,PG,24.0,2000-08-05,TWO-WAY,,1.0,4.0,74.0,200.0,Marquette,TOR,SG,D.J. Carton
+Dwayne Bacon,1780,nba,,True,,29.0,1995-08-30,FA,,4.0,,78.0,221.0,Florida State,,SG,Dwayne Bacon
+JaMychal Green,1532,nba,,True,,34.0,1990-06-21,FA,,8.0,,81.0,227.0,Alabama,,PF,JaMychal Green
+Brandon Miller,2568,nba,24.0,True,SG,22.0,2002-11-22,ACT,,1.0,1.0,79.0,200.0,Alabama,CHA,PF,Brandon Miller
+Edmond Sumner,1766,nba,,True,,28.0,1995-12-31,FA,,5.0,,76.0,190.0,Xavier,,SG,Edmond Sumner
+DJ Steward,2374,nba,0.0,True,PG,23.0,2001-10-02,TWO-WAY,,1.0,7.0,73.0,162.0,Duke,CHI,SG,DJ Steward
+Walt Lemon,1816,nba,,True,,32.0,1992-07-26,FA,,2.0,,75.0,180.0,Bradley,,SG,Walt Lemon
+Romaro Gill,2178,nba,,True,,30.0,1994-10-02,FA,,1.0,,86.0,255.0,Seton Hall,,C,Romaro Gill
+Brandon Rachal,2386,nba,,True,,25.0,1999-09-30,FA,,1.0,,78.0,220.0,Tulsa,,SG,Brandon Rachal
+Daishen Nix,2347,nba,1.0,True,PG,22.0,2002-02-13,TWO-WAY,,3.0,5.0,75.0,226.0,,MIN,PG,Daishen Nix
+Luke Kornet,1759,nba,40.0,True,C,29.0,1995-07-15,ACT,,7.0,4.0,86.0,255.0,Vanderbilt,BOS,C,Luke Kornet
+Wesley Matthews,1446,nba,,True,,38.0,1986-10-14,FA,,14.0,,77.0,220.0,Marquette,,SG,Wesley Matthews
+Jimmy Butler,1000,nba,22.0,True,SF,35.0,1989-09-14,ACT,,13.0,1.0,79.0,230.0,Marquette,MIA,SF,Jimmy Butler
+Jacob Toppin,2627,nba,0.0,True,PF,24.0,2000-05-08,TWO-WAY,,1.0,5.0,80.0,200.0,Kentucky,NYK,SF,Jacob Toppin
+Daniel Theis,1824,nba,10.0,True,C,32.0,1992-04-04,ACT,,7.0,3.0,80.0,245.0,,NOP,C,Daniel Theis
+Joel Freeland,1451,nba,,False,,37.0,1987-02-07,RET,,3.0,,82.0,225.0,Farnborough College of Technology (GBR),,C,Joel Freeland
+Zach Collins,1866,nba,23.0,True,C,27.0,1997-11-19,ACT,,6.0,2.0,83.0,240.0,Gonzaga,SAS,PF,Zach Collins
+Shawn Long,1679,nba,,True,,31.0,1993-01-29,FA,,1.0,,81.0,255.0,Louisiana,,PF,Shawn Long
+Kevin Martin,1186,nba,,False,,41.0,1983-02-01,RET,,12.0,,79.0,204.0,Western Carolina,,SG,Kevin Martin
+Marquese Chriss,1738,nba,,True,,27.0,1997-07-02,FA,,6.0,,81.0,240.0,Washington,,C,Marquese Chriss
+Jalen Crutcher,2382,nba,,True,,25.0,1999-07-18,FA,,2.0,,74.0,175.0,Dayton,,PG,Jalen Crutcher
+Mo Williams,1454,nba,,False,,41.0,1982-12-19,RET,,13.0,,73.0,198.0,Alabama,,PG,Mo Williams
+Darius Garland,2007,nba,10.0,True,PG,24.0,2000-01-26,ACT,,5.0,1.0,73.0,192.0,Vanderbilt,CLE,PG,Darius Garland
+Olivier-Maxence Prosper,2585,nba,8.0,True,PF,22.0,2002-07-03,ACT,,1.0,5.0,80.0,215.0,Marquette,DAL,PF,Olivier-Maxence Prosper
+Charles Bassey,2265,nba,28.0,True,C,24.0,2000-10-28,ACT,,3.0,3.0,82.0,240.0,Western Kentucky,SAS,C,Charles Bassey
+Jaysean Paige,2405,nba,,True,,30.0,1994-07-30,FA,,1.0,,74.0,200.0,West Virginia,,PG,Jaysean Paige
+Trevon Bluiett,1947,nba,,True,,30.0,1994-11-04,FA,,1.0,,78.0,198.0,Xavier,,SG,Trevon Bluiett
+Kobe Brown,2579,nba,21.0,True,C,24.0,2000-01-01,ACT,,1.0,4.0,79.0,250.0,Missouri,LAC,PG,Kobe Brown
+Travis Wear,1497,nba,,True,,34.0,1990-09-21,FA,,2.0,,81.0,219.0,UCLA,,SF,Travis Wear
+Lester Quinones,2411,nba,25.0,True,PG,24.0,2000-11-16,TWO-WAY,,2.0,6.0,76.0,208.0,Memphis,PHI,SG,Lester Quinones
+Luc Mbah a Moute,1192,nba,,True,,38.0,1986-09-09,FA,,12.0,,80.0,230.0,UCLA,,PF,Luc Mbah a Moute
+Bruce Brown,1909,nba,11.0,True,SG,28.0,1996-08-15,ACT,,6.0,2.0,76.0,202.0,Miami (FL),TOR,PF,Bruce Brown
+Greg Stiemsma,1278,nba,,False,,39.0,1985-09-26,RET,,4.0,,83.0,260.0,Wisconsin,,C,Greg Stiemsma
+Bronny James,2755,nba,9.0,True,PG,20.0,2004-10-06,ACT,,0.0,4.0,74.0,212.0,USC,LAL,PG,Bronny James
+Sim Bhullar,1578,nba,,True,,31.0,1992-12-02,FA,,1.0,,89.0,360.0,New Mexico State,,C,Sim Bhullar
+Kevin Hervey,2096,nba,,True,,28.0,1996-07-09,FA,,1.0,,80.0,230.0,Texas-Arlington,,PF,Kevin Hervey
+Jaren Jackson,1924,nba,13.0,True,PF,25.0,1999-09-15,ACT,,6.0,1.0,82.0,242.0,Michigan State,MEM,C,Jaren Jackson
+Brian Roberts,1273,nba,,False,,38.0,1985-12-03,RET,,5.0,,73.0,173.0,Dayton,,PG,Brian Roberts
+Isaiah Stewart,2159,nba,28.0,True,C,23.0,2001-05-22,ACT,,4.0,2.0,80.0,250.0,Washington,DET,C,Isaiah Stewart
+William Howard,2047,nba,,True,,31.0,1993-10-25,FA,,1.0,,80.0,207.0,,,SF,William Howard
+Shane Battier,1372,nba,,False,,46.0,1978-09-09,RET,,13.0,,80.0,220.0,Duke,,SF,Shane Battier
+Facundo Campazzo,2191,nba,,True,,33.0,1991-03-23,FA,,2.0,,70.0,195.0,,,PG,Facundo Campazzo
+Jerian Grant,1592,nba,,True,,32.0,1992-10-09,FA,,5.0,,76.0,205.0,Notre Dame,,SG,Jerian Grant
+David Stockton,1579,nba,,True,,33.0,1991-06-24,FA,,2.0,,71.0,165.0,Gonzaga,,PG,David Stockton
+John Henson,1388,nba,,True,,33.0,1990-12-28,FA,,8.0,,81.0,219.0,North Carolina,,PF,John Henson
+Gabe York,2403,nba,,True,,31.0,1993-08-02,FA,,1.0,,75.0,185.0,Arizona,,SG,Gabe York
+Marial Shayok,2016,nba,,True,,29.0,1995-07-26,FA,,1.0,,77.0,198.0,Iowa State,,SG,Marial Shayok
+Malik Monk,1779,nba,0.0,True,SG,26.0,1998-02-04,ACT,,7.0,2.0,75.0,200.0,Kentucky,SAC,SG,Malik Monk
+Jusuf Nurkic,1583,nba,20.0,True,C,30.0,1994-08-23,ACT,,10.0,1.0,84.0,290.0,,PHX,C,Jusuf Nurkic
+Nicolas Brussino,1733,nba,,True,,31.0,1993-03-02,FA,,1.0,,80.0,195.0,,,SF,Nicolas Brussino
+Jaylon Tyson,2712,nba,24.0,True,SF,21.0,2002-12-02,ACT,,0.0,4.0,78.0,218.0,California,CLE,PG,Jaylon Tyson
+Mitchell Robinson,1887,nba,23.0,True,C,26.0,1998-04-01,ACT,,6.0,5.0,84.0,278.0,,NYK,C,Mitchell Robinson
+Andre Iguodala,1089,nba,,False,,40.0,1984-01-28,RET,,19.0,,78.0,215.0,Arizona,,SF,Andre Iguodala
+Cam Whitmore,2573,nba,7.0,True,PF,20.0,2004-07-08,ACT,,1.0,3.0,79.0,235.0,Villanova,HOU,PF,Cam Whitmore
+Danilo Gallinari,1468,nba,,True,,36.0,1988-08-08,FA,,14.0,,82.0,236.0,,,PF,Danilo Gallinari
+Christian Braun,2457,nba,0.0,True,SG,23.0,2001-04-17,ACT,,2.0,1.0,78.0,220.0,Kansas,DEN,PG,Christian Braun
+Josh Magette,1811,nba,,True,,35.0,1989-11-28,FA,,1.0,,73.0,160.0,Alabama-Huntsville,,PG,Josh Magette
+Sir'Jabari Rice,2634,nba,,True,,25.0,1998-12-28,FA,,1.0,,76.0,180.0,Texas,,PG,Sir'Jabari Rice
+Oscar Tshiebwe,2632,nba,34.0,True,C,25.0,1999-11-27,TWO-WAY,,1.0,5.0,80.0,255.0,Kentucky,UTA,PF,Oscar Tshiebwe
+Lance Thomas,1276,nba,,True,,36.0,1988-04-24,FA,,9.0,,80.0,240.0,Duke,,SF,Lance Thomas
+Fabian White,2504,nba,,True,,26.0,1998-11-29,FA,,1.0,,80.0,230.0,Houston,,PF,Fabian White
+Joel Anthony,1289,nba,,True,,42.0,1982-08-09,FA,,10.0,,81.0,245.0,UNLV,,C,Joel Anthony
+Tacko Fall,2058,nba,,True,,28.0,1995-12-10,FA,,3.0,,90.0,311.0,UCF,,C,Tacko Fall
+Ben Moore,1764,nba,,True,,29.0,1995-05-13,FA,,1.0,,80.0,220.0,SMU,,SF,Ben Moore
+Trae Young,1945,nba,11.0,True,PG,26.0,1998-09-19,ACT,,6.0,1.0,73.0,164.0,Oklahoma,ATL,PG,Trae Young
+Keion Brooks,2853,nba,,True,,24.0,2000-07-07,FA,,0.0,,79.0,212.0,Washington,,PF,Keion Brooks
+Andrew Goudelock,1624,nba,,True,,35.0,1988-12-07,FA,,3.0,,75.0,200.0,Charleston,,PG,Andrew Goudelock
+Jonathan Mogbo,2763,nba,2.0,True,C,23.0,2001-10-29,ACT,,0.0,2.0,78.0,217.0,San Francisco,TOR,PF,Jonathan Mogbo
+Jordan Burns,2392,nba,,True,,27.0,1997-08-28,FA,,1.0,,72.0,175.0,Colgate,,PG,Jordan Burns
+Alize Johnson,1894,nba,,True,,28.0,1996-04-22,FA,,5.0,,79.0,210.0,Missouri State,,C,Alize Johnson
+Ricky Ledo,1399,nba,,True,,32.0,1992-09-10,FA,,2.0,,79.0,195.0,Providence,,SG,Ricky Ledo
+Larry Drew,1506,nba,,True,,34.0,1990-03-05,FA,,2.0,,74.0,180.0,UCLA,,PG,Larry Drew
+Deividas Sirvydis,2212,nba,,True,,24.0,2000-06-10,FA,,2.0,,80.0,190.0,,,SF,Deividas Sirvydis
+Devin Cannady,2238,nba,,True,,28.0,1996-05-21,FA,,2.0,,74.0,183.0,Princeton,,PG,Devin Cannady
+Melvin Frazier,1992,nba,,True,,28.0,1996-08-30,FA,,3.0,,78.0,210.0,Tulane,,PG,Melvin Frazier
+Brandon Ingram,1698,nba,14.0,True,SF,27.0,1997-09-02,ACT,,8.0,1.0,80.0,190.0,Duke,NOP,SF,Brandon Ingram
+Mindaugas Kuzminskas,1669,nba,,True,,35.0,1989-10-19,FA,,1.0,,81.0,215.0,,,SF,Mindaugas Kuzminskas
+Caleb Martin,2028,nba,16.0,True,PF,29.0,1995-09-28,ACT,,5.0,1.0,77.0,205.0,Nevada,PHI,SF,Caleb Martin
+Yuri Collins,2687,nba,,True,,23.0,2001-03-07,TWO-WAY,,1.0,,72.0,190.0,Saint Louis,,PG,Yuri Collins
+DaQuan Jeffries,2102,nba,3.0,True,PF,27.0,1997-08-30,ACT,,5.0,7.0,77.0,222.0,Tulsa,CHA,SG,DaQuan Jeffries
+Furkan Aldemir,1509,nba,,True,,33.0,1991-08-09,FA,,1.0,,81.0,220.0,,,PF,Furkan Aldemir
+Giannis Antetokounmpo,1380,nba,34.0,True,PF,29.0,1994-12-06,ACT,,11.0,1.0,83.0,243.0,,MIL,PF,Giannis Antetokounmpo
+Adem Bona,2749,nba,30.0,True,C,21.0,2003-03-28,ACT,,0.0,4.0,80.0,243.0,UCLA,PHI,C,Adem Bona
+Jose Calderon,1395,nba,,False,,43.0,1981-09-28,RET,,14.0,,75.0,200.0,,,PG,Jose Calderon
+Freddie Gillespie,2226,nba,,True,,27.0,1997-06-14,FA,,1.0,,81.0,245.0,Baylor,,PF,Freddie Gillespie
+Trey Alexander,2827,nba,23.0,True,SG,21.0,2003-05-02,TWO-WAY,,0.0,3.0,76.0,190.0,Creighton,DEN,SG,Trey Alexander
+Shaun Livingston,1171,nba,,False,,39.0,1985-09-11,RET,,14.0,,79.0,192.0,,,PG,Shaun Livingston
+PJ Dozier,1865,nba,35.0,True,PF,28.0,1996-10-25,ACT,,6.0,5.0,78.0,212.0,South Carolina,MIN,SG,PJ Dozier
+Jameel Warney,1854,nba,,True,,30.0,1994-01-31,FA,,1.0,,80.0,260.0,Stony Brook,,PF,Jameel Warney
+Kobe Bufkin,2575,nba,4.0,True,PG,21.0,2003-09-21,ACT,,1.0,2.0,77.0,195.0,Michigan,ATL,PG,Kobe Bufkin
+Tyrus Thomas,1527,nba,,False,,38.0,1986-08-17,RET,,8.0,,81.0,224.0,LSU,,PF,Tyrus Thomas
+Ben McLemore,1457,nba,,True,,31.0,1993-02-11,FA,,9.0,,75.0,195.0,Kansas,,SG,Ben McLemore
+Day'Ron Sharpe,2275,nba,20.0,True,C,23.0,2001-11-06,ACT,,3.0,6.0,81.0,265.0,North Carolina,BKN,C,Day'Ron Sharpe
+Jamal Crawford,1336,nba,,False,,44.0,1980-03-20,RET,,20.0,,77.0,185.0,Michigan,,SG,Jamal Crawford
+Malcolm Hill,2353,nba,,True,,29.0,1995-10-26,FA,,2.0,,78.0,220.0,Illinois,,SF,Malcolm Hill
+Alex Sarr,2733,nba,20.0,True,C,19.0,2005-04-26,ACT,,0.0,1.0,84.0,224.0,,WAS,PF,Alex Sarr
+Keifer Sykes,2318,nba,,True,,30.0,1993-12-30,FA,,1.0,,71.0,167.0,Green Bay,,PG,Keifer Sykes
+Jeff Dowtin,2350,nba,11.0,True,PG,27.0,1997-05-10,TWO-WAY,,3.0,4.0,75.0,177.0,Rhode Island,PHI,PG,Jeff Dowtin
+Darius Miller,1274,nba,,True,,34.0,1990-03-21,FA,,6.0,,78.0,225.0,Kentucky,,SF,Darius Miller
+Arnett Moultrie,1105,nba,,True,,34.0,1990-11-18,FA,,2.0,,82.0,240.0,Mississippi State,,PF,Arnett Moultrie
+Alex Stepheson,1616,nba,,True,,37.0,1987-08-07,FA,,1.0,,80.0,270.0,USC,,PF,Alex Stepheson
+Romeo Langford,2063,nba,,True,,25.0,1999-10-25,TWO-WAY,,4.0,,77.0,216.0,Indiana,,SG,Romeo Langford
+Khyri Thomas,1905,nba,,True,,28.0,1996-05-08,FA,,3.0,,75.0,210.0,Creighton,,SG,Khyri Thomas
+Marcus Morris,1416,nba,,True,,35.0,1989-09-02,FA,,12.0,,80.0,218.0,Kansas,,PF,Marcus Morris
+Klay Thompson,1081,nba,31.0,True,SF,34.0,1990-02-08,ACT,,13.0,1.0,78.0,220.0,Washington State,DAL,SG,Klay Thompson
+Keaton Wallace,2522,nba,2.0,True,PG,25.0,1999-02-26,TWO-WAY,,1.0,3.0,75.0,185.0,UTSA,ATL,PG,Keaton Wallace
+Wendell Carter,1883,nba,34.0,True,C,25.0,1999-04-16,ACT,,6.0,1.0,82.0,270.0,Duke,ORL,C,Wendell Carter
+Emmanuel Mudiay,1657,nba,,True,,28.0,1996-03-05,FA,,5.0,,75.0,200.0,,,PG,Emmanuel Mudiay
+Jon Leuer,1208,nba,,False,,35.0,1989-05-14,RET,,8.0,,82.0,228.0,Wisconsin,,PF,Jon Leuer
+Charlie Villanueva,1132,nba,,False,,40.0,1984-08-24,RET,,11.0,,83.0,232.0,UConn,,PF,Charlie Villanueva
+Erik McCree,1840,nba,,True,,30.0,1993-12-20,FA,,1.0,,80.0,225.0,Louisiana Tech,,SF,Erik McCree
+Gary Neal,1151,nba,,False,,40.0,1984-10-03,RET,,7.0,,76.0,210.0,Towson,,SG,Gary Neal
+Jordan Hamilton,1238,nba,,True,,34.0,1990-10-06,FA,,5.0,,79.0,220.0,Texas,,SF,Jordan Hamilton
+RJ Hunter,1633,nba,,True,,31.0,1993-10-24,FA,,4.0,,77.0,185.0,Georgia State,,SG,RJ Hunter
+Austin Reaves,2316,nba,15.0,True,PG,26.0,1998-05-29,ACT,,3.0,1.0,77.0,210.0,Oklahoma,LAL,SG,Austin Reaves
+Anderson Varejao,1043,nba,,True,,42.0,1982-09-28,FA,,14.0,,83.0,273.0,,,C,Anderson Varejao
+Ish Smith,1407,nba,,False,,36.0,1988-07-05,RET,,13.0,,72.0,175.0,Wake Forest,,PG,Ish Smith
+Cartier Martin,1005,nba,,True,,40.0,1984-11-20,FA,,7.0,,79.0,220.0,Kansas State,,SF,Cartier Martin
+MaCio Teague,2337,nba,,True,,27.0,1997-06-11,FA,,1.0,,76.0,195.0,Baylor,,SG,MaCio Teague
+Justin Powell,2656,nba,,True,,23.0,2001-05-09,FA,,1.0,,78.0,197.0,Washington State,,SG,Justin Powell
+James Wiseman,2122,nba,13.0,True,C,23.0,2001-03-31,ACT,,3.0,9.0,83.0,240.0,Memphis,IND,C,James Wiseman
+Mouhamed Gueye,2606,nba,18.0,True,C,22.0,2002-11-09,ACT,,1.0,5.0,82.0,210.0,Washington State,ATL,PF,Mouhamed Gueye
+Lamar Odom,1039,nba,,False,,45.0,1979-11-06,RET,,14.0,,81.0,228.0,Rhode Island,,SF,Lamar Odom
+David Wear,1576,nba,,True,,34.0,1990-09-21,FA,,1.0,,82.0,230.0,UCLA,,PF,David Wear
+Channing Frye,1415,nba,,False,,41.0,1983-05-17,RET,,13.0,,84.0,255.0,Arizona,,PF,Channing Frye
+Abdel Nader,1823,nba,,True,,31.0,1993-09-25,FA,,5.0,,77.0,225.0,Iowa State,,SF,Abdel Nader
+Trevion Williams,2527,nba,,True,,24.0,2000-09-16,FA,,1.0,,81.0,265.0,Purdue,,C,Trevion Williams
+A.J. Hammons,1730,nba,,True,,32.0,1992-08-27,FA,,1.0,,84.0,260.0,Purdue,,C,A.J. Hammons
+Thon Maker,1725,nba,,True,,27.0,1997-02-25,FA,,4.0,,84.0,221.0,,,C,Thon Maker
+Stephen Curry,1085,nba,30.0,True,PG,36.0,1988-03-14,ACT,,15.0,1.0,75.0,200.0,Davidson,GSW,PG,Stephen Curry
+Le'Bryan Nash,1804,nba,,True,,32.0,1992-06-30,FA,,0.0,,79.0,235.0,Oklahoma State,,SF,Le'Bryan Nash
+Tony Mitchell,1140,nba,,True,,32.0,1992-04-07,FA,,1.0,,81.0,235.0,North Texas,,PF,Tony Mitchell
+Kendrick Perkins,1439,nba,,False,,40.0,1984-11-10,RET,,14.0,,82.0,270.0,,,C,Kendrick Perkins
+Shabazz Napier,1562,nba,,True,,33.0,1991-07-14,FA,,6.0,,72.0,175.0,UConn,,PG,Shabazz Napier
+Scotty Pippen,2416,nba,1.0,True,PG,24.0,2000-11-10,ACT,,2.0,2.0,73.0,170.0,Vanderbilt,MEM,PG,Scotty Pippen
+Bojan Bogdanovic,1522,nba,44.0,True,PF,35.0,1989-04-18,ACT,,10.0,9.0,79.0,226.0,,BKN,SF,Bojan Bogdanovic
+Aleem Ford,2393,nba,,True,,27.0,1996-12-22,FA,,1.0,,80.0,220.0,Wisconsin,,SF,Aleem Ford
+Keandre Cook,2236,nba,,True,,27.0,1997-05-01,FA,,1.0,,77.0,187.0,Missouri State,,SG,Keandre Cook
+RJ Nembhard,2356,nba,,True,,25.0,1999-03-22,FA,,2.0,,77.0,200.0,TCU,,SG,RJ Nembhard
+Austin Daye,1303,nba,,True,,36.0,1988-06-05,FA,,6.0,,83.0,220.0,Gonzaga,,SF,Austin Daye
+Gradey Dick,2578,nba,1.0,True,SG,21.0,2003-11-20,ACT,,1.0,1.0,78.0,200.0,Kansas,TOR,PG,Gradey Dick
+Johnny O'Bryant,1568,nba,,True,,31.0,1993-06-01,FA,,4.0,,81.0,257.0,LSU,,SF,Johnny O'Bryant
+Keve Aluma,2819,nba,,True,,25.0,1998-12-31,FA,,0.0,,81.0,239.0,Virginia Tech,,PF,Keve Aluma
+Thomas Welsh,1989,nba,,True,,28.0,1996-02-03,FA,,1.0,,84.0,255.0,UCLA,,C,Thomas Welsh
+Cam Christie,2765,nba,12.0,True,SG,19.0,2005-07-24,ACT,,0.0,8.0,78.0,190.0,Minnesota,LAC,PG,Cam Christie
+Isaiah Whitehead,1688,nba,,True,,29.0,1995-03-08,FA,,2.0,,76.0,213.0,Seton Hall,,PG,Isaiah Whitehead
+Seth Lundy,2607,nba,3.0,True,SG,24.0,2000-04-02,TWO-WAY,,1.0,8.0,76.0,220.0,Penn State,ATL,PG,Seth Lundy
+Bones Hyland,2303,nba,5.0,True,PG,24.0,2000-09-14,ACT,,3.0,3.0,74.0,169.0,VCU,LAC,PG,Bones Hyland
+Dwyane Wade,1363,nba,,False,,42.0,1982-01-17,RET,,16.0,,76.0,220.0,Marquette,,SG,Dwyane Wade
+Dominick Barlow,2492,nba,26.0,True,C,21.0,2003-05-26,TWO-WAY,,2.0,4.0,81.0,215.0,,ATL,PF,Dominick Barlow
+Mouhamadou Gueye,2512,nba,,True,,26.0,1998-07-06,FA,,2.0,,81.0,210.0,Pittsburgh,,PF,Mouhamadou Gueye
+Tyler Zeller,1053,nba,,True,,34.0,1990-01-17,FA,,8.0,,84.0,253.0,North Carolina,,C,Tyler Zeller
+Manny Harris,1219,nba,,True,,35.0,1989-09-21,FA,,4.0,,77.0,185.0,Michigan,,SG,Manny Harris
+Karlo Matkovic,2490,nba,17.0,True,PF,23.0,2001-03-30,ACT,,1.0,5.0,82.0,231.0,,NOP,PF,Karlo Matkovic
+Perry Jones,1428,nba,,True,,33.0,1991-09-24,FA,,3.0,,83.0,235.0,Baylor,,SF,Perry Jones
+Terrence Ross,1318,nba,,False,,33.0,1991-02-05,RET,,10.0,,79.0,206.0,Washington,,SG,Terrence Ross
+Robbie Hummel,1189,nba,,False,,35.0,1989-03-08,RET,,2.0,,80.0,216.0,Purdue,,SF,Robbie Hummel
+Killian Tillie,2200,nba,,True,,26.0,1998-03-05,FA,,2.0,,81.0,220.0,Gonzaga,,SF,Killian Tillie
+Jannero Pargo,1144,nba,,False,,45.0,1979-10-22,RET,,11.0,,73.0,185.0,Arkansas,,PG,Jannero Pargo
+Mirza Teletovic,1165,nba,,False,,39.0,1985-09-17,RET,,6.0,,81.0,242.0,,,PF,Mirza Teletovic
+Jabari Bird,1825,nba,,True,,30.0,1994-07-03,FA,,1.0,,78.0,198.0,California,,SG,Jabari Bird
+Javonte Cooke,2652,nba,,True,,25.0,1999-07-11,FA,,1.0,,77.0,180.0,Winston-Salem State,,SG,Javonte Cooke
+Aric Holman,2376,nba,,True,,27.0,1997-07-11,FA,,1.0,,82.0,225.0,Mississippi State,,C,Aric Holman
+Ryan Broekhoff,1968,nba,,False,,34.0,1990-08-23,RET,,2.0,,78.0,205.0,Valparaiso,,SF,Ryan Broekhoff
+Yauhen Massalski,2805,nba,,True,,25.0,1999-03-25,FA,,0.0,,81.0,240.0,San Francisco,,PF,Yauhen Massalski
+Nazr Mohammed,1015,nba,,False,,47.0,1977-09-05,RET,,18.0,,82.0,250.0,Kentucky,,C,Nazr Mohammed
+Chance Comanche,2558,nba,,True,,28.0,1996-04-14,FA,,1.0,,82.0,210.0,Arizona,,C,Chance Comanche
+Andrew Nicholson,1488,nba,,True,,34.0,1989-12-08,FA,,5.0,,81.0,250.0,St. Bonaventure,,PF,Andrew Nicholson
+Lonzo Ball,1798,nba,2.0,True,PG,27.0,1997-10-27,ACT,,5.0,2.0,78.0,190.0,UCLA,CHI,PG,Lonzo Ball
+Kent Bazemore,1078,nba,,True,,35.0,1989-07-01,FA,,10.0,,76.0,195.0,Old Dominion,,SG,Kent Bazemore
+Jay Huff,2335,nba,30.0,True,C,27.0,1997-08-25,ACT,,3.0,3.0,85.0,240.0,Virginia,MEM,C,Jay Huff
+Jonathan Kuminga,2306,nba,0.0,True,PF,22.0,2002-10-06,ACT,,3.0,2.0,79.0,225.0,,GSW,PF,Jonathan Kuminga
+Tyshawn Taylor,1180,nba,,True,,34.0,1990-04-12,FA,,2.0,,75.0,185.0,Kansas,,PG,Tyshawn Taylor
+Doron Lamb,1479,nba,,True,,33.0,1991-11-06,FA,,2.0,,76.0,200.0,Kentucky,,SG,Doron Lamb
+Scott Machado,1929,nba,,True,,34.0,1990-06-08,FA,,2.0,,73.0,205.0,Iona,,PG,Scott Machado
+Monta Ellis,1392,nba,,False,,39.0,1985-10-26,RET,,12.0,,75.0,185.0,,,SG,Monta Ellis
+Kris Murray,2587,nba,24.0,True,SF,24.0,2000-08-19,ACT,,1.0,4.0,80.0,210.0,Iowa,POR,PF,Kris Murray
+Jodie Meeks,1226,nba,,True,,37.0,1987-08-21,FA,,10.0,,76.0,210.0,Kentucky,,SG,Jodie Meeks
+Scottie Lewis,2274,nba,,True,,24.0,2000-03-12,FA,,1.0,,76.0,188.0,Florida,,SG,Scottie Lewis
+Tornike Shengelia,1001,nba,,True,,33.0,1991-10-05,FA,,2.0,,81.0,240.0,,,SF,Tornike Shengelia
+Jeremy Lamb,1423,nba,,False,,32.0,1992-05-30,RET,,10.0,,77.0,180.0,UConn,,SG,Jeremy Lamb
+James Webb,1786,nba,,True,,31.0,1993-08-19,FA,,1.0,,81.0,202.0,Boise State,,SF,James Webb
+Al-Farouq Aminu,1264,nba,,True,,34.0,1990-09-21,FA,,11.0,,81.0,220.0,Wake Forest,,SF,Al-Farouq Aminu
+Joffrey Lauvergne,1584,nba,,True,,33.0,1991-09-30,FA,,4.0,,83.0,260.0,,,C,Joffrey Lauvergne
+Doug McDermott,1492,nba,7.0,True,SF,32.0,1992-01-03,ACT,,10.0,5.0,78.0,225.0,Creighton,SAC,SF,Doug McDermott
+Maxwell Lewis,2605,nba,20.0,True,PF,22.0,2002-07-27,ACT,,1.0,4.0,79.0,215.0,Pepperdine,LAL,PF,Maxwell Lewis
+Xavier Munford,1618,nba,,True,,32.0,1992-06-01,FA,,2.0,,76.0,173.0,Rhode Island,,PG,Xavier Munford
+Guerschon Yabusele,1821,nba,28.0,True,C,28.0,1995-12-17,ACT,,2.0,2.0,80.0,260.0,,PHI,PF,Guerschon Yabusele
+Will Cherry,1498,nba,,True,,33.0,1991-02-08,FA,,1.0,,72.0,185.0,Montana,,PG,Will Cherry
+Myke Henry,1793,nba,,True,,31.0,1992-12-23,FA,,1.0,,78.0,238.0,DePaul,,SF,Myke Henry
+Jeremiah Martin,2033,nba,,True,,28.0,1996-06-19,FA,,1.0,,74.0,185.0,Memphis,,PG,Jeremiah Martin
+James Akinjo,2861,nba,,True,,24.0,2000-11-27,FA,,1.0,,73.0,190.0,Baylor,,PG,James Akinjo
+AJ Griffin,2448,nba,,True,,21.0,2003-08-25,FA,,2.0,,78.0,220.0,Duke,,PF,AJ Griffin
+Tony Allen,1212,nba,,False,,42.0,1982-01-11,RET,,14.0,,76.0,213.0,Oklahoma State,,SF,Tony Allen
+Jonas Valanciunas,1319,nba,17.0,True,C,32.0,1992-05-06,ACT,,12.0,2.0,83.0,265.0,,WAS,C,Jonas Valanciunas
+Lindy Waters,2408,nba,43.0,True,SG,27.0,1997-07-28,ACT,,3.0,1.0,77.0,201.0,Oklahoma State,GSW,SG,Lindy Waters
+Tyus Jones,1614,nba,21.0,True,PG,28.0,1996-05-10,ACT,,9.0,1.0,72.0,196.0,Duke,PHX,PG,Tyus Jones
+Jaylen Morris,1810,nba,,True,,29.0,1995-09-19,FA,,2.0,,77.0,185.0,Molloy,,SG,Jaylen Morris
+Kenny Wooten,2002,nba,,True,,26.0,1998-04-17,FA,,1.0,,80.0,235.0,Oregon,,PF,Kenny Wooten
+Marcelo Huertas,1619,nba,,True,,41.0,1983-05-25,FA,,1.0,,75.0,200.0,,,PG,Marcelo Huertas
+Dillon Brooks,1792,nba,9.0,True,SF,28.0,1996-01-22,ACT,,7.0,1.0,79.0,220.0,Oregon,HOU,SG,Dillon Brooks
+Victor Oladipo,1489,nba,,True,,32.0,1992-05-04,FA,,10.0,,75.0,213.0,Indiana,,SG,Victor Oladipo
+Solomon Jones,1483,nba,,False,,40.0,1984-07-16,RET,,8.0,,82.0,235.0,South Florida,,PF,Solomon Jones
+Mike Muscala,1252,nba,,False,,33.0,1991-07-01,RET,,10.0,,82.0,240.0,Bucknell,,C,Mike Muscala
+Quincy Acy,1326,nba,,True,,34.0,1990-10-06,FA,,7.0,,79.0,240.0,Baylor,,PF,Quincy Acy
+Vince Carter,1406,nba,,False,,47.0,1977-01-26,RET,,22.0,,78.0,220.0,North Carolina,,SF,Vince Carter
+Jalen Pickett,2619,nba,24.0,True,PG,25.0,1999-10-22,ACT,,1.0,5.0,74.0,202.0,Penn State,DEN,PG,Jalen Pickett
+Luka Samanic,2066,nba,,True,,24.0,2000-01-09,FA,,3.0,,82.0,227.0,,,PF,Luka Samanic
+Matt Lewis,2369,nba,,True,,25.0,1998-12-21,FA,,1.0,,75.0,189.0,James Madison,,SG,Matt Lewis
+Henry Walker,1566,nba,,True,,37.0,1987-10-09,FA,,5.0,,78.0,235.0,Kansas State,,SF,Henry Walker
+Saben Lee,2150,nba,,True,,25.0,1999-06-23,FA,,4.0,,74.0,183.0,Vanderbilt,,PG,Saben Lee
+Naji Marshall,2233,nba,13.0,True,SF,26.0,1998-01-24,ACT,,4.0,2.0,79.0,225.0,Xavier,DAL,SF,Naji Marshall
+Garrett Temple,1124,nba,17.0,True,SG,38.0,1986-05-08,ACT,,14.0,7.0,77.0,195.0,LSU,TOR,SG,Garrett Temple
+Devin Harris,1393,nba,,True,,41.0,1983-02-27,FA,,15.0,,75.0,185.0,Wisconsin,,PG,Devin Harris
+Shareef O'Neal,2418,nba,,True,,24.0,2000-01-11,FA,,1.0,,82.0,225.0,LSU,,PF,Shareef O'Neal
+Jordan Nwora,2153,nba,,True,,26.0,1998-09-09,FA,,3.0,,80.0,225.0,Louisville,,SF,Jordan Nwora
+Xavier Tillman,2163,nba,26.0,True,C,25.0,1999-01-12,ACT,,4.0,5.0,80.0,250.0,Michigan State,BOS,C,Xavier Tillman
+Jonas Jerebko,1133,nba,,True,,37.0,1987-03-02,FA,,9.0,,82.0,231.0,,,PF,Jonas Jerebko
+Troy Daniels,1234,nba,,True,,33.0,1991-07-15,FA,,7.0,,76.0,200.0,VCU,,SG,Troy Daniels
+Isaiah Hicks,1758,nba,,True,,30.0,1994-07-24,FA,,1.0,,81.0,230.0,North Carolina,,PF,Isaiah Hicks
+Keegan Murray,2456,nba,13.0,True,PF,24.0,2000-08-19,ACT,,2.0,1.0,80.0,215.0,Iowa,SAC,PF,Keegan Murray
+Tahjere McCall,1918,nba,,True,,30.0,1994-08-17,FA,,1.0,,77.0,190.0,Tennessee State,,SG,Tahjere McCall
+Josh Okogie,1920,nba,2.0,True,SF,26.0,1998-09-01,ACT,,6.0,3.0,76.0,212.0,Georgia Tech,PHX,SF,Josh Okogie
+Antawn Jamison,1338,nba,,False,,48.0,1976-06-12,RET,,16.0,,81.0,235.0,North Carolina,,PF,Antawn Jamison
+Trent Forrest,2171,nba,,True,,26.0,1998-06-12,FA,,3.0,,76.0,210.0,Florida State,,SF,Trent Forrest
+Johnny Hamilton,2366,nba,,True,,30.0,1994-02-03,FA,,1.0,,84.0,230.0,Texas-Arlington,,C,Johnny Hamilton
+Marcus Zegarowski,2279,nba,,True,,26.0,1998-08-03,FA,,1.0,,74.0,181.0,Creighton,,PG,Marcus Zegarowski
+Darrell Arthur,1476,nba,,True,,36.0,1988-03-25,FA,,9.0,,81.0,235.0,Kansas,,PF,Darrell Arthur
+A.J. Reeves,2542,nba,,True,,25.0,1999-06-04,FA,,1.0,,78.0,205.0,Providence,,PG,A.J. Reeves
+Draymond Green,1082,nba,23.0,True,PF,34.0,1990-03-04,ACT,,12.0,1.0,78.0,235.0,Michigan State,GSW,PF,Draymond Green
+Ray Allen,1365,nba,,False,,49.0,1975-07-20,RET,,18.0,,77.0,205.0,UConn,,SG,Ray Allen
+Roy Hibbert,1062,nba,,False,,37.0,1986-12-11,RET,,9.0,,86.0,270.0,Georgetown,,C,Roy Hibbert
+Eric Maynor,1110,nba,,False,,37.0,1987-06-11,RET,,5.0,,75.0,175.0,VCU,,PG,Eric Maynor
+Isaiah Stevens,2825,nba,,True,,24.0,2000-11-01,FA,,0.0,,72.0,185.0,Colorado State,,PG,Isaiah Stevens
+Andre Miller,1122,nba,,False,,48.0,1976-03-19,RET,,17.0,,74.0,200.0,Utah,,PG,Andre Miller
+Hunter Tyson,2618,nba,5.0,True,PF,24.0,2000-06-13,ACT,,1.0,2.0,80.0,215.0,Clemson,DEN,PF,Hunter Tyson
+Quentin Grimes,2258,nba,5.0,True,SG,24.0,2000-05-08,ACT,,3.0,2.0,77.0,210.0,Houston,DAL,SG,Quentin Grimes
+Dalton Knecht,2709,nba,4.0,True,SG,23.0,2001-04-19,ACT,,0.0,1.0,78.0,215.0,Tennessee,LAL,PG,Dalton Knecht
+Christian Terrell,2795,nba,,True,,27.0,1997-07-28,FA,,0.0,,77.0,200.0,Sacramento State,,PG,Christian Terrell
+Trey Burke,1352,nba,,True,,32.0,1992-11-12,FA,,9.0,,72.0,185.0,Michigan,,PG,Trey Burke
+Bennie Boatwright,2242,nba,,True,,28.0,1996-07-13,FA,,1.0,,82.0,227.0,USC,,PF,Bennie Boatwright
+Vernon Carey,2129,nba,,True,,23.0,2001-02-25,FA,,2.0,,82.0,270.0,Duke,,C,Vernon Carey
+Briante Weber,1617,nba,,True,,31.0,1992-12-29,FA,,3.0,,74.0,170.0,VCU,,PG,Briante Weber
+A.J. Price,1181,nba,,False,,38.0,1986-10-07,RET,,6.0,,74.0,195.0,UConn,,PG,A.J. Price
+RaeQuan Battle,2786,nba,21.0,True,,23.0,2001-02-19,FA,,0.0,,77.0,190.0,West Virginia,,PG,RaeQuan Battle
+Ronny Turiaf,1188,nba,,False,,41.0,1983-01-13,RET,,10.0,,82.0,249.0,Gonzaga,,C,Ronny Turiaf
+Moses Wood,2850,nba,,True,,25.0,1999-05-03,FA,,0.0,,80.0,210.0,Washington,,PF,Moses Wood
+Jeremy Sochan,2451,nba,10.0,True,C,21.0,2003-05-20,ACT,,2.0,5.0,80.0,230.0,Baylor,SAS,PF,Jeremy Sochan
+Carlos Delfino,1382,nba,,False,,42.0,1982-08-29,RET,,8.0,,78.0,230.0,,,SG,Carlos Delfino
+Miller Kopp,2865,nba,,True,,26.0,1998-11-24,FA,,0.0,,79.0,220.0,Indiana,,PF,Miller Kopp
+Royal Ivey,1437,nba,,False,,42.0,1981-12-20,RET,,10.0,,76.0,215.0,Texas,,PG,Royal Ivey
+Quenton Jackson,2521,nba,29.0,True,SF,26.0,1998-09-15,TWO-WAY,,2.0,2.0,77.0,175.0,Texas A&M,IND,PG,Quenton Jackson
+Rayjon Tucker,2078,nba,,True,,27.0,1997-09-24,FA,,1.0,,75.0,209.0,Little Rock,,SG,Rayjon Tucker
+Reggie Hearn,1778,nba,,True,,33.0,1991-08-14,FA,,1.0,,77.0,210.0,Northwestern,,SG,Reggie Hearn
+Alperen Sengun,2308,nba,28.0,True,C,22.0,2002-07-25,ACT,,3.0,1.0,83.0,255.0,,HOU,C,Alperen Sengun
+Devontae Cacok,2045,nba,,True,,28.0,1996-10-08,FA,,2.0,,79.0,240.0,North Carolina-Wilmington,,PF,Devontae Cacok
+Davis Bertans,1714,nba,,True,,32.0,1992-11-12,FA,,7.0,,82.0,225.0,,,PF,Davis Bertans
+Chima Moneke,2501,nba,,True,,28.0,1995-12-24,FA,,1.0,,77.0,223.0,UC Davis,,PF,Chima Moneke
+Ja'Kobe Walter,2723,nba,14.0,True,SG,20.0,2004-09-04,ACT,,0.0,5.0,76.0,198.0,Baylor,TOR,PG,Ja'Kobe Walter
+Ed Davis,1204,nba,,True,,35.0,1989-06-05,FA,,12.0,,81.0,218.0,North Carolina,,PF,Ed Davis
+Corey Kispert,2266,nba,24.0,True,SF,25.0,1999-03-03,ACT,,3.0,2.0,78.0,224.0,Gonzaga,WAS,SF,Corey Kispert
+Byron Mullens,1111,nba,,False,,35.0,1989-02-14,RET,,5.0,,84.0,275.0,Ohio State,,C,Byron Mullens
+Aaron Jackson,1805,nba,,True,,38.0,1986-05-06,FA,,1.0,,75.0,183.0,Duquesne,,PG,Aaron Jackson
+E'Twaun Moore,1484,nba,,True,,35.0,1989-02-25,FA,,10.0,,75.0,191.0,Purdue,,SG,E'Twaun Moore
+Frank Mason,1870,nba,,True,,30.0,1994-04-03,FA,,4.0,,71.0,190.0,Kansas,,PG,Frank Mason
+Trevon Duval,1935,nba,,True,,26.0,1998-08-03,FA,,1.0,,74.0,189.0,Duke,,PG,Trevon Duval
+Derrick White,1830,nba,9.0,True,SG,30.0,1994-07-02,ACT,,7.0,1.0,76.0,200.0,Colorado,BOS,SG,Derrick White
+Jordan Ford,2230,nba,,True,,26.0,1998-05-26,FA,,2.0,,73.0,175.0,Saint Mary's,,PG,Jordan Ford
+Malcolm Thomas,1299,nba,,True,,36.0,1988-11-08,FA,,4.0,,81.0,224.0,San Diego State,,PF,Malcolm Thomas
+Davion Mitchell,2301,nba,45.0,True,PG,26.0,1998-09-05,ACT,,3.0,2.0,72.0,202.0,Baylor,TOR,PG,Davion Mitchell
+Amida Brimah,2206,nba,,True,,30.0,1994-02-11,FA,,1.0,,82.0,230.0,UConn,,C,Amida Brimah
+Kevin Pangos,2354,nba,,True,,31.0,1993-01-26,FA,,1.0,,73.0,179.0,Gonzaga,,SG,Kevin Pangos
+Alexey Shved,1184,nba,,True,,35.0,1988-12-16,FA,,3.0,,78.0,187.0,,,PG,Alexey Shved
+Louis King,2024,nba,,True,,25.0,1999-04-06,FA,,3.0,,79.0,205.0,Oregon,,SF,Louis King
+Charles Matthews,2208,nba,,True,,28.0,1996-11-15,FA,,1.0,,78.0,205.0,Michigan,,SG,Charles Matthews
+Ricky Council,2624,nba,14.0,True,SG,23.0,2001-08-03,ACT,,1.0,3.0,78.0,207.0,Arkansas,PHI,PG,Ricky Council
+Tyrell Terry,2154,nba,,False,,24.0,2000-09-28,RET,,2.0,,74.0,160.0,Stanford,,PG,Tyrell Terry
+Delon Wright,1636,nba,55.0,True,PG,32.0,1992-04-26,ACT,,9.0,2.0,77.0,185.0,Utah,MIL,PG,Delon Wright
+Nathan Mensah,2665,nba,,True,,26.0,1998-04-09,FA,,2.0,,81.0,230.0,San Diego State,,PF,Nathan Mensah
+Ryan Gomes,1430,nba,,False,,42.0,1982-09-01,RET,,8.0,,79.0,245.0,Providence,,SF,Ryan Gomes
+Johnny Furphy,2744,nba,12.0,True,SF,19.0,2004-12-07,ACT,,0.0,3.0,81.0,189.0,Kansas,IND,PG,Johnny Furphy
+Kevin Seraphin,1123,nba,,True,,34.0,1989-12-07,FA,,7.0,,82.0,278.0,,,PF,Kevin Seraphin
+Cedi Osman,1762,nba,,True,,29.0,1995-04-08,FA,,6.0,,79.0,230.0,,,SF,Cedi Osman
+Cole Anthony,2165,nba,50.0,True,PG,24.0,2000-05-15,ACT,,4.0,3.0,74.0,185.0,North Carolina,ORL,PG,Cole Anthony
+Hassani Gravett,2351,nba,,True,,28.0,1996-07-16,FA,,1.0,,74.0,188.0,South Carolina,,PG,Hassani Gravett
+Kevin Obanor,2660,nba,,True,,25.0,1999-06-12,FA,,1.0,,80.0,235.0,Texas Tech,,SF,Kevin Obanor
+Grayson Murphy,2803,nba,,True,,25.0,1999-02-04,FA,,0.0,,75.0,190.0,Belmont,,PG,Grayson Murphy
+Jeremiah Tilmon,2380,nba,,True,,26.0,1998-11-25,FA,,1.0,,82.0,260.0,Missouri,,C,Jeremiah Tilmon
+Olivier Sarr,2402,nba,,True,,25.0,1999-02-20,FA,,2.0,,82.0,240.0,Kentucky ,,C,Olivier Sarr
+Jamal Shead,2764,nba,23.0,True,PG,22.0,2002-07-24,ACT,,0.0,3.0,72.0,201.0,Houston,TOR,PG,Jamal Shead
+David Nwaba,1699,nba,,True,,31.0,1993-01-14,FA,,6.0,,77.0,219.0,Cal Poly,,SF,David Nwaba
+Sasha Kaun,1593,nba,,False,,39.0,1985-05-08,RET,,1.0,,83.0,250.0,Kansas,,C,Sasha Kaun
+Robert Williams,1950,nba,35.0,True,PF,27.0,1997-10-17,ACT,,6.0,2.0,81.0,249.0,Texas A&M,POR,C,Robert Williams
+Kobi Simmons,1795,nba,,True,,27.0,1997-07-04,FA,,2.0,,77.0,180.0,Arizona,,PG,Kobi Simmons
+Kadeem Allen,1827,nba,,True,,31.0,1993-01-15,FA,,2.0,,73.0,200.0,Arizona,,SG,Kadeem Allen
+Okaro White,1723,nba,,True,,32.0,1992-08-13,FA,,2.0,,80.0,205.0,Florida State,,SF,Okaro White
+Dusty Hannahs,1927,nba,,True,,31.0,1993-09-02,FA,,2.0,,76.0,195.0,Arkansas,,SG,Dusty Hannahs
+Ben Sheppard,2562,nba,26.0,True,PG,23.0,2001-07-16,ACT,,1.0,5.0,78.0,200.0,Belmont,IND,PG,Ben Sheppard
+D'Angelo Russell,1621,nba,1.0,True,PG,28.0,1996-02-23,ACT,,9.0,2.0,75.0,200.0,Ohio State,LAL,PG,D'Angelo Russell
+Reed Sheppard,2719,nba,15.0,True,PG,20.0,2004-06-24,ACT,,0.0,2.0,75.0,182.0,Kentucky,HOU,PG,Reed Sheppard
+Jonah Bolden,1902,nba,,True,,28.0,1996-01-02,FA,,1.0,,80.0,225.0,UCLA,,PF,Jonah Bolden
+Mfiondu Kabengele,2073,nba,,True,,27.0,1997-08-14,FA,,2.0,,82.0,250.0,Florida State,,PF,Mfiondu Kabengele
+Eric Paschall,2014,nba,,True,,28.0,1996-11-04,FA,,3.0,,78.0,255.0,Villanova,,PF,Eric Paschall
+Nikola Mirotic,1493,nba,,True,,33.0,1991-02-11,FA,,5.0,,82.0,250.0,,,PF,Nikola Mirotic
+Jerami Grant,1512,nba,9.0,True,PF,30.0,1994-03-12,ACT,,10.0,1.0,79.0,210.0,Syracuse,POR,PF,Jerami Grant
+Anthony Lamb,2195,nba,,True,,26.0,1998-01-20,FA,,2.0,,78.0,227.0,Vermont,,SF,Anthony Lamb
+Jarrell Brantley,2079,nba,,True,,28.0,1996-06-07,FA,,2.0,,77.0,250.0,Charleston,,PF,Jarrell Brantley
+Dairis Bertans,1948,nba,,True,,35.0,1989-09-09,FA,,1.0,,76.0,183.0,,,PG,Dairis Bertans
+Gordon Hayward,1357,nba,,False,,34.0,1990-03-23,RET,,13.0,,79.0,225.0,Butler,,SF,Gordon Hayward
+Julian Washburn,1923,nba,,True,,32.0,1991-12-18,FA,,1.0,,80.0,210.0,UTEP,,SG,Julian Washburn
+Angel Delgado,1956,nba,,True,,30.0,1994-11-20,FA,,1.0,,82.0,245.0,Seton Hall,,C,Angel Delgado
+Tyler Polley,2849,nba,,True,,25.0,1999-04-07,FA,,0.0,,81.0,215.0,UConn,,SF,Tyler Polley
+Nuni Omot,2528,nba,,True,,30.0,1994-10-03,FA,,1.0,,81.0,200.0,Baylor,,SF,Nuni Omot
+Marcus Thornton,1179,nba,,True,,37.0,1987-06-05,FA,,8.0,,76.0,205.0,LSU,,SG,Marcus Thornton
+Zaza Pachulia,1377,nba,,False,,40.0,1984-02-10,RET,,16.0,,83.0,270.0,,,C,Zaza Pachulia
+Brandan Wright,1401,nba,,True,,37.0,1987-10-05,FA,,10.0,,82.0,235.0,North Carolina,,PF,Brandan Wright
+Kevon Looney,1598,nba,5.0,True,C,28.0,1996-02-06,ACT,,9.0,2.0,81.0,249.0,UCLA,GSW,C,Kevon Looney
+Marcus Foster,2388,nba,,True,,29.0,1995-06-03,FA,,1.0,,75.0,205.0,Creighton,,SG,Marcus Foster
+Anthony Barber,2394,nba,,True,,30.0,1994-07-25,FA,,1.0,,74.0,180.0,North Carolina State,,PG,Anthony Barber
+Jordan Loyd,1954,nba,,True,,31.0,1993-07-27,FA,,1.0,,76.0,210.0,Indianapolis,,PG,Jordan Loyd
+Cassius Winston,2158,nba,,True,,26.0,1998-02-28,FA,,1.0,,73.0,185.0,Michigan State,,PG,Cassius Winston
+Amile Jefferson,1789,nba,,False,,31.0,1993-05-07,RET,,2.0,,81.0,222.0,Duke,,PF,Amile Jefferson
+Souley Boum,2648,nba,,True,,25.0,1999-01-26,FA,,1.0,,75.0,175.0,Xavier,,PG,Souley Boum
+JaQuori McLaughlin,2349,nba,,True,,26.0,1998-01-29,FA,,1.0,,76.0,190.0,UC Santa Barbara,,PG,JaQuori McLaughlin
+Awudu Abass,2510,nba,,True,,31.0,1993-01-27,FA,,1.0,,78.0,220.0,,,PF,Awudu Abass
+Zach LaVine,1526,nba,8.0,True,SF,29.0,1995-03-10,ACT,,10.0,1.0,77.0,200.0,UCLA,CHI,SG,Zach LaVine
+Spencer Dinwiddie,1516,nba,26.0,True,PG,31.0,1993-04-06,ACT,,10.0,3.0,77.0,215.0,Colorado,DAL,SG,Spencer Dinwiddie
+C.J. Wilcox,1553,nba,,True,,33.0,1990-12-30,FA,,3.0,,77.0,195.0,Washington,,SG,C.J. Wilcox
+Isaac Okoro,2120,nba,35.0,True,SF,23.0,2001-01-26,ACT,,4.0,1.0,77.0,225.0,Auburn,CLE,SG,Isaac Okoro
+Jock Landale,2317,nba,2.0,True,C,29.0,1995-10-25,ACT,,3.0,3.0,83.0,255.0,Saint Mary's,HOU,C,Jock Landale
+Archie Goodwin,1417,nba,,True,,30.0,1994-08-17,FA,,4.0,,77.0,205.0,Kentucky,,SG,Archie Goodwin
+Erick Green,1582,nba,,True,,33.0,1991-05-09,FA,,2.0,,76.0,185.0,Virginia Tech,,PG,Erick Green
+Glen Davis,1341,nba,,True,,38.0,1986-01-01,FA,,8.0,,81.0,289.0,LSU,,PF,Glen Davis
+Cody Demps,1984,nba,,True,,30.0,1993-12-02,FA,,1.0,,76.0,195.0,Sacramento State,,SG,Cody Demps
+Darin Green,2809,nba,,True,,23.0,2001-01-15,FA,,0.0,,77.0,195.0,Florida State,,SG,Darin Green
+Ronald Roberts,1514,nba,,True,,33.0,1991-08-05,FA,,1.0,,80.0,225.0,Saint Joseph's,,PF,Ronald Roberts
+Gabe Vincent,2084,nba,7.0,True,SG,28.0,1996-06-14,ACT,,5.0,2.0,74.0,204.0,UC Santa Barbara,LAL,PG,Gabe Vincent
+Denzel Valentine,1662,nba,,True,,31.0,1993-11-16,FA,,5.0,,76.0,220.0,Michigan State,,SG,Denzel Valentine
+Dyson Daniels,2449,nba,5.0,True,SG,21.0,2003-03-17,ACT,,2.0,1.0,79.0,199.0,,ATL,PG,Dyson Daniels
+Will Bynum,1134,nba,,False,,41.0,1983-01-04,RET,,8.0,,72.0,185.0,Georgia Tech,,PG,Will Bynum
+Jalen Suggs,2305,nba,4.0,True,PG,23.0,2001-06-03,ACT,,3.0,1.0,77.0,205.0,Gonzaga,ORL,SG,Jalen Suggs
+Sebastian Telfair,1575,nba,,False,,39.0,1985-06-09,RET,,10.0,,72.0,170.0,,,PG,Sebastian Telfair
+Royce O'Neale,1841,nba,0.0,True,SF,31.0,1993-06-05,ACT,,7.0,2.0,78.0,220.0,Baylor,PHX,SF,Royce O'Neale
+Justin Hamilton,1161,nba,,True,,34.0,1990-04-01,FA,,3.0,,84.0,260.0,LSU,,C,Justin Hamilton
+Tristan Enaruna,2840,nba,,True,,23.0,2001-06-26,FA,,0.0,,80.0,220.0,Cleveland State,,SF,Tristan Enaruna
+Jalen Jones,1817,nba,,True,,31.0,1993-05-27,FA,,2.0,,79.0,220.0,Texas A&M,,SF,Jalen Jones
+Evan Mobley,2259,nba,4.0,True,PF,23.0,2001-06-18,ACT,,3.0,1.0,83.0,215.0,USC,CLE,C,Evan Mobley
+Yuki Kawamura,2859,nba,17.0,True,PG,23.0,2001-05-02,TWO-WAY,,0.0,5.0,68.0,159.0,,MEM,PG,Yuki Kawamura
+Ersan Ilyasova,1386,nba,,True,,37.0,1987-05-15,FA,,13.0,,81.0,235.0,,,PF,Ersan Ilyasova
+Trey Woodbury,2817,nba,,True,,25.0,1999-09-17,FA,,0.0,,76.0,200.0,Utah Valley,,PG,Trey Woodbury
+Dejounte Murray,1713,nba,5.0,True,PG,28.0,1996-09-19,ACT,,7.0,1.0,77.0,180.0,Washington,NOP,PG,Dejounte Murray
+Adonis Arms,2532,nba,,True,,26.0,1998-06-26,FA,,1.0,,78.0,205.0,Texas Tech,,PF,Adonis Arms
+Mike Miles,2625,nba,,True,,22.0,2002-08-24,FA,,1.0,,74.0,195.0,TCU,,PG,Mike Miles
+Emeka Okafor,1418,nba,,False,,42.0,1982-09-28,RET,,10.0,,82.0,255.0,UConn,,C,Emeka Okafor
+Talen Horton-Tucker,2043,nba,22.0,True,SF,24.0,2000-11-25,ACT,,5.0,4.0,76.0,234.0,Iowa State,CHI,SG,Talen Horton-Tucker
+C.J. Williams,1835,nba,,True,,34.0,1990-02-06,FA,,2.0,,77.0,234.0,North Carolina State,,SG,C.J. Williams
+Jalen Smith,2156,nba,7.0,True,C,24.0,2000-03-16,ACT,,4.0,2.0,81.0,215.0,Maryland,CHI,PF,Jalen Smith
+Henry Ellenson,1685,nba,,True,,27.0,1997-01-13,FA,,4.0,,82.0,240.0,Marquette,,PF,Henry Ellenson
+Noah Vonleh,1518,nba,,True,,29.0,1995-08-24,FA,,7.0,,82.0,257.0,Indiana,,PF,Noah Vonleh
+Tim Hardaway,1029,nba,8.0,True,SF,32.0,1992-03-16,ACT,,11.0,1.0,77.0,205.0,Michigan,DET,SG,Tim Hardaway
+Kyler Edwards,2523,nba,,True,,25.0,1999-05-03,FA,,1.0,,76.0,205.0,Houston,,PG,Kyler Edwards
+D.J. Stephens,1391,nba,,True,,33.0,1990-12-19,FA,,2.0,,77.0,188.0,Memphis,,SG,D.J. Stephens
+Juan Toscano-Anderson,2111,nba,,True,,31.0,1993-04-10,FA,,3.0,,78.0,209.0,Marquette,,SF,Juan Toscano-Anderson
+JJ Redick,1343,nba,,False,,40.0,1984-06-24,RET,,15.0,,75.0,200.0,Duke,,SG,JJ Redick
+Karim Mane,2205,nba,,True,,24.0,2000-05-16,FA,,1.0,,75.0,190.0,Vanier (CAN),,PG,Karim Mane
+Grant Riller,2130,nba,,True,,27.0,1997-02-08,FA,,1.0,,74.0,190.0,Charleston,,SG,Grant Riller
+Joe Young,1597,nba,,True,,32.0,1992-06-27,FA,,3.0,,74.0,185.0,Oregon,,PG,Joe Young
+Tibor Pleiss,1642,nba,,True,,35.0,1989-11-02,FA,,1.0,,86.0,269.0,,,C,Tibor Pleiss
+Timothe Luwawu-Cabarrot,1675,nba,,True,,29.0,1995-05-09,FA,,6.0,,79.0,210.0,,,SF,Timothe Luwawu-Cabarrot
+KJ Simpson,2751,nba,25.0,True,PG,22.0,2002-08-08,TWO-WAY,,0.0,4.0,74.0,189.0,Colorado,CHA,PG,KJ Simpson
+Justin Harper,1607,nba,,False,,35.0,1989-08-30,RET,,3.0,,81.0,225.0,Richmond,,SF,Justin Harper
+Patricio Garino,1750,nba,,True,,31.0,1993-05-17,FA,,1.0,,78.0,210.0,George Washington,,SG,Patricio Garino
+Precious Achiuwa,2152,nba,5.0,True,C,25.0,1999-09-19,ACT,,4.0,4.0,80.0,243.0,Memphis,NYK,C,Precious Achiuwa
+RJ Barrett,2001,nba,9.0,True,SF,24.0,2000-06-14,ACT,,5.0,1.0,78.0,214.0,Duke,TOR,SF,RJ Barrett
+Jaedon LeDee,2847,nba,,True,,25.0,1999-07-25,FA,,0.0,,81.0,240.0,San Diego State,,SF,Jaedon LeDee
+Ausar Thompson,2566,nba,9.0,True,SF,21.0,2003-01-30,ACT,,1.0,2.0,78.0,205.0,,DET,PG,Ausar Thompson
+Ivica Zubac,1697,nba,40.0,True,C,27.0,1997-03-18,ACT,,8.0,1.0,84.0,240.0,,LAC,C,Ivica Zubac
+Jalen Wilson,2600,nba,22.0,True,SF,24.0,2000-11-04,ACT,,1.0,2.0,78.0,220.0,Kansas,BKN,PF,Jalen Wilson
+Zhaire Smith,1898,nba,,True,,25.0,1999-06-04,FA,,2.0,,75.0,205.0,Texas Tech,,SG,Zhaire Smith
+Kira Lewis,2140,nba,,True,,23.0,2001-04-06,FA,,4.0,,73.0,170.0,Alabama,,PG,Kira Lewis
+Gian Clavell,1853,nba,,True,,31.0,1993-11-26,FA,,1.0,,76.0,185.0,Colorado State,,SG,Gian Clavell
+Pero Antic,1249,nba,,False,,42.0,1982-07-29,RET,,2.0,,83.0,260.0,,,PF,Pero Antic
+Xavier Rathan-Mayes,1791,nba,,True,,30.0,1994-04-29,FA,,1.0,,76.0,208.0,Xavier,,PG,Xavier Rathan-Mayes
+Juan Nunez,2760,nba,,True,,20.0,2004-06-04,FA,,0.0,,76.0,175.0,,,PG,Juan Nunez
+Donta Hall,2113,nba,,True,,27.0,1997-08-07,FA,,2.0,,82.0,230.0,Alabama,,PF,Donta Hall
+Kyrie Irving,1054,nba,11.0,True,SG,32.0,1992-03-23,ACT,,13.0,1.0,74.0,191.0,Duke,DAL,PG,Kyrie Irving
+Daeqwon Plowden,2514,nba,29.0,True,,26.0,1998-08-29,FA,,1.0,,78.0,216.0,Bowling Green,,PG,Daeqwon Plowden
+Jamil Wilson,1836,nba,,True,,34.0,1990-11-21,FA,,1.0,,79.0,229.0,Marquette,,SF,Jamil Wilson
+Sekou Doumbouya,2026,nba,,True,,23.0,2000-12-23,FA,,2.0,,80.0,230.0,,,PF,Sekou Doumbouya
+Bol Bol,2105,nba,11.0,True,PF,25.0,1999-11-16,ACT,,5.0,5.0,86.0,220.0,Oregon,PHX,PF,Bol Bol
+Jabari Walker,2477,nba,34.0,True,PF,22.0,2002-07-30,ACT,,2.0,4.0,79.0,227.0,Colorado,POR,PF,Jabari Walker
+Tyler Kolek,2742,nba,13.0,True,PG,23.0,2001-03-27,ACT,,0.0,3.0,75.0,195.0,Marquette,NYK,PG,Tyler Kolek
+Nick Richards,2141,nba,4.0,True,C,27.0,1997-11-29,ACT,,4.0,1.0,84.0,245.0,Kentucky,CHA,C,Nick Richards
+Trey McKinney-Jones,1768,nba,,True,,34.0,1990-08-27,FA,,0.0,,77.0,220.0,Miami (FL),,SG,Trey McKinney-Jones
+Nik Stauskas,1577,nba,,True,,31.0,1993-10-07,FA,,6.0,,78.0,205.0,Michigan,,SF,Nik Stauskas
+Furkan Korkmaz,1774,nba,,True,,27.0,1997-07-24,FA,,6.0,,79.0,202.0,,,SG,Furkan Korkmaz
+Ben Gordon,1160,nba,,False,,41.0,1983-04-04,RET,,11.0,,75.0,205.0,UConn,,SG,Ben Gordon
+Jared Sullinger,1287,nba,,True,,32.0,1992-03-04,FA,,5.0,,81.0,260.0,Ohio State,,C,Jared Sullinger
+Leaky Black,2644,nba,,True,,25.0,1999-06-14,FA,,2.0,,78.0,209.0,North Carolina,,PF,Leaky Black
+Walker Kessler,2441,nba,24.0,True,C,23.0,2001-07-26,ACT,,2.0,1.0,84.0,245.0,Auburn,UTA,C,Walker Kessler
+Patrick Williams,2118,nba,44.0,True,PF,23.0,2001-08-26,ACT,,4.0,1.0,79.0,215.0,Florida State,CHI,PF,Patrick Williams
+Ignas Brazdeikis,2000,nba,,True,,25.0,1999-01-08,FA,,3.0,,78.0,221.0,Michigan,,SF,Ignas Brazdeikis
+Michael Devoe,2419,nba,,True,,24.0,1999-12-17,FA,,1.0,,76.0,183.0,Georgia Tech,,SG,Michael Devoe
+PJ Hall,2773,nba,13.0,True,C,22.0,2002-02-21,TWO-WAY,,0.0,5.0,82.0,238.0,Clemson,DEN,C,PJ Hall
+Reggie Kissoonlal,2546,nba,,True,,28.0,1996-04-10,FA,,1.0,,83.0,204.0,Northwestern State,,PF,Reggie Kissoonlal
+Noah Kirkwood,2538,nba,,True,,24.0,1999-12-27,FA,,1.0,,79.0,215.0,Harvard,,PG,Noah Kirkwood
+Setric Millner,2667,nba,,True,,24.0,2000-06-29,FA,,1.0,,79.0,205.0,Toledo,,PF,Setric Millner
+Richaun Holmes,1603,nba,22.0,True,C,31.0,1993-10-15,ACT,,9.0,4.0,81.0,235.0,Bowling Green,WAS,C,Richaun Holmes
+Aaron Wiggins,2299,nba,21.0,True,SF,25.0,1999-01-02,ACT,,3.0,1.0,77.0,190.0,Maryland,OKC,SG,Aaron Wiggins
+Grayson Allen,1959,nba,8.0,True,SG,29.0,1995-10-08,ACT,,6.0,2.0,76.0,218.0,Duke,PHX,SG,Grayson Allen
+Boogie Ellis,2862,nba,,True,,23.0,2000-12-12,FA,,0.0,,73.0,190.0,USC,,PG,Boogie Ellis
+Jalen Hood-Schifino,2572,nba,0.0,True,PG,21.0,2003-06-19,ACT,,1.0,5.0,77.0,215.0,Indiana,LAL,PG,Jalen Hood-Schifino
+Sasha Vujacic,1332,nba,,False,,40.0,1984-03-08,RET,,10.0,,79.0,195.0,,,SG,Sasha Vujacic
+Jontay Porter,2116,nba,,True,,25.0,1999-11-15,SUS,,1.0,,83.0,240.0,Missouri,,PF,Jontay Porter
+Anthony Tolliver,1147,nba,,True,,39.0,1985-06-01,FA,,13.0,,80.0,240.0,Creighton,,PF,Anthony Tolliver
+Randy Foye,1472,nba,,False,,41.0,1983-09-24,RET,,11.0,,76.0,213.0,Villanova,,SG,Randy Foye
+Larry Sanders,1390,nba,,False,,36.0,1988-11-21,RET,,6.0,,83.0,230.0,VCU,,C,Larry Sanders
+Nate Williams,2543,nba,19.0,True,PG,25.0,1999-02-12,TWO-WAY,,2.0,6.0,77.0,205.0,Buffalo,HOU,PG,Nate Williams
+James Banks,2384,nba,,True,,26.0,1998-01-16,FA,,1.0,,82.0,250.0,Georgia Tech,,C,James Banks
+Taj Gibson,1016,nba,67.0,True,C,39.0,1985-06-24,ACT,,15.0,4.0,81.0,232.0,USC,CHA,PF,Taj Gibson
+Victor Claver,1453,nba,,True,,36.0,1988-08-30,FA,,3.0,,81.0,224.0,,,PF,Victor Claver
+Luka Garza,2268,nba,55.0,True,C,25.0,1998-12-27,ACT,,3.0,4.0,82.0,243.0,Iowa ,MIN,C,Luka Garza
+Andrei Kirilenko,1164,nba,,False,,43.0,1981-02-18,RET,,13.0,,81.0,235.0,,,SF,Andrei Kirilenko
+Devon Hall,2098,nba,,True,,29.0,1995-07-07,FA,,1.0,,74.0,215.0,Virginia,,SG,Devon Hall
+Tyrese Maxey,2126,nba,0.0,True,PG,24.0,2000-11-04,ACT,,4.0,1.0,74.0,200.0,Kentucky,PHI,SG,Tyrese Maxey
+Jared Dudley,1329,nba,,False,,39.0,1985-07-10,RET,,14.0,,78.0,237.0,Boston College,,PF,Jared Dudley
+Quincy Pondexter,1207,nba,,True,,36.0,1988-03-10,FA,,7.0,,79.0,230.0,Washington,,SF,Quincy Pondexter
+Aron Baynes,1307,nba,,False,,37.0,1986-12-09,RET,,9.0,,82.0,260.0,Washington State,,C,Aron Baynes
+Jahlil Okafor,1601,nba,,True,,28.0,1995-12-15,FA,,6.0,,83.0,275.0,Duke,,C,Jahlil Okafor
+Matt Hurt,2328,nba,,True,,24.0,2000-04-20,FA,,1.0,,81.0,233.0,Duke,,PF,Matt Hurt
+Jake LaRavia,2444,nba,3.0,True,PF,23.0,2001-11-03,ACT,,2.0,3.0,79.0,235.0,Wake Forest,MEM,PG,Jake LaRavia
+Marcus Bingham,2526,nba,,True,,24.0,2000-07-14,FA,,1.0,,84.0,230.0,Michigan State,,PF,Marcus Bingham
+Jaxson Hayes,2053,nba,11.0,True,C,24.0,2000-05-23,ACT,,5.0,2.0,84.0,225.0,Texas,LAL,C,Jaxson Hayes
+Drew Peterson,2664,nba,13.0,True,PF,25.0,1999-11-09,TWO-WAY,,1.0,7.0,80.0,196.0,USC,BOS,PG,Drew Peterson
+Ja Morant,2040,nba,12.0,True,PG,25.0,1999-08-10,ACT,,5.0,1.0,74.0,174.0,Murray State,MEM,PG,Ja Morant
+Harrison Ingram,2761,nba,55.0,True,PF,22.0,2002-11-27,TWO-WAY,,0.0,5.0,77.0,235.0,North Carolina,SAS,PF,Harrison Ingram
+Marquis Teague,1002,nba,,True,,31.0,1993-02-28,FA,,3.0,,74.0,189.0,Kentucky,,PG,Marquis Teague
+Christian Wood,1600,nba,35.0,True,C,29.0,1995-09-27,ACT,,8.0,6.0,80.0,214.0,UNLV,LAL,PF,Christian Wood
+Jarace Walker,2563,nba,5.0,True,PF,21.0,2003-09-04,ACT,,1.0,2.0,80.0,235.0,Houston,IND,PF,Jarace Walker
+Theo Maledon,2184,nba,,True,,23.0,2001-06-12,FA,,3.0,,76.0,175.0,,,PG,Theo Maledon
+Alen Smailagic,2015,nba,,True,,24.0,2000-08-18,FA,,1.0,,82.0,215.0,,,PF,Alen Smailagic
+Milton Doyle,1785,nba,,True,,31.0,1993-10-31,FA,,1.0,,76.0,180.0,Loyola (IL),,PG,Milton Doyle
+Justin Lewis,2427,nba,,True,,22.0,2002-04-12,FA,,1.0,,79.0,245.0,Marquette,,PF,Justin Lewis
+A.J. Lawson,2339,nba,,True,,24.0,2000-07-15,FA,,2.0,,78.0,179.0,South Carolina,,SG,A.J. Lawson
+Luke Kennard,1777,nba,10.0,True,SF,28.0,1996-06-24,ACT,,7.0,2.0,77.0,206.0,Duke,MEM,SG,Luke Kennard
+Damien Jefferson,2389,nba,,True,,27.0,1997-10-03,FA,,1.0,,77.0,220.0,Creighton,,PF,Damien Jefferson
+Alfonzo McKinnie,1832,nba,,True,,32.0,1992-09-17,FA,,4.0,,79.0,215.0,Green Bay,,SF,Alfonzo McKinnie
+Maurice N'dour,1665,nba,,True,,32.0,1992-06-18,FA,,1.0,,81.0,200.0,,,PF,Maurice N'dour
+Damien Wilkins,1769,nba,,False,,44.0,1980-01-11,RET,,10.0,,78.0,225.0,Georgia,,SF,Damien Wilkins
+Jordan McRae,1594,nba,,True,,33.0,1991-03-28,FA,,4.0,,77.0,179.0,Tennessee,,SG,Jordan McRae
+Drake Jeffries,2507,nba,,True,,25.0,1999-01-22,FA,,1.0,,77.0,186.0,Wyoming,,PG,Drake Jeffries
+Grant Williams,2061,nba,2.0,True,C,25.0,1998-11-30,ACT,,5.0,5.0,78.0,236.0,Tennessee,CHA,PF,Grant Williams
+Lamine Diane,2223,nba,,True,,27.0,1997-11-07,FA,,1.0,,79.0,205.0,Cal State Northridge,,PF,Lamine Diane
+Derek Fisher,1440,nba,,False,,50.0,1974-08-09,RET,,18.0,,73.0,210.0,Little Rock,,PG,Derek Fisher
+Chris McCullough,1610,nba,,True,,29.0,1995-02-05,FA,,3.0,,83.0,200.0,Syracuse,,PF,Chris McCullough
+Giorgi Bezhanishvili,2385,nba,,True,,26.0,1998-11-16,TWO-WAY,,1.0,,81.0,245.0,Illinois,,PF,Giorgi Bezhanishvili
+Jared Rhoden,2509,nba,27.0,True,PF,25.0,1999-08-27,TWO-WAY,,2.0,6.0,77.0,210.0,Seton Hall,CHA,PG,Jared Rhoden
+Anton Watson,2759,nba,28.0,True,PF,24.0,2000-10-06,TWO-WAY,,0.0,8.0,80.0,235.0,Gonzaga,BOS,PF,Anton Watson
+Rodney McGruder,1722,nba,,True,,33.0,1991-07-29,FA,,7.0,,76.0,205.0,Kansas State,,SG,Rodney McGruder
+Trayce Jackson-Davis,2597,nba,32.0,True,C,24.0,2000-02-22,ACT,,1.0,1.0,81.0,248.0,Indiana,GSW,PF,Trayce Jackson-Davis
+Leonard-DUP Miller-DUP,2704,nba,,True,,,,DUP,,0.0,,82.0,211.0,,,PF,Leonard-DUP Miller-DUP
+Kevin Knox,1886,nba,,True,,25.0,1999-08-11,FA,,5.0,,79.0,215.0,Kentucky,,SF,Kevin Knox
+Tre Jones,2145,nba,33.0,True,PG,24.0,2000-01-08,ACT,,4.0,2.0,73.0,190.0,Duke,SAS,PG,Tre Jones
+Joirdon Nicholas,2823,nba,,True,,,,FA,,0.0,,81.0,220.0,Texas Southern,,PF,Joirdon Nicholas
+Levi Randolph,2004,nba,,True,,32.0,1992-10-03,FA,,1.0,,77.0,208.0,Alabama,,SG,Levi Randolph
+Aminu Mohammed,2549,nba,,True,,22.0,2001-12-15,FA,,1.0,,77.0,210.0,Georgetown,,PG,Aminu Mohammed
+Malachi Flynn,2147,nba,,True,,26.0,1998-05-09,FA,,3.0,,73.0,185.0,San Diego State,,PG,Malachi Flynn
+Solomon Hill,1064,nba,,True,,33.0,1991-03-18,FA,,9.0,,78.0,226.0,Arizona,,SF,Solomon Hill
+Stanton Kidd,2082,nba,,True,,32.0,1992-03-18,FA,,1.0,,78.0,216.0,Colorado State,,SF,Stanton Kidd
+Naz Mitrou-Long,1843,nba,,True,,31.0,1993-08-03,FA,,3.0,,75.0,218.0,Iowa State,,SG,Naz Mitrou-Long
+Tommy Kuhse,2513,nba,,True,,26.0,1998-01-05,FA,,1.0,,74.0,185.0,Saint Mary's,,PG,Tommy Kuhse
+Alex Reese,2857,nba,,True,,25.0,1999-05-21,FA,,0.0,,81.0,245.0,Alabama,,C,Alex Reese
+Ish Wainright,2319,nba,,True,,30.0,1994-09-12,FA,,3.0,,77.0,250.0,Baylor,,PF,Ish Wainright
+Bryson Williams,2555,nba,,True,,26.0,1998-04-25,FA,,1.0,,80.0,240.0,Texas Tech,,PF,Bryson Williams
+Sam Hauser,2329,nba,30.0,True,PF,26.0,1997-12-08,ACT,,3.0,2.0,80.0,221.0,Virginia,BOS,PF,Sam Hauser
+Kihei Clark,2699,nba,,True,,24.0,2000-01-25,FA,,1.0,,70.0,167.0,Virginia,,PG,Kihei Clark
+Caleb McConnell,2694,nba,,True,,25.0,1999-06-08,FA,,1.0,,79.0,200.0,Rutgers,,SG,Caleb McConnell
+Al Horford,1257,nba,42.0,True,C,38.0,1986-06-03,ACT,,17.0,2.0,81.0,246.0,Florida,BOS,C,Al Horford
+Oshae Brissett,2069,nba,,True,,26.0,1998-06-20,FA,,4.0,,79.0,210.0,Syracuse,,PF,Oshae Brissett
+Elijah Millsap,1557,nba,,True,,37.0,1987-08-12,FA,,3.0,,79.0,215.0,UAB,,SF,Elijah Millsap
+John Konchar,2039,nba,46.0,True,SF,28.0,1996-03-22,ACT,,5.0,5.0,77.0,210.0,Purdue Fort Wayne,MEM,SG,John Konchar
+Robert Sacre,1214,nba,,False,,35.0,1989-06-06,RET,,4.0,,84.0,270.0,Gonzaga,,C,Robert Sacre
+Jason Preston,2294,nba,,True,,25.0,1999-08-10,FA,,2.0,,75.0,181.0,Ohio,,PG,Jason Preston
+Markieff Morris,1410,nba,88.0,True,C,35.0,1989-09-02,ACT,,13.0,5.0,81.0,245.0,Kansas,DAL,PF,Markieff Morris
+Drew Gordon,1508,nba,,True,,34.0,1990-07-12,FA,,1.0,,81.0,245.0,New Mexico,,PF,Drew Gordon
+Serge Ibaka,1436,nba,,True,,35.0,1989-09-18,FA,,13.0,,83.0,235.0,,,C,Serge Ibaka
+Malik Fitts,2229,nba,,True,,27.0,1997-07-04,FA,,2.0,,77.0,230.0,Saint Mary's,,PF,Malik Fitts
+Isaac Bonga,1928,nba,,True,,25.0,1999-11-08,FA,,3.0,,80.0,180.0,,,SF,Isaac Bonga
+Robert Franks,2031,nba,,True,,27.0,1996-12-18,FA,,1.0,,79.0,255.0,Washington State,,SF,Robert Franks
+Andrew Nembhard,2461,nba,2.0,True,SG,24.0,2000-01-16,ACT,,2.0,1.0,77.0,193.0,Gonzaga,IND,PG,Andrew Nembhard
+Blake Griffin,1330,nba,,False,,35.0,1989-03-16,RET,,12.0,,81.0,250.0,Oklahoma,,PF,Blake Griffin
+Cameron Oliver,2254,nba,,True,,28.0,1996-07-11,FA,,1.0,,80.0,225.0,Nevada,,PF,Cameron Oliver
+Matisse Thybulle,2017,nba,4.0,True,PF,27.0,1997-03-04,ACT,,5.0,9.0,77.0,201.0,Washington,POR,SG,Matisse Thybulle
+Chris Duarte,2261,nba,27.0,True,SG,27.0,1997-06-13,ACT,,3.0,7.0,77.0,190.0,Oregon,CHI,SG,Chris Duarte
+Armaan Franklin,2662,nba,,True,,24.0,2000-11-17,FA,,1.0,,76.0,204.0,Virginia,,PG,Armaan Franklin
+Harrison Barnes,1092,nba,40.0,True,PF,32.0,1992-05-30,ACT,,12.0,1.0,80.0,225.0,North Carolina,SAS,SF,Harrison Barnes
+Festus Ezeli,1075,nba,,False,,35.0,1989-10-21,RET,,3.0,,83.0,265.0,Vanderbilt,,C,Festus Ezeli
+Rodney Stuckey,1138,nba,,False,,38.0,1986-04-21,RET,,10.0,,77.0,205.0,Eastern Washington,,PG,Rodney Stuckey
+Jamaal Franklin,1205,nba,,True,,33.0,1991-07-21,FA,,2.0,,77.0,191.0,San Diego State,,SG,Jamaal Franklin
+Marko Guduric,2042,nba,,True,,29.0,1995-03-08,FA,,1.0,,78.0,201.0,,,SG,Marko Guduric
+Dakota Mathias,2221,nba,,True,,29.0,1995-07-11,FA,,2.0,,76.0,200.0,Purdue,,SG,Dakota Mathias
+Malachi Richardson,1745,nba,,True,,28.0,1996-01-05,FA,,3.0,,78.0,205.0,Syracuse,,SG,Malachi Richardson
+Jeriah Horne,2551,nba,,True,,26.0,1998-04-09,FA,,1.0,,79.0,220.0,Tulsa,,PF,Jeriah Horne
+Chandler Hutchison,1882,nba,,False,,28.0,1996-04-26,RET,,4.0,,78.0,210.0,Boise State,,SF,Chandler Hutchison
+Tyler Herro,2086,nba,14.0,True,PG,24.0,2000-01-20,ACT,,5.0,1.0,77.0,195.0,Kentucky,MIA,SG,Tyler Herro
+Josh Jackson,1857,nba,,True,,27.0,1997-02-10,FA,,5.0,,80.0,207.0,Kansas,,SF,Josh Jackson
+Warren Washington,2868,nba,,True,,24.0,2000-03-03,FA,,0.0,,84.0,230.0,Texas Tech,,PF,Warren Washington
+Chris Singleton,1115,nba,,True,,35.0,1989-11-21,FA,,3.0,,81.0,228.0,Florida State,,SF,Chris Singleton
+Gal Mekel,1404,nba,,True,,36.0,1988-03-04,FA,,2.0,,75.0,191.0,Wichita State,,PG,Gal Mekel
+Nemanja Nedovic,1079,nba,,True,,33.0,1991-06-16,FA,,1.0,,75.0,192.0,,,PG,Nemanja Nedovic
+Jabari Smith,2445,nba,10.0,True,PF,21.0,2003-05-13,ACT,,2.0,1.0,83.0,213.0,Auburn,HOU,PF,Jabari Smith
+Damion Baugh,2672,nba,,True,,24.0,2000-08-03,FA,,1.0,,76.0,194.0,TCU,,SG,Damion Baugh
+Greivis Vasquez,1314,nba,,False,,37.0,1987-01-16,RET,,7.0,,78.0,200.0,Maryland,,PG,Greivis Vasquez
+Davion Mintz,2520,nba,,True,,26.0,1998-06-30,FA,,1.0,,75.0,195.0,Kentucky,,PG,Davion Mintz
+Joe Ingles,1559,nba,7.0,True,PF,37.0,1987-10-02,ACT,,10.0,3.0,80.0,235.0,,MIN,SF,Joe Ingles
+Ian Clark,1356,nba,,True,,33.0,1991-03-07,FA,,6.0,,75.0,175.0,Belmont,,SG,Ian Clark
+Amari Bailey,2599,nba,,True,,20.0,2004-02-17,FA,,1.0,,75.0,185.0,UCLA,,PG,Amari Bailey
+Anfernee Simons,1983,nba,1.0,True,PG,25.0,1999-06-08,ACT,,6.0,1.0,75.0,193.0,,POR,SG,Anfernee Simons
+London Perrantes,1761,nba,,True,,30.0,1994-10-03,FA,,1.0,,74.0,200.0,Virginia,,PG,London Perrantes
+Daniel Orton,1107,nba,,True,,34.0,1990-08-06,FA,,3.0,,82.0,275.0,Kentucky,,C,Daniel Orton
+Caleb Houstan,2478,nba,2.0,True,SF,21.0,2003-01-09,ACT,,2.0,4.0,80.0,205.0,Michigan,ORL,PG,Caleb Houstan
+Tony Carr,2219,nba,,True,,27.0,1997-10-11,FA,,1.0,,77.0,200.0,Penn State,,PG,Tony Carr
+Xavier Sneed,2196,nba,,True,,26.0,1997-12-21,FA,,1.0,,77.0,215.0,Kansas State,,SF,Xavier Sneed
+Tyler Hansbrough,1320,nba,,True,,39.0,1985-11-03,FA,,7.0,,81.0,250.0,North Carolina,,PF,Tyler Hansbrough
+Alondes Williams,2428,nba,31.0,True,PG,25.0,1999-06-19,TWO-WAY,,2.0,6.0,76.0,210.0,Wake Forest,DET,SG,Alondes Williams
+Marcus Domask,2852,nba,,True,,24.0,2000-06-09,FA,,0.0,,78.0,215.0,Illinois,,SF,Marcus Domask
+Yuta Watanabe,1926,nba,,True,,30.0,1994-10-13,FA,,5.0,,81.0,215.0,George Washington,,SF,Yuta Watanabe
+Rodney Purvis,1878,nba,,True,,30.0,1994-02-14,FA,,1.0,,76.0,205.0,UConn,,PG,Rodney Purvis
+Hassan Whiteside,1528,nba,,True,,35.0,1989-06-13,FA,,9.0,,84.0,265.0,Marshall,,C,Hassan Whiteside
+Earl Barron,1572,nba,,False,,43.0,1981-08-14,RET,,8.0,,84.0,250.0,Memphis,,C,Earl Barron
+Terrence Jones,1230,nba,,True,,32.0,1992-01-09,FA,,6.0,,81.0,252.0,Kentucky,,PF,Terrence Jones
+Jordan Farmar,1218,nba,,False,,37.0,1986-11-30,RET,,10.0,,74.0,180.0,UCLA,,PG,Jordan Farmar
+Kay Felder,1670,nba,,True,,29.0,1995-03-29,FA,,2.0,,69.0,176.0,Oakland,,PG,Kay Felder
+OG Anunoby,1831,nba,8.0,True,PF,27.0,1997-07-17,ACT,,7.0,1.0,79.0,243.0,Indiana,NYK,SF,OG Anunoby
+Carl Landry,1462,nba,,True,,41.0,1983-09-19,FA,,9.0,,81.0,248.0,Purdue,,PF,Carl Landry
+Tim Duncan,1294,nba,,False,,48.0,1976-04-25,RET,,19.0,,83.0,250.0,Wake Forest,,C,Tim Duncan
+Markel Brown,1519,nba,,True,,32.0,1992-01-29,FA,,3.0,,75.0,190.0,Oklahoma State,,SG,Markel Brown
+Ognjen Kuzmic,1080,nba,,True,,34.0,1990-05-16,FA,,2.0,,84.0,260.0,,,C,Ognjen Kuzmic
+Jarvis Varnado,1019,nba,,True,,36.0,1988-03-01,FA,,2.0,,81.0,230.0,Mississippi State,,PF,Jarvis Varnado
+Malik Ellison,2395,nba,,True,,28.0,1996-08-17,FA,,1.0,,78.0,215.0,Hartford,,PG,Malik Ellison
+Cheick Diallo,1708,nba,,True,,28.0,1996-09-13,FA,,5.0,,80.0,219.0,Kansas,,C,Cheick Diallo
+Aaron Estrada,2864,nba,,True,,23.0,2001-02-03,FA,,0.0,,75.0,190.0,Alabama,,PG,Aaron Estrada
+JD Davison,2472,nba,20.0,True,PG,22.0,2002-10-03,TWO-WAY,,2.0,4.0,75.0,215.0,Alabama,BOS,PG,JD Davison
+Arnoldas Kulboka,2327,nba,,True,,26.0,1998-01-04,FA,,1.0,,82.0,220.0,,,SF,Arnoldas Kulboka
+LaMelo Ball,2179,nba,1.0,True,PG,23.0,2001-08-22,ACT,,4.0,1.0,79.0,180.0,,CHA,PG,LaMelo Ball
+Devin Robinson,1776,nba,,True,,29.0,1995-03-07,FA,,2.0,,80.0,200.0,Florida,,SF,Devin Robinson
+Iman Shumpert,1024,nba,,True,,34.0,1990-06-26,FA,,10.0,,77.0,212.0,Georgia Tech,,SG,Iman Shumpert
+Emoni Bates,2593,nba,21.0,True,PG,20.0,2004-01-28,TWO-WAY,,1.0,6.0,80.0,170.0,Eastern Michigan,CLE,PF,Emoni Bates
+Amir Johnson,1315,nba,,True,,37.0,1987-05-01,FA,,14.0,,81.0,240.0,,,C,Amir Johnson
+Jared Harper,2093,nba,,True,,27.0,1997-09-14,FA,,3.0,,70.0,175.0,Auburn,,PG,Jared Harper
+Brandon Paul,1828,nba,,True,,33.0,1991-04-30,FA,,1.0,,76.0,200.0,Illinois,,SG,Brandon Paul
+Trey Lyles,1640,nba,41.0,True,C,29.0,1995-11-05,ACT,,9.0,5.0,81.0,234.0,Kentucky,SAC,PF,Trey Lyles
+Zion Williamson,2054,nba,1.0,True,C,24.0,2000-07-06,ACT,,4.0,7.0,78.0,284.0,Duke,NOP,PF,Zion Williamson
+LaMarcus Aldridge,1442,nba,,False,,39.0,1985-07-19,RET,,16.0,,83.0,250.0,Texas,,C,LaMarcus Aldridge
+Bryce McGowens,2464,nba,11.0,True,SG,22.0,2002-11-08,TWO-WAY,,2.0,8.0,78.0,175.0,Nebraska,POR,SF,Bryce McGowens
+Garrison Brooks,2529,nba,,True,,25.0,1999-06-29,FA,,1.0,,81.0,230.0,Mississippi State,,PF,Garrison Brooks
+Simi Shittu,2240,nba,,True,,25.0,1999-11-07,FA,,1.0,,82.0,240.0,Vanderbilt,,PF,Simi Shittu
+Ryan Hollins,1331,nba,,False,,40.0,1984-10-10,RET,,10.0,,84.0,240.0,UCLA,,C,Ryan Hollins
+Jeremy Tyler,1026,nba,,True,,33.0,1991-06-21,FA,,3.0,,81.0,250.0,,,C,Jeremy Tyler
+McKinley Wright,2323,nba,,True,,26.0,1998-10-25,FA,,1.0,,71.0,192.0,Colorado,,PG,McKinley Wright
+Tyrece Radford,2810,nba,,True,,25.0,1999-04-22,FA,,0.0,,74.0,200.0,Texas A&M,,PG,Tyrece Radford
+Andre Jackson,2611,nba,44.0,True,SF,23.0,2001-11-13,ACT,,1.0,3.0,78.0,209.0,UConn,MIL,PG,Andre Jackson
+Lance Stephenson,1066,nba,,True,,34.0,1990-09-05,FA,,10.0,,78.0,230.0,Cincinnati,,SG,Lance Stephenson
+Ibou Badji,2525,nba,,True,,22.0,2002-10-13,FA,,2.0,,84.0,240.0,,,C,Ibou Badji
+Chris Copeland,1067,nba,,False,,40.0,1984-03-17,RET,,4.0,,80.0,235.0,Colorado,,SF,Chris Copeland
+Romeo Weems,2381,nba,,True,,23.0,2001-06-09,FA,,1.0,,79.0,210.0,DePaul,,SF,Romeo Weems
+Elijah Bryant,2253,nba,6.0,True,,29.0,1995-04-19,TWO-WAY,,1.0,,77.0,210.0,BYU,,SG,Elijah Bryant
+Julian Champagnie,2494,nba,30.0,True,SF,23.0,2001-06-29,ACT,,2.0,1.0,80.0,210.0,St. John's,SAS,PG,Julian Champagnie
+Troy Brown,1903,nba,,True,,25.0,1999-07-28,FA,,5.0,,79.0,215.0,Oregon,,SF,Troy Brown
+Herbert Jones,2286,nba,2.0,True,C,26.0,1998-10-06,ACT,,3.0,6.0,79.0,206.0,Alabama,NOP,SF,Herbert Jones
+Drew Pember,2791,nba,,True,,20.0,2004-06-14,FA,,0.0,,83.0,215.0,UNC Asheville,,PF,Drew Pember
+Moses Wright,2355,nba,,True,,25.0,1998-12-23,FA,,1.0,,80.0,226.0,Georgia Tech,,SF,Moses Wright
+Taurean Prince,1704,nba,12.0,True,SF,30.0,1994-03-22,ACT,,8.0,1.0,78.0,218.0,Baylor,MIL,PF,Taurean Prince
+Peyton Siva,1129,nba,,True,,34.0,1990-10-24,FA,,1.0,,72.0,185.0,Louisville,,PG,Peyton Siva
+Alex Kirk,1499,nba,,True,,33.0,1991-11-14,FA,,1.0,,84.0,245.0,New Mexico,,C,Alex Kirk
+Johnny Davis,2437,nba,1.0,True,SF,22.0,2002-02-27,ACT,,2.0,4.0,76.0,195.0,Wisconsin,WAS,PG,Johnny Davis
+Jamaree Bouyea,2431,nba,,True,,25.0,1999-06-27,FA,,2.0,,74.0,180.0,San Francisco,,PG,Jamaree Bouyea
+John Salmons,1324,nba,,False,,44.0,1979-12-12,RET,,13.0,,79.0,210.0,Miami (FL),,SF,John Salmons
+Cam Spencer,2752,nba,24.0,True,SG,24.0,2000-04-06,TWO-WAY,,0.0,5.0,76.0,205.0,UConn,MEM,PG,Cam Spencer
+Chris Chiozza,1936,nba,,True,,29.0,1995-11-21,FA,,4.0,,71.0,179.0,Florida,,PG,Chris Chiozza
+Cody Zeller,1162,nba,41.0,True,C,32.0,1992-10-05,NWT,,11.0,7.0,83.0,240.0,Indiana,ATL,C,Cody Zeller
+Lou Amundson,1020,nba,,False,,41.0,1982-12-07,RET,,10.0,,81.0,220.0,UNLV,,PF,Lou Amundson
+Luguentz Dort,2095,nba,5.0,True,SG,25.0,1999-04-19,ACT,,5.0,1.0,76.0,220.0,Arizona State,OKC,SG,Luguentz Dort
+MarShon Brooks,1087,nba,,True,,35.0,1989-01-26,FA,,5.0,,77.0,200.0,Providence,,SG,MarShon Brooks
+Dalano Banton,2290,nba,5.0,True,SG,25.0,1999-11-07,ACT,,3.0,2.0,80.0,204.0,Nebraska,POR,PG,Dalano Banton
+Keon Johnson,2293,nba,45.0,True,SG,22.0,2002-03-10,ACT,,3.0,4.0,77.0,185.0,Tennessee,BKN,SG,Keon Johnson
+John Jenkins,1260,nba,,True,,33.0,1991-03-06,FA,,6.0,,76.0,215.0,Vanderbilt,,SG,John Jenkins
+Kylor Kelley,2848,nba,,True,,27.0,1997-08-26,FA,,0.0,,84.0,215.0,Oregon State,,C,Kylor Kelley
+Darius Bazley,2097,nba,,True,,24.0,2000-06-12,FA,,5.0,,81.0,216.0,,,PF,Darius Bazley
+JR Smith,1031,nba,,True,,39.0,1985-09-09,FA,,16.0,,78.0,225.0,,,SG,JR Smith
+Vasilije Micic,2638,nba,22.0,True,PG,30.0,1994-01-13,ACT,,1.0,3.0,75.0,188.0,,CHA,PG,Vasilije Micic
+Erik Stevenson,2866,nba,,True,,25.0,1999-04-28,FA,,0.0,,76.0,205.0,West Virginia,,PG,Erik Stevenson
+Manu Ginobili,1304,nba,,False,,47.0,1977-07-28,RET,,16.0,,78.0,205.0,,,SG,Manu Ginobili
+Killian Hayes,2182,nba,,True,,23.0,2001-07-27,FA,,4.0,,77.0,195.0,,,PG,Killian Hayes
+Robin Lopez,1455,nba,,True,,36.0,1988-04-01,FA,,15.0,,85.0,281.0,Stanford,,C,Robin Lopez
+Jacob Pullen,1773,nba,,True,,35.0,1989-11-10,FA,,1.0,,73.0,200.0,Kansas State,,PG,Jacob Pullen
+Jimmy Whitt,2800,nba,,True,,27.0,1997-01-09,M-LEAGUE,,0.0,,75.0,175.0,Arkansas,,PG,Jimmy Whitt
+Torrey Craig,1874,nba,13.0,True,PF,33.0,1990-12-19,ACT,,7.0,3.0,77.0,221.0,USC Upstate,CHI,SF,Torrey Craig
+Spencer Jones,2833,nba,21.0,True,SF,23.0,2001-06-14,TWO-WAY,,0.0,6.0,79.0,225.0,Stanford,DEN,SF,Spencer Jones
+Dexter Pittman,1235,nba,,False,,36.0,1988-03-02,RET,,4.0,,83.0,285.0,Texas,,C,Dexter Pittman
+Ousmane Dieng,2482,nba,13.0,True,C,21.0,2003-05-21,ACT,,2.0,3.0,81.0,185.0,,OKC,PF,Ousmane Dieng
+Victor Wembanyama,2577,nba,1.0,True,C,20.0,2004-01-04,ACT,,1.0,1.0,87.0,235.0,,SAS,C,Victor Wembanyama
+Rayan Rupert,2615,nba,21.0,True,SF,20.0,2004-05-31,ACT,,1.0,3.0,78.0,185.0,,POR,PG,Rayan Rupert
+Nathan Knight,2177,nba,,True,,27.0,1997-09-20,FA,,3.0,,80.0,253.0,William & Mary,,PF,Nathan Knight
+Jaylen Johnson,1754,nba,,True,,28.0,1996-08-07,FA,,1.0,,81.0,230.0,Louisville,,PF,Jaylen Johnson
+Derrick Walton,1848,nba,,True,,29.0,1995-04-03,FA,,2.0,,72.0,189.0,Michigan,,PG,Derrick Walton
+Andre Drummond,1131,nba,5.0,True,C,31.0,1993-08-10,ACT,,12.0,3.0,83.0,279.0,UConn,PHI,C,Andre Drummond
+Nico Mannion,2124,nba,,True,,23.0,2001-03-14,NWT,,1.0,,74.0,190.0,Arizona,,PG,Nico Mannion
+Ricky Rubio,1191,nba,,False,,34.0,1990-10-21,RET,,12.0,,74.0,190.0,,,PG,Ricky Rubio
+T.J. Warren,1571,nba,,True,,31.0,1993-09-05,FA,,7.0,,80.0,220.0,North Carolina State,,SF,T.J. Warren
+Michael Frazier,1937,nba,,True,,30.0,1994-03-08,FA,,1.0,,75.0,200.0,Florida,,SG,Michael Frazier
+Shai Gilgeous-Alexander,1957,nba,2.0,True,PG,26.0,1998-07-12,ACT,,6.0,1.0,78.0,195.0,Kentucky,OKC,PG,Shai Gilgeous-Alexander
+Boo Buie,2872,nba,0.0,True,PG,24.0,1999-12-07,TWO-WAY,,0.0,5.0,74.0,180.0,Northwestern,NYK,PG,Boo Buie
+Nickeil Alexander-Walker,2055,nba,9.0,True,SF,26.0,1998-09-02,ACT,,5.0,2.0,77.0,192.0,Virginia Tech,MIN,SG,Nickeil Alexander-Walker
+Tyler Johnson,1564,nba,,True,,32.0,1992-05-07,FA,,8.0,,75.0,186.0,Fresno State,,PG,Tyler Johnson
+Viacheslav Kravtsov,1411,nba,,True,,37.0,1987-08-25,FA,,2.0,,83.0,254.0,,,C,Viacheslav Kravtsov
+Gary Clark,1933,nba,,True,,30.0,1994-11-16,FA,,4.0,,78.0,225.0,Cincinnati,,PF,Gary Clark
+Andrew Bynum,1048,nba,,False,,37.0,1987-10-27,RET,,8.0,,84.0,285.0,,,C,Andrew Bynum
+Goga Bitadze,2010,nba,35.0,True,C,25.0,1999-07-20,ACT,,5.0,3.0,82.0,250.0,,ORL,C,Goga Bitadze
+Kris Dunn,1691,nba,8.0,True,SG,30.0,1994-03-18,ACT,,8.0,1.0,75.0,205.0,Providence,LAC,PG,Kris Dunn
+Vic Law,2107,nba,,True,,28.0,1995-12-19,FA,,1.0,,79.0,200.0,Northwestern,,SF,Vic Law
+Seth-DUP Millner-DUP,2812,nba,,True,,24.0,2000-06-29,DUP,,0.0,,78.0,200.0,Toledo,,SF,Seth-DUP Millner-DUP
+Stephon Castle,2722,nba,5.0,True,SG,20.0,2004-11-01,ACT,,0.0,2.0,77.0,210.0,UConn,SAS,PG,Stephon Castle
+Patrick McCaw,1672,nba,,True,,29.0,1995-10-25,FA,,5.0,,79.0,181.0,UNLV,,SG,Patrick McCaw
+Jay Scrubb,2188,nba,,True,,24.0,2000-09-01,FA,,3.0,,77.0,220.0,John A. Logan College,,SG,Jay Scrubb
+KJ Williams,2691,nba,,True,,25.0,1999-09-03,FA,,1.0,,82.0,245.0,LSU,,PF,KJ Williams
+Metta World Peace,1033,nba,,False,,45.0,1979-11-13,RET,,17.0,,79.0,260.0,St. John's,,SF,Metta World Peace
+Mojave King,2623,nba,8.0,True,,22.0,2002-06-11,NWT,,1.0,,77.0,195.0,,,SG,Mojave King
+Zyon Pullin,2784,nba,,True,,23.0,2001-03-03,FA,,0.0,,76.0,206.0,Florida,,PG,Zyon Pullin
+Daulton Hommes,2331,nba,,True,,28.0,1996-07-04,FA,,1.0,,80.0,215.0,Point Loma Nazarene,,SF,Daulton Hommes
+Terrance Ferguson,1864,nba,,True,,26.0,1998-05-17,FA,,4.0,,78.0,190.0,,,SG,Terrance Ferguson
+Coby White,1998,nba,0.0,True,SG,24.0,2000-02-16,ACT,,5.0,1.0,77.0,195.0,North Carolina,CHI,PG,Coby White
+Kyle Kuzma,1799,nba,33.0,True,PF,29.0,1995-07-24,ACT,,7.0,1.0,81.0,221.0,Utah,WAS,PF,Kyle Kuzma
+Adama Sanogo,2626,nba,21.0,True,C,22.0,2002-02-12,TWO-WAY,,1.0,3.0,81.0,245.0,UConn,CHI,PF,Adama Sanogo
+Kendric Davis,2663,nba,,True,,25.0,1999-05-14,FA,,1.0,,71.0,180.0,Memphis,,PG,Kendric Davis
+Shane Larkin,1397,nba,,True,,32.0,1992-10-02,FA,,4.0,,71.0,175.0,Miami (FL),,PG,Shane Larkin
+Mohamed Diarra,2796,nba,,True,,23.0,2001-01-01,FA,,0.0,,82.0,215.0,North Carolina State,,PF,Mohamed Diarra
+Oso Ighodaro,2771,nba,4.0,True,C,22.0,2002-07-14,ACT,,0.0,2.0,83.0,227.0,Marquette,PHX,PF,Oso Ighodaro
+D.J. Wilson,1850,nba,,True,,28.0,1996-02-19,M-LEAGUE,,5.0,,82.0,231.0,Michigan,,PF,D.J. Wilson
+Gabe Osabuohien,2842,nba,,True,,26.0,1998-10-27,ACT,,0.0,,80.0,220.0,West Virginia,,PF,Gabe Osabuohien
+Adonis Thomas,1101,nba,,True,,31.0,1993-03-25,FA,,1.0,,79.0,235.0,Memphis,,SG,Adonis Thomas
+Dereon Seabron,2430,nba,,True,,24.0,2000-05-26,FA,,1.0,,77.0,180.0,North Carolina State,,SG,Dereon Seabron
+Dragan Bender,1735,nba,,True,,27.0,1997-11-17,FA,,4.0,,84.0,249.0,,,PF,Dragan Bender
+Kawhi Leonard,1308,nba,2.0,True,C,33.0,1991-06-29,ACT,,12.0,6.0,79.0,225.0,San Diego State,LAC,SF,Kawhi Leonard
+RaiQuan Gray,2276,nba,,True,,25.0,1999-07-07,FA,,2.0,,79.0,260.0,Florida State,,PF,RaiQuan Gray
+Nicolo Melli,2056,nba,,True,,33.0,1991-01-26,FA,,2.0,,81.0,236.0,,,PF,Nicolo Melli
+Jalen Bridges,2778,nba,15.0,True,SF,23.0,2001-05-14,TWO-WAY,,0.0,8.0,79.0,210.0,West Virginia,PHX,PF,Jalen Bridges
+Kostas Papanikolaou,1539,nba,,True,,34.0,1990-07-31,FA,,2.0,,80.0,235.0,,,SF,Kostas Papanikolaou
+Vincent Edwards,1938,nba,,True,,28.0,1996-04-05,FA,,1.0,,80.0,225.0,Purdue,,SF,Vincent Edwards
+Kenneth Faried,1471,nba,,True,,35.0,1989-11-19,FA,,8.0,,80.0,220.0,Morehead State,,PF,Kenneth Faried
+DeAndre Liggins,1368,nba,,True,,36.0,1988-03-31,FA,,5.0,,78.0,209.0,Kentucky,,SG,DeAndre Liggins
+Jeff Green,1285,nba,32.0,True,PF,38.0,1986-08-28,ACT,,16.0,4.0,80.0,235.0,Georgetown,HOU,PF,Jeff Green
+Allen Flanigan,2793,nba,,True,,23.0,2001-04-24,M-LEAGUE,,0.0,,78.0,215.0,Ole Miss,,PG,Allen Flanigan
+TyTy Washington,2446,nba,14.0,True,PG,23.0,2001-11-15,TWO-WAY,,2.0,4.0,75.0,192.0,Kentucky,PHX,PG,TyTy Washington
+Marcus Sasser,2567,nba,25.0,True,PG,24.0,2000-09-21,ACT,,1.0,3.0,74.0,195.0,Houston,DET,PG,Marcus Sasser
+Alexis Ajinca,1268,nba,,True,,36.0,1988-05-06,FA,,7.0,,86.0,248.0,,,C,Alexis Ajinca
+Stephan Hicks,1893,nba,,True,,32.0,1992-04-02,FA,,1.0,,78.0,200.0,Cal State Northridge,,SG,Stephan Hicks
+Donte Grantham,1977,nba,,True,,29.0,1995-03-19,FA,,1.0,,80.0,215.0,Clemson,,SF,Donte Grantham
+Chris Wright,1379,nba,,True,,36.0,1988-09-30,FA,,2.0,,81.0,226.0,Dayton,,SF,Chris Wright
+Jeremy Lin,1229,nba,,True,,36.0,1988-08-23,FA,,9.0,,75.0,200.0,Harvard,,PG,Jeremy Lin
+Shayne Whittington,1501,nba,,True,,33.0,1991-03-27,FA,,2.0,,83.0,250.0,Western Michigan,,PF,Shayne Whittington
+Bryn Forbes,1715,nba,,True,,31.0,1993-07-23,FA,,6.0,,74.0,205.0,Michigan State,,SG,Bryn Forbes
+Shamorie Ponds,2071,nba,,True,,26.0,1998-06-29,FA,,1.0,,72.0,175.0,St. John's,,PG,Shamorie Ponds
+Iverson Molinar,2426,nba,,True,,24.0,1999-12-03,FA,,1.0,,75.0,190.0,Mississippi State,,PG,Iverson Molinar
+JC Butler,2826,nba,,True,,24.0,2000-04-13,FA,,0.0,,77.0,195.0,UC Irvine,,PF,JC Butler
+Hilton Armstrong,1086,nba,,True,,40.0,1984-11-23,FA,,6.0,,83.0,235.0,UConn,,PF,Hilton Armstrong
+Quincy Miller,1478,nba,,True,,32.0,1992-11-18,FA,,3.0,,81.0,210.0,Baylor,,SF,Quincy Miller
+Tony Snell,1003,nba,,True,,33.0,1991-11-10,FA,,8.0,,78.0,213.0,New Mexico,,SG,Tony Snell
+Courtney Lee,1201,nba,,True,,39.0,1985-10-03,FA,,12.0,,77.0,215.0,Western Kentucky,,SG,Courtney Lee
+Carlos Boozer,1011,nba,,False,,43.0,1981-11-20,RET,,13.0,,81.0,258.0,Duke,,PF,Carlos Boozer
+John Lucas,1347,nba,,False,,42.0,1982-11-21,RET,,8.0,,71.0,166.0,Oklahoma State,,PG,John Lucas
+Treveon Graham,1686,nba,,True,,31.0,1993-10-28,FA,,4.0,,77.0,219.0,VCU,,PF,Treveon Graham
+Terence Davis,2070,nba,,True,,27.0,1997-05-16,FA,,3.0,,76.0,201.0,Ole Miss,,SG,Terence Davis
+Dewan Hernandez,2072,nba,,True,,27.0,1996-12-09,FA,,1.0,,82.0,235.0,Miami (FL),,C,Dewan Hernandez
+Yves Pons,2332,nba,,True,,25.0,1999-05-07,FA,,1.0,,77.0,206.0,Tennessee,,PF,Yves Pons
+Jonathon Simmons,1635,nba,,True,,35.0,1989-09-14,FA,,4.0,,78.0,195.0,Houston,,SG,Jonathon Simmons
+Alex Caruso,1801,nba,9.0,True,PG,30.0,1994-02-28,ACT,,7.0,4.0,77.0,186.0,Texas A&M,OKC,PG,Alex Caruso
+Craig Porter,2640,nba,9.0,True,PG,24.0,2000-02-26,ACT,,1.0,5.0,73.0,180.0,Wichita State,CLE,PG,Craig Porter
+Gabe McGlothan,2844,nba,,True,,25.0,1999-03-03,FA,,0.0,,79.0,235.0,,,PF,Gabe McGlothan
+Paul George,1074,nba,8.0,True,SF,34.0,1990-05-02,ACT,,14.0,1.0,80.0,220.0,Fresno State,PHI,SF,Paul George
+Jalen Lecque,2094,nba,,True,,24.0,2000-06-13,FA,,1.0,,76.0,185.0,,,SG,Jalen Lecque
+KJ Martin,2190,nba,1.0,True,PF,23.0,2001-01-06,ACT,,4.0,2.0,78.0,215.0,,PHI,SF,KJ Martin
+Dylan Windler,2005,nba,,True,,28.0,1996-09-22,FA,,3.0,,79.0,196.0,Belmont,,SF,Dylan Windler
+Keith Appling,1661,nba,,True,,32.0,1992-02-13,FA,,1.0,,73.0,185.0,Michigan State,,PG,Keith Appling
+Christian Vital,2244,nba,,True,,27.0,1997-03-21,FA,,1.0,,74.0,187.0,UConn,,SG,Christian Vital
+Antoine Davis,2671,nba,,True,,26.0,1998-10-03,FA,,1.0,,73.0,165.0,Detroit Mercy,,PG,Antoine Davis
+John Petty,2390,nba,,True,,25.0,1998-12-03,FA,,1.0,,77.0,186.0,Alabama,,SG,John Petty
+Jordan Goodwin,2341,nba,,True,,26.0,1998-10-23,FA,,2.0,,76.0,200.0,Saint Louis,,PG,Jordan Goodwin
+Michael Foster,2424,nba,,True,,21.0,2003-01-16,FA,,1.0,,80.0,250.0,,,PF,Michael Foster
+Mantas Rubstavicius,2798,nba,,True,,22.0,2002-05-06,M-LEAGUE,,0.0,,78.0,185.0,,,PG,Mantas Rubstavicius
+Dahntay Jones,1552,nba,,False,,43.0,1980-12-27,RET,,13.0,,78.0,225.0,Duke,,SG,Dahntay Jones
+Omer Yurtseven,2172,nba,,True,,26.0,1998-06-19,FA,,2.0,,83.0,275.0,Georgetown,,C,Omer Yurtseven
+Jordan Walker,2649,nba,,True,,25.0,1999-08-11,FA,,1.0,,71.0,170.0,UAB,,PG,Jordan Walker
+Jason Richardson,1108,nba,,False,,43.0,1981-01-20,RET,,13.0,,78.0,225.0,Michigan State,,SG,Jason Richardson
+Jermaine O'Neal,1083,nba,,False,,46.0,1978-10-13,RET,,18.0,,83.0,255.0,,,C,Jermaine O'Neal
+Taze Moore,2686,nba,76.0,True,SG,26.0,1998-06-29,TWO-WAY,,1.0,9.0,77.0,195.0,Houston,POR,SG,Taze Moore
+Alec Peters,1861,nba,,True,,29.0,1995-04-13,FA,,1.0,,81.0,235.0,Valparaiso,,PF,Alec Peters
+Malcolm Cazalon,2639,nba,,True,,23.0,2001-08-27,FA,,1.0,,78.0,185.0,,,SG,Malcolm Cazalon
+Lucas Williamson,2524,nba,,True,,25.0,1999-01-28,FA,,1.0,,76.0,205.0,Loyola Chicago,,PG,Lucas Williamson
+Jordan Bowden,2215,nba,,True,,27.0,1997-01-20,FA,,1.0,,77.0,193.0,Tennessee,,SG,Jordan Bowden
+Kyle Korver,1256,nba,,False,,43.0,1981-03-17,RET,,17.0,,79.0,212.0,Creighton,,SF,Kyle Korver
+Ky Bowman,2013,nba,,True,,27.0,1997-06-16,FA,,1.0,,73.0,187.0,Boston College,,PG,Ky Bowman
+Kyle Filipowski,2766,nba,22.0,True,PF,21.0,2003-11-07,ACT,,0.0,2.0,83.0,250.0,Duke,UTA,C,Kyle Filipowski
+Malik Newman,2112,nba,,True,,27.0,1997-02-21,FA,,1.0,,75.0,190.0,Kansas,,SG,Malik Newman
+J.P. Macura,1912,nba,,True,,29.0,1995-06-05,FA,,1.0,,76.0,203.0,Xavier,,SG,J.P. Macura
+Julian Strawther,2589,nba,3.0,True,SF,22.0,2002-04-18,ACT,,1.0,2.0,78.0,205.0,Gonzaga,DEN,PG,Julian Strawther
+Rui Hachimura,2020,nba,28.0,True,SF,26.0,1998-02-08,ACT,,5.0,1.0,80.0,245.0,Gonzaga,LAL,PF,Rui Hachimura
+Jonathan Isaac,1879,nba,1.0,True,PF,27.0,1997-10-03,ACT,,5.0,2.0,82.0,230.0,Florida State,ORL,PF,Jonathan Isaac
+Adam Flagler,2695,nba,14.0,True,PG,24.0,1999-12-01,TWO-WAY,,1.0,5.0,75.0,195.0,Baylor,OKC,SG,Adam Flagler
+Anthony Bennett,1051,nba,,True,,31.0,1993-03-14,FA,,4.0,,80.0,245.0,UNLV,,PF,Anthony Bennett
+Tony Bradley,1842,nba,,True,,26.0,1998-01-08,TWO-WAY,,5.0,,83.0,248.0,North Carolina,,C,Tony Bradley
+Elijah Hughes,2138,nba,,True,,26.0,1998-03-10,FA,,1.0,,77.0,215.0,Syracuse,,SG,Elijah Hughes
+Chris Johnson,1292,nba,,True,,34.0,1990-04-29,FA,,4.0,,78.0,206.0,Dayton,,SG,Chris Johnson
+Josh Gray,1860,nba,,True,,31.0,1993-09-09,FA,,2.0,,72.0,180.0,LSU,,PG,Josh Gray
+Maalik Wayns,1342,nba,,True,,33.0,1991-05-02,FA,,2.0,,73.0,195.0,Villanova,,PG,Maalik Wayns
+Tremont Waters,2062,nba,,True,,26.0,1998-01-10,FA,,3.0,,70.0,175.0,LSU,,PG,Tremont Waters
+Branden Dawson,1638,nba,,True,,31.0,1993-02-01,FA,,1.0,,78.0,225.0,Michigan State,,SF,Branden Dawson
+Michael Porter,1988,nba,1.0,True,SF,26.0,1998-06-29,ACT,,5.0,1.0,82.0,218.0,Missouri,DEN,SF,Michael Porter
+Darryl Morsell,2540,nba,,True,,25.0,1999-02-18,FA,,1.0,,77.0,205.0,Marquette,,PG,Darryl Morsell
+Tarik Phillip,1904,nba,,True,,31.0,1993-08-10,FA,,0.0,,75.0,185.0,West Virginia,,SG,Tarik Phillip
+Vincent Poirier,2060,nba,,True,,31.0,1993-10-27,FA,,1.0,,84.0,235.0,,,C,Vincent Poirier
+Orlando Johnson,1065,nba,,True,,35.0,1989-03-11,FA,,3.0,,77.0,220.0,UC Santa Barbara,,SG,Orlando Johnson
+Montrezl Harrell,1625,nba,,True,,30.0,1994-01-26,FA,,8.0,,79.0,240.0,Louisville,,C,Montrezl Harrell
+Wilson Chandler,1477,nba,,True,,37.0,1987-05-10,FA,,12.0,,80.0,235.0,DePaul,,SF,Wilson Chandler
+Jacob Evans,1896,nba,,True,,27.0,1997-06-18,FA,,2.0,,76.0,210.0,Cincinnati,,SG,Jacob Evans
+Keith Bogans,1290,nba,,False,,44.0,1980-05-12,RET,,11.0,,77.0,215.0,Kentucky,,SG,Keith Bogans
+Jamison Battle,2831,nba,77.0,True,SF,23.0,2001-05-10,TWO-WAY,,0.0,2.0,78.0,220.0,Ohio State,TOR,PF,Jamison Battle
+Zhou Qi,1806,nba,,True,,28.0,1996-01-16,FA,,1.0,,85.0,210.0,,,PF,Zhou Qi
+Anthony Randolph,1467,nba,,True,,35.0,1989-07-15,FA,,6.0,,83.0,225.0,LSU,,PF,Anthony Randolph
+Terance Mann,2074,nba,14.0,True,SG,28.0,1996-10-18,ACT,,5.0,2.0,77.0,215.0,Florida State,LAC,SG,Terance Mann
+Larry Nance,1620,nba,22.0,True,PF,31.0,1993-01-01,ACT,,9.0,3.0,80.0,245.0,Wyoming,ATL,PF,Larry Nance
+Bryce Brown,2247,nba,,True,,27.0,1997-07-24,FA,,1.0,,75.0,198.0,Auburn,,SG,Bryce Brown
+Gerald Wallace,1281,nba,,False,,42.0,1982-07-23,RET,,14.0,,79.0,215.0,Alabama,,SF,Gerald Wallace
+Elton Brand,1247,nba,,False,,45.0,1979-03-11,RET,,17.0,,81.0,254.0,Duke,,PF,Elton Brand
+Dwayne Sutton,2194,nba,,True,,27.0,1997-02-26,FA,,1.0,,77.0,220.0,Louisville,,PF,Dwayne Sutton
+Bryce Cotton,1554,nba,,True,,32.0,1992-08-11,FA,,2.0,,73.0,165.0,Providence,,PG,Bryce Cotton
+Chuma Okeke,2117,nba,,True,,26.0,1998-08-18,FA,,3.0,,79.0,229.0,Auburn,,PF,Chuma Okeke
+Jalen Harris,2148,nba,,True,,26.0,1998-08-14,FA,,1.0,,77.0,195.0,Nevada,,SG,Jalen Harris
+Elias Harris,1224,nba,,True,,35.0,1989-07-06,FA,,1.0,,80.0,239.0,Gonzaga,,SF,Elias Harris
+Shaedon Sharpe,2476,nba,17.0,True,SG,21.0,2003-05-30,ACT,,2.0,1.0,77.0,205.0,Kentucky,POR,PG,Shaedon Sharpe
+Kyle Guy,2104,nba,,True,,27.0,1997-08-11,FA,,2.0,,73.0,167.0,Virginia,,SG,Kyle Guy
+Bismack Biyombo,1154,nba,,True,,32.0,1992-08-28,FA,,12.0,,80.0,255.0,,,C,Bismack Biyombo
+Alex Abrines,1740,nba,,True,,31.0,1993-08-01,FA,,2.0,,78.0,200.0,,,SG,Alex Abrines
+Judah Mintz,2821,nba,,True,,21.0,2003-07-10,FA,,0.0,,76.0,185.0,Syracuse,,PG,Judah Mintz
+Lance Jones,2816,nba,,True,,24.0,2000-10-22,FA,,0.0,,73.0,200.0,Purdue,,PG,Lance Jones
+Elliot Williams,1106,nba,,False,,35.0,1989-06-20,RET,,4.0,,77.0,183.0,Memphis,,SG,Elliot Williams
+Jackson Rowe,2797,nba,,True,,27.0,1997-01-04,FA,,0.0,,79.0,210.0,Cal State Fullerton,,PF,Jackson Rowe
+James Southerland,1157,nba,,True,,34.0,1990-04-28,FA,,1.0,,80.0,215.0,Syracuse,,SF,James Southerland
+Dirk Nowitzki,1400,nba,,False,,46.0,1978-06-19,RET,,21.0,,84.0,245.0,,,PF,Dirk Nowitzki
+Justin Wright-Foreman,2077,nba,,True,,27.0,1997-10-27,FA,,1.0,,72.0,190.0,Hofstra,,PG,Justin Wright-Foreman
+Caleb Swanigan,1867,nba,,False,,27.0,1997-04-18,RET,,3.0,,81.0,260.0,Purdue,,PF,Caleb Swanigan
+Terry Taylor,2321,nba,,True,,25.0,1999-09-23,FA,,2.0,,77.0,230.0,Austin Peay,,SF,Terry Taylor
+T.J. Leaf,1765,nba,,True,,27.0,1997-04-30,FA,,4.0,,82.0,222.0,UCLA,,PF,T.J. Leaf
+Thomas Robinson,1441,nba,,True,,33.0,1991-03-17,FA,,5.0,,82.0,237.0,Kansas,,PF,Thomas Robinson
+Justin Minaya,2557,nba,10.0,True,PF,25.0,1999-03-26,TWO-WAY,,2.0,7.0,77.0,205.0,Providence,POR,SF,Justin Minaya
+Joey Dorsey,1540,nba,,True,,40.0,1983-12-16,FA,,4.0,,81.0,275.0,Memphis,,PF,Joey Dorsey
+Vander Blue,1291,nba,,True,,32.0,1992-07-17,FA,,3.0,,76.0,200.0,Marquette,,SG,Vander Blue
+Ron Holland,2836,nba,0.0,True,SF,19.0,2005-07-07,ACT,,0.0,3.0,80.0,206.0,,DET,SF,Ron Holland
+Keon Ellis,2432,nba,23.0,True,SG,24.0,2000-01-08,ACT,,2.0,1.0,77.0,175.0,Alabama,SAC,SG,Keon Ellis
+RJ Hampton,2186,nba,,True,,23.0,2001-02-07,TWO-WAY,,3.0,,76.0,175.0,,,PG,RJ Hampton
+Carrick Felix,1040,nba,,False,,34.0,1990-08-17,RET,,1.0,,78.0,203.0,Arizona State,,SG,Carrick Felix
+Andre Dawkins,1544,nba,,True,,33.0,1991-09-19,FA,,1.0,,77.0,219.0,Duke,,SG,Andre Dawkins
+Clint Capela,1541,nba,15.0,True,C,30.0,1994-05-18,ACT,,10.0,1.0,82.0,256.0,,ATL,C,Clint Capela
+Gorgui Dieng,1197,nba,,True,,34.0,1990-01-18,FA,,9.0,,82.0,265.0,Louisville,,C,Gorgui Dieng
+Hasheem Thabeet,1438,nba,,True,,37.0,1987-02-16,FA,,5.0,,87.0,263.0,UConn,,C,Hasheem Thabeet
+Zach Lofton,1906,nba,,True,,32.0,1992-11-18,FA,,1.0,,76.0,180.0,New Mexico State,,SG,Zach Lofton
+Sonny Weems,1599,nba,,True,,38.0,1986-07-08,FA,,4.0,,78.0,203.0,Arkansas,,SF,Sonny Weems
+George Conditt,2653,nba,,True,,24.0,2000-08-22,FA,,1.0,,81.0,234.0,Iowa State,,PF,George Conditt
+DeVaughn Akoon-Purcell,1990,nba,,True,,31.0,1993-06-05,FA,,1.0,,78.0,200.0,Illinois State,,SF,DeVaughn Akoon-Purcell
+Micah Potter,2358,nba,25.0,True,PF,26.0,1998-04-06,TWO-WAY,,3.0,5.0,81.0,248.0,Wisconsin,UTA,PF,Micah Potter
+Azuolas Tubelis,2633,nba,,True,,22.0,2002-03-22,FA,,1.0,,83.0,245.0,Arizona,,PF,Azuolas Tubelis
+Nate Darling,2209,nba,,True,,26.0,1998-08-30,FA,,1.0,,77.0,200.0,Delaware,,SG,Nate Darling
+Dariq Whitehead,2570,nba,0.0,True,PF,20.0,2004-08-01,ACT,,1.0,8.0,78.0,220.0,Duke,BKN,PF,Dariq Whitehead
+Gerald Green,1409,nba,,False,,38.0,1986-01-26,RET,,12.0,,78.0,205.0,,,SG,Gerald Green
+Mark Williams,2440,nba,5.0,True,C,22.0,2001-12-16,ACT,,2.0,2.0,84.0,240.0,Duke,CHA,C,Mark Williams
+Matthew Mayer,2666,nba,,True,,25.0,1999-09-23,FA,,1.0,,81.0,225.0,Illinois,,PF,Matthew Mayer
+Diamond Stone,1720,nba,,True,,27.0,1997-02-10,FA,,1.0,,83.0,255.0,Maryland,,C,Diamond Stone
+Aaron Harrison,1608,nba,,True,,30.0,1994-10-28,FA,,3.0,,78.0,210.0,Kentucky,,SG,Aaron Harrison
+Trevor Keels,2459,nba,,True,,21.0,2003-08-26,FA,,1.0,,76.0,221.0,Duke,,PG,Trevor Keels
+Maozinha Pereira,2707,nba,,True,,24.0,2000-08-28,FA,,2.0,,80.0,177.0,,,SF,Maozinha Pereira
+Deron Williams,1174,nba,,False,,40.0,1984-06-26,RET,,12.0,,75.0,200.0,Illinois,,PG,Deron Williams
+Matt Costello,1829,nba,,True,,31.0,1993-08-05,FA,,1.0,,82.0,240.0,Michigan State,,C,Matt Costello
+Jalen McDaniels,2027,nba,,True,,26.0,1998-01-31,FA,,5.0,,81.0,205.0,San Diego State,,SF,Jalen McDaniels
+Tres Tinkle,2228,nba,,True,,28.0,1996-06-03,FA,,1.0,,79.0,225.0,Oregon State,,SF,Tres Tinkle
+Henry Sims,1044,nba,,True,,34.0,1990-03-27,FA,,4.0,,82.0,248.0,Georgetown,,C,Henry Sims
+Thomas Bryant,1797,nba,31.0,True,C,27.0,1997-07-31,ACT,,7.0,4.0,82.0,248.0,Indiana,MIA,C,Thomas Bryant
+Kendall Marshall,1223,nba,,False,,33.0,1991-08-19,RET,,4.0,,76.0,195.0,North Carolina,,PG,Kendall Marshall
+Justise Winslow,1643,nba,,True,,28.0,1996-03-26,FA,,7.0,,78.0,222.0,Duke,,SF,Justise Winslow
+Quinten Post,2747,nba,21.0,True,C,24.0,2000-03-21,TWO-WAY,,0.0,4.0,84.0,250.0,Boston College,GSW,PF,Quinten Post
+Nigel Williams-Goss,2076,nba,,True,,30.0,1994-09-16,FA,,1.0,,74.0,190.0,Gonzaga,,PG,Nigel Williams-Goss
+Mustafa Shakur,1425,nba,,False,,40.0,1984-08-18,RET,,2.0,,76.0,195.0,Arizona,,PG,Mustafa Shakur
+Jordan Miller,2610,nba,11.0,True,SF,24.0,2000-01-23,TWO-WAY,,1.0,3.0,77.0,194.0,Miami (FL),LAC,PG,Jordan Miller
+Jon Teske,2239,nba,,True,,27.0,1997-05-04,FA,,1.0,,85.0,265.0,Michigan,,C,Jon Teske
+Robert Covington,1232,nba,,True,,33.0,1990-12-14,FA,,10.0,,79.0,209.0,Tennessee State,,PF,Robert Covington
+Jaden Shackelford,2539,nba,,True,,23.0,2001-02-14,FA,,1.0,,75.0,200.0,Alabama,,PG,Jaden Shackelford
+Peyton Watson,2454,nba,8.0,True,PF,22.0,2002-09-11,ACT,,2.0,1.0,79.0,200.0,UCLA,DEN,SF,Peyton Watson
+David Jones,2818,nba,18.0,True,SG,23.0,2001-11-24,TWO-WAY,,0.0,5.0,75.0,211.0,Memphis,UTA,PF,David Jones
+Mikal Bridges,1975,nba,25.0,True,SG,28.0,1996-08-30,ACT,,6.0,1.0,78.0,209.0,Villanova,NYK,SF,Mikal Bridges
+Keshawn Justice,2683,nba,,True,,25.0,1999-10-22,FA,,1.0,,79.0,225.0,Santa Clara,,PF,Keshawn Justice
+Travis Outlaw,1459,nba,,False,,40.0,1984-09-18,RET,,11.0,,81.0,207.0,,,SF,Travis Outlaw
+Edy Tavares,1627,nba,,True,,32.0,1992-03-22,FA,,2.0,,87.0,265.0,,,C,Edy Tavares
+Jaden Ivey,2439,nba,23.0,True,SG,22.0,2002-02-13,ACT,,2.0,1.0,76.0,195.0,Purdue,DET,PG,Jaden Ivey
+Ryan Turell,2697,nba,,True,,25.0,1999-02-03,FA,,0.0,,79.0,190.0,,,PF,Ryan Turell
+Jan Vesely,1127,nba,,True,,34.0,1990-04-24,FA,,3.0,,84.0,242.0,,,PF,Jan Vesely
+Russ Smith,1530,nba,,True,,33.0,1991-04-19,FA,,2.0,,72.0,165.0,Louisville,,PG,Russ Smith
+Norvel Pelle,2018,nba,,True,,31.0,1993-02-03,FA,,1.0,,82.0,231.0,,,C,Norvel Pelle
+Yakuba Ouattara,1783,nba,,True,,32.0,1992-01-24,FA,,1.0,,76.0,220.0,,,SG,Yakuba Ouattara
+Pat Connaughton,1652,nba,24.0,True,PF,31.0,1993-01-06,ACT,,9.0,4.0,77.0,209.0,Notre Dame,MIL,SG,Pat Connaughton
+Myles Turner,1595,nba,33.0,True,C,28.0,1996-03-24,ACT,,9.0,1.0,83.0,250.0,Texas,IND,C,Myles Turner
+Francisco Garcia,1245,nba,,True,,43.0,1980-12-31,FA,,10.0,,79.0,215.0,Louisville,,SG,Francisco Garcia
+Duje Dukan,1656,nba,,True,,32.0,1991-12-04,FA,,1.0,,81.0,220.0,Wisconsin,,PF,Duje Dukan
+Jaylen Wells,2753,nba,0.0,True,SF,21.0,2003-08-26,ACT,,0.0,1.0,79.0,206.0,Washington State,MEM,PF,Jaylen Wells
+Jason Smith,1267,nba,,True,,38.0,1986-03-02,FA,,11.0,,84.0,240.0,Colorado State,,PF,Jason Smith
+Ron Harper,2412,nba,,True,,24.0,2000-04-12,FA,,2.0,,76.0,233.0,Rutgers,,SF,Ron Harper
+Josh Hart,1803,nba,3.0,True,SF,29.0,1995-03-06,ACT,,7.0,1.0,76.0,221.0,Villanova,NYK,SG,Josh Hart
+Isaiah Todd,2312,nba,,True,,23.0,2001-10-17,FA,,1.0,,81.0,219.0,,,PF,Isaiah Todd
+Kyle Wiltjer,1702,nba,,True,,32.0,1992-10-20,FA,,1.0,,82.0,240.0,Gonzaga,,SF,Kyle Wiltjer
+Dwight Powell,1547,nba,7.0,True,C,33.0,1991-07-20,ACT,,10.0,4.0,82.0,240.0,Stanford,DAL,C,Dwight Powell
+Usman Garuba,2307,nba,,True,,22.0,2002-03-09,FA,,3.0,,80.0,229.0,,,PF,Usman Garuba
+Justinian Jessup,2123,nba,,True,,26.0,1998-05-23,NWT,,1.0,,78.0,202.0,Boise State,,SG,Justinian Jessup
+Nikola Jovic,2480,nba,5.0,True,PF,21.0,2003-06-09,ACT,,2.0,3.0,82.0,205.0,,MIA,PF,Nikola Jovic
+JaVale McGee,1466,nba,,True,,36.0,1988-01-19,FA,,15.0,,84.0,270.0,Nevada,,C,JaVale McGee
+Justin Jackson,1868,nba,,True,,29.0,1995-03-28,FA,,5.0,,80.0,220.0,North Carolina,,SF,Justin Jackson
+Jalen Brunson,1967,nba,11.0,True,PG,28.0,1996-08-31,ACT,,6.0,1.0,74.0,206.0,Villanova,NYK,PG,Jalen Brunson
+Marlon Taylor,2234,nba,,True,,27.0,1997-08-16,FA,,1.0,,77.0,209.0,LSU,,SG,Marlon Taylor
+Jerome Jordan,1520,nba,,True,,38.0,1986-09-29,FA,,2.0,,84.0,253.0,Tulsa,,C,Jerome Jordan
+Gary Payton,1726,nba,0.0,True,SF,31.0,1992-12-01,ACT,,8.0,4.0,74.0,195.0,Oregon State,GSW,PG,Gary Payton
+Johnathan Motley,1851,nba,,True,,29.0,1995-05-04,FA,,3.0,,80.0,230.0,Baylor,,PF,Johnathan Motley
+Kaleb Wesson,2237,nba,,True,,25.0,1999-07-29,FA,,1.0,,81.0,270.0,Ohio State,,PF,Kaleb Wesson
+Nate Hinton,2214,nba,,True,,25.0,1999-06-08,FA,,3.0,,77.0,210.0,Houston,,SF,Nate Hinton
+Johnny Juzang,2413,nba,33.0,True,SF,23.0,2001-03-17,ACT,,2.0,3.0,77.0,209.0,UCLA,UTA,SF,Johnny Juzang
+Evan Turner,1060,nba,,False,,36.0,1988-10-27,RET,,10.0,,78.0,220.0,Ohio State,,SG,Evan Turner
+Jeremiah Robinson-Earl,2298,nba,50.0,True,C,24.0,2000-11-03,ACT,,3.0,2.0,80.0,240.0,Villanova,NOP,PF,Jeremiah Robinson-Earl
+Nick Collison,1431,nba,,False,,44.0,1980-10-26,RET,,14.0,,82.0,255.0,Kansas,,PF,Nick Collison
+Zach Norvell,2044,nba,,True,,26.0,1997-12-09,FA,,1.0,,77.0,206.0,Gonzaga,,SG,Zach Norvell
+Sterling Brown,1849,nba,,True,,29.0,1995-02-10,FA,,4.0,,77.0,219.0,SMU,,SG,Sterling Brown
+Jevon Carter,1925,nba,5.0,True,PG,29.0,1995-09-14,ACT,,6.0,5.0,73.0,200.0,West Virginia,CHI,PG,Jevon Carter
+Andrew Harrison,1695,nba,,True,,30.0,1994-10-28,FA,,2.0,,78.0,213.0,Kentucky,,PG,Andrew Harrison
+Ron Baker,1667,nba,,True,,31.0,1993-03-30,FA,,2.0,,76.0,220.0,Wichita State,,SG,Ron Baker
+Pat Spencer,2505,nba,61.0,True,PG,28.0,1996-07-04,TWO-WAY,,1.0,5.0,74.0,202.0,Northwestern,GSW,PG,Pat Spencer
+Collin Gillespie,2422,nba,12.0,True,PG,25.0,1999-06-25,TWO-WAY,,1.0,7.0,73.0,195.0,Villanova,PHX,PG,Collin Gillespie
+Georges Niang,1671,nba,20.0,True,SF,31.0,1993-06-17,ACT,,8.0,2.0,79.0,230.0,Iowa State,CLE,PF,Georges Niang
+Thabo Sefolosha,1426,nba,,True,,40.0,1984-05-02,FA,,14.0,,78.0,215.0,,,PF,Thabo Sefolosha
+Reggie Perry,2149,nba,,True,,24.0,2000-03-21,FA,,1.0,,80.0,250.0,Mississippi State,,C,Reggie Perry
+Dakari Johnson,1863,nba,,True,,29.0,1995-09-22,FA,,1.0,,84.0,255.0,Kentucky,,C,Dakari Johnson
+Cason Wallace,2586,nba,22.0,True,SG,21.0,2003-11-07,ACT,,1.0,2.0,75.0,195.0,Kentucky,OKC,PG,Cason Wallace
+Marcin Gortat,1125,nba,,False,,40.0,1984-02-17,RET,,12.0,,83.0,240.0,,,C,Marcin Gortat
+Mike Harris,1349,nba,,True,,41.0,1983-06-15,FA,,4.0,,78.0,242.0,Rice,,SF,Mike Harris
+Kemba Walker,1158,nba,,False,,34.0,1990-05-08,RET,,11.0,,72.0,184.0,UConn,,PG,Kemba Walker
+Hunter Maldonado,2690,nba,,True,,25.0,1999-03-24,FA,,1.0,,78.0,203.0,Wyoming,,SG,Hunter Maldonado
+Kevin Durant,1433,nba,35.0,True,PF,36.0,1988-09-29,ACT,,16.0,1.0,82.0,240.0,Texas,PHX,SF,Kevin Durant
+Jaylen Martin,2631,nba,16.0,True,SF,20.0,2004-01-28,TWO-WAY,,1.0,9.0,78.0,216.0,,BKN,SF,Jaylen Martin
+Quincy Olivari,2802,nba,41.0,True,PG,23.0,2001-05-27,TWO-WAY,,0.0,6.0,74.0,201.0,Xavier,LAL,PG,Quincy Olivari
+Daniel Hamilton,1862,nba,,True,,29.0,1995-08-08,FA,,1.0,,79.0,195.0,Connecticut,,SG,Daniel Hamilton
+Josh Powell,1231,nba,,False,,41.0,1983-01-25,RET,,7.0,,81.0,240.0,North Carolina State,,PF,Josh Powell
+Ajay Mitchell,2772,nba,25.0,True,PG,22.0,2002-06-25,TWO-WAY,,0.0,2.0,75.0,200.0,UC Santa Barbara,OKC,PG,Ajay Mitchell
+Justin Bean,2531,nba,,True,,28.0,1996-11-17,FA,,1.0,,79.0,210.0,Utah State,,PF,Justin Bean
+Austin Rivers,1262,nba,,True,,32.0,1992-08-01,FA,,10.0,,76.0,200.0,Duke,,SG,Austin Rivers
+Paris Bass,2404,nba,,True,,29.0,1995-08-29,FA,,1.0,,80.0,200.0,Detroit Mercy,,SF,Paris Bass
+Otto Porter,1117,nba,,False,,31.0,1993-06-03,RET,,10.0,,80.0,230.0,Georgetown,,SF,Otto Porter
+Dorian Finney-Smith,1728,nba,28.0,True,PF,31.0,1993-05-04,ACT,,8.0,1.0,79.0,220.0,Florida,BKN,PF,Dorian Finney-Smith
+Eric Gordon,1277,nba,23.0,True,SG,35.0,1988-12-25,ACT,,16.0,2.0,75.0,215.0,Indiana,PHI,SG,Eric Gordon
+James Jones,1361,nba,,False,,44.0,1980-10-04,RET,,14.0,,80.0,218.0,Miami (FL),,SG,James Jones
+Shaquille Harrison,1859,nba,,True,,31.0,1993-10-06,FA,,6.0,,76.0,195.0,Tulsa,,SF,Shaquille Harrison
+Ramon Sessions,1155,nba,,False,,38.0,1986-04-11,RET,,11.0,,75.0,190.0,Nevada,,PG,Ramon Sessions
+Andre Roberson,1429,nba,,True,,32.0,1991-12-04,FA,,7.0,,79.0,210.0,Colorado,,PF,Andre Roberson
+Liam Robbins,2680,nba,15.0,True,C,25.0,1999-07-12,TWO-WAY,,1.0,4.0,84.0,250.0,Vanderbilt,MIL,PF,Liam Robbins
+Donatas Motiejunas,1236,nba,,True,,34.0,1990-09-20,FA,,6.0,,84.0,255.0,,,PF,Donatas Motiejunas
+DeJuan Blair,1398,nba,,True,,35.0,1989-04-22,FA,,7.0,,79.0,270.0,Pittsburgh,,C,DeJuan Blair
+Daniel Gafford,1997,nba,21.0,True,C,26.0,1998-10-01,ACT,,5.0,2.0,82.0,234.0,Arkansas,DAL,C,Daniel Gafford
+Stanley Johnson,1605,nba,,True,,28.0,1996-05-29,FA,,7.0,,78.0,242.0,Arizona,,SF,Stanley Johnson
+Trentyn Flowers,2838,nba,9.0,True,SF,19.0,2005-03-08,TWO-WAY,,0.0,10.0,81.0,185.0,Louisville,LAC,SF,Trentyn Flowers
+Jordan Hall,2502,nba,,True,,22.0,2002-01-14,FA,,1.0,,79.0,220.0,Saint Joseph's,,PG,Jordan Hall
+Jason Collins,1177,nba,,False,,45.0,1978-12-02,RET,,13.0,,83.0,255.0,Stanford,,C,Jason Collins
+Kosta Koufos,1203,nba,,True,,35.0,1989-02-24,FA,,11.0,,84.0,245.0,Ohio State,,C,Kosta Koufos
+Brandon Slater,2792,nba,,True,,25.0,1999-09-14,FA,,1.0,,80.0,220.0,Villanova,,PF,Brandon Slater
+Pelle Larsson,2768,nba,9.0,True,SF,23.0,2001-02-23,ACT,,0.0,2.0,77.0,212.0,Arizona,MIA,PG,Pelle Larsson
+Eric Moreland,1580,nba,,True,,32.0,1991-12-24,FA,,4.0,,82.0,238.0,Oregon State,,C,Eric Moreland
+Willie Green,1334,nba,,False,,43.0,1981-07-28,RET,,12.0,,75.0,205.0,Detroit Mercy,,SG,Willie Green
+Keldon Johnson,2065,nba,0.0,True,SF,25.0,1999-10-11,ACT,,5.0,2.0,77.0,215.0,Kentucky,SAS,SF,Keldon Johnson
+Karl-Anthony Towns,1613,nba,32.0,True,C,29.0,1995-11-15,ACT,,9.0,1.0,84.0,248.0,Kentucky,NYK,C,Karl-Anthony Towns
+Earl Watson,1448,nba,,False,,45.0,1979-06-12,RET,,13.0,,73.0,199.0,UCLA,,PG,Earl Watson
+Ashton Hagans,2168,nba,,True,,25.0,1999-07-08,FA,,2.0,,75.0,190.0,Kentucky,,PG,Ashton Hagans
+Pierria Henry,2545,nba,,True,,31.0,1993-01-20,FA,,1.0,,77.0,197.0,Charlotte,,PG,Pierria Henry
+Markus Howard,2173,nba,,True,,25.0,1999-03-03,FA,,1.0,,70.0,175.0,Marquette,,SG,Markus Howard
+Richard Solomon,1978,nba,,True,,32.0,1992-06-18,FA,,1.0,,83.0,240.0,California,,C,Richard Solomon
+Jack McVeigh,2830,nba,58.0,True,SG,28.0,1996-06-27,TWO-WAY,,1.0,8.0,79.0,205.0,Nebraska,HOU,PF,Jack McVeigh
+Neemias Queta,2302,nba,88.0,True,C,25.0,1999-07-13,ACT,,3.0,3.0,84.0,260.0,Utah State,BOS,C,Neemias Queta
+Mo Bamba,1994,nba,4.0,True,C,26.0,1998-05-12,ACT,,6.0,2.0,84.0,231.0,Texas,LAC,C,Mo Bamba
+Miles Norris,2643,nba,,True,,24.0,2000-04-15,FA,,1.0,,79.0,220.0,UC Santa Barbara,,PF,Miles Norris
+Tyson Ward,2811,nba,,True,,27.0,1997-07-26,FA,,0.0,,78.0,190.0,North Dakota State,,SF,Tyson Ward
+Timmy Allen,2685,nba,,True,,24.0,2000-01-09,FA,,1.0,,78.0,210.0,Texas,,SF,Timmy Allen
+Cam Reddish,2049,nba,5.0,True,PF,25.0,1999-09-01,ACT,,5.0,2.0,79.0,230.0,Duke,LAL,SF,Cam Reddish
+Shabazz Muhammad,1194,nba,,True,,32.0,1992-11-13,FA,,5.0,,77.0,225.0,UCLA,,SG,Shabazz Muhammad
+Paul Reed,2128,nba,7.0,True,C,25.0,1999-06-14,ACT,,4.0,3.0,81.0,210.0,DePaul,DET,PF,Paul Reed
+Markelle Fultz,1772,nba,,True,,26.0,1998-05-29,FA,,6.0,,76.0,209.0,Washington,,SG,Markelle Fultz
+Derrick Rose,1006,nba,,False,,36.0,1988-10-04,RET,,15.0,,75.0,200.0,Memphis,,PG,Derrick Rose
+Nick Smith,2569,nba,8.0,True,SG,20.0,2004-04-18,ACT,,1.0,4.0,74.0,185.0,Arkansas,CHA,PG,Nick Smith
+Willie Cauley-Stein,1655,nba,,True,,31.0,1993-08-18,FA,,7.0,,84.0,240.0,Kentucky,,C,Willie Cauley-Stein
+Danny Granger,1063,nba,,False,,41.0,1983-04-20,RET,,10.0,,81.0,222.0,New Mexico,,SF,Danny Granger
+Theo Pinson,1916,nba,,True,,29.0,1995-11-05,FA,,4.0,,79.0,212.0,North Carolina,,SG,Theo Pinson
+Jalen Williams,2453,nba,8.0,True,PF,23.0,2001-04-14,ACT,,2.0,1.0,77.0,211.0,Santa Clara,OKC,PG,Jalen Williams
+Goran Dragic,1422,nba,,False,,38.0,1986-05-06,RET,,15.0,,76.0,190.0,,,PG,Goran Dragic
+Steve Novak,1312,nba,,False,,41.0,1983-06-13,RET,,11.0,,82.0,225.0,Marquette,,PF,Steve Novak
+Isaiah Mobley,2460,nba,,True,,25.0,1999-09-24,FA,,2.0,,80.0,238.0,USC,,PF,Isaiah Mobley
+Grant Golden,2536,nba,,True,,26.0,1998-01-15,FA,,1.0,,82.0,255.0,Richmond,,PF,Grant Golden
+Jalen Adaway,2421,nba,,True,,26.0,1998-07-09,FA,,1.0,,77.0,215.0,St. Bonaventure,,SG,Jalen Adaway
+Daryl Macon,1971,nba,,True,,29.0,1995-11-29,FA,,1.0,,74.0,185.0,Arkansas,,PG,Daryl Macon
+Derrick Favors,1358,nba,,True,,33.0,1991-07-15,FA,,12.0,,81.0,265.0,Georgia Tech,,C,Derrick Favors
+Obadiah Noel,2646,nba,,True,,25.0,1999-06-28,FA,,1.0,,76.0,185.0,UMass Lowell,,SG,Obadiah Noel
+Tevian Jones,2679,nba,,True,,24.0,2000-06-29,FA,,1.0,,79.0,197.0,Southern Utah,,PG,Tevian Jones
+Mike Scott,1258,nba,,True,,36.0,1988-07-16,FA,,9.0,,79.0,237.0,Virginia,,PF,Mike Scott
+Scottie Lindsey,2659,nba,,True,,28.0,1996-05-20,FA,,1.0,,77.0,210.0,Northwestern,,SG,Scottie Lindsey
+Danuel House,1680,nba,,True,,31.0,1993-06-07,FA,,7.0,,78.0,220.0,Texas A&M,,SF,Danuel House
+Steve Nash,1213,nba,,False,,50.0,1974-02-07,RET,,18.0,,75.0,180.0,Santa Clara,,PG,Steve Nash
+D'Moi Hodge,2641,nba,,True,,25.0,1998-12-20,FA,,1.0,,75.0,188.0,Missouri,,SG,D'Moi Hodge
+Jordan Adams,1531,nba,,True,,30.0,1994-07-08,FA,,2.0,,77.0,209.0,UCLA,,SG,Jordan Adams
+Yoeli Childs,2231,nba,,True,,26.0,1998-01-13,FA,,1.0,,80.0,225.0,BYU,,SF,Yoeli Childs
+Eugene Omoruyi,2336,nba,,True,,27.0,1997-02-14,FA,,3.0,,78.0,235.0,Oregon,,SF,Eugene Omoruyi
+Mike Miller,1199,nba,,False,,44.0,1980-02-19,RET,,17.0,,80.0,218.0,Florida,,SF,Mike Miller
+Jamarion Sharp,2834,nba,,True,,23.0,2001-08-26,FA,,0.0,,89.0,225.0,Ole Miss,,C,Jamarion Sharp
+Nerlens Noel,1097,nba,,True,,30.0,1994-04-10,FA,,8.0,,82.0,220.0,Kentucky,,C,Nerlens Noel
+Kyle Lowry,1322,nba,7.0,True,PG,38.0,1986-03-25,ACT,,18.0,2.0,72.0,196.0,Villanova,PHI,PG,Kyle Lowry
+Quinndary Weatherspoon,2067,nba,,True,,28.0,1996-09-10,FA,,3.0,,75.0,207.0,Mississippi State,,SG,Quinndary Weatherspoon
+Andrew Wiggins,1525,nba,22.0,True,SF,29.0,1995-02-23,ACT,,10.0,1.0,79.0,210.0,Kansas,GSW,SF,Andrew Wiggins
+Gary Harris,1581,nba,14.0,True,SG,30.0,1994-09-14,ACT,,10.0,2.0,76.0,210.0,Michigan State,ORL,SG,Gary Harris
+Nic Claxton,2032,nba,33.0,True,C,25.0,1999-04-17,ACT,,5.0,1.0,83.0,215.0,Georgia,BKN,C,Nic Claxton
+Brodric Thomas,2213,nba,,True,,27.0,1997-01-28,FA,,2.0,,77.0,185.0,Truman State,,SG,Brodric Thomas
+Aaron Gordon,1585,nba,32.0,True,SF,29.0,1995-09-16,ACT,,10.0,7.0,80.0,235.0,Arizona,DEN,PF,Aaron Gordon
+Kobe Bryant,1228,nba,,False,,46.0,1978-08-23,RET,,20.0,,78.0,212.0,,,SG,Kobe Bryant
+Taylor Hendricks,2582,nba,0.0,True,PF,21.0,2003-11-22,ACT,,1.0,7.0,81.0,215.0,UCF,UTA,PF,Taylor Hendricks
+Devin Carter,2729,nba,22.0,True,PG,22.0,2002-03-18,ACT,,0.0,5.0,74.0,188.0,Providence,SAC,PG,Devin Carter
+Ivan Rabb,1796,nba,,True,,27.0,1997-02-04,FA,,2.0,,82.0,220.0,California,,PF,Ivan Rabb
+Danny Green,1296,nba,,False,,37.0,1987-06-22,RET,,14.0,,78.0,215.0,North Carolina,,SF,Danny Green
+Jason Thompson,1458,nba,,True,,38.0,1986-07-21,FA,,8.0,,83.0,250.0,Rider,,C,Jason Thompson
+Xavier Cooks,2556,nba,,True,,29.0,1995-08-19,FA,,1.0,,80.0,183.0,Winthrop,,PF,Xavier Cooks
+Trevor Hudgins,2423,nba,,True,,25.0,1999-03-23,FA,,1.0,,72.0,180.0,Northwest Missouri State,,PG,Trevor Hudgins
+Jordan Bell,1770,nba,,True,,29.0,1995-01-07,FA,,4.0,,80.0,216.0,Oregon,,C,Jordan Bell
+Wesley Johnson,1215,nba,,True,,37.0,1987-07-11,FA,,9.0,,79.0,215.0,Syracuse,,SF,Wesley Johnson
+Jordan Sibert,1940,nba,,True,,32.0,1992-08-01,FA,,1.0,,76.0,187.0,Dayton,,PG,Jordan Sibert
+Alec Burks,1354,nba,18.0,True,SG,33.0,1991-07-20,ACT,,13.0,3.0,77.0,214.0,Colorado,MIA,SG,Alec Burks
+Devon Dotson,2166,nba,,True,,25.0,1999-08-02,FA,,2.0,,73.0,185.0,Kansas,,PG,Devon Dotson
+Sir'Dominic Pointer,2115,nba,,True,,32.0,1992-05-06,FA,,1.0,,78.0,192.0,St. John's (NY),,SG,Sir'Dominic Pointer
+Scottie Barnes,2289,nba,4.0,True,PG,23.0,2001-08-01,ACT,,3.0,1.0,79.0,237.0,Florida State,TOR,SF,Scottie Barnes
+Paul Zipser,1663,nba,,True,,30.0,1994-02-18,FA,,1.0,,80.0,226.0,,,SF,Paul Zipser
+Ryan Anderson,1263,nba,,True,,36.0,1988-05-06,FA,,12.0,,81.0,240.0,California,,PF,Ryan Anderson
+Jerel McNeal,1573,nba,,True,,37.0,1987-06-01,FA,,1.0,,75.0,200.0,Marquette,,PG,Jerel McNeal
+Deyonta Davis,1694,nba,,True,,27.0,1996-12-02,FA,,3.0,,81.0,237.0,Michigan State,,PF,Deyonta Davis
+Miye Oni,2081,nba,,True,,27.0,1997-08-04,FA,,3.0,,77.0,206.0,Yale,,SG,Miye Oni
+Jeremy Pargo,2110,nba,,True,,38.0,1986-03-17,FA,,3.0,,74.0,219.0,Gonzaga,,PG,Jeremy Pargo
+Arron Afflalo,1482,nba,,False,,39.0,1985-10-15,RET,,11.0,,77.0,210.0,UCLA,,SG,Arron Afflalo
+Armoni Brooks,2249,nba,,True,,26.0,1998-06-05,FA,,2.0,,75.0,195.0,Houston,,PG,Armoni Brooks
+Breein Tyree,2201,nba,,True,,26.0,1998-01-13,FA,,1.0,,74.0,195.0,Ole Miss,,PG,Breein Tyree
+Ian Mahinmi,1061,nba,,False,,38.0,1986-11-05,RET,,12.0,,83.0,262.0,,,C,Ian Mahinmi
+Damion Lee,1807,nba,10.0,True,SG,32.0,1992-10-21,ACT,,6.0,5.0,77.0,204.0,Louisville,PHX,SG,Damion Lee
+Rayshaun Hammonds,2176,nba,,True,,26.0,1998-11-10,FA,,1.0,,81.0,235.0,Georgia,,SF,Rayshaun Hammonds
+Collin Sexton,1892,nba,2.0,True,SG,25.0,1999-01-04,ACT,,6.0,1.0,75.0,190.0,Alabama,UTA,SG,Collin Sexton
+Jawun Evans,1838,nba,,True,,28.0,1996-07-26,FA,,1.0,,72.0,190.0,Oklahoma State,,PG,Jawun Evans
+Malik Hall,2788,nba,,True,,24.0,2000-07-25,FA,,0.0,,80.0,225.0,Michagan State,,PF,Malik Hall
+Jake Toolson,2217,nba,,True,,28.0,1996-03-06,FA,,1.0,,77.0,205.0,BYU,,SG,Jake Toolson
+Lamar Patterson,1626,nba,,True,,33.0,1991-08-12,FA,,2.0,,77.0,226.0,Pittsburgh,,SG,Lamar Patterson
+Jordan Hawkins,2576,nba,24.0,True,SG,22.0,2002-04-29,ACT,,1.0,2.0,77.0,190.0,UConn,NOP,PG,Jordan Hawkins
+Taylor Funk,2870,nba,,True,,,,FA,,0.0,,81.0,220.0,,,PF,Taylor Funk
+DeAndre Jordan,1328,nba,6.0,True,C,36.0,1988-07-21,ACT,,16.0,2.0,83.0,265.0,Texas A&M,DEN,C,DeAndre Jordan
+Cory Joseph,1298,nba,10.0,True,PG,33.0,1991-08-20,ACT,,13.0,4.0,74.0,200.0,Texas,ORL,PG,Cory Joseph
+James Nunnally,1103,nba,,True,,34.0,1990-07-14,FA,,3.0,,79.0,205.0,UC Santa Barbara,,SF,James Nunnally
+Troy Williams,1692,nba,,True,,29.0,1994-12-30,FA,,3.0,,79.0,218.0,Indiana,,SF,Troy Williams
+Eric Bledsoe,1420,nba,,True,,34.0,1989-12-09,FA,,12.0,,73.0,214.0,Kentucky,,PG,Eric Bledsoe
+John Collins,1809,nba,20.0,True,PF,27.0,1997-09-23,ACT,,7.0,1.0,81.0,226.0,Wake Forest,UTA,PF,John Collins
+Trendon Watford,2325,nba,9.0,True,PF,24.0,2000-11-09,ACT,,3.0,3.0,80.0,237.0,LSU,BKN,PF,Trendon Watford
+Chet Holmgren,2455,nba,7.0,True,PF,22.0,2002-05-01,ACT,,1.0,8.0,85.0,213.0,Gonzaga,OKC,PF,Chet Holmgren
+Tyler Ennis,1567,nba,,True,,30.0,1994-08-24,FA,,4.0,,75.0,194.0,Syracuse,,PG,Tyler Ennis
+Bennedict Mathurin,2435,nba,0.0,True,SF,22.0,2002-06-19,ACT,,2.0,1.0,78.0,195.0,Arizona,IND,PG,Bennedict Mathurin
+James Nnaji,2598,nba,,True,,20.0,2004-08-14,ACT,,1.0,,83.0,226.0,,,C,James Nnaji
+Boris Diaw,1297,nba,,False,,42.0,1982-04-16,RET,,14.0,,80.0,250.0,,,PF,Boris Diaw
+Santiago Vescovi,2794,nba,,True,,23.0,2001-09-14,FA,,0.0,,75.0,196.0,Tennessee,,PG,Santiago Vescovi
+John Holland,1629,nba,,True,,36.0,1988-11-06,FA,,3.0,,77.0,205.0,Boston University,,SG,John Holland
+Carlik Jones,2343,nba,,True,,26.0,1997-12-23,FA,,2.0,,72.0,174.0,Louisville,,PG,Carlik Jones
+DaRon Holmes,2730,nba,14.0,True,C,22.0,2002-08-15,ACT,,0.0,7.0,81.0,236.0,Dayton,DEN,PF,DaRon Holmes
+Tarik Biberovic,2604,nba,,True,,23.0,2001-01-28,FA,,1.0,,79.0,218.0,,,PF,Tarik Biberovic
+Kevon Harris,2227,nba,0.0,True,,27.0,1997-06-24,FA,,1.0,,77.0,216.0,Stephen F. Austin,,SG,Kevon Harris
+Bobby Brown,1700,nba,,True,,40.0,1984-09-24,FA,,3.0,,74.0,175.0,Cal State-Fullerton,,PG,Bobby Brown
+Jose Alvarado,2322,nba,15.0,True,PG,26.0,1998-04-12,ACT,,3.0,8.0,72.0,179.0,Georgia Tech,NOP,PG,Jose Alvarado
+Jamuni McNeace,2815,nba,,True,,28.0,1996-03-25,FA,,0.0,,82.0,232.0,Oklahoma,,C,Jamuni McNeace
+Jarell Martin,1615,nba,,True,,30.0,1994-05-24,FA,,4.0,,82.0,239.0,LSU,,PF,Jarell Martin
+Andrea Bargnani,1028,nba,,False,,39.0,1985-10-26,RET,,10.0,,84.0,245.0,,,C,Andrea Bargnani
+Cameron Bairstow,1494,nba,,True,,33.0,1990-12-07,FA,,2.0,,81.0,250.0,New Mexico,,PF,Cameron Bairstow
+Chandler Vaudrin,2515,nba,,True,,27.0,1997-06-26,FA,,1.0,,79.0,210.0,Winthrop,,PG,Chandler Vaudrin
+Wenyen Gabriel,1985,nba,,True,,27.0,1997-03-26,FA,,4.0,,81.0,205.0,Kentucky,,PF,Wenyen Gabriel
+P.J. Tucker,1421,nba,17.0,True,PF,39.0,1985-05-05,NWT,,13.0,7.0,77.0,245.0,Texas,LAC,PF,P.J. Tucker
+Lucas Nogueira,1549,nba,,False,,32.0,1992-07-26,RET,,4.0,,84.0,220.0,,,C,Lucas Nogueira
+DJ Horne,2806,nba,,True,,24.0,2000-10-31,FA,,0.0,,74.0,180.0,NC State,,PG,DJ Horne
+Kyle Mangas,2688,nba,,True,,25.0,1999-04-08,FA,,1.0,,76.0,200.0,Indiana Wesleyan,,PG,Kyle Mangas
+Jeff Teague,1253,nba,,True,,36.0,1988-06-10,FA,,12.0,,75.0,195.0,Wake Forest,,PG,Jeff Teague
+Nicolas Batum,1449,nba,33.0,True,PF,35.0,1988-12-14,ACT,,16.0,2.0,80.0,230.0,,LAC,SF,Nicolas Batum
+Isaiah Whaley,2517,nba,,True,,26.0,1998-03-26,FA,,1.0,,81.0,225.0,UConn,,PF,Isaiah Whaley
+Caleb Homesley,2232,nba,,True,,28.0,1996-11-27,FA,,1.0,,78.0,205.0,Liberty,,SG,Caleb Homesley
+Josh Reaves,2089,nba,,True,,27.0,1997-06-04,FA,,1.0,,76.0,214.0,Penn State,,SG,Josh Reaves
+Chauncey Billups,1130,nba,,False,,48.0,1976-09-25,RET,,17.0,,75.0,210.0,Colorado,,PG,Chauncey Billups
+Chuck Hayes,1313,nba,,False,,41.0,1983-06-11,RET,,11.0,,78.0,240.0,Kentucky,,C,Chuck Hayes
+Pete Nance,2657,nba,,True,,24.0,2000-02-19,FA,,1.0,,82.0,225.0,North Carolina,,PF,Pete Nance
+Leonard Miller,2621,nba,33.0,True,PF,21.0,2003-11-26,ACT,,0.0,4.0,82.0,220.0,,MIN,SF,Leonard Miller
+Brendan Haywood,1152,nba,,False,,45.0,1979-11-27,RET,,13.0,,84.0,263.0,North Carolina,,C,Brendan Haywood
+Bonzie Colson,1965,nba,,True,,28.0,1996-01-12,FA,,1.0,,78.0,225.0,Notre Dame,,SF,Bonzie Colson
+Jaylen Clark,2602,nba,22.0,True,SG,23.0,2001-10-13,TWO-WAY,,1.0,9.0,76.0,205.0,UCLA,MIN,PG,Jaylen Clark
+Kevin Porter,2009,nba,77.0,True,PG,24.0,2000-05-04,ACT,,4.0,2.0,76.0,203.0,USC,LAC,SG,Kevin Porter
+Mac McClung,2334,nba,8.0,True,PG,25.0,1999-01-06,TWO-WAY,,2.0,6.0,74.0,185.0,Texas Tech,ORL,PG,Mac McClung
+Jarred Vanderbilt,1987,nba,2.0,True,C,25.0,1999-04-03,ACT,,6.0,5.0,81.0,230.0,Kentucky,LAL,PF,Jarred Vanderbilt
+Jaime Echenique,2345,nba,,True,,27.0,1997-04-27,FA,,1.0,,83.0,258.0,Wichita State,,C,Jaime Echenique
+Samuel Dalembert,1402,nba,,False,,43.0,1981-05-10,RET,,13.0,,83.0,255.0,Seton Hall,,C,Samuel Dalembert
+Isaiah Collier,2724,nba,13.0,True,PG,20.0,2004-10-08,ACT,,0.0,2.0,75.0,210.0,USC,UTA,PG,Isaiah Collier
+AJ Green,2417,nba,20.0,True,SG,25.0,1999-09-27,ACT,,2.0,2.0,76.0,190.0,Northern Iowa,MIL,SG,AJ Green
+Justin Patton,1788,nba,,True,,27.0,1997-06-14,FA,,3.0,,83.0,241.0,Creighton,,C,Justin Patton
+Max Heidegger,2669,nba,,True,,27.0,1997-06-05,FA,,1.0,,75.0,180.0,UC Santa Barbara,,PG,Max Heidegger
+N Nene,1126,nba,,True,,42.0,1982-09-13,FA,,17.0,,83.0,250.0,,,C,N Nene
+Immanuel Quickley,2157,nba,5.0,True,PG,25.0,1999-06-17,ACT,,4.0,6.0,74.0,190.0,Kentucky,TOR,PG,Immanuel Quickley
+Kaiser Gates,2246,nba,,True,,28.0,1996-11-08,FA,,1.0,,80.0,223.0,Xavier,,SF,Kaiser Gates
+Tony Wroten,1095,nba,,True,,31.0,1993-04-13,FA,,4.0,,78.0,205.0,Washington,,SG,Tony Wroten
+Theo John,2425,nba,,True,,26.0,1998-08-25,FA,,1.0,,81.0,242.0,Duke,,PF,Theo John
+Jalen Duren,2438,nba,0.0,True,C,21.0,2003-11-18,ACT,,2.0,1.0,82.0,250.0,Memphis,DET,C,Jalen Duren
+Luis Montero,1653,nba,,True,,31.0,1993-04-06,FA,,2.0,,79.0,200.0,,,SG,Luis Montero
+Rajon Rondo,1283,nba,,False,,38.0,1986-02-22,RET,,16.0,,73.0,180.0,Kentucky,,PG,Rajon Rondo
+Nikola Durisic,2757,nba,,True,,20.0,2004-02-23,NWT,,0.0,,79.0,209.0,,,PF,Nikola Durisic
+Malcolm Lee,1513,nba,,True,,34.0,1990-05-22,FA,,3.0,,77.0,200.0,UCLA,,SG,Malcolm Lee
+Pierre Jackson,1731,nba,,True,,33.0,1991-08-29,FA,,1.0,,70.0,180.0,Baylor,,PG,Pierre Jackson
+Leandro Bolmaro,2180,nba,,True,,24.0,2000-09-11,FA,,1.0,,78.0,200.0,,,SG,Leandro Bolmaro
+J.J. Hickson,1473,nba,,True,,36.0,1988-09-04,FA,,8.0,,81.0,242.0,North Carolina State,,C,J.J. Hickson
+Sindarius Thornwell,1834,nba,,True,,30.0,1994-11-15,FA,,3.0,,76.0,215.0,South Carolina,,SG,Sindarius Thornwell
+Andrew Bogut,1077,nba,,False,,40.0,1984-11-28,RET,,14.0,,84.0,260.0,Utah,,C,Andrew Bogut
+Didi Louzada,2251,nba,,True,,25.0,1999-07-02,FA,,1.0,,77.0,188.0,,,SG,Didi Louzada
+Dante Cunningham,1185,nba,,True,,37.0,1987-04-22,FA,,10.0,,80.0,230.0,Villanova,,SF,Dante Cunningham
+Thanasis Antetokounmpo,1591,nba,,True,,32.0,1992-07-18,FA,,6.0,,79.0,219.0,,,SF,Thanasis Antetokounmpo

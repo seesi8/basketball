@@ -11,28 +11,40 @@ def clean_name(name):
     return name
 
 # Load the JSON data
-with open("./output.json", "r") as json_file:
+with open("./cleaned_adjusted_players.json", "r") as json_file:
     swapped_data = json.load(json_file)
 
-# Normalize keys in JSON for matching
-swapped_data_normalized = {clean_name(key): value for key, value in swapped_data.items()}
+# Normalize keys in JSON for consistent matching
+primary_data = {
+    clean_name(key): {"original_key": key, "data": value} 
+    for key, value in swapped_data.items()
+}
+
+# Convert the primary JSON dataset to a DataFrame
+primary_df = pd.DataFrame([
+    {"Cleaned Name": clean_name(name), **details}
+    for name, details in primary_data.items()
+])
 
 # Load the CSV data
 csv_data = pd.read_csv("./value.csv")
 
-# Normalize names in the CSV and map them to the normalized swapped data
-csv_data["original_key"] = csv_data["Name"].apply(clean_name).map(swapped_data_normalized)
+# Clean and normalize the names in the CSV
+csv_data["Cleaned Name"] = csv_data["Name"].apply(clean_name)
 
-# Identify unmatched names
-unmatched_names = csv_data[csv_data["original_key"].isna()]["Name"]
+# Merge JSON (primary) with CSV (secondary) data
+merged_data = pd.merge(primary_df, csv_data, on="Cleaned Name", how="left")
 
-# Print unmatched names
-if unmatched_names.empty:
-    print("All names in the CSV have a match in the JSON data.")
+# Identify unmatched rows from the JSON dataset
+unmatched_in_json = primary_df[~primary_df["Cleaned Name"].isin(csv_data["Cleaned Name"])]
+
+# Print unmatched entries
+if unmatched_in_json.empty:
+    print("All JSON entries have corresponding matches in the CSV.")
 else:
-    print("The following names do not have a match in the JSON data:")
-    print(unmatched_names.to_list())
+    print("The following entries from the JSON data do not have matches in the CSV:")
+    print(unmatched_in_json)
 
 # Save the merged data to a new CSV
-csv_data.to_csv("./merged.csv", index=False)
-print("Merged data saved to merged.csv")
+merged_data.to_csv("./merged_new.csv", index=False)
+print("Merged data saved to merged_new.csv")
