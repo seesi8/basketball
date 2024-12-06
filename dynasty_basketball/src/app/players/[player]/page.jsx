@@ -5,6 +5,11 @@ import styles from "../../styles/player.module.css";
 import { useEffect, useState } from "react";
 import { use } from "react";
 import { getCookie, setCookie } from "cookies-next/client";
+import { FaChartLine } from "react-icons/fa";
+import { HiMiniUserGroup } from "react-icons/hi2";
+import { BiReceipt } from "react-icons/bi";
+import { PiGraphLight } from "react-icons/pi";
+import InsightsTab from "@/app/components/insights";
 
 async function get_name(userID) {
   return fetch(
@@ -177,12 +182,41 @@ async function get_team_name(userID) {
     });
 }
 
+async function total_points(userID) {
+  return fetch(
+    "/api/points?" +
+      new URLSearchParams({
+        userID: userID,
+        leaugeID: getCookie("leaugeID"),
+      }).toString()
+  )
+    .then((res) => {
+      return res.json();
+    })
+    .then((res) => {
+      return res;
+    });
+}
+
+async function getWeek() {
+  return fetch("/api/week")
+    .then((res) => {
+      return res.json();
+    })
+    .then((res) => {
+      return res;
+    });
+}
+
 export default function Home({ params }) {
   const [name, setName] = useState("");
   const [teamName, setTeamName] = useState("");
   const [record, setRecord] = useState("");
   const { player } = use(params);
   const [rosters, setRosters] = useState({});
+  const [totalPoints, setTotalPoints] = useState(0);
+  const [avgPoints, setAvgPoints] = useState(0);
+  const [activeTab, setActiveTab] = useState("insights");
 
   useEffect(() => {
     get_name(player).then((value) => {
@@ -199,6 +233,11 @@ export default function Home({ params }) {
           value["ties"] > 0 ? `-${value["ties"]}` : ""
         }`
       );
+    });
+
+    total_points(player).then(async (value) => {
+      setTotalPoints(value);
+      setAvgPoints(value / (await getWeek()));
     });
   }, []);
 
@@ -461,6 +500,21 @@ export default function Home({ params }) {
       });
   }, []);
 
+  const renderTabContent = () => {
+    switch (activeTab) {
+      case "insights":
+        return <InsightsTab rosters={rosters} />;
+      case "roster":
+        return <div>This is the content for Tab 2.</div>;
+      case "activity":
+        return <div>This is the content for Tab 3.</div>;
+      case "trade":
+        return <div>This is the content for Tab 3.</div>;
+      default:
+        return <div>Select a tab to view content.</div>;
+    }
+  };
+
   return (
     <div className={styles.page}>
       <h3 className={styles.back}>
@@ -487,11 +541,60 @@ export default function Home({ params }) {
               <p className={styles.itemTitle}>Overall Rank</p>
               <p className={styles.itemRank}>{rosters["total_value_rank"]}</p>
             </div>
+            <div className={styles.item}>
+              <p className={styles.itemTitle}>Points For</p>
+              <p className={styles.itemRank}>{totalPoints}</p>
+            </div>
+            <div className={styles.item}>
+              <p className={styles.itemTitle}>Average Points</p>
+              <p className={styles.itemRank}>{parseInt(avgPoints)}</p>
+            </div>
           </>
         ) : (
           <></>
         )}
       </div>
+      <div className={styles.row3}>
+        <nav className={styles.tabNavigation}>
+          <button
+            className={`${styles.tabButton} ${(activeTab == "insights") ? styles.active : ""}`}
+            onClick={() => setActiveTab("insights")}
+          >
+            <span className={styles.icon}>
+              <FaChartLine />
+            </span>
+            Insights
+          </button>
+          <button
+            className={`${styles.tabButton} ${(activeTab == "roster") ? styles.active : ""}`}
+            onClick={() => setActiveTab("roster")}
+          >
+            <span className={styles.icon}>
+              <HiMiniUserGroup />
+            </span>
+            Roster
+          </button>
+          <button
+            className={`${styles.tabButton} ${(activeTab == "activity") ? styles.active : ""}`}
+            onClick={() => setActiveTab("activity")}
+          >
+            <span className={styles.icon}>
+              <BiReceipt />
+            </span>
+            Activity
+          </button>
+          <button
+            className={`${styles.tabButton} ${(activeTab == "trade") ? styles.active : ""}`}
+            onClick={() => setActiveTab("trade")}
+          >
+            <span className={styles.icon}>
+              <PiGraphLight />
+            </span>
+            Trade
+          </button>
+        </nav>
+      </div>
+      <div className={styles.tabContent}>{renderTabContent()}</div>
     </div>
   );
 }

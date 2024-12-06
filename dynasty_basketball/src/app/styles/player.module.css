@@ -22,9 +22,11 @@
 }
 
 .secondRow{
-    width: 60%;
+    width:100%;
     margin-top: 2rem;
     display: flex;
+    display: flex;
+    justify-content: space-around;
 }
 
 .itemTitle{
@@ -38,4 +40,47 @@
 .item{
     padding: 0rem 1rem;
     border-left: 1px white solid;
+}
+
+.row3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0px;
+}
+
+.tabNavigation{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tabButton{
+    background-color: transparent;
+    color: grey;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.tabButton:hover{
+    background-color: #c3316410;
+}
+
+.icon{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.active{
+    color: #C33163;
+    border-bottom: #C33163 2px solid;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
 }
