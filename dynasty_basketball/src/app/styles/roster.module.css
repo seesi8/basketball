@@ -1,0 +1,105 @@
+.insights{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.positions{
+    display: flex;
+    justify-content: center;
+}
+
+.position{
+    background-color: #282837;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: #76769B;
+    border: 1px #41414E solid;
+    width: 10rem;
+}
+
+.bold{
+    color: white;
+    text-align: right;
+    font-weight: bold;
+}
+
+.value{
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+}
+
+.tileTitle{
+    margin-bottom: 0.5rem;
+}
+
+.chart{
+    background-color: #282837;
+    border: #41414E 1px solid;
+    padding: 1rem 7rem ;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+}
+
+.chartContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.roster{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.playerCard{
+    width: 25vw;
+    margin: 1rem;
+    background-color: #282837;
+    border: 1px solid #41414E;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.playerPos{
+    padding: 0.5rem 0px;
+    color: #BBBBB7;
+    font-weight: bold;
+}
+
+.additionalDetails{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.playerImage{
+    border-radius: 100%;
+    width: 15vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.playerImageContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

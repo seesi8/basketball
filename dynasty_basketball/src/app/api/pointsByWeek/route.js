@@ -49,6 +49,36 @@ async function getWeek(){
   return data["week"]
 }
 
+const calculatePoints = (data) => {
+  const result = {};
+
+  // Create a map to calculate total points against each roster
+  const matchupPoints = data.reduce((acc, item) => {
+      if (!acc[item.matchup_id]) acc[item.matchup_id] = [];
+      acc[item.matchup_id].push(item);
+      return acc;
+  }, {});
+
+  console.log(matchupPoints)
+
+  data.forEach(item => {
+      const { roster_id, points, matchup_id } = item;
+      
+      // Calculate pointsFor
+      if (!result[roster_id]) {
+          result[roster_id] = { pointsFor: 0, pointsAgainst: 0 };
+      }
+      result[roster_id].pointsFor += points;
+
+      // Calculate pointsAgainst
+      const opponents = matchupPoints[matchup_id].filter(opponent => opponent.roster_id !== roster_id);
+      const pointsAgainst = opponents.reduce((sum, opponent) => sum + opponent.points, 0);
+      result[roster_id].pointsAgainst += pointsAgainst;
+  });
+
+  return result;
+};
+
 export async function GET(request) {
   try {
     const searchParams = request.nextUrl.searchParams;
@@ -69,21 +99,19 @@ export async function GET(request) {
 
     const roster = rosters.find((value) => value["owner_id"] === userID)
     
-    let total_points = 0
+    let points = {}
 
     for(let weekID in range(1,week)){
       const currentWeek = parseInt(weekID) + 1;
-      const week_matchups = await getMatchup(leagueID, currentWeek)
+      const week_matchups = calculatePoints(await getMatchup(leagueID, currentWeek))
 
-      const matchup = week_matchups.find((value) => value["roster_id"] == roster["roster_id"])
+      const matchup = week_matchups[roster["roster_id"]]
 
-      console.log(currentWeek, week_matchups)
-
-      total_points += matchup["points"]
+      points[currentWeek] = matchup;
     }
 
 
-    return new Response(JSON.stringify(total_points), {
+    return new Response(JSON.stringify(points), {
       status: 200,
       headers: { 'Content-Type': 'application/json' },
     });

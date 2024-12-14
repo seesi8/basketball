@@ -1,4 +1,4 @@
-Rank,Name_x,Age,Team,Positions,Value,original_key,sport,number,active,depth_chart_position,birth_day,status,years_exp,depth_chart_order,height,weight,college,team,both,cleaned_name,id
+Rank,Name,Age,Team,Positions,Value,original_key,sport,number,active,depth_chart_position,birth_day,status,years_exp,depth_chart_order,height,weight,college,team,both,cleaned_name,id
 0,Victor Wembanyama,20.9,SA,C,9998.08,2577,nba,1,TRUE,C,2004-01-04,ACT,1,1,87,235,,SAS,TRUE,Victor Wembanyama,5104157
 1,Shai Gilgeous-Alexander,26.4,OKC,PG,9996.16,1957,nba,2,TRUE,PG,1998-07-12,ACT,6,1,78,195,Kentucky,OKC,TRUE,Shai Gilgeous-Alexander,4278073
 2,Luka Doncic,25.7,DAL,"PG,SG",9994.24,1970,nba,77,TRUE,PG,1999-02-28,ACT,6,1,79,230,,DAL,TRUE,Luka Doncic,3945274

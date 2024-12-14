@@ -84,3 +84,15 @@
     border-bottom-left-radius: 0rem;
     border-bottom-right-radius: 0rem;
 }
+
+.locked{
+    font-weight: normal;
+    color: #76769B;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.record{
+    text-align: right;
+}
+

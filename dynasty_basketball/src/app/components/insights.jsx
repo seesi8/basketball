@@ -1,234 +1,274 @@
 import Image from "next/image";
 import styles from "../styles/insights.module.css";
-import { Radar } from "react-chartjs-2";
+import { useEffect, useState } from "react";
+import { Line } from "react-chartjs-2";
 import {
     Chart as ChartJS,
-    RadialLinearScale,
+    CategoryScale,
+    LinearScale,
     PointElement,
     LineElement,
-    Filler,
+    Title,
     Tooltip,
     Legend,
+    Filler,
 } from "chart.js";
+import { getCookie } from "cookies-next";
 
-export default function InsightsTab({ rosters }) {
-    if (rosters == undefined) {
-        return <p>loading</p>;
-    }
+async function total_points(userID) {
+    console.log(
+        "/api/pointsByWeek?" +
+            new URLSearchParams({
+                userID: userID,
+                leaugeID: getCookie("leaugeID"),
+            }).toString()
+    );
+    return fetch(
+        "/api/pointsByWeek?" +
+            new URLSearchParams({
+                userID: userID,
+                leaugeID: getCookie("leaugeID"),
+            }).toString()
+    )
+        .then((res) => {
+            return res.json();
+        })
+        .then((res) => {
+            return res;
+        });
+}
 
-    ChartJS.register(
-        RadialLinearScale,
-        PointElement,
-        LineElement,
-        Filler,
-        Tooltip,
-        Legend
+async function getMetrics(userID) {
+    console.log(
+        "/api/metrics?" +
+            new URLSearchParams({
+                userID: userID,
+                leaugeID: getCookie("leaugeID"),
+            }).toString()
+    );
+    return fetch(
+        "/api/metrics?" +
+            new URLSearchParams({
+                userID: userID,
+                leaugeID: getCookie("leaugeID"),
+            }).toString()
+    )
+        .then((res) => {
+            return res.json();
+        })
+        .then((res) => {
+            console.log(res);
+            return res;
+        });
+}
+
+function transformData(inputData) {
+    const labels = Object.keys(inputData).map((item) => `Week ${item}`);
+
+    // Extract pointsFor and pointsAgainst into arrays
+    const pointsFor = Object.values(inputData).map((item) => item.pointsFor);
+    const pointsAgainst = Object.values(inputData).map(
+        (item) => item.pointsAgainst
     );
 
-    // Data for the chart
-    const data = {
-        labels: ["PG", "SG", "SF", "SF", "C", "Picks"],
+    console.log(labels, pointsFor, pointsAgainst);
+
+    // Construct and return the data object
+    return {
+        labels: labels,
         datasets: [
             {
-                label: "Rankings",
-                data: [
-                    11 - rosters["pg_value_rank"],
-                    11 - rosters["sg_value_rank"],
-                    11 - rosters["sf_value_rank"],
-                    11 - rosters["pf_value_rank"],
-                    11 - rosters["c_value_rank"],
-                    11 - rosters["picks_value_rank"],
-                ], // Replace with your actual data
-                backgroundColor: "rgba(0, 204, 255, 0.4)", // Adjust the opacity and color
-                borderColor: "rgba(0, 204, 255, 1)", // Line color
-                borderWidth: 2,
+                label: "Fantasy Points",
+                data: pointsFor,
+                borderColor: "#00c8f3",
+                backgroundColor: "rgba(0, 200, 243, 0.3)",
+                tension: 0.2,
+                pointStyle: "circle",
+                pointRadius: 5,
+                pointBackgroundColor: "#00c8f3",
+                pointBorderColor: "rgba(0, 0, 0, 0)",
+                fill: true,
+            },
+            {
+                label: "Opponent Points",
+                data: pointsAgainst,
+                borderColor: "#f30087",
+                backgroundColor: "rgba(243, 0, 135, 0.3)",
+                tension: 0.2,
+                pointStyle: "circle",
+                pointRadius: 5,
+                pointBackgroundColor: "#f30087",
+                pointBorderColor: "rgba(0, 0, 0, 0)",
             },
         ],
     };
+}
 
-    // Options for the chart
+async function getWeek() {
+    return fetch("/api/week")
+        .then((res) => {
+            return res.json();
+        })
+        .then((res) => {
+            return res;
+        });
+}
+
+export default function Insights({ userID }) {
+    // Register Chart.js modules
+    ChartJS.register(
+        CategoryScale,
+        LinearScale,
+        PointElement,
+        LineElement,
+        Title,
+        Tooltip,
+        Legend,
+        Filler
+    );
+
+    const [weeks, setWeeks] = useState({});
+    const [data, setData] = useState(undefined);
+    const [week, setWeek] = useState(undefined);
+    const [metrics, setMetrics] = useState(undefined);
+
     const options = {
+        responsive: true,
         plugins: {
             legend: {
-                display: false, // Hides the legend
+                position: "bottom",
+                labels: {
+                    color: "#fff",
+                    boxWidth: 20,
+                },
             },
-            tooltip: {
-                enabled: true,
-            },
-            chartAreaBackground: {
-                color: "lightblue", // Background color for the entire chart area
+            title: {
+                display: true,
+                text: "Weekly Points Vs. Opponents",
+                color: "#fff",
+                font: {
+                    size: 18,
+                    weight: "bold",
+                },
             },
         },
         scales: {
-            r: {
-                angleLines: {
-                    display: true,
-                },
-                suggestedMin: 0,
-                suggestedMax: 10, // Adjust depending on your data range
-                grid: {
-                    color: "#2e2e2e", // Grid line color
-                },
-                pointLabels: {
-                    color: "#ffffff", // Axis label color
-                },
+            x: {
                 ticks: {
-                    display: false, // Hides the scale numbers
+                    color: "#fff",
+                    maxRotation: 45,
+                    minRotation: 45,
+                    font: {
+                        size: 10,
+                    },
+                },
+                title: {
+                    display: true,
+                    text: "MatchUp",
+                    color: "#fff",
+                    font: {
+                        size: 12,
+                        weight: "bold",
+                    },
+                },
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    color: "#fff",
+                    beginAtZero: true, // Ensures the scale starts at 0
+                },
+                title: {
+                    display: true,
+                    text: "Fantasy Points",
+                    color: "#fff",
+                    font: {
+                        size: 12,
+                        weight: "bold",
+                    },
                 },
             },
         },
     };
 
+    useEffect(() => {
+        total_points(userID).then((data) => {
+            setWeeks(data);
+            setData(transformData(data));
+        });
+        getWeek().then((data) => {
+            setWeek(data);
+        });
+        getMetrics(userID).then((data) => {
+            setMetrics(data);
+        });
+    }, []);
+
     return (
-        <div className={styles.insights}>
-            <h3 className={styles.title}>Roster Trends</h3>
-            <div className={styles.positions}>
-                <div className={styles.position}>
-                    <p className={styles.tileTitle}>Overall</p>
-                    <p className={styles.value}>
-                        Value{" "}
-                        <span className={styles.bold}>
-                            {rosters["total_value"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Rank{" "}
-                        <span className={styles.bold}>
-                            {rosters["total_value_rank"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Avg. Age{" "}
-                        <span className={styles.bold}>
-                            {parseInt(rosters["avg_age"])}
-                        </span>
-                    </p>
-                </div>
-                <div className={styles.position}>
-                    <p className={styles.tileTitle}>PG Room</p>
-                    <p className={styles.value}>
-                        Value{" "}
-                        <span className={styles.bold}>
-                            {rosters["pg_value"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Rank{" "}
-                        <span className={styles.bold}>
-                            {rosters["pg_value_rank"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Avg. Age{" "}
-                        <span className={styles.bold}>
-                            {parseInt(rosters["pg_age"])}
-                        </span>
-                    </p>
-                </div>
-                <div className={styles.position}>
-                    <p className={styles.tileTitle}>SG Room</p>
-                    <p className={styles.value}>
-                        Value{" "}
-                        <span className={styles.bold}>
-                            {rosters["sg_value"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Rank{" "}
-                        <span className={styles.bold}>
-                            {rosters["sg_value_rank"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Avg. Age{" "}
-                        <span className={styles.bold}>
-                            {parseInt(rosters["sg_age"])}
-                        </span>
-                    </p>
-                </div>
-                <div className={styles.position}>
-                    <p className={styles.tileTitle}>SF Room</p>
-                    <p className={styles.value}>
-                        Value{" "}
-                        <span className={styles.bold}>
-                            {rosters["sf_value"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Rank{" "}
-                        <span className={styles.bold}>
-                            {rosters["sf_value_rank"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Avg. Age{" "}
-                        <span className={styles.bold}>
-                            {parseInt(rosters["sf_age"])}
-                        </span>
-                    </p>
-                </div>
-                <div className={styles.position}>
-                    <p className={styles.tileTitle}>PF Room</p>
-                    <p className={styles.value}>
-                        Value{" "}
-                        <span className={styles.bold}>
-                            {rosters["pf_value"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Rank{" "}
-                        <span className={styles.bold}>
-                            {rosters["pf_value_rank"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Avg. Age{" "}
-                        <span className={styles.bold}>
-                            {parseInt(rosters["pf_age"])}
-                        </span>
-                    </p>
-                </div>
-                <div className={styles.position}>
-                    <p className={styles.tileTitle}>C Room</p>
-                    <p className={styles.value}>
-                        Value{" "}
-                        <span className={styles.bold}>
-                            {rosters["c_value"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Rank{" "}
-                        <span className={styles.bold}>
-                            {rosters["c_value_rank"]}
-                        </span>
-                    </p>
-                    <p className={styles.value}>
-                        Avg. Age{" "}
-                        <span className={styles.bold}>
-                            {parseInt(rosters["c_age"])}
-                        </span>
-                    </p>
-                </div>
+        <div className={styles.page}>
+            {" "}
+            <div className={styles.chart}>
+                {data != undefined ? (
+                    <Line data={data} options={options} />
+                ) : (
+                    ""
+                )}
             </div>
-            <div className={styles.chartContainer}>
-                <div className={styles.chart}>
-                    <h2 style={{ textAlign: "center", color: "#fff" }}>
-                        Position Rankings
-                    </h2>
-                    <Radar data={data} options={options} />
-                    {/* <Image
-                    alt="The guitarist in the concert."
-                    src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2527963.png&w=350&h=254"
-                    width={2250}
-                    height={1390}
-                    layout="responsive"
-                /> */}
-                </div>
+            <div className={styles.metrics}>
+                <h3>Season Metrics</h3>
+                {metrics != undefined ? (
+                    <>
+                        <p className={styles.metricItem}>
+                            Games Played{" "}
+                            <span className={styles.bold}>{week}</span>
+                        </p>
+                        <p className={styles.metricItem}>
+                            Points For{" "}
+                            <span className={styles.bold}>
+                                {metrics["totalPoints"]}
+                            </span>
+                        </p>
+                        <p className={styles.metricItem}>
+                            Highest Score{" "}
+                            <span className={styles.bold}>
+                                {metrics["high"]}
+                            </span>
+                        </p>
+                        <p className={styles.metricItem}>
+                            Low Score{" "}
+                            <span className={styles.bold}>
+                                {metrics["low"]}
+                            </span>
+                        </p>
+                        <p className={styles.metricItem}>
+                            Average Points Per Week{" "}
+                            <span className={styles.bold}>
+                                {parseInt(metrics["avg"])}
+                            </span>
+                        </p>
+                        <p className={styles.metricItem}>
+                            Variance{" "}
+                            <span className={styles.bold}>
+                                {parseInt(metrics["var"])}
+                            </span>
+                        </p>
+                        <p className={styles.metricItem}>
+                            Standard Deviation{" "}
+                            <span className={styles.bold}>
+                                {parseInt(metrics["std"])}
+                            </span>
+                        </p>
+                        <p className={styles.metricItem}>
+                        Points Against{" "}
+                            <span className={styles.bold}>
+                                {parseInt(metrics["totalPointsAgainst"])}
+                            </span>
+                        </p>
+                    </>
+                ) : (
+                    ""
+                )}
             </div>
-            <h3 className={styles.roster}>Team Roster</h3>
-            <p>
-                Below are the players sorted by most valuable to least valuable.
-            </p>
         </div>
     );
 }

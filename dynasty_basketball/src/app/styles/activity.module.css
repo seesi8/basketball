@@ -1,0 +1,85 @@
+.page{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.recent{
+    text-align: center;
+    width: 100%;
+}
+
+.transactions{
+    padding-top: 3rem;
+    width: 20rem;
+}
+
+.transaction{
+    padding: 0.5rem 0rem;
+}
+
+.player{
+    padding: 0.25rem 0rem;
+    color: #6E6E94;
+}
+
+.green{
+    color: #57EB96;
+    font-weight: bold;
+    text-align: right;
+}
+
+.red{
+    color: #FE8180;
+    font-weight: bold;
+    text-align: right;
+}
+
+.playerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    width: 20rem;
+    height: fit-content;
+    border: 2px solid #717178;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.transactionsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tiles{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tile{
+    background-color: #282837;
+    border: solid 1px #41414E;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 2rem 0.5rem;
+    margin-bottom: 0rem;
+    color: #72739B;
+}
+
+.bold{
+    color: white;
+    font-weight: bold;
+}

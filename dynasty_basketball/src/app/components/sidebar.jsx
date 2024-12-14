@@ -152,7 +152,7 @@ export default function Sidebar() {
                 >
                   Players
                 </a>
-                {/* <a
+                <a
                   className={styles.item}
                   onMouseEnter={(e) => {
                     setPlayers(false);
@@ -161,7 +161,7 @@ export default function Sidebar() {
                   }}
                 >
                   Teams
-                </a> */}
+                </a>
               </div>
             </div>
           </>
