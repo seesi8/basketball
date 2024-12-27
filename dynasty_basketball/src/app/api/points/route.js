@@ -77,8 +77,6 @@ export async function GET(request) {
 
       const matchup = week_matchups.find((value) => value["roster_id"] == roster["roster_id"])
 
-      console.log(currentWeek, week_matchups)
-
       total_points += matchup["points"]
     }
 

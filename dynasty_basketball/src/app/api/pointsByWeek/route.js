@@ -59,8 +59,6 @@ const calculatePoints = (data) => {
       return acc;
   }, {});
 
-  console.log(matchupPoints)
-
   data.forEach(item => {
       const { roster_id, points, matchup_id } = item;
       

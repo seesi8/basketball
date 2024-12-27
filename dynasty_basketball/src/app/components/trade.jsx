@@ -97,7 +97,7 @@ export default function Trade({ userID }) {
                     {data ? (
                         <ForceGraph2D
                             graphData={data}
-                            linkDirectionalArrowLength={5}
+                            linkDirectionalArrowLength={10}
                             linkWidth={2}
                             linkCurvature={0.5}
                             linkDirectionalArrowRelPos={1}

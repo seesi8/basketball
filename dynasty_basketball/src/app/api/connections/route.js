@@ -43,7 +43,6 @@ async function get_name(userID) {
         });
 }
 
-
 async function get_value(player) {
     const baseUrl = process.env.VERCEL_URL
         ? "https://" + process.env.VERCEL_URL
@@ -103,7 +102,7 @@ async function getTeamAvatar(leagueID, owner_id) {
             return res.json();
         })
         .then((value) => {
-            return value["avatar"]
+            return value["avatar"];
         });
 }
 
@@ -285,14 +284,24 @@ async function getWeek() {
 const filterEntries = (entries, roster_id) => {
     return entries.filter((entry) => {
         // Check if any value in the "adds" object equals 2
+        let allowed = false;
         if (entry.adds) {
-            return Object.values(entry.adds).some(
-                (value) => value === roster_id
-            );
-        } else {
-            console.log(entry);
-            return false;
+            if (
+                Object.values(entry.adds).some((value) => value === roster_id)
+            ) {
+                allowed = true;
+            }
         }
+        if (entry.draft_picks) {
+            if (
+                Object.values(entry.draft_picks).some((value) => {
+                    return value.owner_id === roster_id;
+                })
+            ) {
+                allowed = true;
+            }
+        }
+        return allowed;
     });
 };
 
@@ -314,7 +323,7 @@ export async function GET(request) {
         const searchParams = request.nextUrl.searchParams;
         const userID = searchParams.get("userID");
         const leaugeID = searchParams.get("leaugeID");
-        const week = await getWeek();
+        const week = (await getWeek()) + 1;
 
         if (!(userID && leaugeID)) {
             return new Response(
@@ -366,48 +375,45 @@ export async function GET(request) {
             roster_id
         );
 
-        const links_picks = filterEntries(
-            mergeByTransactionId(
-                (
-                    await Promise.all(
-                        all_transactions.map(async (y_value) => {
-                            if (y_value["draft_picks"] == null) {
-                                return "hi";
-                            }
-                            return await Promise.all(
-                                y_value["draft_picks"].map(async (value) => {
-                                    const theRosterID = rosters.find(
-                                        (x_value) =>
-                                            x_value["roster_id"] ==
-                                            value["roster_id"]
-                                    )["owner_id"];
-                                    const theName = await get_name(theRosterID);
-                                    return {
-                                        [`${value["season"]}rd${value["round"]}|via|${theRosterID}`]:
-                                            value["owner_id"],
-                                        transaction_id:
-                                            y_value["transaction_id"],
-                                    };
-                                })
-                            );
-                        })
-                    )
+        const links_picks = mergeByTransactionId(
+            (
+                await Promise.all(
+                    all_transactions.map(async (y_value) => {
+                        if (y_value["draft_picks"] == null) {
+                            return "hi";
+                        }
+                        return await Promise.all(
+                            y_value["draft_picks"].map(async (value) => {
+                                const theRosterID = rosters.find(
+                                    (x_value) =>
+                                        x_value["roster_id"] ==
+                                        value["roster_id"]
+                                )["owner_id"];
+                                const theName = await get_name(theRosterID);
+                                return {
+                                    [`${value["season"]}rd${value["round"]}|via|${theRosterID}`]:
+                                        value["owner_id"],
+                                    transaction_id: y_value["transaction_id"],
+                                };
+                            })
+                        );
+                    })
                 )
-                    .reduce((acc, curr) => acc.concat(curr), [])
-                    .filter((value) => value != null)
-                    .reduce((acc, curr) => acc.concat(curr), [])
-            ).map((value) => {
-                return {
-                    transaction_id: value["transaction_id"],
-                    adds: Object.fromEntries(
-                        Object.entries(value).filter(
-                            ([key]) => key !== "transaction_id"
-                        )
-                    ),
-                };
-            }),
-            roster_id
-        );
+            )
+                .reduce((acc, curr) => acc.concat(curr), [])
+                .filter((value) => value != null)
+                .reduce((acc, curr) => acc.concat(curr), [])
+        ).map((value) => {
+
+            return {
+                transaction_id: value["transaction_id"],
+                adds: Object.fromEntries(
+                    Object.entries(value).filter(
+                        ([key]) => key !== "transaction_id"
+                    )
+                ),
+            };
+        });
 
         const merged = mergeTransactions([...all_transactions, ...links_picks]);
 
@@ -427,8 +433,8 @@ export async function GET(request) {
                                 const x_roster_id = value["adds"][x_key];
                                 if (x_roster_id != roster_id) {
                                     return {
-                                        source: key,
-                                        target: x_key,
+                                        source: x_key,
+                                        target: key,
                                         color: "white",
                                     };
                                 }
@@ -447,7 +453,6 @@ export async function GET(request) {
                     merged.map(async (value) => {
                         return await Promise.all(
                             Object.keys(value["adds"]).map(async (key) => {
-                                console.log(key);
                                 const roster_id = value["adds"][key];
 
                                 const player_value = await get_value(key);
@@ -462,8 +467,11 @@ export async function GET(request) {
                                     name = `${key.split("|")[0]}|${
                                         key.split("|")[1]
                                     }|${theName}`;
-                                    id = await getTeamAvatar(leaugeID, key.split("|")[2])
-                                    url = `https://sleepercdn.com/avatars/thumbs/${id}`
+                                    id = await getTeamAvatar(
+                                        leaugeID,
+                                        key.split("|")[2]
+                                    );
+                                    url = `https://sleepercdn.com/avatars/thumbs/${id}`;
                                 }
 
                                 let data = {

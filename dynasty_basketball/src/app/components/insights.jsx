@@ -16,13 +16,6 @@ import {
 import { getCookie } from "cookies-next";
 
 async function total_points(userID) {
-    console.log(
-        "/api/pointsByWeek?" +
-            new URLSearchParams({
-                userID: userID,
-                leaugeID: getCookie("leaugeID"),
-            }).toString()
-    );
     return fetch(
         "/api/pointsByWeek?" +
             new URLSearchParams({
@@ -39,13 +32,6 @@ async function total_points(userID) {
 }
 
 async function getMetrics(userID) {
-    console.log(
-        "/api/metrics?" +
-            new URLSearchParams({
-                userID: userID,
-                leaugeID: getCookie("leaugeID"),
-            }).toString()
-    );
     return fetch(
         "/api/metrics?" +
             new URLSearchParams({
@@ -57,7 +43,6 @@ async function getMetrics(userID) {
             return res.json();
         })
         .then((res) => {
-            console.log(res);
             return res;
         });
 }
@@ -70,8 +55,6 @@ function transformData(inputData) {
     const pointsAgainst = Object.values(inputData).map(
         (item) => item.pointsAgainst
     );
-
-    console.log(labels, pointsFor, pointsAgainst);
 
     // Construct and return the data object
     return {

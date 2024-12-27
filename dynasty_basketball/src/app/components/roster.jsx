@@ -27,7 +27,7 @@ export default function Roster({ rosters }) {
 
     // Data for the chart
     const data = {
-        labels: ["PG", "SG", "SF", "SF", "C", "Picks"],
+        labels: ["PG", "SG", "SF", "PF", "C", "Picks"],
         datasets: [
             {
                 label: "Rankings",

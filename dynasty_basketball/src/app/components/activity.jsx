@@ -132,7 +132,6 @@ export default function Activity({ userID }) {
         });
 
         get_activity(userID).then((value) => {
-            console.log(value);
             setTransactions(value);
         });
     }, []);
@@ -168,7 +167,6 @@ export default function Activity({ userID }) {
                     {transactions != "" ? (
                         <>
                             {transactions.map((value) => {
-                                console.log(value);
                                 if (!contains(value, input)) {
                                     return <></>;
                                 }
