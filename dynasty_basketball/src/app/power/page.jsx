@@ -4,6 +4,8 @@ import Image from "next/image";
 import styles from "../styles/power.module.css";
 import { useEffect, useState } from "react";
 import { getCookie, setCookie } from "cookies-next/client";
+import { getAllFormatedRosters, getFormatedRosters } from "../helpers/functions";
+
 function uuid() {
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
       var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
@@ -194,259 +196,17 @@ export default function Home() {
   useEffect(() => {
     fetch(
       "/api/rosters?" +
-        new URLSearchParams({
-          leaugeID: getCookie("leaugeID"),
-        }).toString()
-    )
+          new URLSearchParams({
+              leaugeID: getCookie("leaugeID"),
+          }).toString()
+  )
       .then((res) => res.json())
       .then(async (value) => {
-        // Resolve all promises in the map for named_rosters
-        let named_rosters = await Promise.all(
-          value.map(async (item) => {
-            const owner_name = await get_name(item["owner_id"]);
+          // Resolve all promises in the map for named_rosters
+          const formatedRosters = await getAllFormatedRosters(value,  getCookie("leaugeID"));
+          console.log(formatedRosters)
+          setRosters(formatedRosters)
 
-            // Resolve all promises in the player_values map
-            item["player_details"] = await Promise.all(
-              item["players"].map(async (player) => {
-                return await get_player(player);
-              })
-            );
-
-            // Resolve all promises in the player_values map
-            item["player_values"] = await Promise.all(
-              item["player_details"].map(async (player) => {
-                return parseInt(player["Value"]);
-              })
-            );
-
-            // Resolve all promises in the player_values map
-            item["player_ages"] = await Promise.all(
-              item["player_details"].map(async (player) => {
-                return parseInt(player["Age"]);
-              })
-            );
-
-            item["player_ages"] = item["player_ages"].map((value) =>
-              isNaN(value) ? 0 : value
-            );
-            item["avg_age"] =
-              item["player_ages"].reduce((a, b) => a + b, 0) /
-              item["player_ages"].length;
-
-            //Positions
-            item["pgs"] = filterByPosition(item["player_details"], "PG");
-            item["sgs"] = filterByPosition(item["player_details"], "SG");
-            item["sfs"] = filterByPosition(item["player_details"], "SF");
-            item["pfs"] = filterByPosition(item["player_details"], "PF");
-            item["cs"] = filterByPosition(item["player_details"], "C");
-
-            //Starters
-            item["starter_values"] = await Promise.all(
-              item["starters"].map(async (player) => {
-                const player_value = await get_player(player);
-                return parseInt(player_value["Value"]);
-              })
-            );
-            item["starter_value"] = item["starter_values"].reduce(
-              (a, b) => a + b,
-              0
-            );
-
-            //Point Guards
-            item["pg_values"] = await Promise.all(
-              item["player_details"].map(async (player_value) => {
-                if (player_value["Positions"] == undefined) {
-                  return 0;
-                }
-                if (player_value["Positions"].substring(0, 2) == "PG") {
-                  return parseInt(player_value["Value"]);
-                } else {
-                  return 0;
-                }
-              })
-            );
-            item["pg_value"] = item["pg_values"].reduce((a, b) => a + b, 0);
-
-            item["pg_ages"] = await Promise.all(
-              item["player_details"].map(async (player_value) => {
-                if (player_value["Positions"] == undefined) {
-                  return 0;
-                }
-                if (player_value["Positions"].substring(0, 2) == "PG") {
-                  return parseInt(player_value["Age"]);
-                } else {
-                  return 0;
-                }
-              })
-            );
-            item["pg_age"] = averageNonZeroValues(item["pg_ages"]);
-
-            //Shooting Guards
-            item["sg_values"] = await Promise.all(
-              item["player_details"].map(async (player_value) => {
-                if (player_value["Positions"] == undefined) {
-                  return 0;
-                }
-                if (player_value["Positions"].substring(0, 2) == "SG") {
-                  return parseInt(player_value["Value"]);
-                } else {
-                  return 0;
-                }
-              })
-            );
-            item["sg_value"] = item["sg_values"].reduce((a, b) => a + b, 0);
-
-            item["sg_ages"] = await Promise.all(
-              item["player_details"].map(async (player_value) => {
-                if (player_value["Positions"] == undefined) {
-                  return 0;
-                }
-                if (player_value["Positions"].substring(0, 2) == "SG") {
-                  return parseInt(player_value["Age"]);
-                } else {
-                  return 0;
-                }
-              })
-            );
-            item["sg_age"] = averageNonZeroValues(item["sg_ages"]);
-
-            //Small Forwards
-            item["sf_values"] = await Promise.all(
-              item["player_details"].map(async (player_value) => {
-                if (player_value["Positions"] == undefined) {
-                  return 0;
-                }
-                if (player_value["Positions"].substring(0, 2) == "SF") {
-                  return parseInt(player_value["Value"]);
-                } else {
-                  return 0;
-                }
-              })
-            );
-            item["sf_value"] = item["sf_values"].reduce((a, b) => a + b, 0);
-
-            item["sf_ages"] = await Promise.all(
-              item["player_details"].map(async (player_value) => {
-                if (player_value["Positions"] == undefined) {
-                  return 0;
-                }
-                if (player_value["Positions"].substring(0, 2) == "SF") {
-                  return parseInt(player_value["Age"]);
-                } else {
-                  return 0;
-                }
-              })
-            );
-            item["sf_age"] = averageNonZeroValues(item["sf_ages"]);
-
-            //Power Forwards
-            item["pf_values"] = await Promise.all(
-              item["player_details"].map(async (player_value) => {
-                if (player_value["Positions"] == undefined) {
-                  return 0;
-                }
-                if (player_value["Positions"].substring(0, 2) == "PF") {
-                  return parseInt(player_value["Value"]);
-                } else {
-                  return 0;
-                }
-              })
-            );
-            item["pf_value"] = item["pf_values"].reduce((a, b) => a + b, 0);
-
-            item["pf_ages"] = await Promise.all(
-              item["player_details"].map(async (player_value) => {
-                if (player_value["Positions"] == undefined) {
-                  return 0;
-                }
-                if (player_value["Positions"].substring(0, 2) == "PF") {
-                  return parseInt(player_value["Age"]);
-                } else {
-                  return 0;
-                }
-              })
-            );
-            item["pf_age"] = averageNonZeroValues(item["pf_ages"]);
-
-            //Centers
-            item["c_values"] = await Promise.all(
-              item["player_details"].map(async (player_value) => {
-                if (player_value["Positions"] == undefined) {
-                  return 0;
-                }
-                if (player_value["Positions"].substring(0, 1) == "C") {
-                  return parseInt(player_value["Value"]);
-                } else {
-                  return 0;
-                }
-              })
-            );
-            item["c_value"] = item["c_values"].reduce((a, b) => a + b, 0);
-
-            item["c_ages"] = await Promise.all(
-              item["player_details"].map(async (player_value) => {
-                if (player_value["Positions"] == undefined) {
-                  return 0;
-                }
-                if (player_value["Positions"].substring(0, 1) == "C") {
-                  return parseInt(player_value["Age"]);
-                } else {
-                  return 0;
-                }
-              })
-            );
-            item["c_age"] = averageNonZeroValues(item["c_ages"]);
-
-            //Picks
-            let picks = await get_picks(getCookie("leaugeID"));
-            let picks_values = [];
-            let picks_details = [];
-            for (let ownerKey in picks) {
-              let owner = picks[ownerKey];
-              if (owner["owner_id"] === item["owner_id"]) {
-                picks_details = await Promise.all(
-                  owner["picks"].map(async (pick) => {
-                    return await get_player(pick);
-                  })
-                );
-
-                picks_values = await Promise.all(
-                  owner["picks"].map(async (pick) => {
-                    return parseInt(await get_value(pick));
-                  })
-                );
-                break; // Exit the loop once the correct owner is found
-              }
-            }
-
-            item["picks_details"] = picks_details;
-            item["picks_values"] = picks_values;
-            item["picks_value"] = picks_values.reduce((a, b) => a + b, 0);
-
-            item["player_values"] = item["player_values"].map((value) =>
-              isNaN(value) ? 0 : value
-            );
-
-            item["total_value"] =
-              item["player_values"].reduce((a, b) => a + b, 0) +
-              item["picks_value"];
-
-            item["record"] = await getRecord(
-              getCookie("leaugeID"),
-              item["owner_id"]
-            );
-
-            return { ...item, name: owner_name };
-          })
-        );
-
-        named_rosters.sort((a, b) => b["total_value"] - a["total_value"]);
-
-        named_rosters = addRankings(named_rosters);
-
-        console.log(named_rosters);
-
-        setRosters(named_rosters);
       });
   }, []);
 
@@ -489,31 +249,32 @@ export default function Home() {
         </div>
         <div className={styles.bars}>
           {rosters.map((roster) => {
+            let amount = 2000
             return (
               <div key={roster["owner_id"]} className={styles.chart_item}>
                 <div
                   className={styles.p}
-                  style={{ height: `${roster["picks_value"] / 2000}vh` }}
+                  style={{ height: `${roster["picks_value"] / amount}vh` }}
                 ></div>
                 <div
                   className={styles.pg}
-                  style={{ height: `${roster["pg_value"] / 2000}vh` }}
+                  style={{ height: `${roster["pg_value"] / amount}vh` }}
                 ></div>
                 <div
                   className={styles.sg}
-                  style={{ height: `${roster["sg_value"] / 2000}vh` }}
+                  style={{ height: `${roster["sg_value"] / amount}vh` }}
                 ></div>
                 <div
                   className={styles.sf}
-                  style={{ height: `${roster["sf_value"] / 2000}vh` }}
+                  style={{ height: `${roster["sf_value"] / amount}vh` }}
                 ></div>
                 <div
                   className={styles.pf}
-                  style={{ height: `${roster["pf_value"] / 2000}vh` }}
+                  style={{ height: `${roster["pf_value"] / amount}vh` }}
                 ></div>
                 <div
                   className={styles.c}
-                  style={{ height: `${roster["c_value"] / 2000}vh` }}
+                  style={{ height: `${roster["c_value"] / amount}vh` }}
                 ></div>
                 <p className={styles.name}>{roster["name"]}</p>
               </div>

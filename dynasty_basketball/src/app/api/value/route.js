@@ -68,6 +68,7 @@ export async function GET(request) {
                     id: "",
                 };
             } else {
+                console.log(realPick)
                 matchingRow = await find_matching_row(realPick);
                 matchingRow["Name"] = player;
             }

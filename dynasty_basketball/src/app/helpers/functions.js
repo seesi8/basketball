@@ -196,7 +196,7 @@ async function getPicksValuesAndDetails(picks, item){
     return [picks_details, picks_values]
 }
 
-async function addInformationToOwner(item, player, pLeaugeID, picks, records) {
+async function addInformationToOwner(item, pLeaugeID, picks, records) {
     const owner_name = await get_name(item["owner_id"]);
 
     // Resolve all promises in the player_values map
@@ -318,7 +318,7 @@ export async function getFormatedRosters(value, player, pLeaugeID) {
 
     let named_rosters = await Promise.all(
         value.map(async (item) => {
-            return addInformationToOwner(item, player, pLeaugeID, picks, records);
+            return addInformationToOwner(item, pLeaugeID, picks, records);
         })
     );
 
@@ -328,4 +328,23 @@ export async function getFormatedRosters(value, player, pLeaugeID) {
 
     //setRosters
     return named_rosters.find(({ owner_id }) => owner_id == player);
+}
+
+export async function getAllFormatedRosters(value, pLeaugeID) {
+
+    const picks = await get_picks(pLeaugeID);
+    const records = await await getRecords(pLeaugeID);
+
+    let named_rosters = await Promise.all(
+        value.map(async (item) => {
+            return addInformationToOwner(item, pLeaugeID, picks, records);
+        })
+    );
+
+    named_rosters.sort((a, b) => b["total_value"] - a["total_value"]);
+
+    named_rosters = addRankings(named_rosters);
+
+    //setRosters
+    return named_rosters;
 }
