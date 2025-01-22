@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     width: 100vw;
 }
 
@@ -14,10 +15,40 @@
 
 }
 
+.check{
+    width: 2rem;
+    height: 2rem;
+    border: 0.1rem solid white;
+    background-color: transparent;
+    color: transparent;
+    margin: 0rem 1rem;
+}
+
+.label{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.searchbar{
+    display: flex;
+}
 
 .title{
     width: 100%;
     text-align: center;
+}
+
+.search{
+    width: 60vw;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    font-size: large;
+    padding: 0.5rem;
 }
 
 .player {

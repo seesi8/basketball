@@ -115,7 +115,7 @@ export default function Sidebar() {
                 visibility: teams ? "visible" : "hidden",
                 width: teams ? "12rem" : "0rem",
               }}
-              onMouseLeave={(e) => setPlayers(false)}
+              onMouseLeave={(e) => setTeams(false)}
             >
               <div className={styles.container}>
                 {

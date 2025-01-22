@@ -67,19 +67,24 @@ function get_points_differential(player) {
     return Math.abs(forPoints - againstPoints);
 }
 
-
 function get_points_difference(player) {
+    const safeParseFloat = (value) =>
+        isNaN(parseFloat(value)) ? 0 : parseFloat(value);
+
     const getPlayerPoints = player["receivingIDs"]
-        .map((player) => parseFloat(player["Value"]))
+        .map((player) => safeParseFloat(player["Value"]))
         .reduce((a, b) => a + b, 0);
+
     const getPicksPoints = player["receivingPicks"]
-        .map((player) => parseFloat(player["Value"]))
+        .map((player) => safeParseFloat(player["Value"]))
         .reduce((a, b) => a + b, 0);
+
     const sendPlayerPoints = player["sendingIDs"]
-        .map((player) => parseFloat(player["Value"]))
+        .map((player) => safeParseFloat(player["Value"]))
         .reduce((a, b) => a + b, 0);
+
     const sendPicksPoints = player["sendingPicks"]
-        .map((player) => parseFloat(player["Value"]))
+        .map((player) => safeParseFloat(player["Value"]))
         .reduce((a, b) => a + b, 0);
 
     const forPoints = getPicksPoints + getPlayerPoints;
@@ -151,15 +156,33 @@ export default function Activity({ userID }) {
             <div className={styles.tiles}>
                 <div className={styles.tile}>
                     <p>Total Moves</p>
-                    <h3 className={styles.bold}>{transactions != "" ? transactions.length : ""}</h3>
+                    <h3 className={styles.bold}>
+                        {transactions != "" ? transactions.length : ""}
+                    </h3>
                 </div>
                 <div className={styles.tile}>
                     <p>Total Trades</p>
-                    <h3 className={styles.bold}>{transactions != "" ? transactions.filter((value) => value["type"] == "trade").length : ""}</h3>
+                    <h3 className={styles.bold}>
+                        {transactions != ""
+                            ? transactions.filter(
+                                  (value) => value["type"] == "trade"
+                              ).length
+                            : ""}
+                    </h3>
                 </div>
                 <div className={styles.tile}>
                     <p>Net Value Added</p>
-                    <h3 className={styles.bold}>{transactions != "" ? parseInt(transactions.map((value) => get_points_difference(value)).reduce((a, b) => a + b, 0)) : ""}</h3>
+                    <h3 className={styles.bold}>
+                        {transactions != ""
+                            ? parseInt(
+                                  transactions
+                                      .map((value) =>
+                                          get_points_difference(value)
+                                      )
+                                      .reduce((a, b) => a + b, 0)
+                              )
+                            : ""}
+                    </h3>
                 </div>
             </div>
             <dir className={styles.transactionsContainer}>
