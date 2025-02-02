@@ -407,6 +407,156 @@ export default function Calculator() {
         setTeam2Adjustments(team2Adjustments);
     }, [rosters, allPlayers, team1Selected, team2Selected]);
 
+    function evenTeams(
+        team1Selected,
+        team2Selected,
+        team1ValueAdjustment,
+        team2ValueAdjustment,
+        rosters,
+        allPlayers
+    ) {
+        // Helper function to calculate team value
+        const calculateTeamValue = (team, adjustment) => {
+            return (
+                team.reduce((sum, player) => sum + player.value, 0) + adjustment
+            );
+        };
+
+        // Helper function to simulate the useEffect logic
+        const simulateUseEffect = (team1, team2, rosters, allPlayers) => {
+            // Simulate the useEffect logic here (e.g., adding free agents, recalculating adjustments)
+            // This is a simplified version of your useEffect logic
+            let at_free_agent = 0;
+            let team1Adjustments = [];
+            let team2Adjustments = [];
+
+            // Simulate replacements for Team 1
+            const replacements1 = get_top_free_agents(
+                rosters,
+                allPlayers,
+                team1.length,
+                at_free_agent
+            )
+                .sort((a, b) => b["Value"] - a["Value"])
+                .map((data) => ({
+                    name: data["Name"],
+                    value: parseFloat(data["Value"]),
+                    team: data["Team"],
+                    age: data["Age"],
+                    positions: data["Positions"],
+                    id: data["original_key"],
+                }));
+
+            const sorted_team1 = [...team1].sort(
+                (a, b) => a["value"] - b["value"]
+            );
+            const new_team_1 = sorted_team1.map((player, i) => {
+                if (replacements1[at_free_agent]?.value > player.value) {
+                    at_free_agent += 1;
+                    team1Adjustments.push({
+                        add: replacements1[at_free_agent - 1],
+                        drop: player,
+                    });
+                    return replacements1[at_free_agent - 1];
+                } else {
+                    return player;
+                }
+            });
+
+            // Simulate replacements for Team 2
+            const replacements2 = get_top_free_agents(
+                rosters,
+                allPlayers,
+                team2.length + at_free_agent,
+                0
+            )
+                .sort((a, b) => b["Value"] - a["Value"])
+                .map((data) => ({
+                    name: data["Name"],
+                    value: parseFloat(data["Value"]),
+                    team: data["Team"],
+                    age: data["Age"],
+                    positions: data["Positions"],
+                    id: data["original_key"],
+                }));
+
+            const sorted_team2 = [...team2].sort(
+                (a, b) => a["value"] - b["value"]
+            );
+            const new_team_2 = sorted_team2.map((player, i) => {
+                if (replacements2[at_free_agent]?.value > player.value) {
+                    at_free_agent += 1;
+                    team2Adjustments.push({
+                        add: replacements2[at_free_agent - 1],
+                        drop: player,
+                    });
+                    return replacements2[at_free_agent - 1];
+                } else {
+                    return player;
+                }
+            });
+
+            // Return the new teams and adjustments
+            return {
+                new_team_1,
+                new_team_2,
+                team1Adjustments,
+                team2Adjustments,
+            };
+        };
+
+        // Calculate initial team values
+        let team1Value = calculateTeamValue(
+            team1Selected,
+            team1ValueAdjustment
+        );
+        let team2Value = calculateTeamValue(
+            team2Selected,
+            team2ValueAdjustment
+        );
+
+        // Determine which team is weaker
+        const weakerTeam =
+            team1Value < team2Value ? team1Selected : team2Selected;
+        const strongerTeam =
+            team1Value < team2Value ? team2Selected : team1Selected;
+
+        // Calculate the initial difference
+        let difference = Math.abs(team1Value - team2Value);
+
+        // Simulate adding a player of value `difference` to the weaker team
+        const hypotheticalPlayer = { value: difference };
+        const updatedWeakerTeam = [...weakerTeam, hypotheticalPlayer];
+
+        // Simulate the useEffect logic after adding the hypothetical player
+        const { new_team_1, new_team_2 } = simulateUseEffect(
+            team1Value < team2Value ? updatedWeakerTeam : strongerTeam,
+            team1Value < team2Value ? strongerTeam : updatedWeakerTeam,
+            rosters,
+            allPlayers
+        );
+
+        // Recalculate team values after adjustments
+        const updatedTeam1Value = calculateTeamValue(
+            new_team_1,
+            team1ValueAdjustment
+        );
+        const updatedTeam2Value = calculateTeamValue(
+            new_team_2,
+            team2ValueAdjustment
+        );
+
+        // Calculate the new difference
+        const newDifference = Math.abs(updatedTeam1Value - updatedTeam2Value);
+
+        // If the teams are still not balanced, adjust the hypothetical player's value
+        if (newDifference > 0) {
+            difference += newDifference;
+        }
+
+        return difference;
+    }
+
     useEffect(() => {
         setTheLoosingRoster(
             loosing_roster(
@@ -419,11 +569,13 @@ export default function Calculator() {
             ).filter((player) => {
                 return (
                     player["value"] <
-                        roster_difforence(
+                        evenTeams(
                             team1Selected,
                             team2Selected,
                             team1ValueAdjustment,
-                            team2ValueAdjustment
+                            team2ValueAdjustment,
+                            rosters,
+                            allPlayers
                         ) *
                             1.1 &&
                     !loosing_roster(
@@ -1067,19 +1219,17 @@ export default function Calculator() {
                     <p className={styles.add}>
                         Add a player with{" "}
                         <span className={styles.bold}>
-                            {Math.abs(
-                                sumArray(
-                                    team1Selected.map((player) =>
-                                        parseInt(player.value)
+                            {parseInt(
+                                Math.abs(
+                                    evenTeams(
+                                        team1Selected,
+                                        team2Selected,
+                                        team1ValueAdjustment,
+                                        team2ValueAdjustment,
+                                        rosters,
+                                        allPlayers
                                     )
-                                ) +
-                                    parseInt(team1ValueAdjustment) -
-                                    (sumArray(
-                                        team2Selected.map((player) =>
-                                            parseInt(player.value)
-                                        )
-                                    ) +
-                                        parseInt(team2ValueAdjustment))
+                                )
                             )}
                         </span>{" "}
                         value to even trade
@@ -1087,64 +1237,85 @@ export default function Calculator() {
                 )}
             </div>
             <div className={styles.tiles}>
-                {theLoosingRoster.length > 0 && (
-                    <div className={styles.playersAdd}>
-                        <h3 className={styles.toAddTitle}>
-                            Players to even the trade from{" "}
-                            {sumArray(
-                                team1Selected.map((player) =>
-                                    parseInt(player.value)
-                                )
-                            ) +
-                                parseInt(team1ValueAdjustment) >
-                            sumArray(
-                                team2Selected.map((player) =>
-                                    parseInt(player.value)
-                                )
-                            ) +
-                                parseInt(team2ValueAdjustment)
-                                ? team2Name
-                                : team1Name}
-                        </h3>
-                        {theLoosingRoster.slice(0, 5).map((player, index) => {
-                            return (
-                                <div
-                                    className={styles.playerToEven}
-                                    key={player["name"]}
-                                    onMouseDown={(e) => {
-                                        if (
-                                            sumArray(
-                                                team1Selected.map((player) =>
-                                                    parseInt(player.value)
-                                                )
-                                            ) +
-                                                parseInt(team1ValueAdjustment) >
-                                            sumArray(
-                                                team2Selected.map((player) =>
-                                                    parseInt(player.value)
-                                                )
-                                            ) +
-                                                parseInt(team2ValueAdjustment)
-                                        ) {
-                                            setTeam2Selected([
-                                                ...team2Selected,
-                                                player,
-                                            ]);
-                                        } else {
-                                            setTeam1Selected([
-                                                ...team1Selected,
-                                                player,
-                                            ]);
-                                        }
-                                    }}
-                                >
-                                    <p>{player["name"]}</p>
-                                    <p>{parseInt(player["value"])}</p>
-                                </div>
-                            );
-                        })}
-                    </div>
-                )}
+                {areWithinTenPercent(
+                    sumArray(
+                        team1Selected.map((player) => parseInt(player.value))
+                    ) + parseInt(team1ValueAdjustment),
+                    sumArray(
+                        team2Selected.map((player) => parseInt(player.value))
+                    ) + parseInt(team2ValueAdjustment)
+                )
+                    ? ""
+                    : theLoosingRoster.length > 0 && (
+                          <div className={styles.playersAdd}>
+                              <h3 className={styles.toAddTitle}>
+                                  Players to even the trade from{" "}
+                                  {sumArray(
+                                      team1Selected.map((player) =>
+                                          parseInt(player.value)
+                                      )
+                                  ) +
+                                      parseInt(team1ValueAdjustment) >
+                                  sumArray(
+                                      team2Selected.map((player) =>
+                                          parseInt(player.value)
+                                      )
+                                  ) +
+                                      parseInt(team2ValueAdjustment)
+                                      ? team2Name
+                                      : team1Name}
+                              </h3>
+                              {theLoosingRoster
+                                  .slice(0, 5)
+                                  .map((player, index) => {
+                                      return (
+                                          <div
+                                              className={styles.playerToEven}
+                                              key={player["name"]}
+                                              onMouseDown={(e) => {
+                                                  if (
+                                                      sumArray(
+                                                          team1Selected.map(
+                                                              (player) =>
+                                                                  parseInt(
+                                                                      player.value
+                                                                  )
+                                                          )
+                                                      ) +
+                                                          parseInt(
+                                                              team1ValueAdjustment
+                                                          ) >
+                                                      sumArray(
+                                                          team2Selected.map(
+                                                              (player) =>
+                                                                  parseInt(
+                                                                      player.value
+                                                                  )
+                                                          )
+                                                      ) +
+                                                          parseInt(
+                                                              team2ValueAdjustment
+                                                          )
+                                                  ) {
+                                                      setTeam2Selected([
+                                                          ...team2Selected,
+                                                          player,
+                                                      ]);
+                                                  } else {
+                                                      setTeam1Selected([
+                                                          ...team1Selected,
+                                                          player,
+                                                      ]);
+                                                  }
+                                              }}
+                                          >
+                                              <p>{player["name"]}</p>
+                                              <p>{parseInt(player["value"])}</p>
+                                          </div>
+                                      );
+                                  })}
+                          </div>
+                      )}
             </div>
         </div>
     );
