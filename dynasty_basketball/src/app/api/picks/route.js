@@ -3,7 +3,6 @@ import { cookies } from "next/headers";
 // Function to adjust picks based on transactions and sort them alphabetically
 async function adjustPicksAndSort(rosters, transactions) {
     for (const transaction of transactions) {
-      
         const round = transaction.round;
         const season = transaction.season;
         const fromRosterId = transaction.previous_owner_id;
@@ -18,7 +17,6 @@ async function adjustPicksAndSort(rosters, transactions) {
         );
 
         if (fromRoster && toRoster) {
-         
             const fromRosterName = fromRoster.owner_name;
 
             // Construct the pick string
@@ -42,11 +40,15 @@ async function adjustPicksAndSort(rosters, transactions) {
 }
 
 async function get_name(userID) {
-
-    console.log(process.env)
     const baseUrl = process.env.VERCEL_URL
         ? "https://" + process.env.VERCEL_URL
         : "http://localhost:3000";
+    console.log(
+        `${baseUrl}/api/user?` +
+            new URLSearchParams({
+                userID: userID,
+            }).toString()
+    );
     return fetch(
         `${baseUrl}/api/user?` +
             new URLSearchParams({
@@ -93,16 +95,21 @@ export async function GET(request) {
         const rosters = await Promise.all(
             data.map(async (roster, index) => {
                 const name = await get_name(roster["owner_id"]);
+                console.log(
+                    [...Array(3)
+                        .keys()]
+                        .map((key) => `${2025 + key}rd1|via|${name}`)
+                );
                 return {
                     roster_id: roster["roster_id"],
                     owner_id: roster["owner_id"],
                     owner_name: name,
                     picks: [
-                        ...Array(3)
-                            .keys()
+                        ...[...Array(3)
+                            .keys()]
                             .map((key) => `${2025 + key}rd1|via|${name}`),
-                        ...Array(3)
-                            .keys()
+                        ...[...Array(3)
+                            .keys()]
                             .map((key) => `${2025 + key}rd2|via|${name}`),
                     ],
                 };
@@ -126,7 +133,7 @@ export async function GET(request) {
 
         //adjust the picks
         const updatedRosters = await adjustPicksAndSort(rosters, transactions);
-adjustPicksAndSort
+        adjustPicksAndSort;
         return new Response(JSON.stringify(updatedRosters), {
             status: 200,
             headers: { "Content-Type": "application/json" },
