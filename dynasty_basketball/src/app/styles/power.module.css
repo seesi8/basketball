@@ -196,6 +196,7 @@
 .bars {
     display: flex;
     align-items: end;
+    max-width: 2065px;
 }
 
 .pg,
