@@ -14,7 +14,7 @@ export default function Home() {
                 padding: "10rem",
             }}
         >
-            <Trade userID={"1048390222041427968"} />
+            {/* <Trade userID={"1048390222041427968"} /> */}
         </div>
     );
 }
