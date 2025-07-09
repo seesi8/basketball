@@ -226,25 +226,33 @@ export default function Insights({ userID }) {
                         <p className={styles.metricItem}>
                             Average Points Per Week{" "}
                             <span className={styles.bold}>
-                                {parseInt(metrics["avg"])}
+                                {isNaN(parseInt(metrics["avg"]))
+                                    ? ""
+                                    : parseInt(metrics["avg"])}
                             </span>
                         </p>
                         <p className={styles.metricItem}>
                             Variance{" "}
                             <span className={styles.bold}>
-                                {parseInt(metrics["var"])}
+                                {isNaN(parseInt(metrics["var"]))
+                                    ? ""
+                                    : parseInt(metrics["var"])}
                             </span>
                         </p>
                         <p className={styles.metricItem}>
                             Standard Deviation{" "}
                             <span className={styles.bold}>
-                                {parseInt(metrics["std"])}
+                                {isNaN(parseInt(metrics["std"]))
+                                    ? ""
+                                    : parseInt(metrics["std"])}
                             </span>
                         </p>
                         <p className={styles.metricItem}>
-                        Points Against{" "}
+                            Points Against{" "}
                             <span className={styles.bold}>
-                                {parseInt(metrics["totalPointsAgainst"])}
+                                {isNaN(parseInt(metrics["totalPointsAgainst"]))
+                                    ? ""
+                                    : parseInt(metrics["totalPointsAgainst"])}
                             </span>
                         </p>
                     </>

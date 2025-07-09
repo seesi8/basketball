@@ -40,8 +40,7 @@ async function adjustPicksAndSort(rosters, transactions) {
 }
 
 async function get_name(userID) {
-    const baseUrl = process.env.VERCEL_URL
-        ? "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ?  "https://" + process.env.VERCEL_URL
         : "http://localhost:3000";
     console.log(
         `${baseUrl}/api/user?` +

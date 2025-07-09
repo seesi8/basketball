@@ -1,6 +1,5 @@
 export async function getRecord(leaugeID, userID) {
-    const baseUrl = "www.dynasty-basketball.com"
-        ? "https://" + "www.dynasty-basketball.com"
+    const baseUrl = !process.env.NEXT_PUBLIC_DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -18,8 +17,7 @@ export async function getRecord(leaugeID, userID) {
 }
 
 export async function getRecords(leaugeID) {
-    const baseUrl = "www.dynasty-basketball.com"
-        ? "https://" + "www.dynasty-basketball.com"
+    const baseUrl = !process.env.NEXT_PUBLIC_DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -37,8 +35,8 @@ export async function getRecords(leaugeID) {
 }
 
 export async function get_value(playerID) {
-    const baseUrl = "www.dynasty-basketball.com"
-        ? "https://" + "www.dynasty-basketball.com"
+    console.log(process.env)
+    const baseUrl = !process.env.NEXT_PUBLIC_DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -56,8 +54,7 @@ export async function get_value(playerID) {
 }
 
 export async function get_age(playerID) {
-    const baseUrl = "www.dynasty-basketball.com"
-        ? "https://" + "www.dynasty-basketball.com"
+    const baseUrl = !process.env.NEXT_PUBLIC_DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -123,8 +120,7 @@ function addRankings(data) {
 }
 
 export async function get_player(playerID) {
-    const baseUrl = "www.dynasty-basketball.com"
-        ? "https://" + "www.dynasty-basketball.com"
+    const baseUrl = !process.env.NEXT_PUBLIC_DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -142,8 +138,7 @@ export async function get_player(playerID) {
 }
 
 export async function get_picks(leaugeID) {
-    const baseUrl = "www.dynasty-basketball.com"
-        ? "https://" + "www.dynasty-basketball.com"
+    const baseUrl = !process.env.NEXT_PUBLIC_DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -161,8 +156,7 @@ export async function get_picks(leaugeID) {
 }
 
 export async function get_name(userID) {
-    const baseUrl = "www.dynasty-basketball.com"
-        ? "https://" + "www.dynasty-basketball.com"
+    const baseUrl = !process.env.NEXT_PUBLIC_DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -266,13 +260,9 @@ async function addInformationToOwner(item, pLeaugeID, picks, records) {
     item["c_ages"] = [];
     item["c_values"] = [];
 
-    Object.keys(
-        item["player_details"].filter(
-            (player_value) => player_value["Positions"] != undefined
-        )
-    ).forEach((key, index) => {
-        let player_value = item["player_details"][key];
-
+    Object.values(item["player_details"]) // Step 1: Get an array of actual player objects (the values)
+    .filter((player_value) => player_value && player_value["Positions"] !== undefined) // Step 2: Filter this array of player objects
+    .forEach((player_value) => { // Step 3: Iterate directly over the filtered player objects        
         const position = player_value["Positions"].split(",")[0].toLowerCase();
 
         item[`${position}_ages`].push(parseInt(player_value["Age"]));

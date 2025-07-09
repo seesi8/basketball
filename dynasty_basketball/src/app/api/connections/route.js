@@ -25,8 +25,7 @@ async function getRosters(leagueID) {
 }
 
 async function get_name(userID) {
-    const baseUrl = process.env.VERCEL_URL
-        ? "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ?  "https://" + process.env.VERCEL_URL
         : "http://localhost:3000";
 
     return fetch(
@@ -44,8 +43,7 @@ async function get_name(userID) {
 }
 
 async function get_value(player) {
-    const baseUrl = process.env.VERCEL_URL
-        ? "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ?  "https://" + process.env.VERCEL_URL
         : "http://localhost:3000";
 
     return fetch(
@@ -63,8 +61,7 @@ async function get_value(player) {
 }
 
 async function getTeamName(leagueID, owner_id) {
-    const baseUrl = process.env.VERCEL_URL
-        ? "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ?  "https://" + process.env.VERCEL_URL
         : "http://localhost:3000";
 
     return fetch(
@@ -87,8 +84,7 @@ async function getTeamName(leagueID, owner_id) {
 }
 
 async function getTeamAvatar(leagueID, owner_id) {
-    const baseUrl = process.env.VERCEL_URL
-        ? "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ?  "https://" + process.env.VERCEL_URL
         : "http://localhost:3000";
 
     return fetch(

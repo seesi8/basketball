@@ -105,7 +105,11 @@ export default function Home({ params }) {
         });
 
         total_points(player).then(async (value) => {
-            setTotalPoints(value);
+            if (!isNaN(parseFloat(value))) {
+                setTotalPoints(value);
+            } else {
+                setTotalPoints(0);
+            }
             setAvgPoints(value / (await getWeek()));
         });
     }, []);
@@ -121,10 +125,13 @@ export default function Home({ params }) {
             .then((res) => res.json())
             .then(async (value) => {
                 // Resolve all promises in the map for named_rosters
-                const formatedRosters = await getFormatedRosters(value, player, getCookie("leaugeID"));
-                console.log(formatedRosters)
-                setRosters(formatedRosters)
-
+                const formatedRosters = await getFormatedRosters(
+                    value,
+                    player,
+                    getCookie("leaugeID")
+                );
+                console.log(formatedRosters);
+                setRosters(formatedRosters);
             });
     }, []);
 
@@ -135,9 +142,9 @@ export default function Home({ params }) {
             case "roster":
                 return <Roster rosters={rosters} />;
             case "activity":
-                return <Activity userID={player}/>;
+                return <Activity userID={player} />;
             case "trade":
-                return <Trade userID={player}/>;
+                return <Trade userID={player} />;
             default:
                 return <div>Select a tab to view content.</div>;
         }
@@ -186,7 +193,9 @@ export default function Home({ params }) {
                         <div className={styles.item}>
                             <p className={styles.itemTitle}>Average Points</p>
                             <p className={styles.itemRank}>
-                                {parseInt(avgPoints)}
+                                {isNaN(parseInt(avgPoints))
+                                    ? 0
+                                    : parseInt(avgPoints)}
                             </p>
                         </div>
                     </>
