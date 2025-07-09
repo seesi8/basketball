@@ -42,6 +42,8 @@ async function adjustPicksAndSort(rosters, transactions) {
 }
 
 async function get_name(userID) {
+
+    console.log(process.env)
     const baseUrl = process.env.VERCEL_URL
         ? "https://" + process.env.VERCEL_URL
         : "http://localhost:3000";
