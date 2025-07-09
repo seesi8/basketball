@@ -1,6 +1,6 @@
 export async function getRecord(leaugeID, userID) {
-    const baseUrl = "dynasty-basketball.com"
-        ? "https://" + "dynasty-basketball.com"
+    const baseUrl = "www.dynasty-basketball.com"
+        ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -18,8 +18,8 @@ export async function getRecord(leaugeID, userID) {
 }
 
 export async function getRecords(leaugeID) {
-    const baseUrl = "dynasty-basketball.com"
-        ? "https://" + "dynasty-basketball.com"
+    const baseUrl = "www.dynasty-basketball.com"
+        ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -37,8 +37,8 @@ export async function getRecords(leaugeID) {
 }
 
 export async function get_value(playerID) {
-    const baseUrl = "dynasty-basketball.com"
-        ? "https://" + "dynasty-basketball.com"
+    const baseUrl = "www.dynasty-basketball.com"
+        ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -56,8 +56,8 @@ export async function get_value(playerID) {
 }
 
 export async function get_age(playerID) {
-    const baseUrl = "dynasty-basketball.com"
-        ? "https://" + "dynasty-basketball.com"
+    const baseUrl = "www.dynasty-basketball.com"
+        ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -123,8 +123,8 @@ function addRankings(data) {
 }
 
 export async function get_player(playerID) {
-    const baseUrl = "dynasty-basketball.com"
-        ? "https://" + "dynasty-basketball.com"
+    const baseUrl = "www.dynasty-basketball.com"
+        ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -142,8 +142,8 @@ export async function get_player(playerID) {
 }
 
 export async function get_picks(leaugeID) {
-    const baseUrl = "dynasty-basketball.com"
-        ? "https://" + "dynasty-basketball.com"
+    const baseUrl = "www.dynasty-basketball.com"
+        ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
@@ -161,8 +161,8 @@ export async function get_picks(leaugeID) {
 }
 
 export async function get_name(userID) {
-    const baseUrl = "dynasty-basketball.com"
-        ? "https://" + "dynasty-basketball.com"
+    const baseUrl = "www.dynasty-basketball.com"
+        ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
