@@ -1,7 +1,8 @@
 export async function getRecord(leaugeID, userID) {
-    const baseUrl = process.env.VERCEL_URL
-    ? "https://" + process.env.VERCEL_URL
-    : "http://localhost:3000";
+    const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
+        ? "https://" + process.env.NEXT_PUBLIC_VERCEL_URL
+        : "http://localhost:3000";
+    console.log(process.env);
     return fetch(
         `${baseUrl}/api/record?` +
             new URLSearchParams({
@@ -17,9 +18,10 @@ export async function getRecord(leaugeID, userID) {
 }
 
 export async function getRecords(leaugeID) {
-    const baseUrl = process.env.VERCEL_URL
-    ? "https://" + process.env.VERCEL_URL
-    : "http://localhost:3000";
+    const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
+        ? "https://" + process.env.NEXT_PUBLIC_VERCEL_URL
+        : "http://localhost:3000";
+    console.log(process.env);
     return fetch(
         `${baseUrl}/api/record?` +
             new URLSearchParams({
@@ -35,9 +37,10 @@ export async function getRecords(leaugeID) {
 }
 
 export async function get_value(playerID) {
-    const baseUrl = process.env.VERCEL_URL
-    ? "https://" + process.env.VERCEL_URL
-    : "http://localhost:3000";
+    const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
+        ? "https://" + process.env.NEXT_PUBLIC_VERCEL_URL
+        : "http://localhost:3000";
+    console.log(process.env);
     return fetch(
         `${baseUrl}/api/value?` +
             new URLSearchParams({
@@ -53,9 +56,10 @@ export async function get_value(playerID) {
 }
 
 export async function get_age(playerID) {
-    const baseUrl = process.env.VERCEL_URL
-    ? "https://" + process.env.VERCEL_URL
-    : "http://localhost:3000";
+    const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
+        ? "https://" + process.env.NEXT_PUBLIC_VERCEL_URL
+        : "http://localhost:3000";
+    console.log(process.env);
     return fetch(
         `${baseUrl}/api/value?` +
             new URLSearchParams({
@@ -76,7 +80,7 @@ function averageNonZeroValues(arr) {
     return nonZeroValues.length > 0 ? sum / nonZeroValues.length : 0; // Calculate average
 }
 
-function  filterByPosition(list, position) {
+function filterByPosition(list, position) {
     return list
         .filter((item) => {
             if (item["Positions"]) {
@@ -119,9 +123,10 @@ function addRankings(data) {
 }
 
 export async function get_player(playerID) {
-    const baseUrl = process.env.VERCEL_URL
-    ? "https://" + process.env.VERCEL_URL
-    : "http://localhost:3000";
+    const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
+        ? "https://" + process.env.NEXT_PUBLIC_VERCEL_URL
+        : "http://localhost:3000";
+    console.log(process.env);
     return fetch(
         `${baseUrl}/api/value?` +
             new URLSearchParams({
@@ -137,9 +142,10 @@ export async function get_player(playerID) {
 }
 
 export async function get_picks(leaugeID) {
-    const baseUrl = process.env.VERCEL_URL
-    ? "https://" + process.env.VERCEL_URL
-    : "http://localhost:3000";
+    const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
+        ? "https://" + process.env.NEXT_PUBLIC_VERCEL_URL
+        : "http://localhost:3000";
+    console.log(process.env);
     return fetch(
         `${baseUrl}/api/picks?` +
             new URLSearchParams({
@@ -155,9 +161,10 @@ export async function get_picks(leaugeID) {
 }
 
 export async function get_name(userID) {
-    const baseUrl = process.env.VERCEL_URL
-    ? "https://" + process.env.VERCEL_URL
-    : "http://localhost:3000";
+    const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
+        ? "https://" + process.env.NEXT_PUBLIC_VERCEL_URL
+        : "http://localhost:3000";
+    console.log(process.env);
     return fetch(
         `${baseUrl}/api/user?` +
             new URLSearchParams({
@@ -172,7 +179,7 @@ export async function get_name(userID) {
         });
 }
 
-async function getPicksValuesAndDetails(picks, item){
+async function getPicksValuesAndDetails(picks, item) {
     let picks_values = [];
     let picks_details = [];
     for (let ownerKey in picks) {
@@ -193,7 +200,7 @@ async function getPicksValuesAndDetails(picks, item){
         }
     }
 
-    return [picks_details, picks_values]
+    return [picks_details, picks_values];
 }
 
 async function addInformationToOwner(item, pLeaugeID, picks, records) {
@@ -206,13 +213,13 @@ async function addInformationToOwner(item, pLeaugeID, picks, records) {
         })
     );
 
-    item["player_values"] = []
-    item["player_ages"] = []
+    item["player_values"] = [];
+    item["player_ages"] = [];
 
     item["player_details"].forEach(async (player, index) => {
-        item["player_values"].push(parseInt(player["Value"]))
-        item["player_ages"].push(parseInt(player["Age"]))
-    })
+        item["player_values"].push(parseInt(player["Value"]));
+        item["player_ages"].push(parseInt(player["Age"]));
+    });
 
     item["player_ages"] = item["player_ages"].map((value) =>
         isNaN(value) ? 0 : value
@@ -232,13 +239,12 @@ async function addInformationToOwner(item, pLeaugeID, picks, records) {
     item["starter_values"] = await Promise.all(
         item["starters"].map(async (player) => {
             const player_value = item["player_details"].find((object) => {
-                object["original_key"] == player
+                object["original_key"] == player;
             });
-            if(player_value != undefined){
+            if (player_value != undefined) {
                 return parseInt(player_value["Value"]);
-            }
-            else{
-                return 0
+            } else {
+                return 0;
             }
         })
     );
@@ -293,9 +299,12 @@ async function addInformationToOwner(item, pLeaugeID, picks, records) {
     item["c_value"] = item["c_values"].reduce((a, b) => a + b, 0);
     item["c_age"] = averageNonZeroValues(item["c_ages"]);
 
-    let [picks_details, picks_values] = await getPicksValuesAndDetails(picks, item)
-    item["picks_details"] = picks_details
-    item["picks_values"] = picks_values
+    let [picks_details, picks_values] = await getPicksValuesAndDetails(
+        picks,
+        item
+    );
+    item["picks_details"] = picks_details;
+    item["picks_values"] = picks_values;
 
     item["picks_value"] = item["picks_values"].reduce((a, b) => a + b, 0);
 
@@ -312,7 +321,6 @@ async function addInformationToOwner(item, pLeaugeID, picks, records) {
 }
 
 export async function getFormatedRosters(value, player, pLeaugeID) {
-
     const picks = await get_picks(pLeaugeID);
     const records = await await getRecords(pLeaugeID);
 
@@ -331,7 +339,6 @@ export async function getFormatedRosters(value, player, pLeaugeID) {
 }
 
 export async function getAllFormatedRosters(value, pLeaugeID) {
-
     const picks = await get_picks(pLeaugeID);
     const records = await await getRecords(pLeaugeID);
 
