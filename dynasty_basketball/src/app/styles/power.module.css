@@ -29,7 +29,7 @@
     align-items: center;
     width: 100%;
     padding: 0rem 2rem;
-    padding-left: 2rem;
+    padding-left: 80px;
     padding-right: 2rem;
 }
 
@@ -192,6 +192,7 @@
     margin: 1rem;
     align-items: end;
     align-items: center;
+    padding-left: 64px;
 }
 .bars {
     display: flex;
