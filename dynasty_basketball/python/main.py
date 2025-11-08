@@ -1,3 +1,4 @@
+from io import StringIO
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -56,7 +57,7 @@ def fetch_keeper():
     # Extract data from the first table as an example
     if tables:
         # Convert the first table into a DataFrame
-        df = pd.read_html(str(tables[0]))[0]
+        df = pd.read_html(StringIO(str(tables[0])))[0]
 
         # Display the DataFrame to the user
     else:
@@ -164,7 +165,7 @@ df_seconds = df_rookies[10:20]
 first_value = df_firsts["Value"].mean()
 second_value = df_seconds["Value"].mean()
 
-for i in range(2025,2028):
+for i in range(2023,2029):
     first_round_pick = {
         "#": 1,
         "PLAYER": f'{i} Round 1',

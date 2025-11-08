@@ -4,16 +4,16 @@ export async function GET(request) {
   try {
     const searchParams = request.nextUrl.searchParams;
     const userID = searchParams.get('userID');
-    const leaugeID = searchParams.get('leaugeID');
+    const leagueID = searchParams.get('leagueID');
 
-    if ((!userID) || (!leaugeID)) {
-      return new Response(JSON.stringify({ error: 'userID & leaugeID is required' }), {
+    if ((!userID) || (!leagueID)) {
+      return new Response(JSON.stringify({ error: 'userID & leagueID is required' }), {
         status: 400,
         headers: { 'Content-Type': 'application/json' },
       });
     }
 
-    const response = await fetch(`https://api.sleeper.app/v1/league/${leaugeID}/users`);
+    const response = await fetch(`https://api.sleeper.app/v1/league/${leagueID}/users`);
     if (!response.ok) {
       return new Response(JSON.stringify({ error: 'Failed to fetch data' }), {
         status: response.status,

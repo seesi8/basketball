@@ -21,7 +21,7 @@ async function get_name(userID) {
 }
 
 export default function Sidebar() {
-  const [leauges, setLeauges] = useState(false);
+  const [leagues, setleagues] = useState(false);
   const [players, setPlayers] = useState(false);
   const [teams, setTeams] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
@@ -42,7 +42,7 @@ export default function Sidebar() {
     fetch(
       "/api/rosters?" +
         new URLSearchParams({
-          leaugeID: getCookie("leaugeID"),
+          leagueID: getCookie("leagueID"),
         }).toString()
     )
       .then((res) => res.json())
@@ -79,12 +79,12 @@ export default function Sidebar() {
         {(showSidebar || !isVertical) && (
           <>
             <div
-              className={styles.leauges}
+              className={styles.leagues}
               style={{
-                visibility: leauges ? "visible" : "hidden",
-                width: leauges ? "12rem" : "0rem",
+                visibility: leagues ? "visible" : "hidden",
+                width: leagues ? "12rem" : "0rem",
               }}
-              onMouseLeave={(e) => setLeauges(false)}
+              onMouseLeave={(e) => setleagues(false)}
             >
               <div className={styles.container}>
                 <a className={styles.item} href="/power">
@@ -129,23 +129,23 @@ export default function Sidebar() {
                 }
               </div>
             </div>
-            <div className={`${styles.sidebar} ${leauges ? styles.open : ""}`}>
+            <div className={`${styles.sidebar} ${leagues ? styles.open : ""}`}>
               <div className={styles.container}>
                 <a
                   className={styles.item}
                   onMouseEnter={(e) => {
-                    setLeauges(true);
+                    setleagues(true);
                     setPlayers(false);
                     setTeams(false);
                   }}
                 >
-                  Leauges
+                  leagues
                 </a>
                 <a
                   className={styles.item}
                   onMouseEnter={(e) => {
                     setPlayers(true);
-                    setLeauges(false);
+                    setleagues(false);
                     setTeams(false);
 
                   }}
@@ -156,7 +156,7 @@ export default function Sidebar() {
                   className={styles.item}
                   onMouseEnter={(e) => {
                     setPlayers(false);
-                    setLeauges(false);
+                    setleagues(false);
                     setTeams(true);
                   }}
                 >

@@ -52,7 +52,7 @@ async function getWeek(){
 export async function GET(request) {
   try {
     const searchParams = request.nextUrl.searchParams;
-    const leagueID = searchParams.get('leaugeID');
+    const leagueID = searchParams.get('leagueID');
     const userID = searchParams.get('userID');
 
     if ((!leagueID) || (!userID)) {

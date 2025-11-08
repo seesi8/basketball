@@ -42,7 +42,8 @@ export async function GET(request) {
         if (player.includes("|")) {
             //pick
             const realPick = player.split("|")[0];
-            if ((parseInt(realPick.split("rd")[1]) > 2) || parseInt(realPick.split("rd")[0]) < 2025) {
+            //|| parseInt(realPick.split("rd")[0]) < 2026
+            if ((parseInt(realPick.split("rd")[1]) > 2) ) {
                 matchingRow = {
                     Rank: "0",
                     Name: player,

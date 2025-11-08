@@ -3,7 +3,9 @@ import { cookies } from 'next/headers';
 export async function GET(request) {
   try {
     const searchParams = request.nextUrl.searchParams;
-    const leagueID = searchParams.get('leaugeID');
+    console.log(searchParams)
+    const leagueID = searchParams.get('leagueID');
+    console.log("leagueID:", leagueID);
 
     if (!leagueID) {
       return new Response(JSON.stringify({ error: 'leagueID is required' }), {

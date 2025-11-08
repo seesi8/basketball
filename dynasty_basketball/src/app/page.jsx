@@ -7,12 +7,12 @@ import { getCookie, setCookie } from "cookies-next/client";
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const [leaugeID, setLeaugeID] = useState(getCookie("leaugeID"));
+  const [leagueID, setleagueID] = useState(getCookie("leagueID"));
   const [signedIn, setSignedIn] = useState(false);
 
   useEffect(() => {
-    setCookie("leaugeID", leaugeID);
-  }, [leaugeID]);
+    setCookie("leagueID", leagueID);
+  }, [leagueID]);
 
   return (
     <main>
@@ -36,22 +36,26 @@ export default function Home() {
         <p className={styles.sleeper}>Sleeper</p>
         <input
           type="text"
-          placeholder="Leauge ID"
+          placeholder="league ID"
           className={styles.username}
-          value={leaugeID}
-          onChange={(e) => setLeaugeID(e.target.value)}
+          value={leagueID}
+          onChange={(e) => setleagueID(e.target.value)}
         />
         <div className={styles.container}>
           <button className={styles.button} onClick={(e) => setSignedIn(true)}>
             Sign In
           </button>
         </div>
-        <div className={styles.container}>
+        {
+          signedIn ? 
+          <div className={styles.container}>
           <button className={styles.link}><a href="/calculator">Trade Calculator </a></button>
           <button className={styles.link}>
             <a href="/power">Power Ranking</a>
           </button>
-        </div>
+        </div> : ""
+        }
+        
       </div>
     </main>
   );

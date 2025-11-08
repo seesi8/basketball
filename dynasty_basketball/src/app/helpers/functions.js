@@ -1,11 +1,16 @@
-export async function getRecord(leaugeID, userID) {
-    const baseUrl = !process.env.NEXT_PUBLIC_DEV ? "https://" + "www.dynasty-basketball.com"
+function getBaseUrl() {
+    return process.env.NODE_ENV === 'production' 
+        ? "https://www.dynasty-basketball.com"
         : "http://localhost:3000";
+}
+
+export async function getRecord(leagueID, userID) {
+    const baseUrl = getBaseUrl();
     console.log(process.env);
     return fetch(
         `${baseUrl}/api/record?` +
             new URLSearchParams({
-                leaugeID: leaugeID,
+                leagueID: leagueID,
             }).toString()
     )
         .then((res) => {
@@ -16,14 +21,13 @@ export async function getRecord(leaugeID, userID) {
         });
 }
 
-export async function getRecords(leaugeID) {
-    const baseUrl = !process.env.NEXT_PUBLIC_DEV ? "https://" + "www.dynasty-basketball.com"
-        : "http://localhost:3000";
+export async function getRecords(leagueID) {
+    const baseUrl = getBaseUrl();
     console.log(process.env);
     return fetch(
         `${baseUrl}/api/record?` +
             new URLSearchParams({
-                leaugeID: leaugeID,
+                leagueID: leagueID,
             }).toString()
     )
         .then((res) => {
@@ -35,9 +39,7 @@ export async function getRecords(leaugeID) {
 }
 
 export async function get_value(playerID) {
-    console.log(process.env)
-    const baseUrl = !process.env.NEXT_PUBLIC_DEV ? "https://" + "www.dynasty-basketball.com"
-        : "http://localhost:3000";
+    const baseUrl = getBaseUrl();
     console.log(process.env);
     return fetch(
         `${baseUrl}/api/value?` +
@@ -137,14 +139,14 @@ export async function get_player(playerID) {
         });
 }
 
-export async function get_picks(leaugeID) {
+export async function get_picks(leagueID) {
     const baseUrl = !process.env.NEXT_PUBLIC_DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
     console.log(process.env);
     return fetch(
         `${baseUrl}/api/picks?` +
             new URLSearchParams({
-                leaugeID: leaugeID,
+                leagueID: leagueID,
             }).toString()
     )
         .then((res) => {
@@ -197,7 +199,7 @@ async function getPicksValuesAndDetails(picks, item) {
     return [picks_details, picks_values];
 }
 
-async function addInformationToOwner(item, pLeaugeID, picks, records) {
+async function addInformationToOwner(item, pleagueID, picks, records) {
     const owner_name = await get_name(item["owner_id"]);
 
     // Resolve all promises in the player_values map
@@ -233,7 +235,7 @@ async function addInformationToOwner(item, pLeaugeID, picks, records) {
     item["starter_values"] = await Promise.all(
         item["starters"].map(async (player) => {
             const player_value = item["player_details"].find((object) => {
-                object["original_key"] == player;
+                return object["original_key"] == player;
             });
             if (player_value != undefined) {
                 return parseInt(player_value["Value"]);
@@ -243,6 +245,7 @@ async function addInformationToOwner(item, pLeaugeID, picks, records) {
         })
     );
     item["starter_value"] = item["starter_values"].reduce((a, b) => a + b, 0);
+    console.log(item["starters"], item["starter_values"])
 
     //Ages & Values
     item["pg_ages"] = [];
@@ -310,13 +313,13 @@ async function addInformationToOwner(item, pLeaugeID, picks, records) {
     return { ...item, name: owner_name };
 }
 
-export async function getFormatedRosters(value, player, pLeaugeID) {
-    const picks = await get_picks(pLeaugeID);
-    const records = await await getRecords(pLeaugeID);
+export async function getFormatedRosters(value, player, pleagueID) {
+    const picks = await get_picks(pleagueID);
+    const records = await await getRecords(pleagueID);
 
     let named_rosters = await Promise.all(
         value.map(async (item) => {
-            return addInformationToOwner(item, pLeaugeID, picks, records);
+            return addInformationToOwner(item, pleagueID, picks, records);
         })
     );
 
@@ -328,13 +331,13 @@ export async function getFormatedRosters(value, player, pLeaugeID) {
     return named_rosters.find(({ owner_id }) => owner_id == player);
 }
 
-export async function getAllFormatedRosters(value, pLeaugeID) {
-    const picks = await get_picks(pLeaugeID);
-    const records = await await getRecords(pLeaugeID);
+export async function getAllFormatedRosters(value, pleagueID) {
+    const picks = await get_picks(pleagueID);
+    const records = await await getRecords(pleagueID);
 
     let named_rosters = await Promise.all(
         value.map(async (item) => {
-            return addInformationToOwner(item, pLeaugeID, picks, records);
+            return addInformationToOwner(item, pleagueID, picks, records);
         })
     );
 

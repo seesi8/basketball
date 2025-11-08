@@ -8,7 +8,7 @@ async function get_team_name(userID) {
         "/api/team?" +
             new URLSearchParams({
                 userID: userID,
-                leaugeID: getCookie("leaugeID"),
+                leagueID: getCookie("leagueID"),
             }).toString()
     )
         .then((res) => {
@@ -98,7 +98,7 @@ async function get_activity(userID) {
         "/api/transactions?" +
             new URLSearchParams({
                 userID: userID,
-                leaugeID: getCookie("leaugeID"),
+                leagueID: getCookie("leagueID"),
             }).toString()
     )
         .then((res) => {

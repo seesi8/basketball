@@ -20,7 +20,7 @@ async function get_record(userID) {
     return fetch(
         "/api/record?" +
             new URLSearchParams({
-                leaugeID: getCookie("leaugeID"),
+                leagueID: getCookie("leagueID"),
             }).toString()
     )
         .then((res) => {
@@ -36,7 +36,7 @@ async function get_team_name(userID) {
         "/api/team?" +
             new URLSearchParams({
                 userID: userID,
-                leaugeID: getCookie("leaugeID"),
+                leagueID: getCookie("leagueID"),
             }).toString()
     )
         .then((res) => {
@@ -56,7 +56,7 @@ async function total_points(userID) {
         "/api/points?" +
             new URLSearchParams({
                 userID: userID,
-                leaugeID: getCookie("leaugeID"),
+                leagueID: getCookie("leagueID"),
             }).toString()
     )
         .then((res) => {
@@ -119,7 +119,7 @@ export default function Home({ params }) {
         fetch(
             "/api/rosters?" +
                 new URLSearchParams({
-                    leaugeID: getCookie("leaugeID"),
+                    leagueID: getCookie("leagueID"),
                 }).toString()
         )
             .then((res) => res.json())
@@ -128,7 +128,7 @@ export default function Home({ params }) {
                 const formatedRosters = await getFormatedRosters(
                     value,
                     player,
-                    getCookie("leaugeID")
+                    getCookie("leagueID")
                 );
                 console.log(formatedRosters);
                 setRosters(formatedRosters);

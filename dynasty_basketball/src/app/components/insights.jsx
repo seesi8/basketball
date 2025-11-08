@@ -20,7 +20,7 @@ async function total_points(userID) {
         "/api/pointsByWeek?" +
             new URLSearchParams({
                 userID: userID,
-                leaugeID: getCookie("leaugeID"),
+                leagueID: getCookie("leagueID"),
             }).toString()
     )
         .then((res) => {
@@ -36,7 +36,7 @@ async function getMetrics(userID) {
         "/api/metrics?" +
             new URLSearchParams({
                 userID: userID,
-                leaugeID: getCookie("leaugeID"),
+                leagueID: getCookie("leagueID"),
             }).toString()
     )
         .then((res) => {

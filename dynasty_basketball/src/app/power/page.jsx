@@ -27,11 +27,11 @@ async function get_name(userID) {
     });
 }
 
-async function getRecord(leaugeID, userID) {
+async function getRecord(leagueID, userID) {
   return fetch(
     "/api/record?" +
       new URLSearchParams({
-        leaugeID: leaugeID,
+        leagueID: leagueID,
       }).toString()
   )
     .then((res) => {
@@ -156,11 +156,11 @@ async function get_player(playerID) {
     });
 }
 
-async function get_picks(leaugeID) {
+async function get_picks(leagueID) {
   return fetch(
     "/api/picks?" +
       new URLSearchParams({
-        leaugeID: leaugeID,
+        leagueID: leagueID,
       }).toString()
   )
     .then((res) => {
@@ -172,7 +172,7 @@ async function get_picks(leaugeID) {
 }
 
 export default function Home() {
-  const [name, setName] = useState("Leauge");
+  const [name, setName] = useState("league");
   const [rosters, setRosters] = useState([]);
   const [currentView, setCurrentView] = useState("");
 
@@ -181,7 +181,7 @@ export default function Home() {
     fetch(
       "/api/sleeper?" +
         new URLSearchParams({
-          leaugeID: getCookie("leaugeID"),
+          leagueID: getCookie("leagueID"),
         }).toString()
     )
       .then((res) => {
@@ -194,16 +194,17 @@ export default function Home() {
 
   // Set Rosters
   useEffect(() => {
+    console.log(process.env.NEXT_PUBLIC_DEV)
     fetch(
       "/api/rosters?" +
           new URLSearchParams({
-              leaugeID: getCookie("leaugeID"),
+              leagueID: getCookie("leagueID"),
           }).toString()
   )
       .then((res) => res.json())
       .then(async (value) => {
           // Resolve all promises in the map for named_rosters
-          const formatedRosters = await getAllFormatedRosters(value,  getCookie("leaugeID"));
+          const formatedRosters = await getAllFormatedRosters(value,  getCookie("leagueID"));
           console.log(formatedRosters)
           setRosters(formatedRosters)
 

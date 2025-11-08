@@ -42,6 +42,8 @@ async function adjustPicksAndSort(rosters, transactions) {
 async function get_name(userID) {
     const baseUrl = !process.env.DEV ?  "https://" + process.env.VERCEL_URL
         : "http://localhost:3000";
+    
+    console.log("baseUrl in get_name:", baseUrl);
     console.log(
         `${baseUrl}/api/user?` +
             new URLSearchParams({
@@ -65,7 +67,7 @@ async function get_name(userID) {
 export async function GET(request) {
     try {
         const searchParams = request.nextUrl.searchParams;
-        const leagueID = searchParams.get("leaugeID");
+        const leagueID = searchParams.get("leagueID");
 
         if (!leagueID) {
             return new Response(
@@ -97,7 +99,7 @@ export async function GET(request) {
                 console.log(
                     [...Array(3)
                         .keys()]
-                        .map((key) => `${2025 + key}rd1|via|${name}`)
+                        .map((key) => `${2026 + key}rd1|via|${name}`)
                 );
                 return {
                     roster_id: roster["roster_id"],
@@ -106,10 +108,10 @@ export async function GET(request) {
                     picks: [
                         ...[...Array(3)
                             .keys()]
-                            .map((key) => `${2025 + key}rd1|via|${name}`),
+                            .map((key) => `${2026 + key}rd1|via|${name}`),
                         ...[...Array(3)
                             .keys()]
-                            .map((key) => `${2025 + key}rd2|via|${name}`),
+                            .map((key) => `${2026 + key}rd2|via|${name}`),
                     ],
                 };
             })

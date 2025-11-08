@@ -134,3 +134,10 @@
   border-bottom-left-radius: 20%;
 }
 
+
+@media (orientation: landscape) {
+  .page{
+      margin-left: 4rem;
+
+  }
+}

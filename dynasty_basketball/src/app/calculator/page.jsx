@@ -92,11 +92,11 @@ async function get_picks(userID) {
     const response = await fetch(
         "/api/picks?" +
             new URLSearchParams({
-                leaugeID: getCookie("leaugeID"),
+                leagueID: getCookie("leagueID"),
             }).toString()
     );
     const data = await response.json();
-
+    console.log(data)
     for (const roster of data) {
         if (roster["owner_id"] === userID) {
             return roster["picks"];
@@ -600,7 +600,7 @@ export default function Calculator() {
         fetch(
             "/api/rosters?" +
                 new URLSearchParams({
-                    leaugeID: getCookie("leaugeID"),
+                    leagueID: getCookie("leagueID"),
                 }).toString()
         )
             .then((res) => res.json())

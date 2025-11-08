@@ -12,6 +12,7 @@ async function getRosters(leagueID) {
     const response = await fetch(
         `https://api.sleeper.app/v1/league/${leagueID}/rosters`
     );
+
     if (!response.ok) {
         return new Response(JSON.stringify({ error: "Failed to fetch data" }), {
             status: response.status,
@@ -25,14 +26,14 @@ async function getRosters(leagueID) {
 }
 
 async function get_name(userID) {
-    const baseUrl = !process.env.DEV ?  "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ? "https://" + process.env.VERCEL_URL
         : "http://localhost:3000";
 
     return fetch(
         `${baseUrl}/api/user?` +
-            new URLSearchParams({
-                userID: userID,
-            }).toString()
+        new URLSearchParams({
+            userID: userID,
+        }).toString()
     )
         .then((res) => {
             return res.json();
@@ -42,15 +43,73 @@ async function get_name(userID) {
         });
 }
 
+async function get_previous_league_ID(leagueID) {
+    const baseUrl = !process.env.DEV ? "https://" + process.env.VERCEL_URL
+        : "http://localhost:3000";
+
+    return fetch(
+        `${baseUrl}/api/sleeper?` +
+        new URLSearchParams({
+            leagueID: leagueID,
+        }).toString()
+    )
+        .then((res) => {
+            return res.json();
+        })
+        .then((value) => {
+            return value["previous_league_id"];
+        });
+}
+
+async function get_max_week(leagueID) {
+    const baseUrl = !process.env.DEV ? "https://" + process.env.VERCEL_URL
+        : "http://localhost:3000";
+
+    return fetch(
+        `${baseUrl}/api/sleeper?` +
+        new URLSearchParams({
+            leagueID: leagueID,
+        }).toString()
+    )
+        .then((res) => {
+            return res.json();
+        })
+        .then((value) => {
+            console.log(value)
+            return value["settings"]["playoff_week_start"] - 1;
+        });
+}
+
+async function get_all_previous_league_IDs(leagueID) {
+    let previous_league_IDs = [leagueID];
+    let current_league_ID = leagueID;
+
+    while (true) {
+        const previous_league_ID = await get_previous_league_ID(
+            current_league_ID
+        );
+        if (
+            previous_league_ID == "0"
+        ) {
+            break;
+        } else {
+            previous_league_IDs.push(previous_league_ID);
+            current_league_ID = previous_league_ID;
+        }
+    }
+
+    return previous_league_IDs;
+}
+
 async function get_value(player) {
-    const baseUrl = !process.env.DEV ?  "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ? "https://" + process.env.VERCEL_URL
         : "http://localhost:3000";
 
     return fetch(
         `${baseUrl}/api/value?` +
-            new URLSearchParams({
-                player: player,
-            }).toString()
+        new URLSearchParams({
+            player: player,
+        }).toString()
     )
         .then((res) => {
             return res.json();
@@ -61,15 +120,15 @@ async function get_value(player) {
 }
 
 async function getTeamName(leagueID, owner_id) {
-    const baseUrl = !process.env.DEV ?  "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ? "https://" + process.env.VERCEL_URL
         : "http://localhost:3000";
 
     return fetch(
         `${baseUrl}/api/team?` +
-            new URLSearchParams({
-                userID: owner_id,
-                leaugeID: leagueID,
-            }).toString()
+        new URLSearchParams({
+            userID: owner_id,
+            leagueID: leagueID,
+        }).toString()
     )
         .then((res) => {
             return res.json();
@@ -171,6 +230,9 @@ async function getReleventInformation(transaction, leagueID, userID, rosters) {
                     })
             );
         }
+        if(info == null){
+            console.log("AAHHHAHAHAH")
+        }
 
         return info;
     } else {
@@ -201,6 +263,9 @@ async function getReleventInformation(transaction, leagueID, userID, rosters) {
                 })
             );
         }
+        if(info == null){
+            console.log("AAHHHAHAHAH")
+        }
         return info
     }
 }
@@ -219,14 +284,64 @@ async function getWeek() {
     return data["week"];
 }
 
+async function get_transactions(userID, leagueID, week) {
+    const rosters = await getRosters(leagueID);
+
+    const all_transactiuons = (
+        await Promise.all(
+            [...Array(week).keys()].map(async (i) => {
+                const currentWeek = i + 1;
+
+                const response = await fetch(
+                    `https://api.sleeper.app/v1/league/${leagueID}/transactions/${currentWeek}`
+                );
+                if (!response.ok) {
+                    return null
+                }
+
+                const data = await response.json();
+
+                const roster = rosters.find(
+                    (value) => value["owner_id"] === userID
+                );
+
+                return data.filter((transaction) =>
+                    userInTranscation(
+                        userID,
+                        roster["roster_id"],
+                        transaction
+                    )
+                );
+            })
+        )
+    ).reduce((acc, curr) => acc.concat(curr), []).sort((a, b) => b.created - a.created);
+
+
+    const updated = await Promise.all(
+        all_transactiuons.map(
+            async (transaction) =>
+                await getReleventInformation(
+                    transaction,
+                    leagueID,
+                    userID,
+                    rosters
+                )
+        )
+    );
+
+    return updated
+}
+
 export async function GET(request) {
     try {
         const searchParams = request.nextUrl.searchParams;
         const userID = searchParams.get("userID");
-        const leaugeID = searchParams.get("leaugeID");
         const week = await getWeek();
+        const leagueID = searchParams.get("leagueID");
+        let all_transactions = []
+        let all_previous_league_IDs = await get_all_previous_league_IDs(leagueID)
 
-        if (!(userID && leaugeID)) {
+        if (!(userID && leagueID)) {
             return new Response(
                 JSON.stringify({ error: "userID is required" }),
                 {
@@ -236,56 +351,59 @@ export async function GET(request) {
             );
         }
 
-        const rosters = await getRosters(leaugeID);
+        console.log("nkjnjkdnbfjhbdshjfb")
+        console.log("all_previous_league_IDs " + all_previous_league_IDs[0] + "   " + all_previous_league_IDs[-1])
+        for (let previous_league_ID of all_previous_league_IDs) {
 
-        const all_transactiuons = (
-            await Promise.all(
-                [...Array(week).keys()].map(async (i) => {
-                    const currentWeek = i + 1;
+            if (previous_league_ID == leagueID) {
+                //current
 
-                    const response = await fetch(
-                        `https://api.sleeper.app/v1/league/${leaugeID}/transactions/${currentWeek}`
+                let transactions = await get_transactions(userID, previous_league_ID, week)
+
+
+                if (transactions == null) {
+                    new Response(
+                        JSON.stringify({ error: "Failed to fetch data" }),
+                        {
+                            status: response.status,
+                            headers: { "Content-Type": "application/json" },
+                        }
                     );
-                    if (!response.ok) {
-                        return new Response(
-                            JSON.stringify({ error: "Failed to fetch data" }),
-                            {
-                                status: response.status,
-                                headers: { "Content-Type": "application/json" },
-                            }
-                        );
-                    }
+                }
+                else {
 
-                    const data = await response.json();
+                    all_transactions = [...all_transactions, ...transactions]
+                }
+            }
+            else {
+                //previous
 
-                    const roster = rosters.find(
-                        (value) => value["owner_id"] === userID
+                const old_week = await get_max_week(previous_league_ID)
+                console.log("OLD_WEEK " + old_week)
+
+                let transactions = await get_transactions(userID, previous_league_ID, old_week)
+
+
+                if (transactions == null) {
+                    new Response(
+                        JSON.stringify({ error: "Failed to fetch data" }),
+                        {
+                            status: response.status,
+                            headers: { "Content-Type": "application/json" },
+                        }
                     );
+                }
+                else {
 
-                    return data.filter((transaction) =>
-                        userInTranscation(
-                            userID,
-                            roster["roster_id"],
-                            transaction
-                        )
-                    );
-                })
-            )
-        ).reduce((acc, curr) => acc.concat(curr), []).sort((a, b) => b.created - a.created);
+                    all_transactions = [...all_transactions, ...transactions]
+                }
+            }
 
-        const updated = await Promise.all(
-            all_transactiuons.map(
-                async (transaction) =>
-                    await getReleventInformation(
-                        transaction,
-                        leaugeID,
-                        userID,
-                        rosters
-                    )
-            )
-        );
 
-        return new Response(JSON.stringify(updated), {
+        }
+
+
+        return new Response(JSON.stringify(all_transactions.filter((value) => {return value != null})), {
             status: 200,
             headers: { "Content-Type": "application/json" },
         });
