@@ -1,7 +1,6 @@
 import styles from "../styles/trade.module.css";
 import { useEffect, useState, useRef } from "react";
 import { getCookie } from "cookies-next";
-import { Graph } from "react-d3-graph";
 import ForceGraph2D from "react-force-graph-2d";
 
 async function get_team_name(userID) {
