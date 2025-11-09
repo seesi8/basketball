@@ -300,7 +300,6 @@ async function addInformationToOwner(item, pleagueID, picks, records) {
     item["picks_values"] = picks_values;
 
     item["picks_value"] = item["picks_values"].reduce((a, b) => a + b, 0);
-
     item["player_values"] = item["player_values"].map((value) =>
         isNaN(value) ? 0 : value
     );

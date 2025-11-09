@@ -25,7 +25,7 @@ async function getRosters(leagueID) {
 }
 
 async function get_name(userID) {
-    const baseUrl = !process.env.DEV ? "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
 
     return fetch(
@@ -43,7 +43,7 @@ async function get_name(userID) {
 }
 
 async function get_value(player) {
-    const baseUrl = !process.env.DEV ? "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
 
     return fetch(
@@ -61,7 +61,7 @@ async function get_value(player) {
 }
 
 async function getTeamName(leagueID, owner_id) {
-    const baseUrl = !process.env.DEV ? "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
 
     return fetch(
@@ -84,7 +84,7 @@ async function getTeamName(leagueID, owner_id) {
 }
 
 async function getTeamAvatar(leagueID, owner_id) {
-    const baseUrl = !process.env.DEV ? "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
 
     return fetch(
@@ -494,7 +494,7 @@ async function get_nodes_links(userID, leagueID, week) {
 
 
 async function get_previous_league_ID(leagueID) {
-    const baseUrl = !process.env.DEV ? "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
 
     return fetch(
@@ -512,7 +512,7 @@ async function get_previous_league_ID(leagueID) {
 }
 
 async function get_max_week(leagueID) {
-    const baseUrl = !process.env.DEV ? "https://" + process.env.VERCEL_URL
+    const baseUrl = !process.env.DEV ? "https://" + "www.dynasty-basketball.com"
         : "http://localhost:3000";
 
     return fetch(
