@@ -1,4 +1,5 @@
-"use state";
+"use client";
+
 import Image from "next/image";
 import styles from "../styles/sidebar.module.css";
 import { useState, useEffect } from "react";

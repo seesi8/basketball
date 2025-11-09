@@ -5,6 +5,7 @@ import styles from "./styles/page.module.css";
 import Sidebar from "./components/sidebar";
 import { getCookie, setCookie } from "cookies-next/client";
 import { useState, useEffect } from "react";
+import Head from "next/head";
 
 export default function Home() {
   const [leagueID, setleagueID] = useState(getCookie("leagueID"));
@@ -16,6 +17,7 @@ export default function Home() {
 
   return (
     <main>
+
       <div className={styles.page}>
         <h3 className={styles.welcome}>Welcome to</h3>
         <h1 className={styles.header}>Dynasty Basketball</h1>
@@ -47,15 +49,15 @@ export default function Home() {
           </button>
         </div>
         {
-          signedIn ? 
-          <div className={styles.container}>
-          <button className={styles.link}><a href="/calculator">Trade Calculator </a></button>
-          <button className={styles.link}>
-            <a href="/power">Power Ranking</a>
-          </button>
-        </div> : ""
+          signedIn ?
+            <div className={styles.container}>
+              <button className={styles.link}><a href="/calculator">Trade Calculator </a></button>
+              <button className={styles.link}>
+                <a href="/power">Power Ranking</a>
+              </button>
+            </div> : ""
         }
-        
+
       </div>
     </main>
   );

@@ -1,11 +1,17 @@
-"use client";
 
 import localFont from "next/font/local";
 import "./styles/globals.css";
 import { Roboto_Flex } from "next/font/google";
 import Sidebar from "./components/sidebar";
+import Head from "next/head";
 
 const roboto = Roboto_Flex({ subsets: ["latin"], weight: "variable" });
+
+export const metadata = {
+  title: "Dynasty-Basketball.com",
+  description: "Best place for Dynasty Fantasy Basketball",
+};
+
 
 export default function RootLayout({ children }) {
     return (
