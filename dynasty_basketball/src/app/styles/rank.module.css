@@ -70,7 +70,7 @@
 .rankHead, .rankName, .rankTeam, .rankPos, .rankAge, .rankValue{
     padding: 0.5rem;
     font-weight: normal;
-    color: #767282;
+    color: #6c755f;
 }
 
 .rank{
@@ -85,7 +85,7 @@
 
 .head{
     text-align: left;
-    background-color: #323246;
+    background-color: #2f312d;
     padding: 0.5rem;
 }
 
@@ -106,6 +106,6 @@
     padding: 0.5rem;
     padding-right: 1rem;
     padding-left: 1rem;
-    background-color: #323246;
+    background-color: #6c755f;
     width: 3rem;
 }

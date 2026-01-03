@@ -43,7 +43,7 @@
 
 .tableRow {
     height: 3rem;
-    border-top: grey solid 0.1rem;
+    border-top: #6c755f solid 0.1rem;
 }
 
 .tableRow:hover {
@@ -94,13 +94,13 @@
 
 .detailedRank {
     width: fit-content;
-    color: grey;
+    color: #6c755f;
     font-size: 0.8rem;
     text-align: left;
 }
 
 .detailedRankPosition {
-    color: grey;
+    color: #6c755f;
     font-size: 0.8rem;
     text-align: left;
 }
@@ -117,7 +117,7 @@
 
 .value {
     font-weight: normal;
-    color: grey;
+    color: #6c755f;
     font-size: 0.8rem;
 }
 
@@ -127,7 +127,7 @@
 }
 
 .break {
-    border-color: grey;
+    border-color: #6c755f;
     margin: 0.5rem 0rem;
 }
 
@@ -145,7 +145,7 @@
 
 .playerValue{
     font-weight: bold;
-    color: grey;
+    color: #6c755f;
 }
 
 /*graph */
@@ -259,7 +259,7 @@
 }
 
 .name {
-    color: grey;
+    color: #6c755f;
     font-weight: bold;
     width: 100%;
 }
@@ -283,9 +283,9 @@
 }
 
 .title{
-    color: #76769B;
+    color: #6c755f;
 }
 
 .des{
-    color: grey;
+    color: #6c755f;
 }

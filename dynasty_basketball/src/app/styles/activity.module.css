@@ -25,7 +25,7 @@
 
 .player{
     padding: 0.25rem 0rem;
-    color: #6E6E94;
+    color: #6c755f;
 }
 
 .green{
@@ -48,7 +48,7 @@
 .input{
     width: 20rem;
     height: fit-content;
-    border: 2px solid #717178;
+    border: 2px solid #6c755f;
     background-color: transparent;
     border-radius: 0.5rem;
     padding: 1.5rem;
@@ -71,12 +71,12 @@
 
 .tile{
     background-color: var(--ground);
-    border: solid 1px #41414E;
+    border: solid 1px #6c755f;
     border-radius: 0.5rem;
     padding: 1rem;
     margin: 2rem 0.5rem;
     margin-bottom: 0rem;
-    color: #72739B;
+    color: #6c755f;
 }
 
 .bold{

@@ -6,7 +6,7 @@
 }
 
 .power:hover{
-    color: #76769B;
+    color: #6c755f;
 }
 
 .topRow{
@@ -30,7 +30,7 @@
 }
 
 .itemTitle{
-    color: #76769B;
+    color: #6c755f;
 }
 
 .itemRank{
@@ -57,7 +57,7 @@
 
 .tabButton{
     background-color: transparent;
-    color: grey;
+    color: #6c755f;
     border: none;
     font-weight: bold;
     font-size: 1rem;
@@ -87,7 +87,7 @@
 
 .locked{
     font-weight: normal;
-    color: #76769B;
+    color: #6c755f;
     font-size: 0.8rem;
     text-align: right;
 }

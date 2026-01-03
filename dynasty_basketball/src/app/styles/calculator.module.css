@@ -73,7 +73,7 @@
 .dropdown {
     width: 90%;
     min-width: fit-content;
-    background-color: #323246;
+    background-color: #4e5741;
     border: none;
     height: 3rem;
     padding: 0.5rem;
@@ -95,7 +95,7 @@
     margin: 1rem;
     height: 4rem;
     background-color: transparent;
-    border: grey solid 0.1rem;
+    border: #6c755f solid 0.1rem;
     border-radius: 0.5rem;
     font-size: 1.2rem;
     padding: 0rem 1rem;
@@ -106,7 +106,7 @@
 }
 
 .options {
-    background-color: #323246;
+    background-color: #2f332a;
     height: 15rem;
     overflow-y: scroll;
 }
@@ -120,7 +120,7 @@
 }
 
 .playerContainer:hover {
-    background-color: #49494e;
+    background-color: #494e49;
 }
 
 .playerName {
@@ -130,7 +130,7 @@
 
 .position {
     text-align: left;
-    color: #76769b;
+    color: #6c755f;
     font-size: 0.7rem;
     width: 100%;
     padding-bottom: 01rem;
@@ -138,7 +138,7 @@
 
 .selectedCard {
     background-color: transparent;
-    border: solid grey 0.1rem;
+    border: solid #6c755f 0.1rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
     display: grid;
@@ -150,7 +150,7 @@
 }
 
 .info {
-    color: grey;
+    color: #6c755f;
 }
 
 .selected {
@@ -214,7 +214,7 @@
 .playersAdd {
     background-color: var(--ground);
     width: 90%;
-    border: 0.1rem solid grey;
+    border: 0.1rem solid #6c755f;
     border-radius: 0.5rem;
 }
 
@@ -231,17 +231,17 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    border: 0.1rem solid grey;
+    border: 0.1rem solid #6c755f;
     margin: 0.5rem 1rem;
     border-radius: 0.5rem;
 }
 .playerToEven:hover {
-    background-color: #323246;
+    background-color: #6c755f;
 }
 
 .valueAdjustContainer{
-    background-color: #323246;
-    border: solid grey 0.1rem;
+    background-color: #6c755f;
+    border: solid #6c755f 0.1rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
     margin: 0.5rem;
@@ -267,7 +267,7 @@
     background-color: transparent;
     padding: 0rem;
     border: none;
-    color: grey;
+    color: #6c755f;
 }
 
 .infoButton:hover{
@@ -275,7 +275,7 @@
 }
 
 .infoBreak{
-    border: grey solid 1px;
+    border: #6c755f solid 1px;
     border-bottom: none;
     margin-bottom: 0.5rem;
     margin-top: 0.25rem;
@@ -288,7 +288,7 @@
 }
 
 .dropName{
-    color: grey;
+    color: #6c755f;
     font-weight: normal;
     text-decoration: line-through;
     margin-left: 1rem;
@@ -308,5 +308,5 @@
     width: 100%;
     position: absolute;
     font-size: 0.7rem;
-    color: grey;
+    color: #6c755f;
 }

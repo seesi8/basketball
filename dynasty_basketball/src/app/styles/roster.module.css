@@ -19,8 +19,8 @@
     border-radius: 0.5rem;
     padding: 0.5rem;
     margin: 1rem;
-    color: #76769B;
-    border: 1px #41414E solid;
+    color: #6c755f;
+    border: 1px #6c755f solid;
     width: 10rem;
 }
 
@@ -44,7 +44,7 @@
 
 .chart{
     background-color: var(--ground);
-    border: #41414E 1px solid;
+    border: #6c755f 1px solid;
     padding: 1rem 7rem ;
     width: 30rem;
     height: 20rem;
@@ -67,7 +67,7 @@
     width: 25vw;
     margin: 1rem;
     background-color: var(--ground);
-    border: 1px solid #41414E;
+    border: 1px solid #6c755f;
     border-radius: 0.5rem;
     padding: 1rem;
 }
