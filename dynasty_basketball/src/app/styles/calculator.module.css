@@ -212,7 +212,7 @@
 }
 
 .playersAdd {
-    background-color: #282837;
+    background-color: var(--ground);
     width: 90%;
     border: 0.1rem solid grey;
     border-radius: 0.5rem;

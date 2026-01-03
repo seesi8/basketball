@@ -45,7 +45,7 @@
         "experience": {
             "years": 5
         },
-        "jersey": "8",
+        "jersey": "9",
         "active": true
     },
     {
@@ -159,7 +159,7 @@
         "displayWeight": "190 lbs",
         "height": 73.0,
         "displayHeight": "6' 1\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-11-27T08:00Z",
         "birthPlace": {
             "city": "Oakland",
@@ -398,7 +398,7 @@
         "displayWeight": "243 lbs",
         "height": 83.0,
         "displayHeight": "6' 11\"",
-        "age": 30,
+        "age": 31,
         "dateOfBirth": "1994-12-06T08:00Z",
         "birthPlace": {
             "city": "Athens",
@@ -520,6 +520,18 @@
         "active": false
     },
     {
+        "id": "5162195",
+        "uid": "s:40~l:46~a:5162195",
+        "guid": "2b2f4962-5865-3a04-89f3-84402d46c315",
+        "firstName": "C.J.",
+        "lastName": "Asuncion-Byrd",
+        "fullName": "C.J. Asuncion-Byrd",
+        "displayName": "C.J. Asuncion-Byrd",
+        "shortName": "C.J. Asuncion-Byrd",
+        "jersey": "60",
+        "active": true
+    },
+    {
         "id": "4702099",
         "uid": "s:40~l:46~a:4702099",
         "guid": "25829750-cbe7-37d7-b80c-cebe4a58254d",
@@ -565,6 +577,18 @@
             "years": 5
         },
         "jersey": "8",
+        "active": true
+    },
+    {
+        "id": "4590527",
+        "uid": "s:40~l:46~a:4590527",
+        "guid": "8c13a025-a857-b46c-5e6a-f05acb5de766",
+        "firstName": "Ben",
+        "lastName": "Ayre",
+        "fullName": "Ben Ayre",
+        "displayName": "Ben Ayre",
+        "shortName": "B. Ayre",
+        "jersey": "10",
         "active": true
     },
     {
@@ -698,7 +722,7 @@
         "displayWeight": "220 lbs",
         "height": 81.0,
         "displayHeight": "6' 9\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-11-18T08:00Z",
         "birthPlace": {
             "city": "Sussex",
@@ -797,7 +821,7 @@
             "years": 7
         },
         "jersey": "11",
-        "active": false
+        "active": true
     },
     {
         "id": "4432573",
@@ -812,7 +836,7 @@
         "displayWeight": "250 lbs",
         "height": 82.0,
         "displayHeight": "6' 10\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-11-12T08:00Z",
         "birthPlace": {
             "city": "Seattle",
@@ -881,6 +905,23 @@
         },
         "jersey": "45",
         "active": false
+    },
+    {
+        "id": "2968437",
+        "uid": "s:40~l:46~a:2968437",
+        "guid": "74d77af6-797a-4bdc-c9db-2473a25a2a97",
+        "firstName": "David",
+        "lastName": "Barlow",
+        "fullName": "David Barlow",
+        "displayName": "David Barlow",
+        "shortName": "D. Barlow",
+        "height": 81.0,
+        "displayHeight": "6' 9\"",
+        "age": 42,
+        "dateOfBirth": "1983-10-22T07:00Z",
+        "citizenship": "Australia",
+        "jersey": "20",
+        "active": true
     },
     {
         "id": "4870562",
@@ -1139,7 +1180,7 @@
         "displayWeight": "230 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 36,
+        "age": 37,
         "dateOfBirth": "1988-12-14T08:00Z",
         "birthPlace": {
             "city": "Lisieux",
@@ -1216,7 +1257,7 @@
         "displayWeight": "187 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 28,
+        "age": 29,
         "dateOfBirth": "1996-11-26T08:00Z",
         "birthPlace": {
             "city": "Atlanta",
@@ -1247,7 +1288,7 @@
         "experience": {
             "years": 3
         },
-        "active": false
+        "active": true
     },
     {
         "id": "4565203",
@@ -1311,7 +1352,7 @@
         "displayWeight": "230 lbs",
         "height": 83.0,
         "displayHeight": "6' 11\"",
-        "age": 18,
+        "age": 19,
         "dateOfBirth": "2006-11-11T08:00Z",
         "citizenship": "France",
         "jersey": "19",
@@ -1339,6 +1380,18 @@
         },
         "jersey": "14",
         "active": false
+    },
+    {
+        "id": "5103881",
+        "uid": "s:40~l:46~a:5103881",
+        "guid": "5d3aa07e-0ca8-3895-a283-1e7f01864a1a",
+        "firstName": "Malcolm",
+        "lastName": "Bernard",
+        "fullName": "Malcolm Bernard",
+        "displayName": "Malcolm Bernard",
+        "shortName": "M. Bernard",
+        "jersey": "5",
+        "active": true
     },
     {
         "id": "4397136",
@@ -1506,6 +1559,23 @@
         "active": true
     },
     {
+        "id": "5091714",
+        "uid": "s:40~l:46~a:5091714",
+        "guid": "3cb5e60f-065d-3a4f-b655-f97f87b4902c",
+        "firstName": "Campbell",
+        "lastName": "Blogg",
+        "fullName": "Campbell Blogg",
+        "displayName": "Campbell Blogg",
+        "shortName": "C. Blogg",
+        "jersey": "3",
+        "hand": {
+            "type": "BOTH",
+            "abbreviation": "B",
+            "displayValue": "Both"
+        },
+        "active": true
+    },
+    {
         "id": "4395676",
         "uid": "s:40~l:46~a:4395676",
         "guid": "afdbbbc8-15b1-c5c2-504a-464d68fb34bd",
@@ -1518,7 +1588,7 @@
         "displayWeight": "205 lbs",
         "height": 77.0,
         "displayHeight": "6' 5\"",
-        "age": 25,
+        "age": 26,
         "dateOfBirth": "1999-11-11T08:00Z",
         "birthPlace": {
             "city": "Fayetteville",
@@ -1570,7 +1640,7 @@
         "displayWeight": "220 lbs",
         "height": 87.0,
         "displayHeight": "7' 3\"",
-        "age": 25,
+        "age": 26,
         "dateOfBirth": "1999-11-16T08:00Z",
         "birthPlace": {
             "city": "Khartoum",
@@ -1627,6 +1697,7 @@
             "city": "Ebonyi State",
             "country": "Nigeria"
         },
+        "citizenship": "T\u00fcrkiye",
         "experience": {
             "years": 1
         },
@@ -1677,7 +1748,7 @@
         "displayWeight": "188 lbs",
         "height": 78.0,
         "displayHeight": "6' 6\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-11-28T08:00Z",
         "birthPlace": {
             "city": "Norcross",
@@ -1738,10 +1809,34 @@
             "country": "USA"
         },
         "experience": {
-            "years": 3
+            "years": 2
         },
         "jersey": "15",
-        "active": false
+        "active": true
+    },
+    {
+        "id": "5091547",
+        "uid": "s:40~l:46~a:5091547",
+        "guid": "99968f22-ec05-374a-840b-95635e661254",
+        "firstName": "Kyle",
+        "lastName": "Bowen",
+        "fullName": "Kyle Bowen",
+        "displayName": "Kyle Bowen",
+        "shortName": "K. Bowen",
+        "jersey": "15",
+        "active": true
+    },
+    {
+        "id": "5090590",
+        "uid": "s:40~l:46~a:5090590",
+        "guid": "58163b01-c9e6-3ad1-91d9-19dda719a2f4",
+        "firstName": "Kingsley",
+        "lastName": "Box",
+        "fullName": "Kingsley Box",
+        "displayName": "Kingsley Box",
+        "shortName": "K. Box",
+        "jersey": "61",
+        "active": true
     },
     {
         "id": "4065673",
@@ -1974,6 +2069,18 @@
         "active": false
     },
     {
+        "id": "5090856",
+        "uid": "s:40~l:46~a:5090856",
+        "guid": "53d449db-a013-3979-ae41-0d6281405a37",
+        "firstName": "Ryan",
+        "lastName": "Broekhoff",
+        "fullName": "Ryan Broekhoff",
+        "displayName": "Ryan Broekhoff",
+        "shortName": "R. Broekhoff",
+        "jersey": "45",
+        "active": true
+    },
+    {
         "id": "2566769",
         "uid": "s:40~l:46~a:2566769",
         "guid": "db29ba54-f3bd-2b6a-ebae-be0633291ab0",
@@ -1986,7 +2093,7 @@
         "displayWeight": "229 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 32,
+        "age": 33,
         "dateOfBirth": "1992-12-11T08:00Z",
         "birthPlace": {
             "city": "Atlanta",
@@ -2097,6 +2204,29 @@
             "country": "USA"
         },
         "jersey": "22",
+        "active": true
+    },
+    {
+        "id": "2531362",
+        "uid": "s:40~l:46~a:2531362",
+        "guid": "0a30cd49-bd17-7e3c-7e20-d8cc04119e18",
+        "firstName": "Anthony",
+        "lastName": "Brown",
+        "fullName": "Anthony Brown",
+        "displayName": "Anthony Brown",
+        "shortName": "A. Brown",
+        "weight": 224.0,
+        "displayWeight": "224 lbs",
+        "height": 79.0,
+        "displayHeight": "6' 7\"",
+        "age": 33,
+        "dateOfBirth": "1992-10-10T07:00Z",
+        "birthPlace": {
+            "city": "Fountain Valley",
+            "state": "CA",
+            "country": "USA"
+        },
+        "jersey": "12",
         "active": true
     },
     {
@@ -2234,7 +2364,7 @@
         "displayWeight": "250 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 25,
+        "age": 26,
         "dateOfBirth": "2000-01-01T08:00Z",
         "birthPlace": {
             "city": "Huntsville",
@@ -2299,6 +2429,18 @@
         "active": false
     },
     {
+        "id": "5099747",
+        "uid": "s:40~l:46~a:5099747",
+        "guid": "1a13262f-9088-3c54-bbcc-f8c8876823d8",
+        "firstName": "Gary",
+        "lastName": "Browne",
+        "fullName": "Gary Browne",
+        "displayName": "Gary Browne",
+        "shortName": "G. Browne",
+        "jersey": "14",
+        "active": true
+    },
+    {
         "id": "3934672",
         "uid": "s:40~l:46~a:3934672",
         "guid": "89519c75-cf8a-38e7-1151-b6247a2d4535",
@@ -2337,7 +2479,7 @@
         "displayWeight": "220 lbs",
         "height": 78.0,
         "displayHeight": "6' 6\"",
-        "age": 19,
+        "age": 20,
         "dateOfBirth": "2005-11-26T08:00Z",
         "birthPlace": {
             "city": "Riverside",
@@ -2401,7 +2543,6 @@
         "experience": {
             "years": 2
         },
-        "jersey": "44",
         "active": false
     },
     {
@@ -2417,7 +2558,7 @@
         "displayWeight": "180 lbs",
         "height": 74.0,
         "displayHeight": "6' 2\"",
-        "age": 25,
+        "age": 26,
         "dateOfBirth": "1999-12-07T08:00Z",
         "birthPlace": {
             "city": "Albany",
@@ -2654,6 +2795,18 @@
         "active": true
     },
     {
+        "id": "5168545",
+        "uid": "s:40~l:46~a:5168545",
+        "guid": "3dd90951-a0b0-3986-8231-86411932eaa3",
+        "firstName": "Flynn",
+        "lastName": "Cameron",
+        "fullName": "Flynn Cameron",
+        "displayName": "Flynn Cameron",
+        "shortName": "F. Cameron",
+        "jersey": "11",
+        "active": true
+    },
+    {
         "id": "4230557",
         "uid": "s:40~l:46~a:4230557",
         "guid": "eacea5f7-c7fe-e0f0-6a31-349553c9bae7",
@@ -2716,7 +2869,7 @@
         "displayWeight": "255 lbs",
         "height": 82.0,
         "displayHeight": "6' 10\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-12-16T08:00Z",
         "birthPlace": {
             "city": "Augusta",
@@ -2750,6 +2903,18 @@
             "years": 1
         },
         "jersey": "15",
+        "active": true
+    },
+    {
+        "id": "5099751",
+        "uid": "s:40~l:46~a:5099751",
+        "guid": "b395e220-dee9-336f-b763-ac25e84ecebe",
+        "firstName": "Jordan",
+        "lastName": "Caroline",
+        "fullName": "Jordan Caroline",
+        "displayName": "Jordan Caroline",
+        "shortName": "J. Caroline",
+        "jersey": "24",
         "active": true
     },
     {
@@ -3079,7 +3244,7 @@
         "displayWeight": "235 lbs",
         "height": 83.0,
         "displayHeight": "6' 11\"",
-        "age": 19,
+        "age": 20,
         "dateOfBirth": "2005-12-30T08:00Z",
         "birthPlace": {
             "city": "Bafang",
@@ -3156,7 +3321,7 @@
         "displayWeight": "215 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-12-08T08:00Z",
         "birthPlace": {
             "city": "Carson",
@@ -3188,7 +3353,7 @@
             "city": "Conakry",
             "country": "Guinea"
         },
-        "jersey": "45",
+        "jersey": "30",
         "active": true
     },
     {
@@ -3214,6 +3379,18 @@
             "years": 2
         },
         "jersey": "91",
+        "active": true
+    },
+    {
+        "id": "5090897",
+        "uid": "s:40~l:46~a:5090897",
+        "guid": "fc56c646-8c42-3e99-ae96-230229eb56f0",
+        "firstName": "Ian",
+        "lastName": "Clark",
+        "fullName": "Ian Clark",
+        "displayName": "Ian Clark",
+        "shortName": "I. Clark",
+        "jersey": "21",
         "active": true
     },
     {
@@ -3558,7 +3735,7 @@
         "displayWeight": "250 lbs",
         "height": 81.0,
         "displayHeight": "6' 9\"",
-        "age": 27,
+        "age": 28,
         "dateOfBirth": "1997-11-19T08:00Z",
         "birthPlace": {
             "city": "Las Vegas",
@@ -3621,6 +3798,18 @@
             "years": 10
         },
         "jersey": "21",
+        "active": true
+    },
+    {
+        "id": "5170278",
+        "uid": "s:40~l:46~a:5170278",
+        "guid": "115fa41f-c210-389f-8ae4-31b9c39aad0e",
+        "firstName": "Tyler",
+        "lastName": "Cook",
+        "fullName": "Tyler Cook",
+        "displayName": "Tyler Cook",
+        "shortName": "T. Cook",
+        "jersey": "5",
         "active": true
     },
     {
@@ -3755,7 +3944,7 @@
         "displayWeight": "221 lbs",
         "height": 77.0,
         "displayHeight": "6' 5\"",
-        "age": 34,
+        "age": 35,
         "dateOfBirth": "1990-12-19T08:00Z",
         "birthPlace": {
             "city": "Columbia",
@@ -3792,6 +3981,18 @@
             "years": 1
         },
         "jersey": "27",
+        "active": true
+    },
+    {
+        "id": "5090675",
+        "uid": "s:40~l:46~a:5090675",
+        "guid": "e7d0c94b-6700-3b74-8e93-3d8a401170e3",
+        "firstName": "Mitchell",
+        "lastName": "Creek",
+        "fullName": "Mitchell Creek",
+        "displayName": "Mitchell Creek",
+        "shortName": "M. Creek",
+        "jersey": "55",
         "active": true
     },
     {
@@ -3913,7 +4114,7 @@
             "country": "USA"
         },
         "jersey": "18",
-        "active": false
+        "active": true
     },
     {
         "id": "4066486",
@@ -3939,6 +4140,23 @@
             "years": 1
         },
         "active": false
+    },
+    {
+        "id": "5165259",
+        "uid": "s:40~l:46~a:5165259",
+        "guid": "b7416ec7-beed-3189-9a53-b32dcee87a40",
+        "firstName": "Will",
+        "lastName": "Cummings",
+        "fullName": "Will Cummings",
+        "displayName": "Will Cummings",
+        "shortName": "W. Cummings",
+        "jersey": "3",
+        "hand": {
+            "type": "BOTH",
+            "abbreviation": "B",
+            "displayValue": "Both"
+        },
+        "active": true
     },
     {
         "id": "4432166",
@@ -3995,7 +4213,7 @@
             "years": 12
         },
         "jersey": "31",
-        "active": false
+        "active": true
     },
     {
         "id": "3975",
@@ -4107,9 +4325,35 @@
         "shortName": "D. Daniels",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 17,
+        "age": 18,
         "dateOfBirth": "2007-12-18T08:00Z",
         "jersey": "4",
+        "active": true
+    },
+    {
+        "id": "4869342",
+        "uid": "s:40~l:46~a:4869342",
+        "guid": "7b066993-61be-35fd-9070-c1b9a57c7b31",
+        "firstName": "Dyson",
+        "lastName": "Daniels",
+        "fullName": "Dyson Daniels",
+        "displayName": "Dyson Daniels",
+        "shortName": "D. Daniels",
+        "weight": 199.0,
+        "displayWeight": "199 lbs",
+        "height": 79.0,
+        "displayHeight": "6' 7\"",
+        "age": 22,
+        "dateOfBirth": "2003-03-17T08:00Z",
+        "birthPlace": {
+            "city": "Bendigo",
+            "state": "VIC",
+            "country": "Australia"
+        },
+        "experience": {
+            "years": 3
+        },
+        "jersey": "5",
         "active": true
     },
     {
@@ -4272,6 +4516,18 @@
         "active": true
     },
     {
+        "id": "5090863",
+        "uid": "s:40~l:46~a:5090863",
+        "guid": "35f11ea7-51e2-3b0b-8340-430c0a2276a4",
+        "firstName": "Matthew",
+        "lastName": "Dellavedova",
+        "fullName": "Matthew Dellavedova",
+        "displayName": "Matthew Dellavedova",
+        "shortName": "M. Dellavedova",
+        "jersey": "8",
+        "active": true
+    },
+    {
         "id": "5175643",
         "uid": "s:40~l:46~a:5175643",
         "guid": "fb0aca8f-4878-3010-abe0-05b507191367",
@@ -4342,7 +4598,6 @@
         "experience": {
             "years": 1
         },
-        "jersey": "10",
         "active": true
     },
     {
@@ -4433,7 +4688,7 @@
         "displayWeight": "200 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 21,
+        "age": 22,
         "dateOfBirth": "2003-11-20T08:00Z",
         "birthPlace": {
             "city": "Wichita",
@@ -4464,7 +4719,7 @@
         "displayWeight": "255 lbs",
         "height": 85.0,
         "displayHeight": "7' 1\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-11-25T08:00Z",
         "birthPlace": {
             "city": "Alexandria",
@@ -4489,6 +4744,10 @@
         "displayHeight": "6' 9\"",
         "age": 22,
         "dateOfBirth": "2003-05-21T07:00Z",
+        "birthPlace": {
+            "city": "Lot-et-Garonne",
+            "country": "France"
+        },
         "experience": {
             "years": 3
         },
@@ -4754,6 +5013,18 @@
         "active": true
     },
     {
+        "id": "5090703",
+        "uid": "s:40~l:46~a:5090703",
+        "guid": "7584c7d6-95ee-33da-ac1a-7dd0a98236df",
+        "firstName": "Joshua",
+        "lastName": "Duach",
+        "fullName": "Joshua Duach",
+        "displayName": "Joshua Duach",
+        "shortName": "J. Duach",
+        "jersey": "5",
+        "active": true
+    },
+    {
         "id": "4432971",
         "uid": "s:40~l:46~a:4432971",
         "guid": "0466eba0-758d-3ba7-b2e0-91c81860f88c",
@@ -4766,7 +5037,7 @@
         "displayWeight": "220 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-12-11T08:00Z",
         "birthPlace": {
             "city": "Geraldton",
@@ -4894,7 +5165,7 @@
         "displayWeight": "250 lbs",
         "height": 82.0,
         "displayHeight": "6' 10\"",
-        "age": 21,
+        "age": 22,
         "dateOfBirth": "2003-11-18T08:00Z",
         "birthPlace": {
             "city": "Sharon Hill",
@@ -4969,7 +5240,7 @@
         "displayWeight": "180 lbs",
         "height": 75.0,
         "displayHeight": "6' 3\"",
-        "age": 25,
+        "age": 26,
         "dateOfBirth": "1999-11-17T08:00Z",
         "birthPlace": {
             "city": "Louisville",
@@ -5087,7 +5358,7 @@
         "displayWeight": "203 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 21,
+        "age": 22,
         "dateOfBirth": "2003-12-16T08:00Z",
         "birthPlace": {
             "city": "Philadelphia",
@@ -5213,7 +5484,7 @@
         "displayWeight": "200 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 18,
+        "age": 19,
         "dateOfBirth": "2006-12-18T08:00Z",
         "jersey": "24",
         "active": true
@@ -5322,6 +5593,18 @@
         "active": true
     },
     {
+        "id": "5162199",
+        "uid": "s:40~l:46~a:5162199",
+        "guid": "84501f14-e950-3741-9f02-da473194e9e8",
+        "firstName": "Ke'Jhan",
+        "lastName": "Feagin",
+        "fullName": "Ke'Jhan Feagin",
+        "displayName": "Ke'Jhan Feagin",
+        "shortName": "K. Feagin",
+        "jersey": "61",
+        "active": true
+    },
+    {
         "id": "5144091",
         "uid": "s:40~l:46~a:5144091",
         "guid": "a34d3e64-4f77-38de-8d04-34456599255d",
@@ -5342,6 +5625,18 @@
             "country": "USA"
         },
         "jersey": "0",
+        "active": true
+    },
+    {
+        "id": "5237564",
+        "uid": "s:40~l:46~a:5237564",
+        "guid": "9fa7ea21-4b9e-3e3f-a0e5-85788a6b777f",
+        "firstName": "Luke",
+        "lastName": "Fennell",
+        "fullName": "Luke Fennell",
+        "displayName": "Luke Fennell",
+        "shortName": "L. Fennell",
+        "jersey": "6",
         "active": true
     },
     {
@@ -5414,7 +5709,7 @@
         "displayWeight": "205 lbs",
         "height": 81.0,
         "displayHeight": "6' 9\"",
-        "age": 18,
+        "age": 19,
         "dateOfBirth": "2006-12-21T08:00Z",
         "birthPlace": {
             "city": "Newport",
@@ -5437,7 +5732,7 @@
         "displayWeight": "180 lbs",
         "height": 73.0,
         "displayHeight": "6' 1\"",
-        "age": 25,
+        "age": 26,
         "dateOfBirth": "1999-12-01T08:00Z",
         "birthPlace": {
             "city": "Duluth",
@@ -5507,7 +5802,7 @@
         "displayWeight": "220 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 29,
+        "age": 30,
         "dateOfBirth": "1995-12-09T08:00Z",
         "birthPlace": {
             "city": "L'aquila",
@@ -5541,6 +5836,18 @@
         "active": true
     },
     {
+        "id": "5157591",
+        "uid": "s:40~l:46~a:5157591",
+        "guid": "50a05d67-7e98-3aa6-b547-1ac88292d711",
+        "firstName": "Joel",
+        "lastName": "Fowell",
+        "fullName": "Joel Fowell",
+        "displayName": "Joel Fowell",
+        "shortName": "J. Fowell",
+        "jersey": "5",
+        "active": true
+    },
+    {
         "id": "4066259",
         "uid": "s:40~l:46~a:4066259",
         "guid": "5f18d1cf-1c2e-3601-a04e-1a3fc84d8ef1",
@@ -5553,7 +5860,7 @@
         "displayWeight": "185 lbs",
         "height": 75.0,
         "displayHeight": "6' 3\"",
-        "age": 27,
+        "age": 28,
         "dateOfBirth": "1997-12-20T08:00Z",
         "birthPlace": {
             "city": "Houston",
@@ -5576,6 +5883,30 @@
         "displayName": "Austin Foxwell",
         "shortName": "A. Foxwell",
         "jersey": "15",
+        "active": true
+    },
+    {
+        "id": "5230863",
+        "uid": "s:40~l:46~a:5230863",
+        "guid": "d7c21aee-6f42-36c8-a64b-6e0aaed8a411",
+        "firstName": "Joel",
+        "lastName": "Foxwell",
+        "fullName": "Joel Foxwell",
+        "displayName": "Joel Foxwell",
+        "shortName": "J. Foxwell",
+        "jersey": "5",
+        "active": true
+    },
+    {
+        "id": "5243933",
+        "uid": "s:40~l:46~a:5243933",
+        "guid": "d777336a-8bfb-3ebb-9e1d-62b500865d7c",
+        "firstName": "Joel",
+        "lastName": "Foxwell",
+        "fullName": "Joel Foxwell",
+        "displayName": "Joel Foxwell",
+        "shortName": "J. Foxwell",
+        "jersey": "5",
         "active": true
     },
     {
@@ -5677,7 +6008,7 @@
         "displayWeight": "200 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 20,
+        "age": 21,
         "dateOfBirth": "2004-12-07T08:00Z",
         "birthPlace": {
             "city": "Melbourne",
@@ -5821,7 +6152,7 @@
         "displayWeight": "205 lbs",
         "height": 77.0,
         "displayHeight": "6' 5\"",
-        "age": 26,
+        "age": 27,
         "dateOfBirth": "1998-11-09T08:00Z",
         "birthPlace": {
             "city": "Dallas",
@@ -5844,7 +6175,7 @@
         "displayWeight": "243 lbs",
         "height": 82.0,
         "displayHeight": "6' 10\"",
-        "age": 26,
+        "age": 27,
         "dateOfBirth": "1998-12-27T08:00Z",
         "birthPlace": {
             "city": "Washington",
@@ -5870,7 +6201,7 @@
         "displayWeight": "185 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 21,
+        "age": 22,
         "dateOfBirth": "2003-11-08T08:00Z",
         "birthPlace": {
             "city": "Lewisville",
@@ -5901,7 +6232,7 @@
         "displayWeight": "200 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 21,
+        "age": 22,
         "dateOfBirth": "2003-12-12T08:00Z",
         "birthPlace": {
             "city": "Monthey",
@@ -6099,6 +6430,18 @@
         "active": true
     },
     {
+        "id": "5090490",
+        "uid": "s:40~l:46~a:5090490",
+        "guid": "6ce8cfbb-9e68-3248-a974-42bb4fe32af2",
+        "firstName": "Angus",
+        "lastName": "Glover",
+        "fullName": "Angus Glover",
+        "displayName": "Angus Glover",
+        "shortName": "A. Glover",
+        "jersey": "5",
+        "active": true
+    },
+    {
         "id": "3032976",
         "uid": "s:40~l:46~a:3032976",
         "guid": "78795dbf-3e02-934e-f796-d6a71375c9f5",
@@ -6228,7 +6571,7 @@
         "displayWeight": "215 lbs",
         "height": 75.0,
         "displayHeight": "6' 3\"",
-        "age": 36,
+        "age": 37,
         "dateOfBirth": "1988-12-25T08:00Z",
         "birthPlace": {
             "city": "Indianapolis",
@@ -6261,6 +6604,30 @@
         },
         "jersey": "14",
         "active": false
+    },
+    {
+        "id": "3137807",
+        "uid": "s:40~l:46~a:3137807",
+        "guid": "ee6c69bf-0e44-e442-e0f3-3b743c8db487",
+        "firstName": "Chris",
+        "lastName": "Goulding",
+        "fullName": "Chris Goulding",
+        "displayName": "Chris Goulding",
+        "shortName": "C. Goulding",
+        "weight": 203.0,
+        "displayWeight": "203 lbs",
+        "height": 76.0,
+        "displayHeight": "6' 4\"",
+        "age": 37,
+        "dateOfBirth": "1988-10-24T07:00Z",
+        "birthPlace": {
+            "city": "Launceston",
+            "state": "TAS",
+            "country": "Australia"
+        },
+        "citizenship": "Australia",
+        "jersey": "43",
+        "active": true
     },
     {
         "id": "2991070",
@@ -6453,7 +6820,7 @@
         "displayWeight": "200 lbs",
         "height": 78.0,
         "displayHeight": "6' 6\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-11-16T08:00Z",
         "birthPlace": {
             "city": "Sydney",
@@ -6576,7 +6943,7 @@
         "displayWeight": "210 lbs",
         "height": 83.0,
         "displayHeight": "6' 11\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-11-09T08:00Z",
         "birthPlace": {
             "city": "Dakar",
@@ -6669,6 +7036,7 @@
     {
         "id": "5217746",
         "uid": "s:40~l:46~a:5217746",
+        "guid": "f2674dc9-b80c-380f-8a2a-b543a4f64626",
         "firstName": "Yang",
         "lastName": "Hansen",
         "fullName": "Yang Hansen",
@@ -6902,7 +7270,7 @@
             "years": 2
         },
         "jersey": "00",
-        "active": true
+        "active": false
     },
     {
         "id": "6440",
@@ -7000,7 +7368,7 @@
         "displayWeight": "217 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 27,
+        "age": 28,
         "dateOfBirth": "1997-12-08T08:00Z",
         "birthPlace": {
             "city": "Stevens Point",
@@ -7104,7 +7472,7 @@
         "displayWeight": "254 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 30,
+        "age": 31,
         "dateOfBirth": "1994-12-06T08:00Z",
         "birthPlace": {
             "city": "Toledo",
@@ -7156,7 +7524,7 @@
         "displayWeight": "215 lbs",
         "height": 81.0,
         "displayHeight": "6' 9\"",
-        "age": 21,
+        "age": 22,
         "dateOfBirth": "2003-11-22T08:00Z",
         "birthPlace": {
             "city": "Fort Lauderdale",
@@ -7231,7 +7599,7 @@
         "displayWeight": "220 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 32,
+        "age": 33,
         "dateOfBirth": "1992-12-17T08:00Z",
         "birthPlace": {
             "city": "Freeport",
@@ -7257,7 +7625,7 @@
         "displayWeight": "220 lbs",
         "height": 77.0,
         "displayHeight": "6' 5\"",
-        "age": 28,
+        "age": 29,
         "dateOfBirth": "1996-12-09T08:00Z",
         "birthPlace": {
             "city": "Baltimore",
@@ -7331,7 +7699,7 @@
         "displayWeight": "180 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 26,
+        "age": 27,
         "dateOfBirth": "1998-12-20T08:00Z",
         "birthPlace": {
             "city": "Tortola",
@@ -7557,7 +7925,7 @@
         "displayWeight": "234 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-11-25T08:00Z",
         "birthPlace": {
             "city": "Chicago",
@@ -7738,7 +8106,7 @@
         "displayWeight": "221 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 27,
+        "age": 28,
         "dateOfBirth": "1997-12-02T08:00Z",
         "birthPlace": {
             "city": "Philadelphia",
@@ -7788,6 +8156,18 @@
             "state": "NC",
             "country": "USA"
         },
+        "jersey": "22",
+        "active": false
+    },
+    {
+        "id": "5235878",
+        "uid": "s:40~l:46~a:5235878",
+        "guid": "28a796ef-a161-38e9-8ff0-52dae6ddb6e2",
+        "firstName": "Matt",
+        "lastName": "Hurt",
+        "fullName": "Matt Hurt",
+        "displayName": "Matt Hurt",
+        "shortName": "M. Hurt",
         "jersey": "22",
         "active": true
     },
@@ -7936,7 +8316,7 @@
         "displayWeight": "230 lbs",
         "height": 77.0,
         "displayHeight": "6' 5\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-11-27T08:00Z",
         "birthPlace": {
             "city": "Dallas",
@@ -8045,7 +8425,7 @@
         "displayWeight": "210 lbs",
         "height": 81.0,
         "displayHeight": "6' 9\"",
-        "age": 20,
+        "age": 21,
         "dateOfBirth": "2004-12-17T08:00Z",
         "birthPlace": {
             "city": "Columbia",
@@ -8123,7 +8503,7 @@
         "displayWeight": "209 lbs",
         "height": 78.0,
         "displayHeight": "6' 6\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-11-13T08:00Z",
         "birthPlace": {
             "city": "Amsterdam",
@@ -8249,7 +8629,7 @@
         "displayWeight": "250 lbs",
         "height": 81.0,
         "displayHeight": "6' 9\"",
-        "age": 40,
+        "age": 41,
         "dateOfBirth": "1984-12-30T08:00Z",
         "birthPlace": {
             "city": "Akron",
@@ -8275,7 +8655,7 @@
         "displayWeight": "220 lbs",
         "height": 77.0,
         "displayHeight": "6' 5\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-12-04T08:00Z",
         "birthPlace": {
             "city": "Sugar Hill",
@@ -8355,7 +8735,7 @@
         "displayWeight": "270 lbs",
         "height": 82.0,
         "displayHeight": "6' 10\"",
-        "age": 25,
+        "age": 26,
         "dateOfBirth": "1999-11-28T08:00Z",
         "birthPlace": {
             "city": "Birmingham",
@@ -8464,7 +8844,7 @@
         "displayWeight": "160 lbs",
         "height": 77.0,
         "displayHeight": "6' 5\"",
-        "age": 20,
+        "age": 21,
         "dateOfBirth": "2004-12-01T08:00Z",
         "birthPlace": {
             "city": "Fresno",
@@ -8499,6 +8879,18 @@
         },
         "jersey": "24",
         "active": false
+    },
+    {
+        "id": "4590526",
+        "uid": "s:40~l:46~a:4590526",
+        "guid": "d1191074-9607-c3ae-78c5-a27f9b726d88",
+        "firstName": "Bijan",
+        "lastName": "Johnson",
+        "fullName": "Bijan Johnson",
+        "displayName": "Bijan Johnson",
+        "shortName": "B. Johnson",
+        "jersey": "23",
+        "active": true
     },
     {
         "id": "3138196",
@@ -8550,6 +8942,30 @@
         "active": false
     },
     {
+        "id": "5103882",
+        "uid": "s:40~l:46~a:5103882",
+        "guid": "63c0ab84-501b-340d-b925-211865e62b9d",
+        "firstName": "Daniel",
+        "lastName": "Johnson",
+        "fullName": "Daniel Johnson",
+        "displayName": "Daniel Johnson",
+        "shortName": "D. Johnson",
+        "jersey": "21",
+        "active": true
+    },
+    {
+        "id": "5185687",
+        "uid": "s:40~l:46~a:5185687",
+        "guid": "7b43d9e3-6537-37d0-ba7a-0e7ef636b6b8",
+        "firstName": "Daniel",
+        "lastName": "Johnson",
+        "fullName": "Daniel Johnson",
+        "displayName": "Daniel Johnson",
+        "shortName": "D. Johnson",
+        "jersey": "21",
+        "active": true
+    },
+    {
         "id": "4701230",
         "uid": "s:40~l:46~a:4701230",
         "guid": "a3bb4b30-41a4-3cb0-abea-2e1746695cb8",
@@ -8562,7 +8978,7 @@
         "displayWeight": "219 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-12-18T08:00Z",
         "birthPlace": {
             "city": "Milwaukee",
@@ -8807,7 +9223,7 @@
             "years": 2
         },
         "jersey": "00",
-        "active": true
+        "active": false
     },
     {
         "id": "4898369",
@@ -8916,6 +9332,12 @@
         },
         "experience": {
             "years": 1
+        },
+        "jersey": "3",
+        "hand": {
+            "type": "BOTH",
+            "abbreviation": "B",
+            "displayValue": "Both"
         },
         "active": true
     },
@@ -9115,7 +9537,7 @@
         "displayWeight": "210 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-11-24T08:00Z",
         "birthPlace": {
             "city": "Santo Domingo",
@@ -9275,6 +9697,18 @@
         },
         "jersey": "27",
         "active": false
+    },
+    {
+        "id": "5157596",
+        "uid": "s:40~l:46~a:5157596",
+        "guid": "a3217178-7669-33a1-84be-1cd078985484",
+        "firstName": "Erik",
+        "lastName": "Kafritsas",
+        "fullName": "Erik Kafritsas",
+        "displayName": "Erik Kafritsas",
+        "shortName": "E. Kafritsas",
+        "jersey": "53",
+        "active": true
     },
     {
         "id": "4576060",
@@ -9446,6 +9880,34 @@
             "type": "BOTH",
             "abbreviation": "B",
             "displayValue": "Both"
+        },
+        "active": true
+    },
+    {
+        "id": "4278775",
+        "uid": "s:40~l:46~a:4278775",
+        "guid": "729c62d9-8a1a-f2c0-1ab4-cc6bb846a739",
+        "firstName": "Matt",
+        "lastName": "Kenyon",
+        "fullName": "Matt Kenyon",
+        "displayName": "Matt Kenyon",
+        "shortName": "M. Kenyon",
+        "weight": 175.0,
+        "displayWeight": "175 lbs",
+        "height": 77.0,
+        "displayHeight": "6' 5\"",
+        "age": 27,
+        "dateOfBirth": "1998-02-08T08:00Z",
+        "birthPlace": {
+            "city": "Avoca Beach",
+            "state": "NSW",
+            "country": "Australia"
+        },
+        "jersey": "2",
+        "hand": {
+            "type": "RIGHT",
+            "abbreviation": "R",
+            "displayValue": "Right"
         },
         "active": true
     },
@@ -9714,8 +10176,8 @@
         "fullName": "Christian Koloko",
         "displayName": "Christian Koloko",
         "shortName": "C. Koloko",
-        "weight": 220.0,
-        "displayWeight": "220 lbs",
+        "weight": 225.0,
+        "displayWeight": "225 lbs",
         "height": 83.0,
         "displayHeight": "6' 11\"",
         "age": 25,
@@ -9727,7 +10189,7 @@
         "experience": {
             "years": 3
         },
-        "jersey": "10",
+        "jersey": "35",
         "active": true
     },
     {
@@ -9769,7 +10231,7 @@
         "displayWeight": "215 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 26,
+        "age": 27,
         "dateOfBirth": "1998-11-24T08:00Z",
         "birthPlace": {
             "city": "Houston",
@@ -9778,6 +10240,18 @@
         },
         "jersey": "18",
         "active": false
+    },
+    {
+        "id": "5162197",
+        "uid": "s:40~l:46~a:5162197",
+        "guid": "b46bcdf4-f4ec-3dc1-a05e-f3ae7521b518",
+        "firstName": "Tom",
+        "lastName": "Koppens",
+        "fullName": "Tom Koppens",
+        "displayName": "Tom Koppens",
+        "shortName": "T. Koppens",
+        "jersey": "30",
+        "active": true
     },
     {
         "id": "3064560",
@@ -9803,6 +10277,18 @@
             "years": 8
         },
         "jersey": "7",
+        "active": true
+    },
+    {
+        "id": "5091604",
+        "uid": "s:40~l:46~a:5091604",
+        "guid": "f957d119-7c68-3125-91fd-36c54b0ae57c",
+        "firstName": "Tanner",
+        "lastName": "Krebs",
+        "fullName": "Tanner Krebs",
+        "displayName": "Tanner Krebs",
+        "shortName": "T. Krebs",
+        "jersey": "13",
         "active": true
     },
     {
@@ -9963,7 +10449,7 @@
         "displayWeight": "206 lbs",
         "height": 75.0,
         "displayHeight": "6' 3\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-12-19T08:00Z",
         "birthPlace": {
             "city": "Nashville",
@@ -10103,6 +10589,18 @@
         "active": false
     },
     {
+        "id": "5232420",
+        "uid": "s:40~l:46~a:5232420",
+        "guid": "8f88a6a9-5d22-3bfc-a210-6370122e10b1",
+        "firstName": "Marcus",
+        "lastName": "Lee",
+        "fullName": "Marcus Lee",
+        "displayName": "Marcus Lee",
+        "shortName": "M. Lee",
+        "jersey": "24",
+        "active": true
+    },
+    {
         "id": "2596107",
         "uid": "s:40~l:46~a:2596107",
         "guid": "56df8855-ab0a-659a-eed2-ccb77a2b77f7",
@@ -10177,11 +10675,8 @@
             "city": "IJmuiden",
             "country": "Netherlands"
         },
-        "experience": {
-            "years": 1
-        },
-        "jersey": "17",
-        "active": false
+        "jersey": "33",
+        "active": true
     },
     {
         "id": "2991043",
@@ -10222,7 +10717,7 @@
         "displayWeight": "195 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 20,
+        "age": 21,
         "dateOfBirth": "2004-11-10T08:00Z",
         "jersey": "33",
         "active": false
@@ -10240,7 +10735,7 @@
         "displayWeight": "240 lbs",
         "height": 78.0,
         "displayHeight": "6' 6\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-12-18T08:00Z",
         "birthPlace": {
             "city": "Belleville",
@@ -10359,7 +10854,58 @@
         "experience": {
             "years": 2
         },
-        "jersey": "7",
+        "jersey": "8",
+        "active": true
+    },
+    {
+        "id": "2530562",
+        "uid": "s:40~l:46~a:2530562",
+        "guid": "a43ccdf9-9272-ae34-b7f4-2d15092c2c98",
+        "firstName": "Rob",
+        "lastName": "Loe",
+        "fullName": "Rob Loe",
+        "displayName": "Rob Loe",
+        "shortName": "R. Loe",
+        "weight": 245.0,
+        "displayWeight": "245 lbs",
+        "height": 83.0,
+        "displayHeight": "6' 11\"",
+        "age": 34,
+        "dateOfBirth": "1991-08-05T07:00Z",
+        "birthPlace": {
+            "city": "Auckland",
+            "country": "New Zealand"
+        },
+        "citizenship": "New Zealand",
+        "jersey": "2",
+        "hand": {
+            "type": "RIGHT",
+            "abbreviation": "R",
+            "displayValue": "Right"
+        },
+        "active": true
+    },
+    {
+        "id": "2581180",
+        "uid": "s:40~l:46~a:2581180",
+        "guid": "45ea1480-57b6-8923-6fa0-f71ced7124d2",
+        "firstName": "Shawn",
+        "lastName": "Long",
+        "fullName": "Shawn Long",
+        "displayName": "Shawn Long",
+        "shortName": "S. Long",
+        "weight": 255.0,
+        "displayWeight": "255 lbs",
+        "height": 81.0,
+        "displayHeight": "6' 9\"",
+        "age": 32,
+        "dateOfBirth": "1993-01-29T08:00Z",
+        "birthPlace": {
+            "city": "Morgan City",
+            "state": "LA",
+            "country": "USA"
+        },
+        "jersey": "21",
         "active": true
     },
     {
@@ -10519,6 +11065,29 @@
         "active": true
     },
     {
+        "id": "3920136",
+        "uid": "s:40~l:46~a:3920136",
+        "guid": "cd26e844-5fd3-f39b-079d-9d4bc3ced5b6",
+        "firstName": "Jo",
+        "lastName": "Lual-Acuil Jr.",
+        "fullName": "Jo Lual-Acuil Jr.",
+        "displayName": "Jo Lual-Acuil Jr.",
+        "shortName": "J. Lual-Acuil Jr.",
+        "weight": 210.0,
+        "displayWeight": "210 lbs",
+        "height": 84.0,
+        "displayHeight": "7' 0\"",
+        "age": 31,
+        "dateOfBirth": "1994-04-26T07:00Z",
+        "birthPlace": {
+            "city": "Melbourne",
+            "state": "VIC",
+            "country": "Australia"
+        },
+        "jersey": "0",
+        "active": true
+    },
+    {
         "id": "5106035",
         "uid": "s:40~l:46~a:5106035",
         "guid": "51ef37a9-c1f0-3cf9-b260-44cc70aad83b",
@@ -10531,7 +11100,7 @@
         "displayWeight": "215 lbs",
         "height": 78.0,
         "displayHeight": "6' 6\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-11-27T08:00Z",
         "birthPlace": {
             "city": "Miami",
@@ -10628,6 +11197,29 @@
         "active": false
     },
     {
+        "id": "2992286",
+        "uid": "s:40~l:46~a:2992286",
+        "guid": "ced360cb-5a75-be0b-a7ac-9259c4de9284",
+        "firstName": "Majok",
+        "lastName": "Majok",
+        "fullName": "Majok Majok",
+        "displayName": "Majok Majok",
+        "shortName": "M. Majok",
+        "weight": 245.0,
+        "displayWeight": "245 lbs",
+        "height": 81.0,
+        "displayHeight": "6' 9\"",
+        "age": 33,
+        "dateOfBirth": "1992-12-10T08:00Z",
+        "birthPlace": {
+            "city": "Perth",
+            "state": "WAS",
+            "country": "Australia"
+        },
+        "jersey": "24",
+        "active": true
+    },
+    {
         "id": "4280267",
         "uid": "s:40~l:46~a:4280267",
         "guid": "a5571d23-3c4d-fb4b-98c0-df2dfe569317",
@@ -10699,6 +11291,23 @@
         "active": true
     },
     {
+        "id": "5184021",
+        "uid": "s:40~l:46~a:5184021",
+        "guid": "f16a9396-e4f7-3246-b8a9-2ab339c0a365",
+        "firstName": "Kyle",
+        "lastName": "Mangas",
+        "fullName": "Kyle Mangas",
+        "displayName": "Kyle Mangas",
+        "shortName": "K. Mangas",
+        "weight": 200.0,
+        "displayWeight": "200 lbs",
+        "height": 76.0,
+        "displayHeight": "6' 4\"",
+        "age": 26,
+        "dateOfBirth": "1999-04-08T07:00Z",
+        "active": false
+    },
+    {
         "id": "3907823",
         "uid": "s:40~l:46~a:3907823",
         "guid": "14bc202c-2458-6189-f964-32085299060a",
@@ -10763,7 +11372,7 @@
         "displayWeight": "209 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-12-09T08:00Z",
         "birthPlace": {
             "city": "New Milford",
@@ -10876,7 +11485,7 @@
         "displayWeight": "210 lbs",
         "height": 74.0,
         "displayHeight": "6' 2\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-12-26T08:00Z",
         "birthPlace": {
             "city": "Summit",
@@ -10935,8 +11544,8 @@
         "experience": {
             "years": 5
         },
-        "jersey": "17",
-        "active": true
+        "jersey": "11",
+        "active": false
     },
     {
         "id": "4684737",
@@ -11047,7 +11656,7 @@
         "displayWeight": "197 lbs",
         "height": 75.0,
         "displayHeight": "6' 3\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-11-10T08:00Z",
         "birthPlace": {
             "city": "Fontana",
@@ -11055,7 +11664,7 @@
             "country": "USA"
         },
         "jersey": "21",
-        "active": false
+        "active": true
     },
     {
         "id": "3913180",
@@ -11080,7 +11689,7 @@
         "experience": {
             "years": 6
         },
-        "jersey": "14",
+        "jersey": "24",
         "active": false
     },
     {
@@ -11143,7 +11752,7 @@
         "displayWeight": "235 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-12-23T08:00Z",
         "birthPlace": {
             "city": "Olive Branch",
@@ -11286,7 +11895,7 @@
             "abbreviation": "B",
             "displayValue": "Both"
         },
-        "active": true
+        "active": false
     },
     {
         "id": "2490149",
@@ -11490,7 +12099,7 @@
         "displayWeight": "190 lbs",
         "height": 78.0,
         "displayHeight": "6' 6\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-11-08T08:00Z",
         "birthPlace": {
             "city": "Pendleton",
@@ -11737,7 +12346,7 @@
         "displayWeight": "200 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-11-22T08:00Z",
         "birthPlace": {
             "city": "Antioch",
@@ -11820,7 +12429,7 @@
         "displayWeight": "220 lbs",
         "height": 82.0,
         "displayHeight": "6' 10\"",
-        "age": 21,
+        "age": 22,
         "dateOfBirth": "2003-11-26T08:00Z",
         "birthPlace": {
             "city": "Thornhill",
@@ -11831,6 +12440,29 @@
             "years": 2
         },
         "jersey": "33",
+        "active": true
+    },
+    {
+        "id": "6611",
+        "uid": "s:40~l:46~a:6611",
+        "guid": "b9e34adb-73b5-4e26-b9d5-74c2537d420e",
+        "firstName": "Quincy",
+        "lastName": "Miller",
+        "fullName": "Quincy Miller",
+        "displayName": "Quincy Miller",
+        "shortName": "Q. Miller",
+        "weight": 220.0,
+        "displayWeight": "220 lbs",
+        "height": 82.0,
+        "displayHeight": "6' 10\"",
+        "age": 33,
+        "dateOfBirth": "1992-11-18T08:00Z",
+        "birthPlace": {
+            "city": "Chicago",
+            "state": "IL",
+            "country": "USA"
+        },
+        "jersey": "51",
         "active": true
     },
     {
@@ -11936,7 +12568,7 @@
             "years": 1
         },
         "jersey": "27",
-        "active": true
+        "active": false
     },
     {
         "id": "4687718",
@@ -11951,7 +12583,7 @@
         "displayWeight": "205 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-11-25T08:00Z",
         "birthPlace": {
             "city": "Boca Raton",
@@ -12172,6 +12804,18 @@
         "active": true
     },
     {
+        "id": "4277762",
+        "uid": "s:40~l:46~a:4277762",
+        "guid": "61577599-74f1-6d7f-28ab-e1cce6e45b0b",
+        "firstName": "Craig",
+        "lastName": "Moller",
+        "fullName": "Craig Moller",
+        "displayName": "Craig Moller",
+        "shortName": "C. Moller",
+        "jersey": "33",
+        "active": true
+    },
+    {
         "id": "4066262",
         "uid": "s:40~l:46~a:4066262",
         "guid": "919db74b-1f21-4955-fa42-446e67f7811c",
@@ -12246,8 +12890,8 @@
         "experience": {
             "years": 3
         },
-        "jersey": "20",
-        "active": false
+        "jersey": "14",
+        "active": true
     },
     {
         "id": "4593034",
@@ -12262,7 +12906,7 @@
         "displayWeight": "180 lbs",
         "height": 78.0,
         "displayHeight": "6' 6\"",
-        "age": 27,
+        "age": 28,
         "dateOfBirth": "1997-11-21T08:00Z",
         "birthPlace": {
             "city": "Paterson",
@@ -12347,6 +12991,12 @@
         "experience": {
             "years": 8
         },
+        "jersey": "3",
+        "hand": {
+            "type": "BOTH",
+            "abbreviation": "B",
+            "displayValue": "Both"
+        },
         "active": false
     },
     {
@@ -12362,7 +13012,7 @@
         "displayWeight": "235 lbs",
         "height": 82.0,
         "displayHeight": "6' 10\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-12-14T08:00Z",
         "birthPlace": {
             "city": "Hong Kong",
@@ -12559,7 +13209,7 @@
         "displayWeight": "205 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-12-19T08:00Z",
         "birthPlace": {
             "city": "Memphis",
@@ -12595,26 +13245,39 @@
         "active": true
     },
     {
-        "id": "5144071",
-        "uid": "s:40~l:46~a:5144071",
-        "guid": "6f14c1f9-a90a-3b6c-82df-cac4f5feb197",
-        "firstName": "Eli John",
-        "lastName": "N'Diaye",
-        "fullName": "Eli John N'Diaye",
-        "displayName": "Eli John N'Diaye",
-        "shortName": "E. N'Diaye",
-        "weight": 209.0,
-        "displayWeight": "209 lbs",
-        "height": 80.0,
-        "displayHeight": "6' 8\"",
-        "age": 21,
-        "dateOfBirth": "2004-06-26T07:00Z",
-        "birthPlace": {
-            "city": "Dakar",
-            "country": "Senegal"
-        },
-        "citizenship": "Senegal",
-        "jersey": "30",
+        "id": "5192826",
+        "uid": "s:40~l:46~a:5192826",
+        "guid": "a8dda1f8-130b-3c23-9bda-3b2647fca140",
+        "firstName": "Abdel",
+        "lastName": "Nader",
+        "fullName": "Abdel Nader",
+        "displayName": "Abdel Nader",
+        "shortName": "A. Nader",
+        "jersey": "11",
+        "active": true
+    },
+    {
+        "id": "5193756",
+        "uid": "s:40~l:46~a:5193756",
+        "guid": "e8837f51-f4ad-3011-8ec1-425879edbc13",
+        "firstName": "Abdel",
+        "lastName": "Nader",
+        "fullName": "Abdel Nader",
+        "displayName": "Abdel Nader",
+        "shortName": "A. Nader",
+        "jersey": "11",
+        "active": true
+    },
+    {
+        "id": "5157999",
+        "uid": "s:40~l:46~a:5157999",
+        "guid": "005f7d48-e299-3f7d-9588-dc0998fd9e47",
+        "firstName": "Ngor",
+        "lastName": "Nai",
+        "fullName": "Ngor Nai",
+        "displayName": "Ngor Nai",
+        "shortName": "N. Nai",
+        "jersey": "50",
         "active": true
     },
     {
@@ -12656,7 +13319,7 @@
         "displayWeight": "245 lbs",
         "height": 78.0,
         "displayHeight": "6' 6\"",
-        "age": 32,
+        "age": 33,
         "dateOfBirth": "1993-01-01T08:00Z",
         "birthPlace": {
             "city": "Akron",
@@ -12668,6 +13331,29 @@
         },
         "jersey": "22",
         "active": true
+    },
+    {
+        "id": "5144071",
+        "uid": "s:40~l:46~a:5144071",
+        "guid": "6f14c1f9-a90a-3b6c-82df-cac4f5feb197",
+        "firstName": "Eli John",
+        "lastName": "Ndiaye",
+        "fullName": "Eli John Ndiaye",
+        "displayName": "Eli John Ndiaye",
+        "shortName": "E. Ndiaye",
+        "weight": 209.0,
+        "displayWeight": "209 lbs",
+        "height": 80.0,
+        "displayHeight": "6' 8\"",
+        "age": 21,
+        "dateOfBirth": "2004-06-26T07:00Z",
+        "birthPlace": {
+            "city": "Dakar",
+            "country": "Senegal"
+        },
+        "citizenship": "Senegal",
+        "jersey": "30",
+        "active": false
     },
     {
         "id": "4702670",
@@ -12792,6 +13478,29 @@
             "country": "USA"
         },
         "jersey": "14",
+        "active": true
+    },
+    {
+        "id": "3222",
+        "uid": "s:40~l:46~a:3222",
+        "guid": "059e7281-6338-32d5-85e1-2e8c5c3dc3c2",
+        "firstName": "Brad",
+        "lastName": "Newley",
+        "fullName": "Brad Newley",
+        "displayName": "Brad Newley",
+        "shortName": "B. Newley",
+        "weight": 205.0,
+        "displayWeight": "205 lbs",
+        "height": 78.0,
+        "displayHeight": "6' 6\"",
+        "age": 40,
+        "dateOfBirth": "1985-02-18T08:00Z",
+        "birthPlace": {
+            "city": "Adelaide",
+            "state": "SA",
+            "country": "Australia"
+        },
+        "jersey": "4",
         "active": true
     },
     {
@@ -13097,7 +13806,7 @@
         "displayWeight": "240 lbs",
         "height": 82.0,
         "displayHeight": "6' 10\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-12-11T08:00Z",
         "birthPlace": {
             "city": "Chino",
@@ -13149,7 +13858,7 @@
         "displayWeight": "236 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 21,
+        "age": 22,
         "dateOfBirth": "2003-12-30T08:00Z",
         "birthPlace": {
             "city": "Adelaide",
@@ -13246,7 +13955,7 @@
         "displayWeight": "203 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 29,
+        "age": 30,
         "dateOfBirth": "1995-12-09T08:00Z",
         "birthPlace": {
             "city": "Henderson",
@@ -13258,6 +13967,28 @@
         },
         "jersey": "9",
         "active": true
+    },
+    {
+        "id": "4397999",
+        "uid": "s:40~l:46~a:4397999",
+        "guid": "7aca3ba8-f25c-3351-354b-d12645d75a64",
+        "firstName": "Cameron",
+        "lastName": "Parker",
+        "fullName": "Cameron Parker",
+        "displayName": "Cameron Parker",
+        "shortName": "C. Parker",
+        "weight": 180.0,
+        "displayWeight": "180 lbs",
+        "height": 74.0,
+        "displayHeight": "6' 2\"",
+        "age": 27,
+        "dateOfBirth": "1998-12-16T08:00Z",
+        "birthPlace": {
+            "city": "Portland",
+            "state": "OR",
+            "country": "USA"
+        },
+        "active": false
     },
     {
         "id": "2779",
@@ -13288,7 +14019,7 @@
             "abbreviation": "B",
             "displayValue": "Both"
         },
-        "active": true
+        "active": false
     },
     {
         "id": "3064230",
@@ -13355,7 +14086,7 @@
         "displayWeight": "195 lbs",
         "height": 74.0,
         "displayHeight": "6' 2\"",
-        "age": 32,
+        "age": 33,
         "dateOfBirth": "1992-12-01T08:00Z",
         "birthPlace": {
             "city": "Las Vegas",
@@ -13445,7 +14176,7 @@
         "displayWeight": "205 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 25,
+        "age": 26,
         "dateOfBirth": "1999-11-09T08:00Z",
         "birthPlace": {
             "city": "Libertyville",
@@ -13455,8 +14186,8 @@
         "experience": {
             "years": 2
         },
-        "jersey": "13",
-        "active": true
+        "jersey": "9",
+        "active": false
     },
     {
         "id": "5105553",
@@ -13546,7 +14277,7 @@
         "displayWeight": "170 lbs",
         "height": 74.0,
         "displayHeight": "6' 2\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-11-10T08:00Z",
         "birthPlace": {
             "city": "Los Angeles",
@@ -13562,6 +14293,29 @@
             "abbreviation": "L",
             "displayValue": "Left"
         },
+        "active": true
+    },
+    {
+        "id": "2203031",
+        "uid": "s:40~l:46~a:2203031",
+        "guid": "04b02614-5d94-c3ea-fe6e-be7763b3ab63",
+        "firstName": "Alex",
+        "lastName": "Pledger",
+        "fullName": "Alex Pledger",
+        "displayName": "Alex Pledger",
+        "shortName": "A. Pledger",
+        "weight": 245.0,
+        "displayWeight": "245 lbs",
+        "height": 85.0,
+        "displayHeight": "7' 1\"",
+        "age": 38,
+        "dateOfBirth": "1987-03-27T08:00Z",
+        "birthPlace": {
+            "city": "Blenheim",
+            "country": "New Zealand"
+        },
+        "citizenship": "New Zealand",
+        "jersey": "35",
         "active": true
     },
     {
@@ -13646,6 +14400,18 @@
             "abbreviation": "R",
             "displayValue": "Right"
         },
+        "active": true
+    },
+    {
+        "id": "5157594",
+        "uid": "s:40~l:46~a:5157594",
+        "guid": "02c28560-ea22-356a-83cc-339b818d3b25",
+        "firstName": "Daniel",
+        "lastName": "Poelsma",
+        "fullName": "Daniel Poelsma",
+        "displayName": "Daniel Poelsma",
+        "shortName": "D. Poelsma",
+        "jersey": "54",
         "active": true
     },
     {
@@ -13904,7 +14670,7 @@
             "years": 4
         },
         "jersey": "33",
-        "active": false
+        "active": true
     },
     {
         "id": "4898238",
@@ -14155,6 +14921,18 @@
         "active": false
     },
     {
+        "id": "5091706",
+        "uid": "s:40~l:46~a:5091706",
+        "guid": "9b19c747-5cbe-3475-9580-5f42fa5eb0a7",
+        "firstName": "Zhou",
+        "lastName": "Qi",
+        "fullName": "Zhou Qi",
+        "displayName": "Zhou Qi",
+        "shortName": "Z. Qi",
+        "jersey": "26",
+        "active": true
+    },
+    {
         "id": "4869780",
         "uid": "s:40~l:46~a:4869780",
         "guid": "0e7f21a8-df8c-3ace-8cf6-c7ff07c756fa",
@@ -14167,7 +14945,7 @@
         "displayWeight": "250 lbs",
         "height": 81.0,
         "displayHeight": "6' 9\"",
-        "age": 20,
+        "age": 21,
         "dateOfBirth": "2004-12-27T08:00Z",
         "birthPlace": {
             "city": "Baltimore",
@@ -14267,7 +15045,7 @@
         "displayWeight": "208 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-11-16T08:00Z",
         "birthPlace": {
             "city": "Brentwood",
@@ -14294,7 +15072,7 @@
         "displayWeight": "250 lbs",
         "height": 81.0,
         "displayHeight": "6' 9\"",
-        "age": 30,
+        "age": 31,
         "dateOfBirth": "1994-11-29T08:00Z",
         "birthPlace": {
             "city": "Dallas",
@@ -14305,6 +15083,42 @@
             "years": 11
         },
         "jersey": "30",
+        "active": true
+    },
+    {
+        "id": "5157998",
+        "uid": "s:40~l:46~a:5157998",
+        "guid": "0f4f909d-0028-3a6b-a3b6-219c2329c8d4",
+        "firstName": "Austin",
+        "lastName": "Rapp",
+        "fullName": "Austin Rapp",
+        "displayName": "Austin Rapp",
+        "shortName": "A. Rapp",
+        "jersey": "22",
+        "active": true
+    },
+    {
+        "id": "5189197",
+        "uid": "s:40~l:46~a:5189197",
+        "guid": "abfc7a99-2ee5-3ff2-9cf7-36aaa8d85766",
+        "firstName": "Austin",
+        "lastName": "Rapp",
+        "fullName": "Austin Rapp",
+        "displayName": "Austin Rapp",
+        "shortName": "A. Rapp",
+        "jersey": "22",
+        "active": true
+    },
+    {
+        "id": "5090919",
+        "uid": "s:40~l:46~a:5090919",
+        "guid": "179644c4-3c82-3534-96a4-70dd7f697f1b",
+        "firstName": "Xavier",
+        "lastName": "Rathan-Mayes",
+        "fullName": "Xavier Rathan-Mayes",
+        "displayName": "Xavier Rathan-Mayes",
+        "shortName": "X. Rathan-Mayes",
+        "jersey": "11",
         "active": true
     },
     {
@@ -14465,7 +15279,7 @@
         "displayWeight": "205 lbs",
         "height": 77.0,
         "displayHeight": "6' 5\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-11-20T08:00Z",
         "birthPlace": {
             "city": "Chicago",
@@ -14543,7 +15357,7 @@
         "displayWeight": "206 lbs",
         "height": 75.0,
         "displayHeight": "6' 3\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-12-24T08:00Z",
         "birthPlace": {
             "city": "Fairburn",
@@ -14571,7 +15385,7 @@
         "displayWeight": "245 lbs",
         "height": 83.0,
         "displayHeight": "6' 11\"",
-        "age": 27,
+        "age": 28,
         "dateOfBirth": "1997-11-29T08:00Z",
         "birthPlace": {
             "city": "Kingston",
@@ -14679,6 +15493,23 @@
         "active": true
     },
     {
+        "id": "5099759",
+        "uid": "s:40~l:46~a:5099759",
+        "guid": "a4c09507-b09a-3863-b799-dca5053342b4",
+        "firstName": "Anzac",
+        "lastName": "Rissetto",
+        "fullName": "Anzac Rissetto",
+        "displayName": "Anzac Rissetto",
+        "shortName": "A. Rissetto",
+        "jersey": "1",
+        "hand": {
+            "type": "LEFT",
+            "abbreviation": "L",
+            "displayValue": "Left"
+        },
+        "active": true
+    },
+    {
         "id": "3157465",
         "uid": "s:40~l:46~a:3157465",
         "guid": "36432468-246f-8e5e-4079-cf34dafef796",
@@ -14779,8 +15610,8 @@
         "experience": {
             "years": 4
         },
-        "jersey": "50",
-        "active": true
+        "jersey": "25",
+        "active": false
     },
     {
         "id": "4593041",
@@ -14858,6 +15689,30 @@
         "active": true
     },
     {
+        "id": "5157997",
+        "uid": "s:40~l:46~a:5157997",
+        "guid": "9e4d3d36-1a42-3d6e-bdbb-fa7376301b59",
+        "firstName": "Luke",
+        "lastName": "Rosendale",
+        "fullName": "Luke Rosendale",
+        "displayName": "Luke Rosendale",
+        "shortName": "L. Rosendale",
+        "jersey": "13",
+        "active": true
+    },
+    {
+        "id": "5182335",
+        "uid": "s:40~l:46~a:5182335",
+        "guid": "4c4f0998-ea64-3d89-8f14-31c1663d3b09",
+        "firstName": "Luke",
+        "lastName": "Rosendale",
+        "fullName": "Luke Rosendale",
+        "displayName": "Luke Rosendale",
+        "shortName": "L. Rosendale",
+        "jersey": "13",
+        "active": true
+    },
+    {
         "id": "4066889",
         "uid": "s:40~l:46~a:4066889",
         "guid": "6a0b84f6-61db-0a99-b83a-17ac47c6f35d",
@@ -14877,11 +15732,8 @@
             "state": "ON",
             "country": "Canada"
         },
-        "experience": {
-            "years": 1
-        },
         "jersey": "44",
-        "active": true
+        "active": false
     },
     {
         "id": "3074752",
@@ -15104,7 +15956,7 @@
             "country": "USA"
         },
         "jersey": "45",
-        "active": true
+        "active": false
     },
     {
         "id": "4432105",
@@ -15217,7 +16069,7 @@
         "experience": {
             "years": 9
         },
-        "jersey": "9",
+        "jersey": "20",
         "active": true
     },
     {
@@ -15382,6 +16234,10 @@
         "displayHeight": "6' 11\"",
         "age": 23,
         "dateOfBirth": "2002-07-25T07:00Z",
+        "birthPlace": {
+            "city": "Giresun",
+            "country": "T\u00fcrkiye"
+        },
         "experience": {
             "years": 4
         },
@@ -15448,7 +16304,7 @@
         "shortName": "H. Sewell",
         "height": 81.0,
         "displayHeight": "6' 9\"",
-        "age": 17,
+        "age": 18,
         "dateOfBirth": "2007-11-14T08:00Z",
         "jersey": "32",
         "active": true
@@ -15690,6 +16546,27 @@
         "active": true
     },
     {
+        "id": "4277768",
+        "uid": "s:40~l:46~a:4277768",
+        "guid": "b58cb635-d018-19fa-96f4-7bd79b8d04aa",
+        "firstName": "Sam",
+        "lastName": "Short",
+        "fullName": "Sam Short",
+        "displayName": "Sam Short",
+        "shortName": "S. Short",
+        "height": 77.0,
+        "displayHeight": "6' 5\"",
+        "age": 27,
+        "dateOfBirth": "1998-02-11T08:00Z",
+        "birthPlace": {
+            "city": "Ballarat",
+            "state": "VIC",
+            "country": "Australia"
+        },
+        "jersey": "5",
+        "active": true
+    },
+    {
         "id": "4701992",
         "uid": "s:40~l:46~a:4701992",
         "guid": "0c170cf7-9a39-3648-86f5-ed281a527361",
@@ -15850,7 +16727,7 @@
         "displayWeight": "210 lbs",
         "height": 78.0,
         "displayHeight": "6' 6\"",
-        "age": 26,
+        "age": 27,
         "dateOfBirth": "1998-12-11T08:00Z",
         "birthPlace": {
             "city": "Charlotte",
@@ -15928,7 +16805,7 @@
         "displayWeight": "190 lbs",
         "height": 73.0,
         "displayHeight": "6' 1\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-12-19T08:00Z",
         "birthPlace": {
             "city": "South Bend",
@@ -16027,7 +16904,7 @@
         "displayWeight": "200 lbs",
         "height": 74.0,
         "displayHeight": "6' 2\"",
-        "age": 27,
+        "age": 28,
         "dateOfBirth": "1997-12-30T08:00Z",
         "birthPlace": {
             "city": "Evansville",
@@ -16079,7 +16956,7 @@
         "displayWeight": "205 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 25,
+        "age": 26,
         "dateOfBirth": "1999-12-06T08:00Z",
         "birthPlace": {
             "city": "Belleville",
@@ -16135,11 +17012,8 @@
             "state": "TX",
             "country": "USA"
         },
-        "experience": {
-            "years": 1
-        },
         "jersey": "21",
-        "active": false
+        "active": true
     },
     {
         "id": "4277923",
@@ -16177,7 +17051,7 @@
         "displayWeight": "205 lbs",
         "height": 74.0,
         "displayHeight": "6' 2\"",
-        "age": 27,
+        "age": 28,
         "dateOfBirth": "1997-11-25T08:00Z",
         "birthPlace": {
             "city": "Fayetteville",
@@ -16243,6 +17117,25 @@
         "active": true
     },
     {
+        "id": "2991383",
+        "uid": "s:40~l:46~a:2991383",
+        "guid": "d34441eb-1ae6-0b39-5f93-e523c8591a86",
+        "firstName": "Nathan",
+        "lastName": "Sobey",
+        "fullName": "Nathan Sobey",
+        "displayName": "Nathan Sobey",
+        "shortName": "N. Sobey",
+        "weight": 185.0,
+        "displayWeight": "185 lbs",
+        "height": 75.0,
+        "displayHeight": "6' 3\"",
+        "age": 35,
+        "dateOfBirth": "1990-07-14T07:00Z",
+        "citizenship": "Australia",
+        "jersey": "20",
+        "active": true
+    },
+    {
         "id": "4610139",
         "uid": "s:40~l:46~a:4610139",
         "guid": "8b37c27f-89cd-323f-89c5-3d95d3dfbdc7",
@@ -16280,7 +17173,7 @@
         "displayWeight": "250 lbs",
         "height": 81.0,
         "displayHeight": "6' 9\"",
-        "age": 19,
+        "age": 20,
         "dateOfBirth": "2005-12-25T08:00Z",
         "birthPlace": {
             "city": "Trenton",
@@ -16558,6 +17451,18 @@
         "active": true
     },
     {
+        "id": "5091592",
+        "uid": "s:40~l:46~a:5091592",
+        "guid": "2000f2a7-d682-35c7-86fb-4d12a3e896a5",
+        "firstName": "Nicholas",
+        "lastName": "Tata",
+        "fullName": "Nicholas Tata",
+        "displayName": "Nicholas Tata",
+        "shortName": "N. Tata",
+        "jersey": "63",
+        "active": true
+    },
+    {
         "id": "3136777",
         "uid": "s:40~l:46~a:3136777",
         "guid": "944e04a4-c904-2bdb-feba-0bd03ad31bb6",
@@ -16679,7 +17584,7 @@
             "country": "Canada"
         },
         "jersey": "19",
-        "active": true
+        "active": false
     },
     {
         "id": "4023",
@@ -16731,6 +17636,18 @@
             "years": 3
         },
         "jersey": "7",
+        "active": true
+    },
+    {
+        "id": "5102438",
+        "uid": "s:40~l:46~a:5102438",
+        "guid": "03081381-c377-3536-ad3d-e52012e47513",
+        "firstName": "Cameron",
+        "lastName": "Thew",
+        "fullName": "Cameron Thew",
+        "displayName": "Cameron Thew",
+        "shortName": "C. Thew",
+        "jersey": "55",
         "active": true
     },
     {
@@ -16887,11 +17804,8 @@
             "state": "CA",
             "country": "USA"
         },
-        "experience": {
-            "years": 1
-        },
         "jersey": "55",
-        "active": false
+        "active": true
     },
     {
         "id": "6475",
@@ -16973,6 +17887,18 @@
         "active": false
     },
     {
+        "id": "4277047",
+        "uid": "s:40~l:46~a:4277047",
+        "guid": "bb4d3cb4-fb3a-716c-42ca-418d66035029",
+        "firstName": "Adam",
+        "lastName": "Thoseby",
+        "fullName": "Adam Thoseby",
+        "displayName": "Adam Thoseby",
+        "shortName": "A. Thoseby",
+        "jersey": "8",
+        "active": true
+    },
+    {
         "id": "3907498",
         "uid": "s:40~l:46~a:3907498",
         "guid": "0ce4527c-004a-f0c1-5aa5-7b1935e84067",
@@ -17048,7 +17974,7 @@
             "years": 1
         },
         "jersey": "26",
-        "active": false
+        "active": true
     },
     {
         "id": "5106268",
@@ -17063,7 +17989,7 @@
         "displayWeight": "210 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-12-19T08:00Z",
         "birthPlace": {
             "city": "Harlem",
@@ -17073,7 +17999,7 @@
         "experience": {
             "years": 1
         },
-        "jersey": "30",
+        "jersey": "35",
         "active": true
     },
     {
@@ -17121,7 +18047,7 @@
         },
         "citizenship": "Australia",
         "jersey": "22",
-        "active": true
+        "active": false
     },
     {
         "id": "5159925",
@@ -17165,7 +18091,7 @@
             "years": 2
         },
         "jersey": "0",
-        "active": true
+        "active": false
     },
     {
         "id": "4278355",
@@ -17211,7 +18137,7 @@
         "displayWeight": "248 lbs",
         "height": 84.0,
         "displayHeight": "7' 0\"",
-        "age": 29,
+        "age": 30,
         "dateOfBirth": "1995-11-15T08:00Z",
         "birthPlace": {
             "city": "Edison",
@@ -17296,6 +18222,34 @@
         "active": true
     },
     {
+        "id": "3131632",
+        "uid": "s:40~l:46~a:3131632",
+        "guid": "8d0e82af-91d7-2115-9f85-f49e852366f9",
+        "firstName": "Melo",
+        "lastName": "Trimble",
+        "fullName": "Melo Trimble",
+        "displayName": "Melo Trimble",
+        "shortName": "M. Trimble",
+        "weight": 185.0,
+        "displayWeight": "185 lbs",
+        "height": 75.0,
+        "displayHeight": "6' 3\"",
+        "age": 30,
+        "dateOfBirth": "1995-02-02T08:00Z",
+        "birthPlace": {
+            "city": "Upper Marlboro",
+            "state": "MD",
+            "country": "USA"
+        },
+        "jersey": "1",
+        "hand": {
+            "type": "LEFT",
+            "abbreviation": "L",
+            "displayValue": "Left"
+        },
+        "active": true
+    },
+    {
         "id": "4432827",
         "uid": "s:40~l:46~a:4432827",
         "guid": "406a6a28-3e33-feb0-c350-a4f8dd6155ef",
@@ -17308,7 +18262,7 @@
         "displayWeight": "255 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 25,
+        "age": 26,
         "dateOfBirth": "1999-11-27T08:00Z",
         "birthPlace": {
             "city": "Lubumbashi",
@@ -17345,6 +18299,18 @@
         },
         "jersey": "17",
         "active": false
+    },
+    {
+        "id": "5099756",
+        "uid": "s:40~l:46~a:5099756",
+        "guid": "77483fe7-840f-3a21-8b44-fa679dedb0ff",
+        "firstName": "Rayjon",
+        "lastName": "Tucker",
+        "fullName": "Rayjon Tucker",
+        "displayName": "Rayjon Tucker",
+        "shortName": "R. Tucker",
+        "jersey": "59",
+        "active": true
     },
     {
         "id": "3133628",
@@ -17417,7 +18383,7 @@
         "displayWeight": "215 lbs",
         "height": 78.0,
         "displayHeight": "6' 6\"",
-        "age": 22,
+        "age": 23,
         "dateOfBirth": "2002-12-02T08:00Z",
         "birthPlace": {
             "city": "Plano",
@@ -17454,7 +18420,19 @@
             "years": 3
         },
         "jersey": "17",
-        "active": false
+        "active": true
+    },
+    {
+        "id": "4394333",
+        "uid": "s:40~l:46~a:4394333",
+        "guid": "0ee5d252-342f-fdae-b5a6-e2ed1dcdbfbe",
+        "firstName": "Rhys",
+        "lastName": "Vague",
+        "fullName": "Rhys Vague",
+        "displayName": "Rhys Vague",
+        "shortName": "R. Vague",
+        "jersey": "25",
+        "active": true
     },
     {
         "id": "6477",
@@ -17592,6 +18570,18 @@
         "active": true
     },
     {
+        "id": "5196222",
+        "uid": "s:40~l:46~a:5196222",
+        "guid": "35d800a5-5cf1-34bf-af8e-4a11bb037567",
+        "firstName": "Thomas",
+        "lastName": "Vodanovich",
+        "fullName": "Thomas Vodanovich",
+        "displayName": "Thomas Vodanovich",
+        "shortName": "T. Vodanovich",
+        "jersey": "15",
+        "active": true
+    },
+    {
         "id": "6478",
         "uid": "s:40~l:46~a:6478",
         "guid": "2c9b229f-cbd5-8e0b-cf3a-236f74f23867",
@@ -17656,7 +18646,7 @@
         "displayWeight": "228 lbs",
         "height": 81.0,
         "displayHeight": "6' 9\"",
-        "age": 28,
+        "age": 29,
         "dateOfBirth": "1996-11-20T08:00Z",
         "birthPlace": {
             "city": "Wichita",
@@ -17840,7 +18830,7 @@
         "displayWeight": "205 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 26,
+        "age": 27,
         "dateOfBirth": "1998-12-14T08:00Z",
         "birthPlace": {
             "city": "Reading",
@@ -17963,6 +18953,18 @@
         "active": true
     },
     {
+        "id": "5099768",
+        "uid": "s:40~l:46~a:5099768",
+        "guid": "1fe38d2a-03ab-3c67-a88c-69df4c04c61c",
+        "firstName": "Derrick",
+        "lastName": "Walton Jr",
+        "fullName": "Derrick Walton Jr",
+        "displayName": "Derrick Walton Jr",
+        "shortName": "D. Walton Jr",
+        "jersey": "11",
+        "active": true
+    },
+    {
         "id": "5105623",
         "uid": "s:40~l:46~a:5105623",
         "guid": "dc372056-928d-3810-9e5e-588199c66bfb",
@@ -18027,7 +19029,7 @@
         "displayWeight": "195 lbs",
         "height": 75.0,
         "displayHeight": "6' 3\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-11-15T08:00Z",
         "birthPlace": {
             "city": "Phoenix",
@@ -18038,7 +19040,7 @@
             "years": 2
         },
         "jersey": "14",
-        "active": false
+        "active": true
     },
     {
         "id": "4066317",
@@ -18079,7 +19081,7 @@
         "displayWeight": "237 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 24,
+        "age": 25,
         "dateOfBirth": "2000-11-09T08:00Z",
         "birthPlace": {
             "city": "Birmingham",
@@ -18267,7 +19269,7 @@
         "displayWeight": "200 lbs",
         "height": 76.0,
         "displayHeight": "6' 4\"",
-        "age": 36,
+        "age": 37,
         "dateOfBirth": "1988-11-12T08:00Z",
         "birthPlace": {
             "city": "Long Beach",
@@ -18355,6 +19357,29 @@
         "active": true
     },
     {
+        "id": "4065653",
+        "uid": "s:40~l:46~a:4065653",
+        "guid": "9358cec7-c393-852b-5d66-e44e8c1c148a",
+        "firstName": "Jack",
+        "lastName": "White",
+        "fullName": "Jack White",
+        "displayName": "Jack White",
+        "shortName": "J. White",
+        "weight": 225.0,
+        "displayWeight": "225 lbs",
+        "height": 79.0,
+        "displayHeight": "6' 7\"",
+        "age": 28,
+        "dateOfBirth": "1997-08-05T07:00Z",
+        "birthPlace": {
+            "city": "Traralgon",
+            "state": "VIC",
+            "country": "Australia"
+        },
+        "jersey": "14",
+        "active": true
+    },
+    {
         "id": "4432735",
         "uid": "s:40~l:46~a:4432735",
         "guid": "71d843be-ee26-3973-bccb-d343d060d2d2",
@@ -18411,6 +19436,18 @@
         "active": true
     },
     {
+        "id": "5231298",
+        "uid": "s:40~l:46~a:5231298",
+        "guid": "fc97f22f-1d69-3890-9981-7638bd9277ee",
+        "firstName": "Joe",
+        "lastName": "Wieskamp",
+        "fullName": "Joe Wieskamp",
+        "displayName": "Joe Wieskamp",
+        "shortName": "J. Wieskamp",
+        "jersey": "21",
+        "active": true
+    },
+    {
         "id": "4397183",
         "uid": "s:40~l:46~a:4397183",
         "guid": "f22ab0b7-91ee-77c3-f4c9-40138ecdaa1b",
@@ -18423,7 +19460,7 @@
         "displayWeight": "190 lbs",
         "height": 77.0,
         "displayHeight": "6' 5\"",
-        "age": 26,
+        "age": 27,
         "dateOfBirth": "1999-01-02T08:00Z",
         "birthPlace": {
             "city": "Greensboro",
@@ -18460,6 +19497,30 @@
             "years": 11
         },
         "jersey": "22",
+        "active": true
+    },
+    {
+        "id": "5099760",
+        "uid": "s:40~l:46~a:5099760",
+        "guid": "dd004a14-b421-35c1-921c-b02cbb3664b0",
+        "firstName": "Alan",
+        "lastName": "Williams",
+        "fullName": "Alan Williams",
+        "displayName": "Alan Williams",
+        "shortName": "A. Williams",
+        "jersey": "15",
+        "active": true
+    },
+    {
+        "id": "5194040",
+        "uid": "s:40~l:46~a:5194040",
+        "guid": "ccadc736-9622-3424-be38-f7cf3fc23ce6",
+        "firstName": "Alan",
+        "lastName": "Williams",
+        "fullName": "Alan Williams",
+        "displayName": "Alan Williams",
+        "shortName": "A. Williams",
+        "jersey": "15",
         "active": true
     },
     {
@@ -18523,7 +19584,7 @@
         "displayWeight": "190 lbs",
         "height": 73.0,
         "displayHeight": "6' 1\"",
-        "age": 25,
+        "age": 26,
         "dateOfBirth": "1999-11-22T08:00Z",
         "birthPlace": {
             "city": "Los Angeles",
@@ -18571,7 +19632,7 @@
         "displayWeight": "190 lbs",
         "height": 80.0,
         "displayHeight": "6' 8\"",
-        "age": 20,
+        "age": 21,
         "dateOfBirth": "2004-11-20T08:00Z",
         "birthPlace": {
             "city": "Gilbert",
@@ -18597,7 +19658,7 @@
         "displayWeight": "236 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 26,
+        "age": 27,
         "dateOfBirth": "1998-11-30T08:00Z",
         "birthPlace": {
             "city": "Charlotte",
@@ -18680,7 +19741,7 @@
         "displayWeight": "210 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 30,
+        "age": 31,
         "dateOfBirth": "1994-12-02T08:00Z",
         "birthPlace": {
             "city": "Waco",
@@ -18716,7 +19777,8 @@
         "experience": {
             "years": 1
         },
-        "active": false
+        "jersey": "35",
+        "active": true
     },
     {
         "id": "4701232",
@@ -18731,7 +19793,7 @@
         "displayWeight": "240 lbs",
         "height": 85.0,
         "displayHeight": "7' 1\"",
-        "age": 23,
+        "age": 24,
         "dateOfBirth": "2001-12-16T08:00Z",
         "birthPlace": {
             "city": "Virginia Beach",
@@ -19046,7 +20108,7 @@
         "displayWeight": "265 lbs",
         "height": 79.0,
         "displayHeight": "6' 7\"",
-        "age": 29,
+        "age": 30,
         "dateOfBirth": "1995-12-17T08:00Z",
         "birthPlace": {
             "city": "Versailles",

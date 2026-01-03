@@ -8,7 +8,7 @@
 
 .metrics{
     width: 20rem;
-    background-color: #282837;
+    background-color: var(--ground);
     border: 1px #41414E solid;
     border-radius: 0.5rem;
     padding: 0.5rem;

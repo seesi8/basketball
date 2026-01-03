@@ -53,7 +53,7 @@
 
 .player {
     padding: 1rem;
-    background-color: #282837;
+    background-color: var(--ground);
     width: 90%;
 }
 

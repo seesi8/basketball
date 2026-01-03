@@ -37,7 +37,7 @@
     min-width: 1100px;
     width: 100%;
     border-collapse: collapse;
-    background-color: #282837;
+    background-color: var(--ground);
     padding: 2rem;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .tableRow:hover {
-    background-color: #323246;
+    background-color: #354632;
 }
 
 .tableHead {

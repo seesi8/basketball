@@ -17,7 +17,6 @@ async function getRosters(leagueID){
 
 function calculateOwnerRecords(rosters) {
   const records = {};
-
   rosters.forEach(roster => {
       const { owner_id, settings } = roster;
       const { wins, losses, ties } = settings;
@@ -48,7 +47,7 @@ export async function GET(request) {
       });
     }
 
-
+    console.log(leagueID)
     const data = await getRosters(leagueID)
 
     const records =  calculateOwnerRecords(data)

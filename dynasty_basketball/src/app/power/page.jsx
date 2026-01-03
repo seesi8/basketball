@@ -217,7 +217,7 @@ export default function Home() {
       <h1 className={styles.title}>{name} Power Rankings</h1>
       <p className={styles.des}>
         Our fantasy team ranker uses fantasy trade values and ADP to give you a
-        complete fantasy football power rankings view.
+        complete fantasy basketball power rankings view.
       </p>
       <div className={styles.graph}>
         <div className={styles.key_container}>

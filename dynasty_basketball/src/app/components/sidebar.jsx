@@ -9,9 +9,9 @@ import { getCookie, setCookie } from "cookies-next/client";
 async function get_name(userID) {
   return fetch(
     "/api/user?" +
-      new URLSearchParams({
-        userID: userID,
-      }).toString()
+    new URLSearchParams({
+      userID: userID,
+    }).toString()
   )
     .then((res) => {
       return res.json();
@@ -42,9 +42,9 @@ export default function Sidebar() {
   useEffect(() => {
     fetch(
       "/api/rosters?" +
-        new URLSearchParams({
-          leagueID: getCookie("leagueID"),
-        }).toString()
+      new URLSearchParams({
+        leagueID: getCookie("leagueID"),
+      }).toString()
     )
       .then((res) => res.json())
       .then(async (value) => {
@@ -88,9 +88,7 @@ export default function Sidebar() {
               onMouseLeave={(e) => setleagues(false)}
             >
               <div className={styles.container}>
-                <a className={styles.item} href="/power">
-                  Power Rankings
-                </a>
+
                 {/* <a className={styles.item}>Standings</a> */}
                 {/* <a className={styles.item}>Playoff Calculator</a> */}
               </div>
@@ -107,6 +105,9 @@ export default function Sidebar() {
                 <a className={styles.item} href="/rank">Player Rankings</a>
                 <a className={styles.item} href="/calculator">
                   Trade Calculator
+                </a>
+                <a className={styles.item} href="/power">
+                  Power Rankings
                 </a>
               </div>
             </div>
@@ -132,7 +133,7 @@ export default function Sidebar() {
             </div>
             <div className={`${styles.sidebar} ${leagues ? styles.open : ""}`}>
               <div className={styles.container}>
-                <a
+                {/* <a
                   className={styles.item}
                   onMouseEnter={(e) => {
                     setleagues(true);
@@ -141,7 +142,7 @@ export default function Sidebar() {
                   }}
                 >
                   leagues
-                </a>
+                </a> */}
                 <a
                   className={styles.item}
                   onMouseEnter={(e) => {
@@ -151,7 +152,7 @@ export default function Sidebar() {
 
                   }}
                 >
-                  Players
+                  Tools
                 </a>
                 <a
                   className={styles.item}

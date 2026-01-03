@@ -689,7 +689,7 @@ export default function Calculator() {
 
     return (
         <div className={styles.page}>
-            <h1 className={styles.title}>Fantasy Football Trade Calculator</h1>
+            <h1 className={styles.title}>Fantasy Basketball Trade Calculator</h1>
             <p>
                 Build fantasy dynasty trades with our trade calculator. Log into
                 your league and the fantasy trade analyzer will update based on

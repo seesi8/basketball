@@ -1,18 +1,12 @@
 :root {
-  --background: #ffffff;
-  --foreground: #1D1D28;
+  --background: #151a15;
+  --foreground: #ededed;
+  --ground: #272e25;
 }
 
 main {
   /* overflow: hidden; */
   color: white;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #1D1D28;
-    --foreground: #ededed;
-  }
 }
 
 html,
@@ -39,8 +33,6 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+html {
+  color-scheme: dark;
 }

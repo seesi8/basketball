@@ -70,7 +70,7 @@
 }
 
 .tile{
-    background-color: #282837;
+    background-color: var(--ground);
     border: solid 1px #41414E;
     border-radius: 0.5rem;
     padding: 1rem;
